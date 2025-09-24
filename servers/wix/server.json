@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/wix",
+  "description" : "Build and manage websites with drag-and-drop tools, content management, and dynamic pages.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.wix.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "web",
+      "tags" : [ "web", "cms", "website-builder", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=wix.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "wix",
+          "secret" : "wix.personal_access_token",
+          "env" : "WIX_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Wix",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/wix.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

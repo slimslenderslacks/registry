@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/octagon",
+  "description" : "Access comprehensive market intelligence, analyze SEC filings, earnings transcripts, and financial data to uncover investment opportunities.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.octagonagents.com/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "analytics",
+      "tags" : [ "analytics", "market-intelligence", "data", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=octagonai.co&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "octagon",
+          "secret" : "octagon.personal_access_token",
+          "env" : "OCTAGON_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Octagon",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/octagon.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

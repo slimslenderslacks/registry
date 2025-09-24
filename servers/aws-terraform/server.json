@@ -1,0 +1,45 @@
+{
+  "name" : "com.docker.mcp/aws-terraform",
+  "description" : "Terraform on AWS best practices, infrastructure as code patterns, and security compliance with Checkov.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-terraform",
+    "version" : "sha256:2949c45e747b265f7e8609fbc0c148b22444cc5dd28b5aa1294833b1b3770e88"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws", "terraform" ],
+      "license" : "Apache License 2.0",
+      "owner" : "awslabs",
+      "tools" : [ {
+        "name" : "ExecuteTerraformCommand"
+      }, {
+        "name" : "ExecuteTerragruntCommand"
+      }, {
+        "name" : "RunCheckovScan"
+      }, {
+        "name" : "SearchAwsProviderDocs"
+      }, {
+        "name" : "SearchAwsccProviderDocs"
+      }, {
+        "name" : "SearchSpecificAwsIaModules"
+      }, {
+        "name" : "SearchUserProvidedModule"
+      } ],
+      "source" : "https://github.com/awslabs/mcp/tree/main/src/terraform-mcp-server",
+      "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "prompts" : 0,
+      "title" : "AWS Terraform",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-terraform.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-terraform.json",
+      "dateAdded" : "2025-05-22T20:04:34Z",
+      "upstream" : "https://github.com/awslabs/mcp",
+      "resources" : { }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name" : "com.docker.mcp/securenote-link-mcp-server",
+  "description" : "SecureNote.link MCP Server - allowing AI agents to securely share sensitive information through end-to-end encrypted notes.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/securenote-link-mcp-server",
+    "version" : "sha256:68cb767e4ebb7d99ccbe8816dfbd37c599722d1278bac55618e440a9941dfc42"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "communication",
+      "tags" : [ "communication" ],
+      "tools" : [ {
+        "name" : "check_api_health"
+      }, {
+        "name" : "get_instructions"
+      }, {
+        "name" : "retrieve_and_decrypt_secret"
+      }, {
+        "name" : "send_secure_note"
+      }, {
+        "name" : "send_secure_note_return_api_url_and_key"
+      } ],
+      "source" : "https://github.com/jackalterman/securenote-link-MCP-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/5723207?v=5",
+      "prompts" : 0,
+      "title" : "Securenote.link mcp server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/securenote-link-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/securenote-link-mcp-server.json",
+      "dateAdded" : "2025-07-08T13:38:25Z",
+      "upstream" : "https://github.com/jackalterman/securenote-link-MCP-server",
+      "resources" : { },
+      "owner" : "jackalterman"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "dea14c65-59f3-4e91-9f0f-ab121ac44ab8"
+    }
+  }
+}

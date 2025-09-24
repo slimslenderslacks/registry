@@ -1,0 +1,35 @@
+{
+  "name" : "com.docker.mcp/openzeppelin-stellar",
+  "description" : "Access to OpenZeppelin Stellar Contracts.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.openzeppelin.com/contracts/stellar/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "blockchain",
+      "tags" : [ "blockchain", "stellar", "smart-contracts", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "stellar-fungible"
+      }, {
+        "name" : "stellar-stablecoin"
+      }, {
+        "name" : "stellar-non-fungible"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
+      "prompts" : 0,
+      "title" : "OpenZeppelin Stellar Contracts",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/openzeppelin-stellar.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/openzeppelin-stellar.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "38847a49-2ee4-4aab-82a5-22df24c075ba"
+    }
+  }
+}

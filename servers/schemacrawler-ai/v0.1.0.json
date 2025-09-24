@@ -1,0 +1,158 @@
+{
+  "name" : "com.docker.mcp/schemacrawler-ai",
+  "description" : "The SchemaCrawler AI MCP Server enables natural language interaction with your database schema using an MCP client in \"Agent\" mode. It allows users to explore tables, columns, foreign keys, triggers, stored procedures and more simply by asking questions like \"Explain the code for the interest calculation stored procedure\". You can also ask it to help with SQL, since it knows your schema. This is ideal for developers, DBAs, and data analysts who want to streamline schema comprehension and query development without diving into dense documentation.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/schemacrawler-ai",
+    "version" : "sha256:529bcf70c268d5763dc817effcdd4561c6f9c53a08dc6884bee35b5df1659941",
+    "environmentVariables" : [ {
+      "name" : "SCHCRWLR_DATABASE_USER",
+      "value" : "{schemacrawler-ai.database_user}",
+      "variables" : {
+        "schemacrawler-ai.database_user" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_DATABASE_PASSWORD",
+      "value" : "{schemacrawler-ai.database_password}",
+      "variables" : {
+        "schemacrawler-ai.database_password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_JDBC_URL",
+      "value" : "{schemacrawler-ai.url_connection.jdbc_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.url_connection.jdbc_url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--url JDBC URL for database connection"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_SERVER",
+      "value" : "{schemacrawler-ai.server_connection.server}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.server_connection.server" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--server SchemaCrawler database plugin"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_HOST",
+      "value" : "{schemacrawler-ai.server_connection.host}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.server_connection.host" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--host Database host (optional)"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_PORT",
+      "value" : "{schemacrawler-ai.server_connection.port}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.server_connection.port" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--port Database port (optional)"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_DATABASE",
+      "value" : "{schemacrawler-ai.server_connection.database}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.server_connection.database" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--database Database to connect to (optional)"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_INFO_LEVEL",
+      "value" : "{schemacrawler-ai.general.info_level}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.general.info_level" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "--info-level How much database metadata to retrieve"
+        }
+      }
+    }, {
+      "name" : "SCHCRWLR_LOG_LEVEL",
+      "value" : "{schemacrawler-ai.general.log_level}",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.general.log_level" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{schemacrawler-ai.volume.host_share}:/share",
+      "isRepeated" : false,
+      "variables" : {
+        "schemacrawler-ai.volume.host_share" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Host volume to map within the Docker container"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "ai", "database" ],
+      "license" : "Other",
+      "tools" : [ {
+        "name" : "describe-routines"
+      }, {
+        "name" : "describe-tables"
+      }, {
+        "name" : "get-schemacrawler-version"
+      }, {
+        "name" : "lint"
+      }, {
+        "name" : "list"
+      }, {
+        "name" : "list-across-tables"
+      }, {
+        "name" : "server-information"
+      }, {
+        "name" : "table-sample"
+      } ],
+      "source" : "https://github.com/schemacrawler/SchemaCrawler-AI/tree/docker-mcp-registry",
+      "icon" : "https://avatars.githubusercontent.com/u/58572?v=4",
+      "prompts" : 0,
+      "title" : "SchemaCrawler AI",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/schemacrawler-ai.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/schemacrawler-ai.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/schemacrawler/SchemaCrawler-AI",
+      "resources" : { },
+      "owner" : "schemacrawler"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "6023ad57-1f2d-4e7e-ac89-5d2ed94723ac"
+    }
+  }
+}

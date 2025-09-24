@@ -1,0 +1,50 @@
+{
+  "name" : "com.docker.mcp/ast-grep",
+  "description" : "ast-grep is a fast and polyglot tool for code structural search, lint, rewriting at large scale.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/ast-grep",
+    "version" : "sha256:bdb6bdb4fb4732cece8ce45e90e352cb89eab9e5d30acf9c6317827b9383fc12",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{ast-grep.path|volume-target}:/src",
+      "isRepeated" : false,
+      "variables" : {
+        "ast-grep.path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "code",
+      "tags" : [ "code", "refactoring", "grep" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "ast-grep"
+      }, {
+        "name" : "ast-grep-help"
+      } ],
+      "source" : "https://github.com/dgageot/mcp-ast-grep/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/114017360?s=200&v=4",
+      "prompts" : 0,
+      "title" : "ast-grep",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/ast-grep.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/ast-grep.json",
+      "dateAdded" : "2025-09-04T06:24:28Z",
+      "upstream" : "https://github.com/dgageot/mcp-ast-grep",
+      "resources" : { },
+      "owner" : "dgageot"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "e12d6ef0-3c20-43aa-ae0b-a3366e964d2a"
+    }
+  }
+}

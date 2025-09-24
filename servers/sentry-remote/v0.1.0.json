@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/sentry-remote",
+  "description" : "Track application errors, monitor performance, and debug issues in real-time across your entire development stack.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.sentry.dev/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "monitoring", "error-tracking", "debugging", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=sentry.io&sz=64",
+      "prompts" : 0,
+      "title" : "Sentry",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/sentry-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "b82d537a-6b47-4f9e-ac01-f83f18026dfd"
+    }
+  }
+}

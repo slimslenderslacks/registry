@@ -1,0 +1,77 @@
+{
+  "name" : "com.docker.mcp/box",
+  "description" : "An MCP server capable of interacting with the Box API.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/box",
+    "version" : "sha256:4db7963505c2ea80c0f8c867e7062f74d96c839687f1b79cedb3836a74498656",
+    "environmentVariables" : [ {
+      "name" : "BOX_CLIENT_SECRET",
+      "value" : "{box.client_secret}",
+      "variables" : {
+        "box.client_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "BOX_CLIENT_ID",
+      "value" : "{box.client_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "box.client_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "box", "devops" ],
+      "tools" : [ {
+        "name" : "box_ai_extract_data"
+      }, {
+        "name" : "box_ask_ai_tool"
+      }, {
+        "name" : "box_ask_ai_tool_multi_file"
+      }, {
+        "name" : "box_authorize_app_tool"
+      }, {
+        "name" : "box_download_file_tool"
+      }, {
+        "name" : "box_list_folder_content_by_folder_id"
+      }, {
+        "name" : "box_manage_folder_tool"
+      }, {
+        "name" : "box_read_tool"
+      }, {
+        "name" : "box_search_folder_by_name"
+      }, {
+        "name" : "box_search_tool"
+      }, {
+        "name" : "box_upload_file_tool"
+      }, {
+        "name" : "box_who_am_i"
+      } ],
+      "source" : "https://github.com/dgageot/mcp-server-box/tree/dockerfile",
+      "icon" : "https://avatars.githubusercontent.com/u/8659759?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Box",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/box.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/box.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/dgageot/mcp-server-box",
+      "resources" : { },
+      "owner" : "dgageot"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "90bad811-3513-4b17-803a-d4cf7d94ec78"
+    }
+  }
+}

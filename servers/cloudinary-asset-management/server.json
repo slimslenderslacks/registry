@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudinary-asset-management",
+  "description" : "Manage, optimize, and deliver media assets with AI-powered transformations, global CDN, and collaborative workflows.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://asset-management.mcp.cloudinary.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "media",
+      "tags" : [ "media", "asset-management", "cdn", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudinary.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudinary-asset-management",
+          "secret" : "cloudinary-asset-management.personal_access_token",
+          "env" : "CLOUDINARY_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudinary Asset Management",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudinary-asset-management.md",
+      "dateAdded" : "2025-09-16T16:29:56Z",
+      "resources" : { }
+    }
+  }
+}

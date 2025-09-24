@@ -1,0 +1,104 @@
+{
+  "name" : "com.docker.mcp/zerodha-kite",
+  "description" : "MCP server for Zerodha Kite Connect API - India's leading stock broker trading platform. Execute trades, manage portfolios, and access real-time market data for NSE, BSE, and other Indian exchanges.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/zerodha-kite",
+    "version" : "sha256:0668667c6890544ed1b60ef8348b4de3882f8fb16dae61b50bc922427ebab96c",
+    "environmentVariables" : [ {
+      "name" : "KITE_API_SECRET",
+      "value" : "{zerodha-kite.api_secret}",
+      "variables" : {
+        "zerodha-kite.api_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "KITE_API_KEY",
+      "value" : "{zerodha-kite.kite_api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "zerodha-kite.kite_api_key" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Your Kite Connect API key from the developer console"
+        }
+      }
+    }, {
+      "name" : "KITE_ACCESS_TOKEN",
+      "value" : "{zerodha-kite.kite_access_token}",
+      "isRepeated" : false,
+      "variables" : {
+        "zerodha-kite.kite_access_token" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Access token obtained after OAuth authentication (optional - can be generated at runtime)"
+        }
+      }
+    }, {
+      "name" : "KITE_REDIRECT_URL",
+      "value" : "{zerodha-kite.kite_redirect_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "zerodha-kite.kite_redirect_url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "OAuth redirect URL configured in your Kite Connect app"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "finance",
+      "tags" : [ "finance", "trading", "stocks", "india" ],
+      "license" : "MIT License",
+      "owner" : "anshuljain90",
+      "tools" : [ {
+        "name" : "place_order"
+      }, {
+        "name" : "modify_order"
+      }, {
+        "name" : "cancel_order"
+      }, {
+        "name" : "get_positions"
+      }, {
+        "name" : "get_holdings"
+      }, {
+        "name" : "get_margins"
+      }, {
+        "name" : "get_quote"
+      }, {
+        "name" : "get_historical_data"
+      }, {
+        "name" : "get_instruments"
+      }, {
+        "name" : "get_orders"
+      }, {
+        "name" : "get_trades"
+      }, {
+        "name" : "get_order_history"
+      }, {
+        "name" : "get_profile"
+      }, {
+        "name" : "get_ltp"
+      }, {
+        "name" : "get_market_status"
+      } ],
+      "source" : "https://github.com/anshuljain90/zerodha-kite-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/34680622?s=300&v=4",
+      "prompts" : 0,
+      "title" : "Zerodha Kite Connect",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/zerodha-kite.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/zerodha-kite.json",
+      "dateAdded" : "2025-09-19T06:18:27Z",
+      "upstream" : "https://github.com/anshuljain90/zerodha-kite-mcp",
+      "resources" : { }
+    }
+  }
+}

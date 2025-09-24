@@ -1,0 +1,142 @@
+{
+  "name" : "com.docker.mcp/aks",
+  "description" : "Azure Kubernetes Service (AKS) official MCP server.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aks",
+    "version" : "sha256:7dcb6e2c08227495d2b5d71e6ee5b191bbffdcb138aa39713e5e68fe7da9a89b",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-u",
+      "value" : "{aks.container_user}",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.container_user" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Username or UID of the container user (format <name|uid>[:<group|gid>] e.g. 10000), ensuring correct permissions to access the Azure and kubeconfig files. Leave empty to use default user in the container."
+        }
+      }
+    }, {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{aks.azure_dir}:/home/mcp/.azure",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.azure_dir" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Path to the Azure configuration directory (e.g. /home/azureuser/.azure). Used for Azure CLI authentication, you should be logged in (e.g. run `az login`) on the host before starting the MCP server."
+        }
+      }
+    }, {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{aks.kubeconfig}:/home/mcp/.kube/config",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.kubeconfig" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Path to the kubeconfig file for the AKS cluster (e.g. /home/azureuser/.kube/config). Used to connect to the AKS cluster."
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "named",
+      "name" : "--transport",
+      "value" : "stdio"
+    }, {
+      "type" : "named",
+      "name" : "--access-level",
+      "value" : "{aks.access_level}",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.access_level" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Access level for the MCP server, One of [ readonly, readwrite, admin ]"
+        }
+      }
+    }, {
+      "type" : "named",
+      "name" : "--allow-namespaces",
+      "value" : "{aks.allow_namespaces}",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.allow_namespaces" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Comma-separated list of namespaces to allow access to. If not specified, all namespaces are allowed."
+        }
+      }
+    }, {
+      "type" : "named",
+      "name" : "--additional-tools",
+      "value" : "{aks.additional_tools}",
+      "isRepeated" : false,
+      "variables" : {
+        "aks.additional_tools" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Comma-separated list of additional tools, One of [ helm, cilium ]"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "azure", "kubernetes", "aks" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "az_advisor_recommendation"
+      }, {
+        "name" : "az_aks_operations"
+      }, {
+        "name" : "az_compute_operations"
+      }, {
+        "name" : "az_fleet"
+      }, {
+        "name" : "az_monitoring"
+      }, {
+        "name" : "az_network_resources"
+      }, {
+        "name" : "get_aks_vmss_info"
+      }, {
+        "name" : "inspektor_gadget_observability"
+      }, {
+        "name" : "kubectl_cluster"
+      }, {
+        "name" : "kubectl_config"
+      }, {
+        "name" : "kubectl_diagnostics"
+      }, {
+        "name" : "kubectl_resources"
+      }, {
+        "name" : "list_detectors"
+      }, {
+        "name" : "run_detector"
+      }, {
+        "name" : "run_detectors_by_category"
+      } ],
+      "source" : "https://github.com/Azure/aks-mcp/tree/main",
+      "icon" : "https://raw.githubusercontent.com/Azure/AKS/master/blog/assets/images/400x400.png",
+      "prompts" : 0,
+      "title" : "Azure Kubernetes Service (AKS)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/aks.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/aks.json",
+      "dateAdded" : "2025-08-20T06:26:55Z",
+      "upstream" : "https://github.com/Azure/aks-mcp",
+      "resources" : { },
+      "owner" : "Azure"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "b8bcc837-7c6a-4291-b627-0d3269c3e343"
+    }
+  }
+}

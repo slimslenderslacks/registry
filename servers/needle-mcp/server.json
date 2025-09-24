@@ -1,0 +1,55 @@
+{
+  "name" : "com.docker.mcp/needle-mcp",
+  "description" : "Production-ready RAG service to search and retrieve data from your documents.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/needle-mcp",
+    "version" : "sha256:d3fd314f40c306ad12a78f6e9a1cbad35a8aee902ecaf50020416eccb8078ff4",
+    "environmentVariables" : [ {
+      "name" : "NEEDLE_API_KEY",
+      "value" : "{needle-mcp.api_key}",
+      "variables" : {
+        "needle-mcp.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "needle", "search", "productivity", "rag", "semantic-search", "document-management" ],
+      "license" : "MIT License",
+      "owner" : "needle-ai",
+      "tools" : [ {
+        "name" : "needle_add_file"
+      }, {
+        "name" : "needle_create_collection"
+      }, {
+        "name" : "needle_get_collection_details"
+      }, {
+        "name" : "needle_get_collection_stats"
+      }, {
+        "name" : "needle_list_collections"
+      }, {
+        "name" : "needle_list_files"
+      }, {
+        "name" : "needle_search"
+      } ],
+      "source" : "https://github.com/needle-ai/needle-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/194782563?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Needle",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/needle-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/needle-mcp.json",
+      "dateAdded" : "2025-07-11T18:29:38Z",
+      "upstream" : "https://github.com/needle-ai/needle-mcp",
+      "resources" : { }
+    }
+  }
+}

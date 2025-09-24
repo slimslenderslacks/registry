@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/netlify",
+  "description" : "Deploy and host web applications with continuous deployment, serverless functions, and global CDN.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://netlify-mcp.netlify.app/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "hosting", "deployment", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=netlify.com&sz=64",
+      "prompts" : 0,
+      "title" : "Netlify",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/netlify.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "2c231e11-5754-4e98-8888-ccfd08496809"
+    }
+  }
+}

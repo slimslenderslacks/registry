@@ -1,0 +1,48 @@
+{
+  "name" : "com.docker.mcp/pref-editor",
+  "description" : "Pref Editor is a tool for viewing and editing Android app preferences during development.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pref-editor",
+    "version" : "sha256:8b515464425127b8272d253d0b77a1835f18c18df26673d53ce0e7527cf7fd66"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "android preferences", "android development", "preferences-datastore", "shared-preferences" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "add_preference"
+      }, {
+        "name" : "change_preference"
+      }, {
+        "name" : "delete_preference"
+      }, {
+        "name" : "devices"
+      }, {
+        "name" : "list_apps"
+      }, {
+        "name" : "list_files"
+      }, {
+        "name" : "read_preferences"
+      } ],
+      "source" : "https://github.com/charlesmuchene/pref-editor-mcp-server/tree/main",
+      "icon" : "https://raw.githubusercontent.com/charlesmuchene/pref-editor-mcp-server/refs/heads/main/logo.png",
+      "prompts" : 0,
+      "title" : "Pref Editor",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/pref-editor.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/pref-editor.json",
+      "dateAdded" : "2025-07-01T14:14:18Z",
+      "upstream" : "https://github.com/charlesmuchene/pref-editor-mcp-server",
+      "resources" : { },
+      "owner" : "charlesmuchene"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "13edab8e-e5c3-4470-941c-93fdf87ff005"
+    }
+  }
+}

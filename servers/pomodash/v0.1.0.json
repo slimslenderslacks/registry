@@ -1,0 +1,75 @@
+{
+  "name" : "com.docker.mcp/pomodash",
+  "description" : "Connect your AI assistant to PomoDash for seamless task and project management.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pomodash",
+    "version" : "sha256:bb9539723f2ab2063fac957ad0eecb3389960052ff8c10b6ac391572af10fd93",
+    "environmentVariables" : [ {
+      "name" : "POMODASH_API_KEY",
+      "value" : "{pomodash.api_key}",
+      "variables" : {
+        "pomodash.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "POMODASH_API_URL",
+      "value" : "https://mcp.pomodash.mindsnapz.de"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "tasks", "productivity", "pomodoro", "notes", "projects", "planning" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_category"
+      }, {
+        "name" : "create_note"
+      }, {
+        "name" : "create_note_for_project"
+      }, {
+        "name" : "create_note_for_task"
+      }, {
+        "name" : "create_task"
+      }, {
+        "name" : "create_task_for_project"
+      }, {
+        "name" : "delete_note"
+      }, {
+        "name" : "delete_task"
+      }, {
+        "name" : "list_categories"
+      }, {
+        "name" : "list_note_references"
+      }, {
+        "name" : "list_notes"
+      }, {
+        "name" : "list_tasks"
+      }, {
+        "name" : "update_note"
+      }, {
+        "name" : "update_task"
+      } ],
+      "source" : "https://github.com/dannyytv/pomodash-mcp-server/tree/main",
+      "icon" : "https://mindsnapz.de/wp-content/uploads/2025/09/PomoDash-Logo-512-x-512-px.png",
+      "prompts" : 0,
+      "title" : "PomoDash",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/pomodash.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/pomodash.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "upstream" : "https://github.com/dannyytv/pomodash-mcp-server",
+      "resources" : { },
+      "owner" : "DannyyTv"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "be87c6f4-ff29-42f9-89b7-ed923f277eb8"
+    }
+  }
+}

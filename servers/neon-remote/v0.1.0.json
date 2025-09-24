@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/neon-remote",
+  "description" : "Deploy and scale serverless PostgreSQL databases with instant provisioning, autoscaling, and database branching.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.neon.tech/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "database", "postgres", "serverless", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=neon.tech&sz=64",
+      "prompts" : 0,
+      "title" : "Neon",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/neon-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "390ff5f8-822d-4c51-b2f3-73e9af49d3e2"
+    }
+  }
+}

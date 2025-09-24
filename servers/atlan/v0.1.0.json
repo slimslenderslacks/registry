@@ -1,0 +1,67 @@
+{
+  "name" : "com.docker.mcp/atlan",
+  "description" : "MCP server for interacting with Atlan services including asset search, updates, and lineage traversal for comprehensive data governance and discovery.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/atlan",
+    "version" : "sha256:b7a3400454cd1156987052372567fdecb5b98dc4f336a7fce05cba919b886dd9",
+    "environmentVariables" : [ {
+      "name" : "ATLAN_API_KEY",
+      "value" : "{atlan.atlan_api_key}",
+      "variables" : {
+        "atlan.atlan_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "ATLAN_BASE_URL",
+      "value" : "{atlan.atlan_base_url}",
+      "variables" : {
+        "atlan.atlan_base_url" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "atlan", "metadata" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_glossaries"
+      }, {
+        "name" : "create_glossary_categories"
+      }, {
+        "name" : "create_glossary_terms"
+      }, {
+        "name" : "get_assets_by_dsl_tool"
+      }, {
+        "name" : "search_assets_tool"
+      }, {
+        "name" : "traverse_lineage_tool"
+      }, {
+        "name" : "update_assets_tool"
+      } ],
+      "source" : "https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol",
+      "icon" : "https://avatars.githubusercontent.com/u/47002402?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Atlan MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/atlan.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/atlan.json",
+      "dateAdded" : "2025-07-18T06:21:15Z",
+      "upstream" : "https://github.com/atlanhq/agent-toolkit",
+      "resources" : { },
+      "owner" : "atlanhq"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "c8668ae7-093f-4f69-9417-d6d4df8ad6c7"
+    }
+  }
+}

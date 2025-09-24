@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/box-remote",
+  "description" : "Perform actions related to content stored in Box.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.box.com"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "storage",
+      "tags" : [ "storage", "document-management", "collaboration", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=box.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "box-remote",
+          "secret" : "box-remote.personal_access_token",
+          "env" : "BOX_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Box",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/box-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

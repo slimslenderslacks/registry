@@ -1,0 +1,81 @@
+{
+  "name" : "com.docker.mcp/mcp-reddit",
+  "description" : "A comprehensive Model Context Protocol (MCP) server for Reddit integration. This server enables AI agents to interact with Reddit programmatically through a standardized interface.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/reddit-mcp",
+    "version" : "sha256:2e4c7f263791023bb0de2fb5ecbf11d69f0a011f25fedc5f59151e661d5dee4b",
+    "environmentVariables" : [ {
+      "name" : "REDDIT_CLIENT_ID",
+      "value" : "{mcp-reddit.reddit_client_id}",
+      "variables" : {
+        "mcp-reddit.reddit_client_id" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "REDDIT_CLIENT_SECRET",
+      "value" : "{mcp-reddit.reddit_client_secret}",
+      "variables" : {
+        "mcp-reddit.reddit_client_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "REDDIT_PASSWORD",
+      "value" : "{mcp-reddit.reddit_password}",
+      "variables" : {
+        "mcp-reddit.reddit_password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "USERNAME",
+      "value" : "{mcp-reddit.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "mcp-reddit.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "communication",
+      "tags" : [ "communication" ],
+      "license" : "MIT License",
+      "owner" : "KrishnaRandad2023",
+      "tools" : [ {
+        "name" : "fetchPosts"
+      }, {
+        "name" : "getComments"
+      }, {
+        "name" : "getSubredditInfo"
+      }, {
+        "name" : "postComment"
+      }, {
+        "name" : "postToSubreddit"
+      }, {
+        "name" : "searchPosts"
+      } ],
+      "source" : "https://github.com/KrishnaRandad2023/mcp-reddit/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/135265106?v=4",
+      "prompts" : 0,
+      "title" : "Mcp reddit",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mcp-reddit.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mcp-reddit.json",
+      "dateAdded" : "2025-09-19T18:59:08Z",
+      "upstream" : "https://github.com/KrishnaRandad2023/mcp-reddit",
+      "resources" : { }
+    }
+  }
+}

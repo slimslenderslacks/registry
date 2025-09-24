@@ -1,0 +1,232 @@
+{
+  "name" : "com.docker.mcp/redis",
+  "description" : "Access to Redis database operations.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/redis",
+    "version" : "sha256:97c986bad558e5d8c8a721406ac11f20ced5bf6c974d1b8dc371bd7682ebfa8d",
+    "environmentVariables" : [ {
+      "name" : "REDIS_PWD",
+      "value" : "{redis.password}",
+      "variables" : {
+        "redis.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "REDIS_HOST",
+      "value" : "{redis.host}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_PORT",
+      "value" : "{redis.port}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.port" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_USERNAME",
+      "value" : "{redis.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_SSL",
+      "value" : "{redis.ssl}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.ssl" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_CA_PATH",
+      "value" : "{redis.ca_path}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.ca_path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_SSL_KEYFILE",
+      "value" : "{redis.ssl_keyfile}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.ssl_keyfile" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_SSL_CERTFILE",
+      "value" : "{redis.ssl_certfile}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.ssl_certfile" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_CERT_REQS",
+      "value" : "{redis.cert_reqs}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.cert_reqs" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_CA_CERTS",
+      "value" : "{redis.ca_certs}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.ca_certs" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "REDIS_CLUSTER_MODE",
+      "value" : "{redis.cluster_mode}",
+      "isRepeated" : false,
+      "variables" : {
+        "redis.cluster_mode" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "redis", "database" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "client_list"
+      }, {
+        "name" : "create_vector_index_hash"
+      }, {
+        "name" : "dbsize"
+      }, {
+        "name" : "delete"
+      }, {
+        "name" : "expire"
+      }, {
+        "name" : "get"
+      }, {
+        "name" : "get_index_info"
+      }, {
+        "name" : "get_indexed_keys_number"
+      }, {
+        "name" : "get_indexes"
+      }, {
+        "name" : "get_vector_from_hash"
+      }, {
+        "name" : "hdel"
+      }, {
+        "name" : "hexists"
+      }, {
+        "name" : "hget"
+      }, {
+        "name" : "hgetall"
+      }, {
+        "name" : "hset"
+      }, {
+        "name" : "info"
+      }, {
+        "name" : "json_del"
+      }, {
+        "name" : "json_get"
+      }, {
+        "name" : "json_set"
+      }, {
+        "name" : "llen"
+      }, {
+        "name" : "lpop"
+      }, {
+        "name" : "lpush"
+      }, {
+        "name" : "lrange"
+      }, {
+        "name" : "publish"
+      }, {
+        "name" : "rename"
+      }, {
+        "name" : "rpop"
+      }, {
+        "name" : "rpush"
+      }, {
+        "name" : "sadd"
+      }, {
+        "name" : "scan_all_keys"
+      }, {
+        "name" : "scan_keys"
+      }, {
+        "name" : "set"
+      }, {
+        "name" : "set_vector_in_hash"
+      }, {
+        "name" : "smembers"
+      }, {
+        "name" : "srem"
+      }, {
+        "name" : "subscribe"
+      }, {
+        "name" : "type"
+      }, {
+        "name" : "unsubscribe"
+      }, {
+        "name" : "vector_search_hash"
+      }, {
+        "name" : "xadd"
+      }, {
+        "name" : "xdel"
+      }, {
+        "name" : "xrange"
+      }, {
+        "name" : "zadd"
+      }, {
+        "name" : "zrange"
+      }, {
+        "name" : "zrem"
+      } ],
+      "source" : "https://github.com/redis/mcp-redis/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/1529926?v=4",
+      "prompts" : 0,
+      "title" : "Redis",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/redis.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/redis.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/redis/mcp-redis",
+      "resources" : { },
+      "owner" : "redis"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "463e72b0-7213-4244-9092-332dc59959da"
+    }
+  }
+}

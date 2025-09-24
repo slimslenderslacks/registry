@@ -1,0 +1,67 @@
+{
+  "name" : "com.docker.mcp/cloud-run-mcp",
+  "description" : "MCP server to deploy apps to Cloud Run.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/cloud-run-mcp",
+    "version" : "sha256:66c636eb785bedfe7ab1905dab760f6ec73323e87e189989f59caa657cf5eca6",
+    "environmentVariables" : [ {
+      "name" : "GOOGLE_APPLICATION_CREDENTIALS",
+      "value" : "/app/.config/gcloud/application_default_credentials.json"
+    } ],
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{cloud-run-mcp.credentials_path}:/app/.config/gcloud/application_default_credentials.json",
+      "isRepeated" : false,
+      "variables" : {
+        "cloud-run-mcp.credentials_path" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "path to application-default credentials (eg $HOME/.config/gcloud/application_default_credentials.json )"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "create_project"
+      }, {
+        "name" : "deploy_container_image"
+      }, {
+        "name" : "deploy_file_contents"
+      }, {
+        "name" : "deploy_local_folder"
+      }, {
+        "name" : "get_service"
+      }, {
+        "name" : "get_service_log"
+      }, {
+        "name" : "list_projects"
+      }, {
+        "name" : "list_services"
+      } ],
+      "source" : "https://github.com/GoogleCloudPlatform/cloud-run-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/2810941?v=4",
+      "prompts" : 0,
+      "title" : "Cloud Run MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/cloud-run-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/cloud-run-mcp.json",
+      "dateAdded" : "2025-08-08T16:55:52Z",
+      "upstream" : "https://github.com/GoogleCloudPlatform/cloud-run-mcp",
+      "resources" : { },
+      "owner" : "GoogleCloudPlatform"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "eb0b3ef0-0628-4c2c-aca2-07a65e8ca899"
+    }
+  }
+}

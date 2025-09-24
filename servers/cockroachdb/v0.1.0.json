@@ -1,0 +1,182 @@
+{
+  "name" : "com.docker.mcp/cockroachdb",
+  "description" : "Enable AI agents to manage, monitor, and query CockroachDB using natural language. Perform complex database operations, cluster management, and query execution seamlessly through AI-driven workflows. Integrate effortlessly with MCP clients for scalable and high-performance data operations.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/cockroachdb",
+    "version" : "sha256:4863594a246c6f86a5c4c87383a679353e9a6b4d85c3327c48464669cd236b1e",
+    "environmentVariables" : [ {
+      "name" : "CRDB_PWD",
+      "value" : "{cockroachdb.password}",
+      "variables" : {
+        "cockroachdb.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CRDB_HOST",
+      "value" : "{cockroachdb.host}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_PORT",
+      "value" : "{cockroachdb.port}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.port" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_DATABASE",
+      "value" : "{cockroachdb.database}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.database" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_USERNAME",
+      "value" : "{cockroachdb.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_SSL_MODE",
+      "value" : "{cockroachdb.ssl_mode}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.ssl_mode" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_SSL_CA_PATH",
+      "value" : "{cockroachdb.ca_path}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.ca_path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_SSL_KEYFILE",
+      "value" : "{cockroachdb.ssl_keyfile}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.ssl_keyfile" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CRDB_SSL_CERTFILE",
+      "value" : "{cockroachdb.ssl_certfile}",
+      "isRepeated" : false,
+      "variables" : {
+        "cockroachdb.ssl_certfile" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "cockroachdb", "database" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "analyze_performance"
+      }, {
+        "name" : "analyze_schema"
+      }, {
+        "name" : "bulk_import"
+      }, {
+        "name" : "connect"
+      }, {
+        "name" : "connect_database"
+      }, {
+        "name" : "create_database"
+      }, {
+        "name" : "create_index"
+      }, {
+        "name" : "create_table"
+      }, {
+        "name" : "create_view"
+      }, {
+        "name" : "describe_table"
+      }, {
+        "name" : "drop_database"
+      }, {
+        "name" : "drop_index"
+      }, {
+        "name" : "drop_table"
+      }, {
+        "name" : "drop_view"
+      }, {
+        "name" : "execute_query"
+      }, {
+        "name" : "execute_transaction"
+      }, {
+        "name" : "explain_query"
+      }, {
+        "name" : "get_active_connections"
+      }, {
+        "name" : "get_cluster_status"
+      }, {
+        "name" : "get_connection_status"
+      }, {
+        "name" : "get_database_settings"
+      }, {
+        "name" : "get_query_history"
+      }, {
+        "name" : "get_replication_status"
+      }, {
+        "name" : "get_table_relationships"
+      }, {
+        "name" : "list_databases"
+      }, {
+        "name" : "list_tables"
+      }, {
+        "name" : "list_views"
+      }, {
+        "name" : "show_running_queries"
+      }, {
+        "name" : "switch_database"
+      } ],
+      "source" : "https://github.com/amineelkouhen/mcp-cockroachdb/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/6748139?v=4",
+      "prompts" : 0,
+      "title" : "CockroachDB",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/cockroachdb.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/cockroachdb.json",
+      "dateAdded" : "2025-07-16T06:22:24Z",
+      "upstream" : "https://github.com/amineelkouhen/mcp-cockroachdb",
+      "resources" : { },
+      "owner" : "amineelkouhen"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "b8c9d23c-6a91-40a0-9a05-b3d6584a9214"
+    }
+  }
+}

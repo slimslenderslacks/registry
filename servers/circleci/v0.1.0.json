@@ -1,0 +1,82 @@
+{
+  "name" : "com.docker.mcp/circleci",
+  "description" : "A specialized server implementation for the Model Context Protocol (MCP) designed to integrate with CircleCI's development workflow. This project serves as a bridge between CircleCI's infrastructure and the Model Context Protocol, enabling enhanced AI-powered development experiences.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/circleci",
+    "version" : "sha256:1d0029137061c3769c1ca2ef112c4c5043bf42f1565ccb004ffa4bf2cb99a431",
+    "environmentVariables" : [ {
+      "name" : "CIRCLECI_TOKEN",
+      "value" : "{circleci.token}",
+      "variables" : {
+        "circleci.token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CIRCLECI_BASE_URL",
+      "value" : "{circleci.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "circleci.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "stdio"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "circleci", "devops" ],
+      "license" : "Other",
+      "tools" : [ {
+        "name" : "analyze_diff"
+      }, {
+        "name" : "config_helper"
+      }, {
+        "name" : "create_prompt_template"
+      }, {
+        "name" : "find_flaky_tests"
+      }, {
+        "name" : "get_build_failure_logs"
+      }, {
+        "name" : "get_job_test_results"
+      }, {
+        "name" : "get_latest_pipeline_status"
+      }, {
+        "name" : "list_followed_projects"
+      }, {
+        "name" : "recommend_prompt_template_tests"
+      }, {
+        "name" : "rerun_workflow"
+      }, {
+        "name" : "run_evaluation_tests"
+      }, {
+        "name" : "run_pipeline"
+      } ],
+      "source" : "https://github.com/cmrigney/mcp-server-circleci/tree/use-cmd-docker",
+      "icon" : "https://avatars.githubusercontent.com/u/26607840?s=200&v=4",
+      "prompts" : 0,
+      "title" : "CircleCI",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/circleci.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/circleci.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/CircleCI-Public/mcp-server-circleci",
+      "resources" : { },
+      "owner" : "CircleCI-Public"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "ac089478-2808-4dc7-88df-ab133e703eed"
+    }
+  }
+}

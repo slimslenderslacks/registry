@@ -1,0 +1,117 @@
+{
+  "name" : "com.docker.mcp/okta-mcp-fctr",
+  "description" : "Secure Okta identity and access management via Model Context Protocol (MCP). Access Okta users, groups, applications, logs, and policies through AI assistants with enterprise-grade security.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/okta-mcp-fctr",
+    "version" : "sha256:c0a95e22c7037aa14f7d476658b4930fcad152bc5836ed2cbe1cf731f50061d4",
+    "environmentVariables" : [ {
+      "name" : "OKTA_API_TOKEN",
+      "value" : "{okta-mcp-fctr.api_token}",
+      "variables" : {
+        "okta-mcp-fctr.api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "OKTA_CLIENT_ORGURL",
+      "value" : "{okta-mcp-fctr.client_orgurl}",
+      "isRepeated" : false,
+      "variables" : {
+        "okta-mcp-fctr.client_orgurl" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Okta organization URL (e.g., https://dev-123456.okta.com)"
+        }
+      }
+    }, {
+      "name" : "LOG_LEVEL",
+      "value" : "{okta-mcp-fctr.log_level}",
+      "isRepeated" : false,
+      "variables" : {
+        "okta-mcp-fctr.log_level" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Logging level for server output"
+        }
+      }
+    }, {
+      "name" : "OKTA_CONCURRENT_LIMIT",
+      "value" : "{okta-mcp-fctr.concurrent_limit}",
+      "isRepeated" : false,
+      "variables" : {
+        "okta-mcp-fctr.concurrent_limit" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Maximum concurrent requests to Okta API"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "okta", "identity", "access-management", "security", "authentication", "audit", "compliance", "enterprise" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "analyze_login_risk"
+      }, {
+        "name" : "analyze_user_app_access"
+      }, {
+        "name" : "get_current_time"
+      }, {
+        "name" : "get_okta_application"
+      }, {
+        "name" : "get_okta_event_logs"
+      }, {
+        "name" : "get_okta_group"
+      }, {
+        "name" : "get_okta_policy_rule"
+      }, {
+        "name" : "get_okta_user"
+      }, {
+        "name" : "list_okta_application_groups"
+      }, {
+        "name" : "list_okta_application_users"
+      }, {
+        "name" : "list_okta_applications"
+      }, {
+        "name" : "list_okta_group_users"
+      }, {
+        "name" : "list_okta_groups"
+      }, {
+        "name" : "list_okta_network_zones"
+      }, {
+        "name" : "list_okta_policy_rules"
+      }, {
+        "name" : "list_okta_user_applications"
+      }, {
+        "name" : "list_okta_user_factors"
+      }, {
+        "name" : "list_okta_user_groups"
+      }, {
+        "name" : "list_okta_users"
+      }, {
+        "name" : "parse_relative_time"
+      } ],
+      "source" : "https://github.com/fctr-id/okta-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/198773578?v=4",
+      "prompts" : 0,
+      "title" : "Okta MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/okta-mcp-fctr.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/okta-mcp-fctr.json",
+      "dateAdded" : "2025-08-01T06:21:29Z",
+      "upstream" : "https://github.com/fctr-id/okta-mcp-server",
+      "resources" : { },
+      "owner" : "fctr-id"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "4f7e35f8-360d-429a-b6f4-611b33ca8687"
+    }
+  }
+}

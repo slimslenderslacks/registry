@@ -1,0 +1,84 @@
+{
+  "name" : "com.docker.mcp/mcp-discord",
+  "description" : "Interact with the Discord platform.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mcp-discord",
+    "version" : "sha256:a9f146c6e7cc88bca04aee004c24d98d050fc01c54a9cc03731484754a401282",
+    "environmentVariables" : [ {
+      "name" : "DISCORD_TOKEN",
+      "value" : "{discord.token}",
+      "variables" : {
+        "discord.token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "discord", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "discord_add_multiple_reactions"
+      }, {
+        "name" : "discord_add_reaction"
+      }, {
+        "name" : "discord_create_forum_post"
+      }, {
+        "name" : "discord_create_text_channel"
+      }, {
+        "name" : "discord_create_webhook"
+      }, {
+        "name" : "discord_delete_channel"
+      }, {
+        "name" : "discord_delete_forum_post"
+      }, {
+        "name" : "discord_delete_message"
+      }, {
+        "name" : "discord_delete_webhook"
+      }, {
+        "name" : "discord_edit_webhook"
+      }, {
+        "name" : "discord_get_forum_channels"
+      }, {
+        "name" : "discord_get_forum_post"
+      }, {
+        "name" : "discord_get_server_info"
+      }, {
+        "name" : "discord_login"
+      }, {
+        "name" : "discord_read_messages"
+      }, {
+        "name" : "discord_remove_reaction"
+      }, {
+        "name" : "discord_reply_to_forum"
+      }, {
+        "name" : "discord_send"
+      }, {
+        "name" : "discord_send_webhook_message"
+      }, {
+        "name" : "test"
+      } ],
+      "source" : "https://github.com/slimslenderslacks/mcp-discord/tree/slim/docker",
+      "icon" : "https://avatars.githubusercontent.com/u/1965106?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Discord",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/mcp-discord.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/mcp-discord.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/slimslenderslacks/mcp-discord",
+      "resources" : { },
+      "owner" : "slimslenderslacks"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "9a126715-915f-4740-8419-cc7f960c59f4"
+    }
+  }
+}

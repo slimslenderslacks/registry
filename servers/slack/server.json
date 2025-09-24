@@ -1,0 +1,77 @@
+{
+  "name" : "com.docker.mcp/slack",
+  "description" : "Interact with Slack Workspaces over the Slack API.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/slack",
+    "version" : "sha256:4cc10c3f4bd988bd2dce40e3068fe38fa3b3bad1da99f9653eb5fa5cce35baa1",
+    "environmentVariables" : [ {
+      "name" : "SLACK_BOT_TOKEN",
+      "value" : "{slack.bot_token}",
+      "variables" : {
+        "slack.bot_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "SLACK_TEAM_ID",
+      "value" : "{slack.team_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "slack.team_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "SLACK_CHANNEL_IDS",
+      "value" : "{slack.channel_ids}",
+      "isRepeated" : false,
+      "variables" : {
+        "slack.channel_ids" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "communication",
+      "tags" : [ "slack", "communication" ],
+      "license" : "MIT License",
+      "owner" : "modelcontextprotocol",
+      "tools" : [ {
+        "name" : "slack_add_reaction"
+      }, {
+        "name" : "slack_get_channel_history"
+      }, {
+        "name" : "slack_get_thread_replies"
+      }, {
+        "name" : "slack_get_user_profile"
+      }, {
+        "name" : "slack_get_users"
+      }, {
+        "name" : "slack_list_channels"
+      }, {
+        "name" : "slack_post_message"
+      }, {
+        "name" : "slack_reply_to_thread"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24",
+      "icon" : "https://avatars.githubusercontent.com/u/6911160?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Slack (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/slack.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/slack.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { }
+    }
+  }
+}

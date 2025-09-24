@@ -1,0 +1,66 @@
+{
+  "name" : "com.docker.mcp/camunda",
+  "description" : "Tools to interact with the Camunda 7 Community Edition Engine using the Model Context Protocol (MCP). Whether you're automating workflows, querying process instances, or integrating with external systems, Camunda MCP Server is your agentic solution for seamless interaction with Camunda.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/camunda",
+    "version" : "sha256:fbea3848bcb6ab4ee7ef287f31d7b14c28f081ae61c456dd3b495e15bf02b834",
+    "environmentVariables" : [ {
+      "name" : "CAMUNDA_HOST",
+      "value" : "{camunda.camundahost}",
+      "isRepeated" : false,
+      "variables" : {
+        "camunda.camundahost" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "owner" : "lepoco",
+      "tools" : [ {
+        "name" : "complete_user_task"
+      }, {
+        "name" : "count_incidents"
+      }, {
+        "name" : "count_instances"
+      }, {
+        "name" : "count_user_tasks"
+      }, {
+        "name" : "count_variables"
+      }, {
+        "name" : "list_definitions"
+      }, {
+        "name" : "list_incidents"
+      }, {
+        "name" : "list_instances"
+      }, {
+        "name" : "list_user_tasks"
+      }, {
+        "name" : "list_variables"
+      }, {
+        "name" : "resolve_incident"
+      }, {
+        "name" : "send_message"
+      } ],
+      "source" : "https://github.com/lepoco/mcp-camunda/tree/main",
+      "icon" : "https://raw.githubusercontent.com/lepoco/mcp-camunda/refs/heads/main/build/icon.png",
+      "prompts" : 0,
+      "title" : "Camunda BPM process engine MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/camunda.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/camunda.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/lepoco/mcp-camunda",
+      "resources" : { }
+    }
+  }
+}

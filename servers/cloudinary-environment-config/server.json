@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudinary-environment-config",
+  "description" : "Configure and manage your Cloudinary environment settings, upload presets, and transformations.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://environment-config.mcp.cloudinary.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "media",
+      "tags" : [ "media", "configuration", "environment", "cloudinary", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudinary.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudinary-environment-config",
+          "secret" : "cloudinary-environment-config.personal_access_token",
+          "env" : "CLOUDINARY_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudinary Environment Config",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudinary-environment-config.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { }
+    }
+  }
+}

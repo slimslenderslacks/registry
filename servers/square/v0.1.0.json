@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/square",
+  "description" : "Process payments, manage point-of-sale transactions, and run commerce operations for businesses of all sizes.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.squareup.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "payments",
+      "tags" : [ "payments", "pos", "commerce", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=squareup.com&sz=64",
+      "prompts" : 0,
+      "title" : "Square",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/square.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "ed6fd25b-763e-4bea-bc84-752fbcf45364"
+    }
+  }
+}

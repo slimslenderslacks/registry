@@ -1,0 +1,31 @@
+{
+  "name" : "com.docker.mcp/microsoft-learn",
+  "description" : "Add trusted and up-to-date content from Microsoft Learn to your AI agent.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://learn.microsoft.com/api/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "documentation",
+      "tags" : [ "microsoft-learn", "documentation", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "title" : "Microsoft Learn",
+      "dateAdded" : "2025-09-19T06:18:27Z",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/microsoft-learn.json",
+      "icon" : "https://avatars.githubusercontent.com/microsoft?s=64",
+      "tools" : [ {
+        "name" : "microsoft_docs_search"
+      }, {
+        "name" : "microsoft_code_sample_search"
+      }, {
+        "name" : "microsoft_docs_fetch"
+      } ],
+      "prompts" : 0,
+      "resources" : { },
+      "source" : ""
+    }
+  }
+}

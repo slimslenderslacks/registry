@@ -1,0 +1,72 @@
+{
+  "name" : "com.docker.mcp/npm-sentinel",
+  "description" : "MCP server that enables intelligent NPM package analysis powered by AI.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/npm-sentinel",
+    "version" : "sha256:d8e4bbc7dd5c163fb8abab3f36062a36a02bfd200cae199a9e2392bf4c9198ab"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "npm", "npm-package" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "npmAlternatives"
+      }, {
+        "name" : "npmChangelogAnalysis"
+      }, {
+        "name" : "npmCompare"
+      }, {
+        "name" : "npmDeprecated"
+      }, {
+        "name" : "npmDeps"
+      }, {
+        "name" : "npmLatest"
+      }, {
+        "name" : "npmLicenseCompatibility"
+      }, {
+        "name" : "npmMaintainers"
+      }, {
+        "name" : "npmMaintenance"
+      }, {
+        "name" : "npmPackageReadme"
+      }, {
+        "name" : "npmQuality"
+      }, {
+        "name" : "npmRepoStats"
+      }, {
+        "name" : "npmScore"
+      }, {
+        "name" : "npmSearch"
+      }, {
+        "name" : "npmSize"
+      }, {
+        "name" : "npmTrends"
+      }, {
+        "name" : "npmTypes"
+      }, {
+        "name" : "npmVersions"
+      }, {
+        "name" : "npmVulnerabilities"
+      } ],
+      "source" : "https://github.com/Nekzus/npm-sentinel-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/85507589?v=4",
+      "prompts" : 0,
+      "title" : "NPM Sentinel",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/npm-sentinel.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/npm-sentinel.json",
+      "dateAdded" : "2025-07-01T14:14:18Z",
+      "upstream" : "https://github.com/Nekzus/npm-sentinel-mcp",
+      "resources" : { },
+      "owner" : "Nekzus"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "a6561453-2700-464a-99fd-0d4f910ccec3"
+    }
+  }
+}

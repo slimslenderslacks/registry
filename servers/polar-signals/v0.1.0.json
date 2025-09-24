@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/polar-signals",
+  "description" : "MCP server for Polar Signals Cloud continuous profiling platform, enabling AI assistants to analyze CPU performance, memory usage, and identify optimization opportunities in production systems.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.polarsignals.com/api/mcp/",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer ${POLAR_SIGNALS_API_KEY}"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "profiling", "performance", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=polarsignals.com&sz=64",
+      "prompts" : 0,
+      "title" : "Polar Signals",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/polar-signals.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/polar-signals.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "367ee1b3-4844-4af3-9b97-1300190b4c14"
+    }
+  }
+}

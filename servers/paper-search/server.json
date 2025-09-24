@@ -1,0 +1,77 @@
+{
+  "name" : "com.docker.mcp/paper-search",
+  "description" : "A MCP for searching and downloading academic papers from multiple sources like arXiv, PubMed, bioRxiv, etc.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/paper-search",
+    "version" : "sha256:fee339283c68af0470d24dd6e7fb2937bc144a24c2b6574d0da8ea0366285044"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "academic", "search" ],
+      "license" : "MIT License",
+      "owner" : "openags",
+      "tools" : [ {
+        "name" : "download_arxiv"
+      }, {
+        "name" : "download_biorxiv"
+      }, {
+        "name" : "download_crossref"
+      }, {
+        "name" : "download_iacr"
+      }, {
+        "name" : "download_medrxiv"
+      }, {
+        "name" : "download_pubmed"
+      }, {
+        "name" : "download_semantic"
+      }, {
+        "name" : "get_crossref_paper_by_doi"
+      }, {
+        "name" : "read_arxiv_paper"
+      }, {
+        "name" : "read_biorxiv_paper"
+      }, {
+        "name" : "read_crossref_paper"
+      }, {
+        "name" : "read_iacr_paper"
+      }, {
+        "name" : "read_medrxiv_paper"
+      }, {
+        "name" : "read_pubmed_paper"
+      }, {
+        "name" : "read_semantic_paper"
+      }, {
+        "name" : "search_arxiv"
+      }, {
+        "name" : "search_biorxiv"
+      }, {
+        "name" : "search_crossref"
+      }, {
+        "name" : "search_google_scholar"
+      }, {
+        "name" : "search_iacr"
+      }, {
+        "name" : "search_medrxiv"
+      }, {
+        "name" : "search_pubmed"
+      }, {
+        "name" : "search_semantic"
+      } ],
+      "source" : "https://github.com/openags/paper-search-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/197887910?v=4",
+      "prompts" : 0,
+      "title" : "Paper Search",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/paper-search.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/paper-search.json",
+      "dateAdded" : "2025-06-05T05:10:44Z",
+      "upstream" : "https://github.com/openags/paper-search-mcp",
+      "resources" : { }
+    }
+  }
+}

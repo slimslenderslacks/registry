@@ -1,0 +1,74 @@
+{
+  "name" : "com.docker.mcp/playwright",
+  "description" : "Playwright MCP server.",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/playwright",
+    "version" : "sha256:779f7a4f7efd7aae698d2d113370a5205becd093e40c23db2f9a753d235a522d"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "playwright", "devops" ],
+      "license" : "Apache License 2.0",
+      "owner" : "microsoft",
+      "tools" : [ {
+        "name" : "browser_click"
+      }, {
+        "name" : "browser_close"
+      }, {
+        "name" : "browser_console_messages"
+      }, {
+        "name" : "browser_drag"
+      }, {
+        "name" : "browser_evaluate"
+      }, {
+        "name" : "browser_file_upload"
+      }, {
+        "name" : "browser_fill_form"
+      }, {
+        "name" : "browser_handle_dialog"
+      }, {
+        "name" : "browser_hover"
+      }, {
+        "name" : "browser_install"
+      }, {
+        "name" : "browser_navigate"
+      }, {
+        "name" : "browser_navigate_back"
+      }, {
+        "name" : "browser_network_requests"
+      }, {
+        "name" : "browser_press_key"
+      }, {
+        "name" : "browser_resize"
+      }, {
+        "name" : "browser_select_option"
+      }, {
+        "name" : "browser_snapshot"
+      }, {
+        "name" : "browser_tabs"
+      }, {
+        "name" : "browser_take_screenshot"
+      }, {
+        "name" : "browser_type"
+      }, {
+        "name" : "browser_wait_for"
+      } ],
+      "source" : "https://github.com/microsoft/playwright-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "prompts" : 0,
+      "title" : "Playwright",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/playwright.md",
+      "longLived" : true,
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/playwright.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/microsoft/playwright-mcp",
+      "resources" : { }
+    }
+  }
+}

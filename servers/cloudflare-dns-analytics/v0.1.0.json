@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/cloudflare-dns-analytics",
+  "description" : "Optimize DNS performance and debug issues based on current set up.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://dns-analytics.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "analytics",
+      "tags" : [ "analytics", "dns", "performance", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "title" : "Cloudflare DNS Analytics",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-dns-analytics.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "5a05eb7d-c8d8-4815-bda0-e178ab71bee4"
+    }
+  }
+}

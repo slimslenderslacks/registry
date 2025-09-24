@@ -1,0 +1,65 @@
+{
+  "name" : "com.docker.mcp/explorium",
+  "description" : "Discover companies, contacts, and business insights—powered by dozens of trusted external data sources.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/explorium",
+    "version" : "sha256:6454e9a8eabc7d889cebbf81a6b3747bf1fd3653d0eaf8e10c4444ebdcbf47ba",
+    "environmentVariables" : [ {
+      "name" : "API_ACCESS_TOKEN",
+      "value" : "{explorium.api_key}",
+      "variables" : {
+        "explorium.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "search", "explorium", "b2b-data", "business", "prospecting", "emails", "phone-numbers", "sales" ],
+      "license" : "MIT License",
+      "owner" : "explorium-ai",
+      "tools" : [ {
+        "name" : "match-business"
+      }, {
+        "name" : "fetch-businesses"
+      }, {
+        "name" : "fetch-businesses-statistics"
+      }, {
+        "name" : "fetch-businesses-events"
+      }, {
+        "name" : "enrich-business"
+      }, {
+        "name" : "match-prospects"
+      }, {
+        "name" : "fetch-prospects"
+      }, {
+        "name" : "fetch-prospects-events"
+      }, {
+        "name" : "fetch-prospects-statistics"
+      }, {
+        "name" : "enrich-prospects"
+      }, {
+        "name" : "autocomplete"
+      }, {
+        "name" : "web-search"
+      } ],
+      "source" : "https://github.com/explorium-ai/mcp-explorium/tree/main",
+      "icon" : "https://marketing-public-links.s3.us-east-1.amazonaws.com/Brand/Logo-dark.png",
+      "prompts" : 0,
+      "title" : "Explorium B2B Data",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/explorium.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/explorium.json",
+      "dateAdded" : "2025-09-19T18:59:08Z",
+      "upstream" : "https://github.com/explorium-ai/mcp-explorium",
+      "resources" : { }
+    }
+  }
+}

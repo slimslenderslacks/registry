@@ -1,0 +1,45 @@
+{
+  "name" : "com.docker.mcp/ref",
+  "description" : "Ref powerful search tool connets your coding tools with documentation context. It includes an up-to-date index of public documentation and it can ingest your private documentation (eg. GitHub repos, PDFs) as well.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/ref-tools-mcp",
+    "version" : "sha256:0f53745eeca334de60b309745aba581caf7630d53310cb8d4394b00643c5bbaf",
+    "environmentVariables" : [ {
+      "name" : "REF_API_KEY",
+      "value" : "{ref.REF_API_KEY}",
+      "variables" : {
+        "ref.REF_API_KEY" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "documentation" ],
+      "license" : "MIT License",
+      "owner" : "ref-tools",
+      "tools" : [ {
+        "name" : "ref_read_url"
+      }, {
+        "name" : "ref_search_documentation"
+      } ],
+      "source" : "https://github.com/ref-tools/ref-tools-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/210568548?v=4",
+      "prompts" : 0,
+      "title" : "Ref - up-to-date docs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/ref.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/ref.json",
+      "dateAdded" : "2025-09-12T18:02:36Z",
+      "upstream" : "https://github.com/ref-tools/ref-tools-mcp",
+      "resources" : { }
+    }
+  }
+}

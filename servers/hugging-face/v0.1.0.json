@@ -1,0 +1,47 @@
+{
+  "name" : "com.docker.mcp/hugging-face",
+  "description" : "Tools for interacting with Hugging Face models, datasets, research papers, and more.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://huggingface.co/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "machine-learning", "models", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "hf_whoami"
+      }, {
+        "name" : "space_search"
+      }, {
+        "name" : "model_search"
+      }, {
+        "name" : "paper_search"
+      }, {
+        "name" : "dataset_search"
+      }, {
+        "name" : "hub_repo_details"
+      }, {
+        "name" : "hf_doc_search"
+      }, {
+        "name" : "hf_doc_fetch"
+      }, {
+        "name" : "gr1_flux1_schnell_infer"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=hf.co&sz=64",
+      "prompts" : 0,
+      "title" : "Hugging Face",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/hugging-face.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/hugging-face.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "d42068a9-e929-4a2a-8ab1-40e3acfa516d"
+    }
+  }
+}

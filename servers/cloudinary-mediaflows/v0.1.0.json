@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/cloudinary-mediaflows",
+  "description" : "Build and manage low-code workflow automations for images and videos with AI-powered assistance.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mediaflows.mcp.cloudinary.com/v2/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "automation",
+      "tags" : [ "automation", "workflow", "media-processing", "cloudinary", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudinary.com&sz=64",
+      "prompts" : 0,
+      "title" : "Cloudinary MediaFlows",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudinary-mediaflows.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "fcc44d50-15c3-4f04-aead-57d85395e3c9"
+    }
+  }
+}

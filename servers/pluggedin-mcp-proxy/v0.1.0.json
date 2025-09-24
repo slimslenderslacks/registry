@@ -1,0 +1,67 @@
+{
+  "name" : "com.docker.mcp/pluggedin-mcp-proxy",
+  "description" : "A unified MCP proxy that aggregates multiple MCP servers into one interface, enabling seamless tool discovery and management across all your AI interactions. Manage all your MCP servers from a single connection point with RAG capabilities and real-time notifications.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pluggedin-mcp-proxy",
+    "version" : "sha256:2c22cf0ef264bfb71c65f2aaa9b7d90ef9fe8b7632bbc1562b15716f4adca7a8",
+    "environmentVariables" : [ {
+      "name" : "PLUGGEDIN_API_KEY",
+      "value" : "{pluggedin-mcp-proxy.pluggedin_api_key}",
+      "variables" : {
+        "pluggedin-mcp-proxy.pluggedin_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "PLUGGEDIN_API_BASE_URL",
+      "value" : "{pluggedin-mcp-proxy.pluggedin_api_base_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "pluggedin-mcp-proxy.pluggedin_api_base_url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Base URL for the Plugged.in API (optional, defaults to https://plugged.in for cloud or http://localhost:12005 for self-hosted)"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "proxy", "management", "tools", "ai" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "pluggedin_ask_knowledge_base"
+      }, {
+        "name" : "pluggedin_delete_notification"
+      }, {
+        "name" : "pluggedin_discover_tools"
+      }, {
+        "name" : "pluggedin_list_notifications"
+      }, {
+        "name" : "pluggedin_mark_notification_done"
+      }, {
+        "name" : "pluggedin_send_notification"
+      } ],
+      "source" : "https://github.com/VeriTeknik/pluggedin-mcp-proxy/tree/main",
+      "icon" : "https://www.plugged.in/favicon.ico",
+      "prompts" : 0,
+      "title" : "Plugged.in MCP Proxy",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/pluggedin-mcp-proxy.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/pluggedin-mcp-proxy.json",
+      "dateAdded" : "2025-07-01T14:14:18Z",
+      "upstream" : "https://github.com/VeriTeknik/pluggedin-mcp-proxy",
+      "resources" : { },
+      "owner" : "VeriTeknik"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "90928cda-ed53-41b4-990f-8b7ca2ac9e3e"
+    }
+  }
+}

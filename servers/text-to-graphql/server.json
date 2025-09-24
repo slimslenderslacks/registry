@@ -1,0 +1,69 @@
+{
+  "name" : "com.docker.mcp/text-to-graphql",
+  "description" : "Transform natural language queries into GraphQL queries using an AI agent. Provides schema management, query validation, execution, and history tracking.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/text-to-graphql",
+    "version" : "sha256:d260ee59e2fe08b444fea26fe935109cf0e6336c1677256c0274bdaa84e69997",
+    "environmentVariables" : [ {
+      "name" : "OPENAI_API_KEY",
+      "value" : "{text-to-graphql.openai_api_key}",
+      "variables" : {
+        "text-to-graphql.openai_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "GRAPHQL_ENDPOINT",
+      "value" : "{text-to-graphql.graphql_endpoint}",
+      "variables" : {
+        "text-to-graphql.graphql_endpoint" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "GRAPHQL_API_KEY",
+      "value" : "{text-to-graphql.graphql_api_key}",
+      "variables" : {
+        "text-to-graphql.graphql_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "graphql", "ai", "natural-language", "api", "query-generation" ],
+      "license" : "Other",
+      "owner" : "Arize-ai",
+      "tools" : [ {
+        "name" : "execute_graphql_query"
+      }, {
+        "name" : "generate_graphql_query"
+      }, {
+        "name" : "get_query_examples"
+      }, {
+        "name" : "get_query_history"
+      }, {
+        "name" : "validate_graphql_query"
+      } ],
+      "source" : "https://github.com/Arize-ai/text-to-graphql-mcp/tree/main",
+      "icon" : "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
+      "prompts" : 0,
+      "title" : "Text-to-GraphQL",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/text-to-graphql.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/text-to-graphql.json",
+      "dateAdded" : "2025-07-08T13:38:25Z",
+      "upstream" : "https://github.com/Arize-ai/text-to-graphql-mcp",
+      "resources" : { }
+    }
+  }
+}

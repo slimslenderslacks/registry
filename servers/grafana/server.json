@@ -1,0 +1,146 @@
+{
+  "name" : "com.docker.mcp/grafana",
+  "description" : "MCP server for Grafana.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/grafana",
+    "version" : "sha256:117fb61af572dd16825abaf28888c7641112c010a17e8d159ceb345be5fe67ed",
+    "environmentVariables" : [ {
+      "name" : "GRAFANA_API_KEY",
+      "value" : "{grafana.api_key}",
+      "variables" : {
+        "grafana.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "GRAFANA_URL",
+      "value" : "{grafana.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "grafana.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "named",
+      "name" : "--transport",
+      "value" : "stdio"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "grafana", "monitoring" ],
+      "license" : "Apache License 2.0",
+      "owner" : "grafana",
+      "tools" : [ {
+        "name" : "add_activity_to_incident"
+      }, {
+        "name" : "create_incident"
+      }, {
+        "name" : "fetch_pyroscope_profile"
+      }, {
+        "name" : "find_error_pattern_logs"
+      }, {
+        "name" : "find_slow_requests"
+      }, {
+        "name" : "generate_deeplink"
+      }, {
+        "name" : "get_alert_group"
+      }, {
+        "name" : "get_alert_rule_by_uid"
+      }, {
+        "name" : "get_assertions"
+      }, {
+        "name" : "get_current_oncall_users"
+      }, {
+        "name" : "get_dashboard_by_uid"
+      }, {
+        "name" : "get_dashboard_panel_queries"
+      }, {
+        "name" : "get_dashboard_property"
+      }, {
+        "name" : "get_dashboard_summary"
+      }, {
+        "name" : "get_datasource_by_name"
+      }, {
+        "name" : "get_datasource_by_uid"
+      }, {
+        "name" : "get_incident"
+      }, {
+        "name" : "get_oncall_shift"
+      }, {
+        "name" : "get_sift_analysis"
+      }, {
+        "name" : "get_sift_investigation"
+      }, {
+        "name" : "list_alert_groups"
+      }, {
+        "name" : "list_alert_rules"
+      }, {
+        "name" : "list_contact_points"
+      }, {
+        "name" : "list_datasources"
+      }, {
+        "name" : "list_incidents"
+      }, {
+        "name" : "list_loki_label_names"
+      }, {
+        "name" : "list_loki_label_values"
+      }, {
+        "name" : "list_oncall_schedules"
+      }, {
+        "name" : "list_oncall_teams"
+      }, {
+        "name" : "list_oncall_users"
+      }, {
+        "name" : "list_prometheus_label_names"
+      }, {
+        "name" : "list_prometheus_label_values"
+      }, {
+        "name" : "list_prometheus_metric_metadata"
+      }, {
+        "name" : "list_prometheus_metric_names"
+      }, {
+        "name" : "list_pyroscope_label_names"
+      }, {
+        "name" : "list_pyroscope_label_values"
+      }, {
+        "name" : "list_pyroscope_profile_types"
+      }, {
+        "name" : "list_sift_investigations"
+      }, {
+        "name" : "list_teams"
+      }, {
+        "name" : "list_users_by_org"
+      }, {
+        "name" : "query_loki_logs"
+      }, {
+        "name" : "query_loki_stats"
+      }, {
+        "name" : "query_prometheus"
+      }, {
+        "name" : "search_dashboards"
+      }, {
+        "name" : "update_dashboard"
+      } ],
+      "source" : "https://github.com/grafana/mcp-grafana/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/7195757?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Grafana",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/grafana.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/grafana.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/grafana/mcp-grafana",
+      "resources" : { }
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "name" : "com.docker.mcp/oracle",
+  "description" : "Connect to Oracle databases via MCP, providing secure read-only access with support for schema exploration, query execution, and metadata inspection.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/oracle",
+    "version" : "sha256:76d733b869f424eca1715a6566f4a472aee2599308e766179ec10abdea46ad70",
+    "environmentVariables" : [ {
+      "name" : "ORACLE_PASSWORD",
+      "value" : "{oracle.password}",
+      "variables" : {
+        "oracle.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "ORACLE_CONNECTION_STRING",
+      "value" : "{oracle.oracle_connection_string}",
+      "isRepeated" : false,
+      "variables" : {
+        "oracle.oracle_connection_string" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "ORACLE_USER",
+      "value" : "{oracle.oracle_user}",
+      "isRepeated" : false,
+      "variables" : {
+        "oracle.oracle_user" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "oracle", "database", "sql", "enterprise" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "describe_table"
+      }, {
+        "name" : "execute_query"
+      }, {
+        "name" : "get_table_constraints"
+      }, {
+        "name" : "get_table_indexes"
+      }, {
+        "name" : "list_schemas"
+      }, {
+        "name" : "list_tables"
+      } ],
+      "source" : "https://github.com/samscarrow/oracle-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/93792006?v=4",
+      "prompts" : 0,
+      "title" : "Oracle Database MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/oracle.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/oracle.json",
+      "dateAdded" : "2025-09-11T17:03:42Z",
+      "upstream" : "https://github.com/samscarrow/oracle-mcp-server",
+      "resources" : { },
+      "owner" : "samscarrow"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "8cc874d9-2b7a-4dbc-a175-5290ef17425b"
+    }
+  }
+}

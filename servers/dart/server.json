@@ -1,0 +1,83 @@
+{
+  "name" : "com.docker.mcp/dart",
+  "description" : "Dart AI Model Context Protocol (MCP) server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/dart",
+    "version" : "sha256:4f659b1a51ca3367c42022d179c303770525d4aa8027165c9bd1154f274751c6",
+    "environmentVariables" : [ {
+      "name" : "DART_TOKEN",
+      "value" : "{dart.token}",
+      "variables" : {
+        "dart.token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DART_HOST",
+      "value" : "{dart.host}",
+      "isRepeated" : false,
+      "variables" : {
+        "dart.host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "dart", "devops" ],
+      "license" : "MIT License",
+      "owner" : "its-dart",
+      "tools" : [ {
+        "name" : "add_task_comment"
+      }, {
+        "name" : "create_doc"
+      }, {
+        "name" : "create_task"
+      }, {
+        "name" : "delete_doc"
+      }, {
+        "name" : "delete_task"
+      }, {
+        "name" : "get_config"
+      }, {
+        "name" : "get_dartboard"
+      }, {
+        "name" : "get_doc"
+      }, {
+        "name" : "get_folder"
+      }, {
+        "name" : "get_task"
+      }, {
+        "name" : "get_view"
+      }, {
+        "name" : "list_docs"
+      }, {
+        "name" : "list_task_comments"
+      }, {
+        "name" : "list_tasks"
+      }, {
+        "name" : "update_doc"
+      }, {
+        "name" : "update_task"
+      } ],
+      "source" : "https://github.com/its-dart/dart-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/92822028?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Dart AI",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dart.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dart.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/its-dart/dart-mcp-server",
+      "resources" : { }
+    }
+  }
+}

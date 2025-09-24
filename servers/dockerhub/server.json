@@ -1,0 +1,83 @@
+{
+  "name" : "com.docker.mcp/dockerhub",
+  "description" : "Docker Hub official MCP server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/dockerhub",
+    "version" : "sha256:6d15361c655580c7aad72b0152daef9208b466577e794361f64904aa974f5e67",
+    "environmentVariables" : [ {
+      "name" : "HUB_PAT_TOKEN",
+      "value" : "{dockerhub.pat_token}",
+      "variables" : {
+        "dockerhub.pat_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "named",
+      "name" : "--transport",
+      "value" : "stdio"
+    }, {
+      "type" : "named",
+      "name" : "--username",
+      "value" : "{dockerhub.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "dockerhub.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "docker", "dockerhub" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ {
+        "name" : "checkRepository"
+      }, {
+        "name" : "checkRepositoryTag"
+      }, {
+        "name" : "createRepository"
+      }, {
+        "name" : "dockerHardenedImages"
+      }, {
+        "name" : "getPersonalNamespace"
+      }, {
+        "name" : "getRepositoryInfo"
+      }, {
+        "name" : "getRepositoryTag"
+      }, {
+        "name" : "listAllNamespacesMemberOf"
+      }, {
+        "name" : "listNamespaces"
+      }, {
+        "name" : "listRepositoriesByNamespace"
+      }, {
+        "name" : "listRepositoryTags"
+      }, {
+        "name" : "search"
+      }, {
+        "name" : "updateRepositoryInfo"
+      } ],
+      "source" : "https://github.com/docker/hub-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/5429470?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Docker Hub",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dockerhub.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dockerhub.json",
+      "dateAdded" : "2025-06-16T15:56:21Z",
+      "upstream" : "https://github.com/docker/hub-mcp",
+      "resources" : { }
+    }
+  }
+}

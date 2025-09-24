@@ -1,0 +1,42 @@
+{
+  "name" : "com.docker.mcp/openzeppelin-solidity",
+  "description" : "Access to OpenZeppelin Solidity Contracts.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.openzeppelin.com/contracts/solidity/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "blockchain",
+      "tags" : [ "blockchain", "solidity", "smart-contracts", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ {
+        "name" : "solidity-erc20"
+      }, {
+        "name" : "solidity-erc721"
+      }, {
+        "name" : "solidity-erc1155"
+      }, {
+        "name" : "solidity-stablecoin"
+      }, {
+        "name" : "solidity-rwa"
+      }, {
+        "name" : "solidity-account"
+      }, {
+        "name" : "solidity-governor"
+      }, {
+        "name" : "solidity-custom"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
+      "prompts" : 0,
+      "title" : "OpenZeppelin Solidity Contracts",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openzeppelin-solidity.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openzeppelin-solidity.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

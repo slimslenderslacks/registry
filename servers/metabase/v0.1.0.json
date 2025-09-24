@@ -1,0 +1,129 @@
+{
+  "name" : "com.docker.mcp/metabase",
+  "description" : "A comprehensive MCP server for Metabase with 70+ tools.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/metabase",
+    "version" : "sha256:02e633ae77a11d2f02e7ae3d52fce9abb871eab9f436010b1fee8c072cb2dd74",
+    "environmentVariables" : [ {
+      "name" : "METABASE_API_KEY",
+      "value" : "{metabase.MetaBaseAPIKey}",
+      "variables" : {
+        "metabase.MetaBaseAPIKey" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "METABASE_PASSWORD",
+      "value" : "{metabase.MetaBasePassword}",
+      "variables" : {
+        "metabase.MetaBasePassword" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "METABASE_URL",
+      "value" : "{metabase.metabaseurl}",
+      "isRepeated" : false,
+      "variables" : {
+        "metabase.metabaseurl" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "METABASE_USERNAME",
+      "value" : "{metabase.metabaseusername}",
+      "isRepeated" : false,
+      "variables" : {
+        "metabase.metabaseusername" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "data-visualization",
+      "tags" : [ "data-visualization" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "add_card_to_dashboard"
+      }, {
+        "name" : "create_card"
+      }, {
+        "name" : "create_collection"
+      }, {
+        "name" : "create_dashboard"
+      }, {
+        "name" : "create_database_connection"
+      }, {
+        "name" : "create_permission_group"
+      }, {
+        "name" : "create_user"
+      }, {
+        "name" : "delete_card"
+      }, {
+        "name" : "delete_dashboard"
+      }, {
+        "name" : "execute_card"
+      }, {
+        "name" : "execute_query"
+      }, {
+        "name" : "get_dashboard_cards"
+      }, {
+        "name" : "get_database_schema"
+      }, {
+        "name" : "get_database_sync_status"
+      }, {
+        "name" : "get_database_tables"
+      }, {
+        "name" : "list_cards"
+      }, {
+        "name" : "list_collections"
+      }, {
+        "name" : "list_dashboards"
+      }, {
+        "name" : "list_databases"
+      }, {
+        "name" : "list_permission_groups"
+      }, {
+        "name" : "list_users"
+      }, {
+        "name" : "remove_card_from_dashboard"
+      }, {
+        "name" : "search_content"
+      }, {
+        "name" : "sync_database_schema"
+      }, {
+        "name" : "test_database_connection"
+      }, {
+        "name" : "update_card"
+      }, {
+        "name" : "update_dashboard"
+      }, {
+        "name" : "update_dashboard_card"
+      } ],
+      "source" : "https://github.com/easecloudio/mcp-metabase-server/tree/v1.0.2",
+      "icon" : "https://avatars.githubusercontent.com/u/10520629?s=48&v=4",
+      "prompts" : 0,
+      "title" : "Metabase MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/metabase.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/metabase.json",
+      "dateAdded" : "2025-07-29T14:05:27Z",
+      "upstream" : "https://github.com/easecloudio/mcp-metabase-server",
+      "resources" : { },
+      "owner" : "easecloudio"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "e4c5358e-5c04-4939-b995-261dbfae52e4"
+    }
+  }
+}

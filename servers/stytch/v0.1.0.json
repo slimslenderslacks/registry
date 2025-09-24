@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/stytch",
+  "description" : "Implement passwordless authentication with magic links, OTPs, biometrics, and enterprise-grade security.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "http://mcp.stytch.dev/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "security", "authentication", "identity", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=stytch.com&sz=64",
+      "prompts" : 0,
+      "title" : "Stytch",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/stytch.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "6fd3e6f0-e1bd-4ba6-afc0-ee1eed815f35"
+    }
+  }
+}

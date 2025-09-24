@@ -1,0 +1,70 @@
+{
+  "name" : "com.docker.mcp/gitlab",
+  "description" : "MCP Server for the GitLab API, enabling project management, file operations, and more.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/gitlab",
+    "version" : "sha256:a1b8571a210a3c8b17b288498d287cd1c3512c10519330ea71ca48e559e78917",
+    "environmentVariables" : [ {
+      "name" : "GITLAB_PERSONAL_ACCESS_TOKEN",
+      "value" : "{gitlab.personal_access_token}",
+      "variables" : {
+        "gitlab.personal_access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "GITLAB_API_URL",
+      "value" : "{gitlab.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "gitlab.url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "api url - optional for self-hosted instances"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "gitlab", "devops" ],
+      "license" : "MIT License",
+      "owner" : "modelcontextprotocol",
+      "tools" : [ {
+        "name" : "create_branch"
+      }, {
+        "name" : "create_issue"
+      }, {
+        "name" : "create_merge_request"
+      }, {
+        "name" : "create_or_update_file"
+      }, {
+        "name" : "create_repository"
+      }, {
+        "name" : "fork_repository"
+      }, {
+        "name" : "get_file_contents"
+      }, {
+        "name" : "push_files"
+      }, {
+        "name" : "search_repositories"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24",
+      "icon" : "https://avatars.githubusercontent.com/u/1086321?s=200&v=4",
+      "prompts" : 0,
+      "title" : "GitLab (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/gitlab.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/gitlab.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { }
+    }
+  }
+}

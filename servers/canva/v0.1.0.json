@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/canva",
+  "description" : "Create professional graphics, presentations, and marketing materials with AI-powered design tools and templates.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.canva.com/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "design",
+      "tags" : [ "design", "graphics", "creative", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+      "prompts" : 0,
+      "title" : "Canva",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/canva.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "45ca943f-d523-4008-90d7-f000a14ede74"
+    }
+  }
+}

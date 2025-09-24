@@ -1,0 +1,96 @@
+{
+  "name" : "com.docker.mcp/github",
+  "description" : "Tools for interacting with the GitHub API, enabling file operations, repository management, search functionality, and more.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/github",
+    "version" : "sha256:89fd71b6f2dd098de0d7517c1899b7fe90590d3193e253991d61a800b041bfd4",
+    "environmentVariables" : [ {
+      "name" : "GITHUB_PERSONAL_ACCESS_TOKEN",
+      "value" : "{github.personal_access_token}",
+      "variables" : {
+        "github.personal_access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "github", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "add_issue_comment"
+      }, {
+        "name" : "create_branch"
+      }, {
+        "name" : "create_issue"
+      }, {
+        "name" : "create_or_update_file"
+      }, {
+        "name" : "create_pull_request"
+      }, {
+        "name" : "create_pull_request_review"
+      }, {
+        "name" : "create_repository"
+      }, {
+        "name" : "fork_repository"
+      }, {
+        "name" : "get_file_contents"
+      }, {
+        "name" : "get_issue"
+      }, {
+        "name" : "get_pull_request"
+      }, {
+        "name" : "get_pull_request_comments"
+      }, {
+        "name" : "get_pull_request_files"
+      }, {
+        "name" : "get_pull_request_reviews"
+      }, {
+        "name" : "get_pull_request_status"
+      }, {
+        "name" : "list_commits"
+      }, {
+        "name" : "list_issues"
+      }, {
+        "name" : "list_pull_requests"
+      }, {
+        "name" : "merge_pull_request"
+      }, {
+        "name" : "push_files"
+      }, {
+        "name" : "search_code"
+      }, {
+        "name" : "search_issues"
+      }, {
+        "name" : "search_repositories"
+      }, {
+        "name" : "search_users"
+      }, {
+        "name" : "update_issue"
+      }, {
+        "name" : "update_pull_request_branch"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "GitHub (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/github.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/github.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "1b3e9360-28d0-4b47-bb2b-14852574606d"
+    }
+  }
+}

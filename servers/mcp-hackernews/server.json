@@ -1,0 +1,38 @@
+{
+  "name" : "com.docker.mcp/mcp-hackernews",
+  "description" : "A Model Context Protocol (MCP) server that provides access to Hacker News stories, comments, and user data, with support for search and content retrieval.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/hackernews-mcp",
+    "version" : "sha256:2e5c5cc89490848e1b5c0dc677f0dd5076dd09984be699e230cad387fb5f582f"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "search" ],
+      "owner" : "AayushBahukhandi",
+      "tools" : [ {
+        "name" : "get_stories"
+      }, {
+        "name" : "get_story_info"
+      }, {
+        "name" : "get_user_info"
+      }, {
+        "name" : "search_stories"
+      } ],
+      "source" : "https://github.com/AayushBahukhandi/hackernews-mcp/tree/main",
+      "icon" : "https://news.ycombinator.com/y18.svg",
+      "prompts" : 0,
+      "title" : "Hackernews mcp",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mcp-hackernews.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mcp-hackernews.json",
+      "dateAdded" : "2025-09-15T16:12:49Z",
+      "upstream" : "https://github.com/AayushBahukhandi/hackernews-mcp",
+      "resources" : { }
+    }
+  }
+}

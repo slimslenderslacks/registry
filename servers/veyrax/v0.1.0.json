@@ -1,0 +1,49 @@
+{
+  "name" : "com.docker.mcp/veyrax",
+  "description" : "VeyraX MCP is the only connection you need to access all your tools in any MCP-compatible environment.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/veyrax",
+    "version" : "sha256:257d915330722bc84dbeec0a709a2e7edf9ba83b268799d075dad5cbb53d62b7",
+    "environmentVariables" : [ {
+      "name" : "VEYRAX_API_KEY",
+      "value" : "{veyrax.api_key}",
+      "variables" : {
+        "veyrax.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "veyrax", "devops" ],
+      "tools" : [ {
+        "name" : "get_flow"
+      }, {
+        "name" : "get_tools"
+      }, {
+        "name" : "tool_call"
+      } ],
+      "source" : "https://github.com/VeyraX/veyrax-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/201344226?s=200&v=4",
+      "prompts" : 0,
+      "title" : "VeyraX",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/veyrax.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/veyrax.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/VeyraX/veyrax-mcp",
+      "resources" : { },
+      "owner" : "VeyraX"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "c0a93e6b-16d1-4bad-be82-c14b39488c77"
+    }
+  }
+}

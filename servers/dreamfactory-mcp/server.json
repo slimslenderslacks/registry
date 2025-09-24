@@ -1,0 +1,68 @@
+{
+  "name" : "com.docker.mcp/dreamfactory-mcp",
+  "description" : "DreamFactory is a REST API generation platform with support for hundreds of data sources, including Microsoft SQL Server, MySQL, PostgreSQL, and MongoDB. The DreamFactory MCP Server makes it easy for users to securely interact with their data sources via an MCP client.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/df-mcp",
+    "version" : "sha256:c71c0564003a8dc4409aedd54a0e5bb4a0cd26ff91de849b46526aadb90f3aa8",
+    "environmentVariables" : [ {
+      "name" : "DREAMFACTORY_URL",
+      "value" : "{dreamfactory-mcp.dreamfactoryurl}",
+      "isRepeated" : false,
+      "variables" : {
+        "dreamfactory-mcp.dreamfactoryurl" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "DREAMFACTORY_API_KEY",
+      "value" : "{dreamfactory-mcp.dreamfactoryapikey}",
+      "isRepeated" : false,
+      "variables" : {
+        "dreamfactory-mcp.dreamfactoryapikey" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "database" ],
+      "license" : "Apache License 2.0",
+      "owner" : "dreamfactorysoftware",
+      "tools" : [ {
+        "name" : "call-stored-function"
+      }, {
+        "name" : "call-stored-procedure"
+      }, {
+        "name" : "get-stored-functions"
+      }, {
+        "name" : "get-stored-procedures"
+      }, {
+        "name" : "get-table-data"
+      }, {
+        "name" : "get-table-schema"
+      }, {
+        "name" : "get-tables"
+      }, {
+        "name" : "list-tools"
+      } ],
+      "source" : "https://github.com/dreamfactorysoftware/df-mcp/tree/master",
+      "icon" : "https://avatars.githubusercontent.com/u/2593688?v=4",
+      "prompts" : 0,
+      "title" : "DreamFactory MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dreamfactory-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dreamfactory-mcp.json",
+      "dateAdded" : "2025-09-17T06:19:29Z",
+      "upstream" : "https://github.com/dreamfactorysoftware/df-mcp",
+      "resources" : { }
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name" : "com.docker.mcp/rust-mcp-filesystem",
+  "description" : "The Rust MCP Filesystem is a high-performance, asynchronous, and lightweight Model Context Protocol (MCP) server built in Rust for secure and efficient filesystem operations. Designed with security in mind, it operates in read-only mode by default and restricts clients from updating allowed directories via MCP Roots unless explicitly enabled, ensuring robust protection against unauthorized access. Leveraging asynchronous I/O, it delivers blazingly fast performance with a minimal resource footprint. Optimized for token efficiency, the Rust MCP Filesystem enables large language models (LLMs) to precisely target searches and edits within specific sections of large files and restrict operations by file size range, making it ideal for efficient file exploration, automation, and system integration.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/rust-mcp-filesystem",
+    "version" : "sha256:487f4cb1d4e0ecefb4bba648988371b9dae1f162c405d7889cd28ffede8e1e05",
+    "environmentVariables" : [ {
+      "name" : "ENABLE_ROOTS",
+      "value" : "{rust-mcp-filesystem.enable_roots}",
+      "isRepeated" : false,
+      "variables" : {
+        "rust-mcp-filesystem.enable_roots" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Enable dynamic directory access control via MCP client-side Roots."
+        }
+      }
+    }, {
+      "name" : "ALLOW_WRITE",
+      "value" : "{rust-mcp-filesystem.allow_write}",
+      "isRepeated" : false,
+      "variables" : {
+        "rust-mcp-filesystem.allow_write" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Enable read/write mode. If false, the app operates in read-only mode."
+        }
+      }
+    } ],
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{rust-mcp-filesystem.allowed_directories}:{rust-mcp-filesystem.allowed_directories}",
+      "isRepeated" : true,
+      "variables" : {
+        "rust-mcp-filesystem.allowed_directories" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "List of directories that rust-mcp-filesystem can access."
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "{rust-mcp-filesystem.allowed_directories|volume-target|into}",
+      "isRepeated" : true,
+      "variables" : {
+        "rust-mcp-filesystem.allowed_directories" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "List of directories that rust-mcp-filesystem can access."
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "owner" : "rust-mcp-stack",
+      "tools" : [ {
+        "name" : "calculate_directory_size"
+      }, {
+        "name" : "create_directory"
+      }, {
+        "name" : "directory_tree"
+      }, {
+        "name" : "edit_file"
+      }, {
+        "name" : "find_duplicate_files"
+      }, {
+        "name" : "find_empty_directories"
+      }, {
+        "name" : "get_file_info"
+      }, {
+        "name" : "head_file"
+      }, {
+        "name" : "head_file"
+      }, {
+        "name" : "list_allowed_directories"
+      }, {
+        "name" : "list_directory"
+      }, {
+        "name" : "list_directory_with_sizes"
+      }, {
+        "name" : "move_file"
+      }, {
+        "name" : "read_file_lines"
+      }, {
+        "name" : "read_media_file"
+      }, {
+        "name" : "read_multiple_media_files"
+      }, {
+        "name" : "read_multiple_text_files"
+      }, {
+        "name" : "read_text_file"
+      }, {
+        "name" : "search_files"
+      }, {
+        "name" : "search_files_content"
+      }, {
+        "name" : "unzip_file"
+      }, {
+        "name" : "write_file"
+      }, {
+        "name" : "zip_directory"
+      }, {
+        "name" : "zip_files"
+      } ],
+      "source" : "https://github.com/rust-mcp-stack/rust-mcp-filesystem/tree/main",
+      "icon" : "https://raw.githubusercontent.com/rust-mcp-stack/rust-mcp-filesystem/refs/heads/main/docs/_media/rust-mcp-filesystem.png",
+      "prompts" : 0,
+      "title" : "Blazing-fast, asynchronous MCP server for seamless filesystem operations.",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/rust-mcp-filesystem.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/rust-mcp-filesystem.json",
+      "dateAdded" : "2025-09-24T20:01:26Z",
+      "upstream" : "https://github.com/rust-mcp-stack/rust-mcp-filesystem",
+      "resources" : { }
+    }
+  }
+}

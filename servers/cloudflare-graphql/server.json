@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-graphql",
+  "description" : "Get analytics data using Cloudflare's GraphQL API.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://graphql.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "analytics",
+      "tags" : [ "analytics", "graphql", "api", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-graphql",
+          "secret" : "cloudflare-graphql.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare GraphQL",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-graphql.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { }
+    }
+  }
+}

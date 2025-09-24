@@ -1,0 +1,40 @@
+{
+  "name" : "com.docker.mcp/aws-diagram",
+  "description" : "Seamlessly create diagrams using the Python diagrams package DSL. This server allows you to generate AWS diagrams, sequence diagrams, flow diagrams, and class diagrams using Python code.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-diagram",
+    "version" : "sha256:9f7eac66272a36761ab1864723696f9092c822903a0cdfc6ae3d5a0325457cc9"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws-diagram", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "generate_diagram"
+      }, {
+        "name" : "get_diagram_examples"
+      }, {
+        "name" : "list_icons"
+      } ],
+      "source" : "https://github.com/awslabs/mcp/tree/main/src/aws-diagram-mcp-server",
+      "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "prompts" : 0,
+      "title" : "AWS Diagram",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/aws-diagram.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/aws-diagram.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/awslabs/mcp",
+      "resources" : { },
+      "owner" : "awslabs"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "cfa3b560-333d-4fa3-808b-4ab7ed060520"
+    }
+  }
+}

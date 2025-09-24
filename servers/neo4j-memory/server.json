@@ -1,0 +1,149 @@
+{
+  "name" : "com.docker.mcp/neo4j-memory",
+  "description" : "Provide persistent memory capabilities through Neo4j graph database integration.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/neo4j-memory",
+    "version" : "sha256:7d07cd6143d1713d155e7f5afcf05d0c77b9cc6800c4a508bfeca20bb1e0a433",
+    "environmentVariables" : [ {
+      "name" : "NEO4J_PASSWORD",
+      "value" : "{neo4j-memory.password}",
+      "variables" : {
+        "neo4j-memory.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "NEO4J_URL",
+      "value" : "{neo4j-memory.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_USERNAME",
+      "value" : "{neo4j-memory.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_DATABASE",
+      "value" : "{neo4j-memory.database}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.database" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_TRANSPORT",
+      "value" : "{neo4j-memory.transport}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.transport" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_HOST",
+      "value" : "{neo4j-memory.server_host}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.server_host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PORT",
+      "value" : "{neo4j-memory.server_port}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.server_port" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PATH",
+      "value" : "{neo4j-memory.server_path}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.server_path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOW_ORIGINS",
+      "value" : "{neo4j-memory.server_allow_origins}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.server_allow_origins" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOWED_HOSTS",
+      "value" : "{neo4j-memory.server_allowed_hosts}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-memory.server_allowed_hosts" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "neo4j-memory", "devops" ],
+      "license" : "MIT License",
+      "owner" : "neo4j-contrib",
+      "tools" : [ {
+        "name" : "add_observations"
+      }, {
+        "name" : "create_entities"
+      }, {
+        "name" : "create_relations"
+      }, {
+        "name" : "delete_entities"
+      }, {
+        "name" : "delete_observations"
+      }, {
+        "name" : "delete_relations"
+      }, {
+        "name" : "find_memories_by_name"
+      }, {
+        "name" : "read_graph"
+      }, {
+        "name" : "search_memories"
+      } ],
+      "source" : "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-memory",
+      "icon" : "https://avatars.githubusercontent.com/u/916372?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Neo4j Memory",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/neo4j-memory.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/neo4j-memory.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/neo4j-contrib/mcp-neo4j",
+      "resources" : { }
+    }
+  }
+}

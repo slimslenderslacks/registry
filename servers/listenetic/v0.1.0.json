@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/listenetic",
+  "description" : "Transform audio content into actionable insights with AI-powered transcription and analysis tools.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.listenetic.com/v1/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "audio", "transcription", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=listenetic.ai&sz=64",
+      "prompts" : 0,
+      "title" : "Listenetic",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/listenetic.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "9d6f2f1b-a998-4338-a7f7-fa2666d5027f"
+    }
+  }
+}

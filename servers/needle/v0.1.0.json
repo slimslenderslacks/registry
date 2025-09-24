@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/needle",
+  "description" : "Production-ready RAG service to search and retrieve data from your documents.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.needle.app/mcp",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer ${NEEDLE_API_KEY}"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "rag", "knowledge-base", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=needle.app&sz=64",
+      "prompts" : 0,
+      "title" : "Needle Remote MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/needle.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/needle.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "c80aa7cd-e4fc-404f-87fa-f5e020d9442b"
+    }
+  }
+}

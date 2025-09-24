@@ -1,0 +1,246 @@
+{
+  "name" : "com.docker.mcp/teamwork",
+  "description" : "Tools for Teamwork.com products.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/teamwork",
+    "version" : "sha256:ed24c3c553318b6c36e6281ef34e29060956aa99e0cedbb856cefae852ebbbc0",
+    "environmentVariables" : [ {
+      "name" : "TW_MCP_BEARER_TOKEN",
+      "value" : "{teamwork.tw_mcp_bearer_token}",
+      "variables" : {
+        "teamwork.tw_mcp_bearer_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "ai", "artificial-intelligence", "teamwork" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "twdesk-create_company"
+      }, {
+        "name" : "twdesk-create_customer"
+      }, {
+        "name" : "twdesk-create_message"
+      }, {
+        "name" : "twdesk-create_priority"
+      }, {
+        "name" : "twdesk-create_status"
+      }, {
+        "name" : "twdesk-create_tag"
+      }, {
+        "name" : "twdesk-create_ticket"
+      }, {
+        "name" : "twdesk-create_type"
+      }, {
+        "name" : "twdesk-get_company"
+      }, {
+        "name" : "twdesk-get_customer"
+      }, {
+        "name" : "twdesk-get_priority"
+      }, {
+        "name" : "twdesk-get_status"
+      }, {
+        "name" : "twdesk-get_tag"
+      }, {
+        "name" : "twdesk-get_ticket"
+      }, {
+        "name" : "twdesk-get_type"
+      }, {
+        "name" : "twdesk-get_user"
+      }, {
+        "name" : "twdesk-list_companies"
+      }, {
+        "name" : "twdesk-list_customers"
+      }, {
+        "name" : "twdesk-list_priorities"
+      }, {
+        "name" : "twdesk-list_statuses"
+      }, {
+        "name" : "twdesk-list_tags"
+      }, {
+        "name" : "twdesk-list_tickets"
+      }, {
+        "name" : "twdesk-list_types"
+      }, {
+        "name" : "twdesk-list_users"
+      }, {
+        "name" : "twdesk-update_company"
+      }, {
+        "name" : "twdesk-update_customer"
+      }, {
+        "name" : "twdesk-update_priority"
+      }, {
+        "name" : "twdesk-update_status"
+      }, {
+        "name" : "twdesk-update_tag"
+      }, {
+        "name" : "twdesk-update_ticket"
+      }, {
+        "name" : "twdesk-update_type"
+      }, {
+        "name" : "twprojects-add_project_member"
+      }, {
+        "name" : "twprojects-complete_timer"
+      }, {
+        "name" : "twprojects-create_comment"
+      }, {
+        "name" : "twprojects-create_company"
+      }, {
+        "name" : "twprojects-create_milestone"
+      }, {
+        "name" : "twprojects-create_notebook"
+      }, {
+        "name" : "twprojects-create_project"
+      }, {
+        "name" : "twprojects-create_tag"
+      }, {
+        "name" : "twprojects-create_task"
+      }, {
+        "name" : "twprojects-create_tasklist"
+      }, {
+        "name" : "twprojects-create_team"
+      }, {
+        "name" : "twprojects-create_timelog"
+      }, {
+        "name" : "twprojects-create_timer"
+      }, {
+        "name" : "twprojects-create_user"
+      }, {
+        "name" : "twprojects-get_comment"
+      }, {
+        "name" : "twprojects-get_company"
+      }, {
+        "name" : "twprojects-get_milestone"
+      }, {
+        "name" : "twprojects-get_notebook"
+      }, {
+        "name" : "twprojects-get_project"
+      }, {
+        "name" : "twprojects-get_tag"
+      }, {
+        "name" : "twprojects-get_task"
+      }, {
+        "name" : "twprojects-get_tasklist"
+      }, {
+        "name" : "twprojects-get_team"
+      }, {
+        "name" : "twprojects-get_timelog"
+      }, {
+        "name" : "twprojects-get_timer"
+      }, {
+        "name" : "twprojects-get_user"
+      }, {
+        "name" : "twprojects-get_user_me"
+      }, {
+        "name" : "twprojects-list_activities"
+      }, {
+        "name" : "twprojects-list_activities_by_project"
+      }, {
+        "name" : "twprojects-list_comments"
+      }, {
+        "name" : "twprojects-list_comments_by_file_version"
+      }, {
+        "name" : "twprojects-list_comments_by_milestone"
+      }, {
+        "name" : "twprojects-list_comments_by_notebook"
+      }, {
+        "name" : "twprojects-list_comments_by_task"
+      }, {
+        "name" : "twprojects-list_companies"
+      }, {
+        "name" : "twprojects-list_industries"
+      }, {
+        "name" : "twprojects-list_milestones"
+      }, {
+        "name" : "twprojects-list_milestones_by_project"
+      }, {
+        "name" : "twprojects-list_notebooks"
+      }, {
+        "name" : "twprojects-list_projects"
+      }, {
+        "name" : "twprojects-list_tags"
+      }, {
+        "name" : "twprojects-list_tasklists"
+      }, {
+        "name" : "twprojects-list_tasklists_by_project"
+      }, {
+        "name" : "twprojects-list_tasks"
+      }, {
+        "name" : "twprojects-list_tasks_by_project"
+      }, {
+        "name" : "twprojects-list_tasks_by_tasklist"
+      }, {
+        "name" : "twprojects-list_teams"
+      }, {
+        "name" : "twprojects-list_teams_by_company"
+      }, {
+        "name" : "twprojects-list_teams_by_project"
+      }, {
+        "name" : "twprojects-list_timelogs"
+      }, {
+        "name" : "twprojects-list_timelogs_by_project"
+      }, {
+        "name" : "twprojects-list_timelogs_by_task"
+      }, {
+        "name" : "twprojects-list_timers"
+      }, {
+        "name" : "twprojects-list_users"
+      }, {
+        "name" : "twprojects-list_users_by_project"
+      }, {
+        "name" : "twprojects-pause_timer"
+      }, {
+        "name" : "twprojects-resume_timer"
+      }, {
+        "name" : "twprojects-update_comment"
+      }, {
+        "name" : "twprojects-update_company"
+      }, {
+        "name" : "twprojects-update_milestone"
+      }, {
+        "name" : "twprojects-update_notebook"
+      }, {
+        "name" : "twprojects-update_project"
+      }, {
+        "name" : "twprojects-update_tag"
+      }, {
+        "name" : "twprojects-update_task"
+      }, {
+        "name" : "twprojects-update_tasklist"
+      }, {
+        "name" : "twprojects-update_team"
+      }, {
+        "name" : "twprojects-update_timelog"
+      }, {
+        "name" : "twprojects-update_timer"
+      }, {
+        "name" : "twprojects-update_user"
+      }, {
+        "name" : "twprojects-users_workload"
+      } ],
+      "source" : "https://github.com/teamwork/mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/4037476?v=4",
+      "prompts" : 0,
+      "title" : "Teamwork",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/teamwork.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/teamwork.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/teamwork/mcp",
+      "resources" : { },
+      "owner" : "Teamwork"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "5309db1c-ff7c-4e2c-a6af-0d494a8e6bdb"
+    }
+  }
+}

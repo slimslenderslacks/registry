@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/prisma-postgres",
+  "description" : "Access PostgreSQL databases through Prisma's type-safe ORM with automated migrations and intuitive query building.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.prisma.io/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "database", "postgres", "orm", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=prisma.io&sz=64",
+      "prompts" : 0,
+      "title" : "Prisma Postgres",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/prisma-postgres.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "73527439-1fe9-4014-9467-b20c6381e290"
+    }
+  }
+}

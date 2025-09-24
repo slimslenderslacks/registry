@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/intercom",
+  "description" : "Deliver AI-powered customer support with live chat, automated workflows, and omnichannel messaging.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.intercom.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "support",
+      "tags" : [ "support", "customer-service", "messaging", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=intercom.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "intercom",
+          "secret" : "intercom.personal_access_token",
+          "env" : "INTERCOM_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Intercom",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/intercom.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

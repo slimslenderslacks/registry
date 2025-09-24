@@ -1,0 +1,136 @@
+{
+  "name" : "com.docker.mcp/razorpay",
+  "description" : "Razorpay's Official MCP Server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/razorpay",
+    "version" : "sha256:c4218aaf8f9e57eb79afec3491861de98d142b7a40a7f1a13a9b4f03060f346b",
+    "environmentVariables" : [ {
+      "name" : "RAZORPAY_KEY_SECRET",
+      "value" : "{razorpay.key_secret}",
+      "variables" : {
+        "razorpay.key_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "RAZORPAY_KEY_ID",
+      "value" : "{razorpay.key_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "razorpay.key_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "razorpay", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "capture_payment"
+      }, {
+        "name" : "close_qr_code"
+      }, {
+        "name" : "create_instant_settlement"
+      }, {
+        "name" : "create_order"
+      }, {
+        "name" : "create_payment_link"
+      }, {
+        "name" : "create_qr_code"
+      }, {
+        "name" : "create_refund"
+      }, {
+        "name" : "fetch_all_instant_settlements"
+      }, {
+        "name" : "fetch_all_orders"
+      }, {
+        "name" : "fetch_all_payment_links"
+      }, {
+        "name" : "fetch_all_payments"
+      }, {
+        "name" : "fetch_all_payouts"
+      }, {
+        "name" : "fetch_all_qr_codes"
+      }, {
+        "name" : "fetch_all_refunds"
+      }, {
+        "name" : "fetch_all_settlements"
+      }, {
+        "name" : "fetch_instant_settlement_with_id"
+      }, {
+        "name" : "fetch_multiple_refunds_for_payment"
+      }, {
+        "name" : "fetch_order"
+      }, {
+        "name" : "fetch_order_payments"
+      }, {
+        "name" : "fetch_payment"
+      }, {
+        "name" : "fetch_payment_card_details"
+      }, {
+        "name" : "fetch_payment_link"
+      }, {
+        "name" : "fetch_payments_for_qr_code"
+      }, {
+        "name" : "fetch_payout_with_id"
+      }, {
+        "name" : "fetch_qr_code"
+      }, {
+        "name" : "fetch_qr_codes_by_customer_id"
+      }, {
+        "name" : "fetch_qr_codes_by_payment_id"
+      }, {
+        "name" : "fetch_refund"
+      }, {
+        "name" : "fetch_settlement_recon_details"
+      }, {
+        "name" : "fetch_settlement_with_id"
+      }, {
+        "name" : "fetch_specific_refund_for_payment"
+      }, {
+        "name" : "fetch_tokens"
+      }, {
+        "name" : "initiate_payment"
+      }, {
+        "name" : "payment_link_notify"
+      }, {
+        "name" : "payment_link_upi_create"
+      }, {
+        "name" : "resend_otp"
+      }, {
+        "name" : "submit_otp"
+      }, {
+        "name" : "update_order"
+      }, {
+        "name" : "update_payment"
+      }, {
+        "name" : "update_payment_link"
+      }, {
+        "name" : "update_refund"
+      } ],
+      "source" : "https://github.com/razorpay/razorpay-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/7713209?v=4",
+      "prompts" : 0,
+      "title" : "Razorpay",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/razorpay.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/razorpay.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/razorpay/razorpay-mcp-server",
+      "resources" : { },
+      "owner" : "razorpay"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "ba154b41-1c89-43d6-9321-25a9c6ce7821"
+    }
+  }
+}

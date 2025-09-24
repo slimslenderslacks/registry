@@ -1,0 +1,54 @@
+{
+  "name" : "com.docker.mcp/memory",
+  "description" : "Knowledge graph-based persistent memory system.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/memory",
+    "version" : "sha256:db0c2db07a44b6797eba7a832b1bda142ffc899588aae82c92780cbb2252407f",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "claude-memory:/app/dist"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "mcp", "ai" ],
+      "license" : "MIT License",
+      "owner" : "modelcontextprotocol",
+      "tools" : [ {
+        "name" : "add_observations"
+      }, {
+        "name" : "create_entities"
+      }, {
+        "name" : "create_relations"
+      }, {
+        "name" : "delete_entities"
+      }, {
+        "name" : "delete_observations"
+      }, {
+        "name" : "delete_relations"
+      }, {
+        "name" : "open_nodes"
+      }, {
+        "name" : "read_graph"
+      }, {
+        "name" : "search_nodes"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/memory",
+      "icon" : "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/knowledgebase.svg",
+      "prompts" : 0,
+      "title" : "Memory (Reference)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/memory.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/memory.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { }
+    }
+  }
+}

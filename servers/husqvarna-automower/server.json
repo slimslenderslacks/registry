@@ -1,0 +1,52 @@
+{
+  "name" : "com.docker.mcp/husqvarna-automower",
+  "description" : "MCP Server for huqsvarna automower.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/husqvarna-automower",
+    "version" : "sha256:05efbdf5e90f0b65f841dd8b3c735b48ccf21a60c410fc49b3e7551a2d7c583b",
+    "environmentVariables" : [ {
+      "name" : "HUSQVARNA_CLIENT_SECRET",
+      "value" : "{husqvarna.client.secret}",
+      "variables" : {
+        "husqvarna.client.secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "HUSQVARNA_CLIENT_ID",
+      "value" : "{husqvarna-automower.client_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "husqvarna-automower.client_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "husqvarna-automower", "devops" ],
+      "owner" : "jeanlaurent",
+      "tools" : [ {
+        "name" : "Husqvarna Automowers Status"
+      } ],
+      "source" : "https://github.com/jeanlaurent/mcp-husqvarna-automower/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/17142631?v=4",
+      "prompts" : 0,
+      "title" : "Husqvarna Automower",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/husqvarna-automower.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/husqvarna-automower.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/jeanlaurent/mcp-husqvarna-automower",
+      "resources" : { }
+    }
+  }
+}

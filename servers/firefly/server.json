@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/firefly",
+  "description" : "Transcribe, summarize, and analyze meetings with AI-powered note-taking across video conferencing platforms.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.fireflies.ai/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "meetings", "transcription", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=fireflies.ai&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "firefly",
+          "secret" : "firefly.personal_access_token",
+          "env" : "FIREFLY_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Firefly",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/firefly.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

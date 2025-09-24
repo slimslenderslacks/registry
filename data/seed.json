@@ -89,9 +89,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 24583,
       "stars" : 21,
-      "githubStars" : 3145,
       "category" : "productivity",
       "tags" : [ "atlassian", "confluence", "jira" ],
       "license" : "MIT License",
@@ -182,8 +180,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f30915fc-89cc-413f-b9d5-2dfc8e4a905f",
-      "versionId" : "0f2d1f0c-1906-47d7-b84c-ca63a464b509"
+      "serverId" : "7a283f3d-2fc1-4324-9187-dc77605ff296",
+      "versionId" : "4b0d8dbe-d22d-484a-8560-a79c6bb35c9e"
     }
   }
 }, {
@@ -254,9 +252,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1713,
       "stars" : 2,
-      "githubStars" : 18,
       "category" : "database",
       "tags" : [ "couchbase", "database" ],
       "license" : "Apache License 2.0",
@@ -295,8 +291,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "1fbaacef-f479-48f2-b8a7-c8d8ebd97f9b",
-      "versionId" : "44541ca4-781c-4f88-95f0-d17df77acf98"
+      "serverId" : "0035f223-e72d-45bb-be53-bdf6bbcc34f5",
+      "versionId" : "5e68c697-2a9c-4f03-9c25-0f7b36b60b4a"
     }
   }
 }, {
@@ -339,9 +335,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 20520,
       "stars" : 5,
-      "githubStars" : 65,
       "category" : "devops",
       "tags" : [ "docker", "dockerhub" ],
       "license" : "Apache License 2.0",
@@ -384,8 +378,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b05499da-5ebd-41bc-9301-a74ad846fef4",
-      "versionId" : "1ba6b907-f46c-4670-a054-23f5e862c665"
+      "serverId" : "65d51d71-1cd0-4481-90e4-0887ec7a8bdf",
+      "versionId" : "b8e9599b-a70c-4c69-8635-0c2ba46de077"
     }
   }
 }, {
@@ -402,9 +396,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 70766,
       "stars" : 6,
-      "githubStars" : 496,
       "category" : "devops",
       "tags" : [ "duckduckgo", "devops" ],
       "license" : "MIT License",
@@ -425,8 +417,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "71c0bd7b-aece-44e2-b22b-4aa7f30e29c5",
-      "versionId" : "fe8ffcfb-6751-4149-a8c1-cf3b09f8b1c2"
+      "serverId" : "f51effaf-2210-42dd-8d08-e44000fe467f",
+      "versionId" : "4f88aded-888f-461b-b72c-3b35f0fc4109"
     }
   }
 }, {
@@ -467,9 +459,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 6935,
       "stars" : 10,
-      "githubStars" : 479,
       "category" : "search",
       "tags" : [ "elasticsearch", "search" ],
       "license" : "Apache License 2.0",
@@ -496,8 +486,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a13cc04a-fbcb-40ed-8399-2cd2b558e1b7",
-      "versionId" : "277ac535-b7a8-492b-8ee5-245e58fdc23f"
+      "serverId" : "4090669e-d00f-4c1b-8652-5ee3b0aa2b3b",
+      "versionId" : "55fdb382-de53-4f04-94e8-94290a595f23"
     }
   }
 }, {
@@ -514,9 +504,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 666337,
-      "stars" : 38,
-      "githubStars" : 68780,
+      "stars" : 39,
       "category" : "devops",
       "tags" : [ "fetch", "devops" ],
       "license" : "MIT License",
@@ -535,8 +523,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "858c21f4-ebf6-46ce-a8e5-e0c09211470a",
-      "versionId" : "3c7c5413-74b6-4984-842c-a1612017369f"
+      "serverId" : "cb3a43a7-507d-4126-82a5-8705a85abb5c",
+      "versionId" : "da208d19-b355-4aa2-a710-7406a2a756cb"
     }
   }
 }, {
@@ -565,9 +553,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 36388,
       "stars" : 26,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "gitl", "devops" ],
       "license" : "MIT License",
@@ -608,8 +594,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5abae01b-eb7c-485d-a171-79b8c8e37d48",
-      "versionId" : "c9279c69-0ee1-4518-a85d-2131bbf6040c"
+      "serverId" : "36af4b18-0b9c-46e4-b18f-507455888dfd",
+      "versionId" : "fbf5d320-bf93-4f73-b165-f6e6cdac6af9"
     }
   }
 }, {
@@ -622,7 +608,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/grafana",
-    "version" : "sha256:e460da71009366d5095526149ef94b7506d56978941da268ed63697de8eed2a4",
+    "version" : "sha256:117fb61af572dd16825abaf28888c7641112c010a17e8d159ceb345be5fe67ed",
     "environmentVariables" : [ {
       "name" : "GRAFANA_API_KEY",
       "value" : "{grafana.api_key}",
@@ -651,9 +637,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 76314,
       "stars" : 17,
-      "githubStars" : 1615,
       "category" : "monitoring",
       "tags" : [ "grafana", "monitoring" ],
       "license" : "Apache License 2.0",
@@ -760,8 +744,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "34b53ab4-217f-4bae-ab96-464da42dbf15",
-      "versionId" : "bf607695-b149-4dae-b830-89e1981165bc"
+      "serverId" : "13fa9c02-cde0-48dd-afa3-6b49ef673d0b",
+      "versionId" : "3df9877a-522e-4a55-8442-29be4d94bea0"
     }
   }
 }, {
@@ -788,9 +772,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2797,
       "stars" : 2,
-      "githubStars" : 67,
       "category" : "devops",
       "tags" : [ "heroku", "devops" ],
       "license" : "Apache License 2.0",
@@ -875,8 +857,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "515ea0cf-c24c-4fad-9955-c6ba58d3fa8e",
-      "versionId" : "c9528c9c-8f02-428c-a45b-30d1f8cf1ddf"
+      "serverId" : "8c9b1984-956c-4f7b-a2f5-a942ad995ced",
+      "versionId" : "c92dfaa6-1b74-4e20-ba3a-5717044c8383"
     }
   }
 }, {
@@ -889,7 +871,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/mongodb",
-    "version" : "sha256:1e8e02e4960d33747ad2c867f16650810172e9ea9d7a06eb9820879063808f03",
+    "version" : "sha256:9a097c677d844b61c82c59ee567859c2bda30696b23f546770a6013e9b3b949e",
     "environmentVariables" : [ {
       "name" : "MDB_MCP_CONNECTION_STRING",
       "value" : "{mongodb.connection_string}",
@@ -903,9 +885,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 20698,
       "stars" : 5,
-      "githubStars" : 641,
       "category" : "database",
       "tags" : [ "mongodb", "database" ],
       "license" : "Apache License 2.0",
@@ -964,8 +944,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d525b4c4-7c5f-4e43-9d99-d5df439c9227",
-      "versionId" : "21f7f995-6d04-4622-835f-dde2924374fb"
+      "serverId" : "a3b0384d-9a8e-48a7-bd7c-9c3b5914234d",
+      "versionId" : "66bdc89e-5e5f-48b2-9812-b689c3ed2e2d"
     }
   }
 }, {
@@ -992,9 +972,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3847,
       "stars" : 4,
-      "githubStars" : 470,
       "category" : "database",
       "tags" : [ "neon", "database" ],
       "license" : "MIT License",
@@ -1049,8 +1027,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d943420d-cdef-4900-a373-38825076fc58",
-      "versionId" : "2a74e8ad-f8a0-45a7-b7b8-2f1f8d412569"
+      "serverId" : "d7ebfa45-89d8-427e-9f44-6b8132aaaffb",
+      "versionId" : "8d97ddcb-8997-4e00-8a90-edb78f4fe588"
     }
   }
 }, {
@@ -1080,9 +1058,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 35753,
       "stars" : 29,
-      "githubStars" : 3230,
       "category" : "productivity",
       "tags" : [ "notion", "secrets" ],
       "license" : "MIT License",
@@ -1137,83 +1113,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "312e45a4-2216-4b21-b9a8-0f1a51425073",
-      "versionId" : "293225e5-add7-474a-a6dd-dea8d884104c"
-    }
-  }
-}, {
-  "name" : "com.docker.mcp/pulumi",
-  "description" : "Pulumi MCP server enables AI-powered coding assistants to help you codify cloud architectures and get diffs for infrastructure changes right in your development environment.",
-  "version" : "v0.1.0",
-  "packages" : [ {
-    "registryType" : "oci",
-    "transport" : {
-      "type" : "stdio"
-    },
-    "identifier" : "mcp/pulumi",
-    "version" : "sha256:06ba14e1f542b18d843834974b93c140a5a6b9e3afe68f5b4defc5898bcebfef",
-    "environmentVariables" : [ {
-      "name" : "PULUMI_ACCESS_TOKEN",
-      "value" : "{pulumi.access_token}",
-      "variables" : {
-        "pulumi.access_token" : {
-          "isSecret" : true,
-          "isRequired" : true
-        }
-      }
-    } ],
-    "packageArguments" : [ {
-      "type" : "positional",
-      "value" : "stdio"
-    } ]
-  } ],
-  "_meta" : {
-    "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4238,
-      "stars" : 3,
-      "githubStars" : 66,
-      "category" : "devops",
-      "tags" : [ "pulumi", "devops" ],
-      "license" : "Apache License 2.0",
-      "owner" : "pulumi",
-      "tools" : [ {
-        "name" : "deploy-to-aws"
-      }, {
-        "name" : "neo-task-launcher"
-      }, {
-        "name" : "pulumi-cli-preview"
-      }, {
-        "name" : "pulumi-cli-refresh"
-      }, {
-        "name" : "pulumi-cli-stack-output"
-      }, {
-        "name" : "pulumi-cli-up"
-      }, {
-        "name" : "pulumi-registry-get-function"
-      }, {
-        "name" : "pulumi-registry-get-resource"
-      }, {
-        "name" : "pulumi-registry-get-type"
-      }, {
-        "name" : "pulumi-registry-list-functions"
-      }, {
-        "name" : "pulumi-registry-list-resources"
-      }, {
-        "name" : "pulumi-resource-search"
-      } ],
-      "source" : "https://github.com/pulumi/mcp-server/tree/main",
-      "icon" : "https://avatars.githubusercontent.com/u/21992475?s=200&v=4",
-      "prompts" : 0,
-      "title" : "Pulumi",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/pulumi.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/pulumi.json",
-      "dateAdded" : "2025-05-05T20:08:35Z",
-      "upstream" : "https://github.com/pulumi/mcp-server",
-      "resources" : { }
-    },
-    "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3f8bca4e-454a-4a7f-b996-c0d1c218b317",
-      "versionId" : "f12d699a-75f9-47e4-a9ae-ee369d241f34"
+      "serverId" : "f1dfa816-916d-4515-8f76-865ef91a02a7",
+      "versionId" : "faa04e4f-53aa-4643-a679-7fb3951acc76"
     }
   }
 }, {
@@ -1234,9 +1135,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 86576,
       "stars" : 30,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "puppeteer", "devops" ],
       "license" : "MIT License",
@@ -1267,8 +1166,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "15cb1571-360b-4617-b55e-194aed42a55b",
-      "versionId" : "9a95d6ec-5102-4d6b-845a-fde7a0a6c0cc"
+      "serverId" : "15c97008-1ff4-4d59-88f9-2b0f746eb6be",
+      "versionId" : "1e87b2d9-fade-43ca-8223-9348f59618f1"
     }
   }
 }, {
@@ -1300,9 +1199,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 7055,
       "stars" : 8,
-      "githubStars" : 961,
       "category" : "finance",
       "tags" : [ "stripe", "finance" ],
       "license" : "MIT License",
@@ -1363,8 +1260,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c833e5f8-4e60-4b84-9ee1-44609973ca12",
-      "versionId" : "e32799ac-77c6-4c61-9a6d-6f5391b37f53"
+      "serverId" : "a0296c85-0631-4d23-9ecc-8bbd973b7bd0",
+      "versionId" : "74af69f2-6aa0-4a59-9c45-7cbada94f31c"
     }
   }
 }, {
@@ -1401,8 +1298,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 374,
-      "githubStars" : 307,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -1445,8 +1340,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "79431e75-ec90-4020-a5fb-c5be81eec85d",
-      "versionId" : "77f3ff26-b599-4aab-a104-3b9404a1c9a6"
+      "serverId" : "4738457a-8661-4340-bd7d-5ae5b5e00521",
+      "versionId" : "dbe54d16-2875-45dd-a6c5-26f97727d576"
     }
   }
 }, {
@@ -1459,7 +1354,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/aks",
-    "version" : "sha256:d2660979686ca052a67301caa408e2a8d5502feae4454a6119bc9115d73a6ff2",
+    "version" : "sha256:4214615a53c8d122bd2a11c82b7fc796c20bd662bb489ccd85df02d809341ed7",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-u",
@@ -1541,9 +1436,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1141,
       "stars" : 1,
-      "githubStars" : 90,
       "category" : "devops",
       "tags" : [ "devops", "azure", "kubernetes", "aks" ],
       "license" : "MIT License",
@@ -1590,8 +1483,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "dcfe346e-1484-4cb3-a56d-502107aaebd6",
-      "versionId" : "1c665b7e-a529-4e61-af27-4762b8f866a2"
+      "serverId" : "ac9006e3-1280-4d3d-92f5-aa78ab34ac79",
+      "versionId" : "0e1b3980-7e4f-4fcd-8957-22d23ea1f1a5"
     }
   }
 }, {
@@ -1603,7 +1496,14 @@
     "url" : "https://mcp.apify.com",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${APIFY_API_KEY}"
+      "value" : "Bearer {apify.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "apify.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -1623,8 +1523,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4b5ceef4-4447-4541-9071-343f74d15ec1",
-      "versionId" : "b78d423b-0e02-4185-b464-b1de48ba8588"
+      "serverId" : "da275a90-5934-4e27-8e26-1cf6f3780f83",
+      "versionId" : "c1137081-dbc7-44a2-b637-09a7ba46af71"
     }
   }
 }, {
@@ -1637,7 +1537,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/apify-mcp-server",
-    "version" : "sha256:79b1fd3c9e9441a5891d411b685ab355295a1286dfe720cf6e40013057a73f94",
+    "version" : "sha256:1e11dfb50ce9b46b66851734ecb747c56808a53e09b051703458b8817a4c1adb",
     "environmentVariables" : [ {
       "name" : "APIFY_TOKEN",
       "value" : "{apify-mcp-server.apify_token}",
@@ -1662,8 +1562,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1812,
-      "githubStars" : 399,
       "category" : "productivity",
       "tags" : [ "productivity", "search", "mcp", "automation", "web scraping", "api", "data extraction" ],
       "license" : "MIT License",
@@ -1694,8 +1592,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c06e3ea0-42d4-4bd4-824e-ed2a4379c2a1",
-      "versionId" : "fd4ba9e6-a9cf-46ce-917a-5c8eaf5c1204"
+      "serverId" : "80b61a7b-7133-4982-9405-888d248d53a3",
+      "versionId" : "e5982d82-efb9-4ed2-a4e9-410b1c85c2d4"
     }
   }
 }, {
@@ -1729,9 +1627,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3209,
       "stars" : 2,
-      "githubStars" : 16,
       "category" : "search",
       "tags" : [ "arxiv", "research", "academic", "papers", "search", "ai", "local-models", "docker-gateway", "enhanced-descriptions" ],
       "license" : "Apache License 2.0",
@@ -1756,8 +1652,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5a0badaa-7fca-4e88-a51b-ecb56423d017",
-      "versionId" : "74146e9a-af56-4d1e-bf15-622bd4dc1423"
+      "serverId" : "6e5217ab-56b0-430c-870f-f008a3ec70e5",
+      "versionId" : "f47d8f3c-a6bb-4792-b8f4-6db7bc446b25"
     }
   }
 }, {
@@ -1786,7 +1682,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 622,
       "stars" : 1,
       "category" : "code",
       "tags" : [ "code", "refactoring", "grep" ],
@@ -1808,8 +1703,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ba8a590c-7d18-47f1-a83d-3c781ef0c48f",
-      "versionId" : "db9d572b-96ea-4667-b651-dfc7a21b8099"
+      "serverId" : "9519a7ff-1030-4891-b982-d953c7e8d360",
+      "versionId" : "c4c7249f-b9d2-4d42-85fe-4b2ef2774132"
     }
   }
 }, {
@@ -1846,8 +1741,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2103,
-      "githubStars" : 31,
       "category" : "database",
       "tags" : [ "astra-db", "database" ],
       "license" : "Apache License 2.0",
@@ -1896,8 +1789,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "97114f43-2105-4773-b0f1-5a794185b86c",
-      "versionId" : "50a1a93c-602f-434a-a766-342609e7c21b"
+      "serverId" : "ebd31324-457c-4876-9f5e-f5fe9abeaf7d",
+      "versionId" : "f788d32b-48b9-48de-9429-9088f06ced7e"
     }
   }
 }, {
@@ -1928,8 +1821,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "aea7bc2f-4860-4ed3-8856-abf711d1ff5c",
-      "versionId" : "7ed8c311-7334-4203-8937-af43f879a153"
+      "serverId" : "4a0a444d-dd14-45b8-b146-1439229ca6b6",
+      "versionId" : "9cdd2245-1aec-434f-b851-10579069c37f"
     }
   }
 }, {
@@ -1965,8 +1858,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 920,
-      "githubStars" : 19,
       "category" : "database",
       "tags" : [ "atlan", "metadata" ],
       "license" : "MIT License",
@@ -1997,8 +1888,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7fc466f6-624a-4eb5-b24f-a384c6dde96a",
-      "versionId" : "f5c5cf7f-0ca7-4555-ace2-16c26f6bfaac"
+      "serverId" : "89e0cf63-158c-4b86-b707-0c277115516f",
+      "versionId" : "c50add7c-2807-470b-bf0d-732c9233441e"
     }
   }
 }, {
@@ -2026,9 +1917,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3611,
       "stars" : 2,
-      "githubStars" : 32,
       "category" : "devops",
       "tags" : [ "atlas-docs", "devops" ],
       "license" : "MIT License",
@@ -2055,8 +1944,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "65b89979-39dd-40c7-97d6-e22fa326e0e9",
-      "versionId" : "dc269501-a171-4cf5-8f52-dfd86946422d"
+      "serverId" : "55bfdd49-d570-4e0c-a1f1-f4b511132cb5",
+      "versionId" : "9718315f-b565-4424-bb59-096a14c06255"
     }
   }
 }, {
@@ -2102,8 +1991,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2221,
-      "githubStars" : 16,
       "category" : "devops",
       "tags" : [ "audiense-insights", "devops" ],
       "license" : "Apache License 2.0",
@@ -2136,8 +2023,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5b0e3348-c942-42eb-80ef-33a6deef9050",
-      "versionId" : "b23652f0-167f-46c1-8620-edb06ca72096"
+      "serverId" : "b5c3d93d-0978-4ce6-9218-e03dcc8eb274",
+      "versionId" : "18a575fd-d8fa-402d-8729-a7fbfefa71f9"
     }
   }
 }, {
@@ -2154,8 +2041,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 9816,
-      "githubStars" : 6487,
       "category" : "devops",
       "tags" : [ "aws-cdk-mcp-server", "devops" ],
       "license" : "Apache License 2.0",
@@ -2186,8 +2071,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a7e1d762-eb1f-4ddd-a1bb-14f1ffd59430",
-      "versionId" : "36cd9816-06be-4754-85f4-63c0ed893c7b"
+      "serverId" : "303107a2-0d4b-46fe-b16f-c049f0245e48",
+      "versionId" : "3ea71173-a8f4-468e-b3d6-8f4a336c1b41"
     }
   }
 }, {
@@ -2204,8 +2089,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 34182,
-      "githubStars" : 6487,
       "category" : "devops",
       "tags" : [ "aws-core-mcp-server", "devops" ],
       "license" : "Apache License 2.0",
@@ -2224,8 +2107,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2514c3ef-77e9-4973-a9c9-a7f23f1c8df7",
-      "versionId" : "97337fdf-a8a7-4804-828e-6eb65eed5db6"
+      "serverId" : "9995aedb-4032-4580-82f1-01fcfc2d4677",
+      "versionId" : "f87ac200-90bf-4921-983a-3bcad1e9ebd6"
     }
   }
 }, {
@@ -2242,9 +2125,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 12662,
       "stars" : 1,
-      "githubStars" : 6487,
       "category" : "devops",
       "tags" : [ "aws-diagram", "devops" ],
       "license" : "Apache License 2.0",
@@ -2267,8 +2148,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5c23ec99-0e90-496b-9d17-0fac7fe9fb14",
-      "versionId" : "9ff72be6-0eb3-42da-8ca5-d0f7ddbfb82e"
+      "serverId" : "4b022db0-0776-4ae3-8c79-2aca792a8a9e",
+      "versionId" : "35e90254-8d65-4b73-ab9c-c055bdb97ca0"
     }
   }
 }, {
@@ -2285,9 +2166,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 27043,
       "stars" : 1,
-      "githubStars" : 6487,
       "category" : "devops",
       "tags" : [ "aws-documentation", "devops" ],
       "license" : "Apache License 2.0",
@@ -2310,8 +2189,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "14c2997d-dab0-491c-b874-91fe3a6dc897",
-      "versionId" : "fb9baa90-0ec1-4b43-a24d-d7a24b61151a"
+      "serverId" : "536e19ff-e0f6-4972-8983-d06bc8e3367a",
+      "versionId" : "c3ab0d33-b428-4e95-9897-78b1eb62532f"
     }
   }
 }, {
@@ -2348,9 +2227,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3453,
       "stars" : 6,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "aws", "devops" ],
       "license" : "MIT License",
@@ -2369,8 +2246,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a4bb7987-4446-40ba-a42a-c0b465b4196b",
-      "versionId" : "8138d778-bce8-42c9-a8d4-67fb00a3ab40"
+      "serverId" : "7c65dee2-ba88-45f9-b7b7-a3e749e1753b",
+      "versionId" : "86aa8341-bf62-4809-a952-149228e0df44"
     }
   }
 }, {
@@ -2387,8 +2264,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 10388,
-      "githubStars" : 6487,
       "category" : "devops",
       "tags" : [ "aws", "terraform" ],
       "license" : "Apache License 2.0",
@@ -2419,8 +2294,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f3b7a9dc-33df-4275-a6a9-0813f9881476",
-      "versionId" : "f65af891-861e-4a62-bf8a-c01abca92c99"
+      "serverId" : "405d0387-6279-4ac3-90c2-7e0be782fa9a",
+      "versionId" : "bceb5bea-c602-4ca9-bd89-90f6c2b26663"
     }
   }
 }, {
@@ -2447,7 +2322,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 761,
       "stars" : 1,
       "category" : "devops",
       "tags" : [ "devops" ],
@@ -2499,8 +2373,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "03387de1-fd5c-4ffb-9c79-01ac98cec2a3",
-      "versionId" : "c6f2f549-b220-4cfb-a2f2-7b2c63581c43"
+      "serverId" : "0f7ce810-e032-4cc3-b978-870208b38281",
+      "versionId" : "a5dc64f1-628d-4eb0-bb26-906c02a58332"
     }
   }
 }, {
@@ -2537,8 +2411,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2068,
-      "githubStars" : 5,
       "category" : "devops",
       "tags" : [ "bitrefill", "devops" ],
       "license" : "MIT License",
@@ -2579,8 +2451,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "087a5d56-281f-42be-9330-14a010bd482c",
-      "versionId" : "08ba2427-8173-4901-94f2-7d825e36c993"
+      "serverId" : "05f3027c-54ed-46ab-9f6c-17d69d7247f0",
+      "versionId" : "43b0dfd4-aa39-4ef8-874c-217d9eb00404"
     }
   }
 }, {
@@ -2617,7 +2489,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2486,
       "stars" : 3,
       "category" : "devops",
       "tags" : [ "box", "devops" ],
@@ -2658,8 +2529,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e93538ea-1d5a-48fe-ab97-f5e5c9b96ba9",
-      "versionId" : "63688d43-7158-49bb-a5bc-b494a10e6b11"
+      "serverId" : "dfd43fa9-a891-4658-ac2b-241a95ab46d0",
+      "versionId" : "05fecd05-f9a7-487d-bf86-d20030becfa2"
     }
   }
 }, {
@@ -2672,7 +2543,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/brave-search",
-    "version" : "sha256:e65021d3e07e7a1a345239d7ca08bc5666a08132170885de8f2544d4e0b79db8",
+    "version" : "sha256:92dc13804224df2f966cdbbc9d6a5469ceae70edc0f63dfd1c42eda8b30b74ec",
     "environmentVariables" : [ {
       "name" : "BRAVE_API_KEY",
       "value" : "{brave.api_key}",
@@ -2689,9 +2560,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 39354,
       "stars" : 20,
-      "githubStars" : 203,
       "category" : "search",
       "tags" : [ "brave", "search" ],
       "license" : "MIT License",
@@ -2720,8 +2589,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "280f25a5-dcb6-46e8-a5d3-ad42b0fa21c5",
-      "versionId" : "509c0d42-068e-4b03-9173-d3ee8c8f13e5"
+      "serverId" : "e2d6c35a-37de-4dd7-bd86-0bc96cdda41c",
+      "versionId" : "d6eb3315-fb1a-4dbb-b5fd-386305a8a8e2"
     }
   }
 }, {
@@ -2748,8 +2617,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 828,
-      "githubStars" : 37,
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "MIT License",
@@ -2814,8 +2681,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "deba525c-06d1-4f6e-889a-be9b8215080a",
-      "versionId" : "f8b8f793-dc5a-4820-a947-ccf8cc4ebb27"
+      "serverId" : "82aac18f-412a-4987-a21c-8425c6602628",
+      "versionId" : "67f13427-c684-4f40-93ab-de6feabcf7d1"
     }
   }
 }, {
@@ -2843,8 +2710,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 284,
-      "githubStars" : 4,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -2885,8 +2750,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7f17200b-e59b-4a9f-9f90-d6b7f968aee3",
-      "versionId" : "6871778d-6076-4891-b7b7-1d92a7491f9c"
+      "serverId" : "2e2d3717-db1b-447d-b527-bc1c7f9e76fe",
+      "versionId" : "96953bdc-1137-4a6f-bea9-12b34bc7747b"
     }
   }
 }, {
@@ -2923,9 +2788,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1421,
       "stars" : 3,
-      "githubStars" : 2,
       "category" : "devops",
       "tags" : [ "cdata-connectcloud", "devops" ],
       "owner" : "CDataSoftware",
@@ -2965,8 +2828,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ccc3153a-f2aa-4b56-9686-0460577623c3",
-      "versionId" : "156b7477-7daf-488f-a641-305c07629f12"
+      "serverId" : "5d937624-5b43-41cc-8ad1-6966bda5c6b6",
+      "versionId" : "99bed79d-af19-40ad-b254-c5e583a82f48"
     }
   }
 }, {
@@ -3052,8 +2915,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 245,
-      "githubStars" : 1,
       "category" : "productivity",
       "tags" : [ "charmhealth", "ehr", "medical", "productivity" ],
       "license" : "MIT License",
@@ -3098,8 +2959,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "604f1d21-a4c7-4166-b666-35b9e3321379",
-      "versionId" : "4a34c6ab-7989-41df-97ad-6ddbbb4622e0"
+      "serverId" : "2d6fba4f-31db-4990-88cf-71c81ba9ff76",
+      "versionId" : "40eeca14-453b-4b53-9a23-376e13bb491a"
     }
   }
 }, {
@@ -3126,9 +2987,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4279,
       "stars" : 5,
-      "githubStars" : 367,
       "category" : "devops",
       "tags" : [ "chroma", "devops" ],
       "license" : "Apache License 2.0",
@@ -3171,8 +3030,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "66084a53-1f8e-4b09-ba6f-cfb0f8336287",
-      "versionId" : "152c6380-953a-4dae-89da-789dcab10a4b"
+      "serverId" : "0192b6df-7edc-4fa4-a450-1564167f077e",
+      "versionId" : "5d182616-1487-4c9e-99ec-065fc25da808"
     }
   }
 }, {
@@ -3213,8 +3072,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3044,
-      "githubStars" : 64,
       "category" : "devops",
       "tags" : [ "circleci", "devops" ],
       "license" : "Other",
@@ -3255,8 +3112,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "423e8511-7566-4cb8-a80f-1c0c1a14ff06",
-      "versionId" : "92d72ba7-d516-4e0f-a302-934528b1b881"
+      "serverId" : "8eef5f58-78c4-4295-80a5-fcb0176db9a8",
+      "versionId" : "18bdcbe3-833f-4d86-ab0a-2135f728bd07"
     }
   }
 }, {
@@ -3353,9 +3210,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 11514,
       "stars" : 2,
-      "githubStars" : 544,
       "category" : "database",
       "tags" : [ "database", "clickhouse" ],
       "license" : "Apache License 2.0",
@@ -3378,8 +3233,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e23de030-01e7-4fda-bfe0-954fdd98e232",
-      "versionId" : "a4abf7c1-6406-4efd-8b83-7aa0acc5645c"
+      "serverId" : "f867899c-e7ba-4054-a0a7-c3186398961b",
+      "versionId" : "407bbe78-4c52-40ee-8108-1ce2b124d610"
     }
   }
 }, {
@@ -3391,7 +3246,14 @@
     "url" : "https://mcp.close.com/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${CLOSE_API_KEY}"
+      "value" : "Bearer {close.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "close.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -3411,8 +3273,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ffcfae54-0077-479a-86d5-ccce566f9b92",
-      "versionId" : "bdee785f-8576-42b8-8a62-5b64df0b18a9"
+      "serverId" : "ab0b2094-1d59-4807-92ee-9b204c12c195",
+      "versionId" : "2b297bd9-b695-473e-b557-25923446ce78"
     }
   }
 }, {
@@ -3425,7 +3287,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/cloud-run-mcp",
-    "version" : "sha256:f403d6b0ee5fc77f7ccd2ff1ced4f1719963e2a364d2aa770d6aa021c4c378c8",
+    "version" : "sha256:a2a4f27e0e555bdc524f8db34eee919531b2fb0ba5e287e07452496ab4395d99",
     "environmentVariables" : [ {
       "name" : "GOOGLE_APPLICATION_CREDENTIALS",
       "value" : "/app/.config/gcloud/application_default_credentials.json"
@@ -3446,8 +3308,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2789,
-      "githubStars" : 383,
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "Apache License 2.0",
@@ -3480,8 +3340,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4b23d2e6-5e79-4190-8632-ba2e29aabe65",
-      "versionId" : "c4a4f1a4-7647-46c4-ae40-b7363ec44e0b"
+      "serverId" : "428f17ee-a0d9-48dd-b21e-993718d6b343",
+      "versionId" : "4a2e34c9-7e4b-4ea8-a00a-723e45dbf935"
     }
   }
 }, {
@@ -3513,8 +3373,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f2aef310-93e1-41a9-aa36-a0d37fa56aa8",
-      "versionId" : "d83581fa-4dca-4e8d-8a7f-d30d28533c92"
+      "serverId" : "34b8cb63-6497-4c0d-9176-05f52633985c",
+      "versionId" : "57418df6-2885-42d0-a7b6-732acec041da"
     }
   }
 }, {
@@ -3621,8 +3481,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 818,
-      "githubStars" : 4,
       "category" : "database",
       "tags" : [ "cockroachdb", "database" ],
       "license" : "MIT License",
@@ -3697,8 +3555,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "28284435-26c0-44be-8929-20498b341819",
-      "versionId" : "019f3e29-1e3e-4e41-a08b-d95d05735685"
+      "serverId" : "8499afbb-855d-4b0a-a760-912467ba4b33",
+      "versionId" : "00657863-641d-446e-948c-a0caa39c45bb"
     }
   }
 }, {
@@ -3719,9 +3577,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 100812,
       "stars" : 15,
-      "githubStars" : 31413,
       "category" : "devops",
       "tags" : [ "context7", "devops" ],
       "license" : "MIT License",
@@ -3742,8 +3598,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0ca66462-fb14-4ea1-8324-be6967b9e26a",
-      "versionId" : "adcd6f0e-25e5-45fe-8400-ee58d8bee64a"
+      "serverId" : "48f46de6-e2e9-483e-85d8-23cf80d260ed",
+      "versionId" : "2af187d8-9599-4b2f-9e27-9094d72d2281"
     }
   }
 }, {
@@ -3770,9 +3626,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3132,
       "stars" : 7,
-      "githubStars" : 29,
       "category" : "devops",
       "tags" : [ "cyreslab-ai-shodan", "devops" ],
       "license" : "MIT License",
@@ -3799,8 +3653,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b722a39f-507b-41db-9b4e-6a537f5aa4ed",
-      "versionId" : "c4b4ee58-1510-41a0-b4b8-efd037b6df0d"
+      "serverId" : "a4acf8c2-9b3d-4422-96a5-d9ac687cf761",
+      "versionId" : "d53b0a7f-41f4-4a10-ba3d-6c65afae4aff"
     }
   }
 }, {
@@ -3827,9 +3681,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2231,
       "stars" : 2,
-      "githubStars" : 29,
       "category" : "devops",
       "tags" : [ "dappier", "devops" ],
       "license" : "MIT License",
@@ -3850,8 +3702,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e939487f-c465-4fe8-91c8-3d6a81daa0a6",
-      "versionId" : "4b35e894-7780-4a8d-a598-c2cd312d253b"
+      "serverId" : "d5d64c90-f0f2-48cc-aa73-782cd5dae07e",
+      "versionId" : "e8db8480-61ae-44c6-a770-4082b35f90b3"
     }
   }
 }, {
@@ -3863,7 +3715,14 @@
     "url" : "https://mcp.dappier.com/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${DAPPIER_REMOTE_API_KEY}"
+      "value" : "Bearer {dappier-remote.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "dappier-remote.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -3883,8 +3742,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4e882813-e571-4ae2-96a5-a9bd089d5205",
-      "versionId" : "802b50c6-ad45-4afd-9034-bb54bd9e8882"
+      "serverId" : "8a89e0e3-1ff1-49bc-89f1-b7a36e7253e7",
+      "versionId" : "4864225c-6b0f-4cbb-89ef-c08ecd1b67b0"
     }
   }
 }, {
@@ -3921,9 +3780,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3367,
       "stars" : 1,
-      "githubStars" : 117,
       "category" : "devops",
       "tags" : [ "dart", "devops" ],
       "license" : "MIT License",
@@ -3972,8 +3829,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b34a1be0-0d1e-45b8-9c20-aa2c1b887545",
-      "versionId" : "68f2d920-c99e-450b-aecd-20279d906832"
+      "serverId" : "521b3ae9-1b2f-4c63-b3ae-252b1507f63f",
+      "versionId" : "90c4c27d-aeb6-4532-928c-5815d000e04e"
     }
   }
 }, {
@@ -3990,9 +3847,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3800,
       "stars" : 1,
-      "githubStars" : 26,
       "category" : "devops",
       "tags" : [ "databutton", "devops" ],
       "license" : "MIT License",
@@ -4011,8 +3866,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ef32a6af-78bc-4480-9682-1e422e724ed8",
-      "versionId" : "5ded6048-7646-4f66-afe4-a4eebb35b2c7"
+      "serverId" : "c4bbb930-d47c-499f-8d0a-33c72ebe015b",
+      "versionId" : "363b2f2c-64eb-4185-89f3-45177cc70c90"
     }
   }
 }, {
@@ -4046,8 +3901,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "be5184a6-b399-4b69-a74d-6273799d6a05",
-      "versionId" : "c9a69137-1ddf-40d5-837f-9d1fc7d3ff5d"
+      "serverId" : "965d9005-7dc9-4a63-a220-160f617f2b35",
+      "versionId" : "56f4425c-7f2f-4fb6-b021-3bf28fb4d6cf"
     }
   }
 }, {
@@ -4084,8 +3939,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1989,
-      "githubStars" : 25,
       "category" : "devops",
       "tags" : [ "descope", "devops" ],
       "license" : "MIT License",
@@ -4110,8 +3963,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "1b0a0f4c-32db-4ca1-8d4e-bc3c7e0ca888",
-      "versionId" : "d3d00805-ba23-499b-997d-a7a5317e275b"
+      "serverId" : "b0aaf698-fdf4-49fa-b120-413d984dd72d",
+      "versionId" : "599f571b-d6b0-4ad2-9bf6-62c9b3baab7c"
     }
   }
 }, {
@@ -4124,7 +3977,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/desktop-commander",
-    "version" : "sha256:264d5d29d76062bd8da3c1e9c217c780ce8e2d0d0d1e9547d955502964acfc06",
+    "version" : "sha256:0b9b5c37261f2bd1c14b4747904ae7872158e401c9df6663de24901c9dd1192b",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -4151,9 +4004,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 57312,
       "stars" : 20,
-      "githubStars" : 4532,
       "category" : "devops",
       "tags" : [ "desktop-commander", "devops", "filesystem", "terminal", "automation", "file-management", "productivity", "local-system", "tools", "ai" ],
       "license" : "MIT License",
@@ -4212,14 +4063,15 @@
       "prompts" : 0,
       "title" : "Desktop Commander",
       "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/desktop-commander.md",
+      "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/desktop-commander.json",
       "dateAdded" : "2025-05-05T20:08:35Z",
       "upstream" : "https://github.com/wonderwhy-er/DesktopCommanderMCP",
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "fb26d6f4-f21f-44af-bafe-3b5651720190",
-      "versionId" : "a2b7643f-8cb2-4174-98b7-2f1acdffb645"
+      "serverId" : "853e7b4c-4e1a-4199-995e-79ecc699b19f",
+      "versionId" : "eef60bff-523f-4f92-8fdd-ef6bd0cbdf6a"
     }
   }
 }, {
@@ -4265,8 +4117,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2121,
-      "githubStars" : 6,
       "category" : "devops",
       "tags" : [ "devhub-cms", "devops" ],
       "owner" : "devhub",
@@ -4302,8 +4152,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "6e4eeb8c-fca0-48a1-9335-f61d9c8fb4e0",
-      "versionId" : "bf29e28a-add5-4d0e-b78b-ad2155d93d7e"
+      "serverId" : "4d9c701d-6393-4f79-8f7f-57bdc5f722a8",
+      "versionId" : "09bd8f56-45df-43d6-b551-620b4f488ca7"
     }
   }
 }, {
@@ -4315,7 +4165,14 @@
     "url" : "https://mcp.dodopayments.com/sse",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${DODO_PAYMENTS_API_KEY}"
+      "value" : "Bearer {dodo-payments.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "dodo-payments.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -4335,8 +4192,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0cffb6c4-33aa-4b2f-889f-dddbdb028320",
-      "versionId" : "eb8e2d70-0a37-4086-b96d-1b3e4c2de681"
+      "serverId" : "3a61b5b1-6ca7-4526-b6db-920cf8017633",
+      "versionId" : "1cb4cabb-6b70-47d0-b44e-10150b302ee5"
     }
   }
 }, {
@@ -4374,8 +4231,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 107,
-      "githubStars" : 3,
       "category" : "database",
       "tags" : [ "database" ],
       "license" : "Apache License 2.0",
@@ -4408,8 +4263,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "98d06e4e-18d4-4865-b37e-0e22a628898d",
-      "versionId" : "37133757-f6f1-44e5-8346-9a5a8e3d3ac8"
+      "serverId" : "45a523eb-16aa-4b3b-8057-f50d7315f95b",
+      "versionId" : "22f4bde9-a046-4d8c-845d-7c44d291b482"
     }
   }
 }, {
@@ -4455,8 +4310,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1091,
-      "githubStars" : 146,
       "category" : "monitoring",
       "tags" : [ "Dynatrace", "Observability", "Monitoring" ],
       "license" : "MIT License",
@@ -4505,8 +4358,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "317c38f9-2976-4d33-bb27-e8ffc41f6ba2",
-      "versionId" : "c60f4559-5350-475f-8065-58680ed0b536"
+      "serverId" : "62b5f6b3-1830-4ba0-b292-b70d4eefaa8e",
+      "versionId" : "cd700e3b-7f1c-46f4-80cb-73be53320abf"
     }
   }
 }, {
@@ -4533,9 +4386,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2877,
       "stars" : 2,
-      "githubStars" : 329,
       "category" : "devops",
       "tags" : [ "e2b", "devops" ],
       "license" : "Apache License 2.0",
@@ -4554,8 +4405,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5131a55a-ebb2-45e8-a605-59c82b099589",
-      "versionId" : "efd2bd47-774f-45be-9ce1-96d7a1a5dbec"
+      "serverId" : "bdc2879d-693e-47ce-9284-c69292d44656",
+      "versionId" : "1e645109-f863-4f86-b465-24b8570a25ab"
     }
   }
 }, {
@@ -4602,9 +4453,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2298,
       "stars" : 1,
-      "githubStars" : 20,
       "category" : "devops",
       "tags" : [ "edubase", "devops" ],
       "license" : "MIT License",
@@ -4933,8 +4782,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "30a36262-2722-4dd1-8258-523c3cb7eea6",
-      "versionId" : "2817e79c-57a6-49d2-87d8-c91bd3892917"
+      "serverId" : "adb46983-ea3a-4938-bcef-0811525fa1ae",
+      "versionId" : "7ff128c0-8ea2-40d6-87dc-4842957df934"
     }
   }
 }, {
@@ -4951,8 +4800,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 594,
-      "githubStars" : 181,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -4973,8 +4820,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3942b771-c72d-4f84-bae3-fd81be29ab0d",
-      "versionId" : "9df47a91-5912-426b-9b5c-c9adccd5119f"
+      "serverId" : "1b213fb2-64c2-4010-883f-919cb30f6d82",
+      "versionId" : "b0a9cb28-df35-482a-9821-ec58091c39f1"
     }
   }
 }, {
@@ -5013,9 +4860,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 6894,
       "stars" : 6,
-      "githubStars" : 984,
       "category" : "ai",
       "tags" : [ "elevenlabs", "elevenlabs-api" ],
       "license" : "MIT License",
@@ -5080,8 +4925,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "9c3871c9-0d36-4ff9-89cc-766fe08c0e10",
-      "versionId" : "7a2eaba4-10a4-4ace-b7c0-3ecfad19de70"
+      "serverId" : "8374cda3-3cb1-4f28-9baf-98d037dfbb63",
+      "versionId" : "6e4d10e7-5a61-4d10-8a98-cfc8499490be"
     }
   }
 }, {
@@ -5108,9 +4953,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2622,
       "stars" : 3,
-      "githubStars" : 68780,
       "category" : "search",
       "tags" : [ "everart", "search" ],
       "license" : "MIT License",
@@ -5129,8 +4972,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5b9e96eb-22dc-4e47-b59a-9a3eb807ff21",
-      "versionId" : "c156e38e-dd7f-4d4e-a5a9-5185c0a76af1"
+      "serverId" : "6e39478f-a0fe-4a29-9f15-f5dadfe649b2",
+      "versionId" : "2b170144-2d9f-4984-aa86-fa05a7f09013"
     }
   }
 }, {
@@ -5157,9 +5000,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4366,
       "stars" : 4,
-      "githubStars" : 2270,
       "category" : "search",
       "tags" : [ "exa", "devops", "search" ],
       "license" : "MIT License",
@@ -5178,8 +5019,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "72996d51-defc-49a2-a7b2-02149c3e6199",
-      "versionId" : "c2c3df60-9cf6-47d8-857e-9af67209412d"
+      "serverId" : "685841cc-a330-499b-a4c4-0dbf6600945d",
+      "versionId" : "79148c8d-ba97-4dad-948f-70e85bead325"
     }
   }
 }, {
@@ -5206,8 +5047,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 78,
-      "githubStars" : 16,
       "category" : "search",
       "tags" : [ "search", "explorium", "b2b-data", "business", "prospecting", "emails", "phone-numbers", "sales" ],
       "license" : "MIT License",
@@ -5248,8 +5087,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ff65449a-0140-4978-9df3-c3185b7d0abc",
-      "versionId" : "b4368286-5d75-444a-ac61-ca18e967c706"
+      "serverId" : "121c4360-0d4d-436f-a15e-6039607ad26f",
+      "versionId" : "eecfddd0-7c3a-4e61-9e39-128703343e30"
     }
   }
 }, {
@@ -5289,9 +5128,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 50863,
       "stars" : 26,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "filesystem", "devops" ],
       "license" : "MIT License",
@@ -5330,8 +5167,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f0e96481-83cb-4047-a545-ac35b09b3aa2",
-      "versionId" : "0251b4a9-8341-4850-a6c8-7cc519fe5490"
+      "serverId" : "0e5d2f91-d02d-4594-b1af-53ec2b04980f",
+      "versionId" : "3bcc58f2-00ae-48cb-850f-2ec9d2cac56f"
     }
   }
 }, {
@@ -5363,8 +5200,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "82ea817e-699b-442e-b916-7ad908e1e33d",
-      "versionId" : "4d148674-c28c-4d59-913c-ed1625512c4f"
+      "serverId" : "a6702e0a-1717-4158-b60e-889ae2a07d3c",
+      "versionId" : "7af713eb-45f5-4b83-9629-a7aaa7bb1480"
     }
   }
 }, {
@@ -5377,7 +5214,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/firecrawl",
-    "version" : "sha256:e554df39694e3d777f26ef51d13beff5ed626e761408fb1b9c1a17f929a9de55",
+    "version" : "sha256:c86979f828633a2b2d17720e4114726c9d8254f4044d90131b5a824248e3c023",
     "environmentVariables" : [ {
       "name" : "FIRECRAWL_API_KEY",
       "value" : "{firecrawl.api_key}",
@@ -5461,9 +5298,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 34628,
       "stars" : 14,
-      "githubStars" : 4598,
       "category" : "search",
       "tags" : [ "firecrawl", "search", "scraping" ],
       "license" : "MIT License",
@@ -5492,8 +5327,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f8feba0d-c230-4087-884d-fe7aea78fbc0",
-      "versionId" : "5b68897a-eb80-40d3-bee5-8a3a2b4f1c53"
+      "serverId" : "ae871531-4224-4bbd-9e33-1e6910e61ccb",
+      "versionId" : "bafe5884-6b11-4758-996f-b1b33bd4096f"
     }
   }
 }, {
@@ -5569,8 +5404,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 761,
-      "githubStars" : 6,
       "category" : "security",
       "tags" : [ "firewall", "security", "monitoring", "network", "threat-detection" ],
       "license" : "MIT License",
@@ -5643,8 +5476,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0c3213de-d5c2-432a-81a1-affbb9500b47",
-      "versionId" : "b57fc722-5cbf-4a34-8146-4d6f73509af0"
+      "serverId" : "64e62c64-15b7-4894-9092-766dcf85f028",
+      "versionId" : "3f3f2bbf-49ee-4da3-be21-1ba7b3badccd"
     }
   }
 }, {
@@ -5681,9 +5514,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1663,
       "stars" : 1,
-      "githubStars" : 4,
       "category" : "devops",
       "tags" : [ "flexprice", "devops" ],
       "license" : "Apache License 2.0",
@@ -5750,8 +5581,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "1060c532-773c-40c0-bf69-f1849fd28273",
-      "versionId" : "eb2c7fbd-52b8-47bd-ae17-bcc7deb848a1"
+      "serverId" : "435cf7fd-476b-46aa-890b-e93c44762e7a",
+      "versionId" : "d9bc8406-e043-490a-8e80-c0a16f3cdd3a"
     }
   }
 }, {
@@ -5778,9 +5609,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 52906,
       "stars" : 20,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "github", "devops" ],
       "license" : "MIT License",
@@ -5849,8 +5678,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "65b07759-fc63-46f0-9a3f-573c465c5c56",
-      "versionId" : "50c9e8c7-e46f-4093-953a-181686c51c28"
+      "serverId" : "1b80a5bf-fa0a-4891-b67a-fae0d168450e",
+      "versionId" : "c66330dd-af81-421c-91c1-686ad8210682"
     }
   }
 }, {
@@ -5877,9 +5706,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3464,
       "stars" : 4,
-      "githubStars" : 63,
       "category" : "devops",
       "tags" : [ "github-chat", "devops" ],
       "license" : "MIT License",
@@ -5900,8 +5727,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "73640683-bb07-4f80-81f7-3092870d46a2",
-      "versionId" : "4f22c892-0505-4e0d-a592-b4d81f3eb2c8"
+      "serverId" : "f29251b3-0e86-476a-9797-aa5ce97a35bb",
+      "versionId" : "b6bdea87-99ac-4614-8d09-5331eaf0428b"
     }
   }
 }, {
@@ -5939,9 +5766,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 16711,
       "stars" : 20,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "gitlab", "devops" ],
       "license" : "MIT License",
@@ -5976,8 +5801,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "592b18db-4215-4574-bf23-40c28034bc83",
-      "versionId" : "9d4c8d45-8ed0-40fe-bfc9-960cdc186481"
+      "serverId" : "9f24498d-7b09-49a1-ad2c-8130574f135a",
+      "versionId" : "29e78a6d-9fdd-471a-aba5-08afa8b66501"
     }
   }
 }, {
@@ -6015,8 +5840,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ef560f1c-83fd-4a63-a4d3-c9cade823a99",
-      "versionId" : "37e57c20-7e5e-4771-826a-0515ae885e63"
+      "serverId" : "74ed14df-0235-48a1-b462-159a9b5a3f9f",
+      "versionId" : "2310d723-c197-4d5e-a01f-aa28b464aab8"
     }
   }
 }, {
@@ -6063,9 +5888,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3000,
       "stars" : 2,
-      "githubStars" : 26,
       "category" : "devops",
       "tags" : [ "glif", "devops" ],
       "license" : "MIT License",
@@ -6102,8 +5925,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "825e9b03-715c-4b99-acda-4c6719aae464",
-      "versionId" : "acfa1c58-ab13-41b8-ad79-c710024b099b"
+      "serverId" : "b3150069-446d-488f-8c11-0afbb8f87f9e",
+      "versionId" : "65345464-75b3-4dc8-88a3-ad8bbc29c5b9"
     }
   }
 }, {
@@ -6130,9 +5953,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 36292,
       "stars" : 15,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "google-maps", "devops" ],
       "license" : "MIT License",
@@ -6163,8 +5984,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b701a6ff-31f0-4f7f-b310-ef52ba3c1f49",
-      "versionId" : "9ad1c02a-915c-42d7-a2c2-e9fb352db047"
+      "serverId" : "e6d7f560-f5db-43f1-98e6-9c060896fdd4",
+      "versionId" : "40e59b2d-89e8-4bf1-8d48-0aa62d02649a"
     }
   }
 }, {
@@ -6177,7 +5998,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/google-maps-comprehensive",
-    "version" : "sha256:c01e5c437a9c5334ca7c2b20e733ed0844e679b101741a2a45c6072657fd2e14",
+    "version" : "sha256:fc37a12a21f451ae7601cc8a9109af172357196f0bbc50d47947a65690dcb6fb",
     "environmentVariables" : [ {
       "name" : "GOOGLE_MAPS_API_KEY",
       "value" : "{google-maps-comprehensive.api_key}",
@@ -6191,8 +6012,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 41,
-      "githubStars" : 1,
       "category" : "devops",
       "tags" : [ "google-maps", "maps", "geocoding", "directions", "places", "elevation", "location", "devops" ],
       "owner" : "vicpeacock",
@@ -6224,8 +6043,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "90f39c58-c531-44ff-8b75-9d14d2317eed",
-      "versionId" : "a28651bb-6ddb-4420-8e05-8046137dc4fd"
+      "serverId" : "cd1890bf-cdc7-4ca2-b574-ee261e0a70ef",
+      "versionId" : "a47a8f77-774b-40b4-a7a8-a3ca52bdc9b2"
     }
   }
 }, {
@@ -6238,7 +6057,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/gyazo",
-    "version" : "sha256:f85108362eaa179e2f7272b2b14ff9a61d6a24c538ba2f270fe0e48ea7a4366f",
+    "version" : "sha256:c626ea570c74ef5b94bd59079435e6cb3fdc8ef59af2b154c1a119e7a02f6b42",
     "environmentVariables" : [ {
       "name" : "GYAZO_ACCESS_TOKEN",
       "value" : "{gyazo.access_token}",
@@ -6252,8 +6071,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2113,
-      "githubStars" : 24,
       "category" : "devops",
       "tags" : [ "gyazo", "devops" ],
       "license" : "MIT License",
@@ -6278,8 +6095,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ec5b414f-b3aa-419b-9f15-041af7b085d4",
-      "versionId" : "63ee49ba-0d01-4cc7-8ff7-c5ae39f53754"
+      "serverId" : "8a038b6c-7187-4f1e-b2a6-bbc83580cd7c",
+      "versionId" : "152924f2-37fe-4480-ba0d-cd9f689ae01f"
     }
   }
 }, {
@@ -6306,8 +6123,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1711,
-      "githubStars" : 2,
       "category" : "devops",
       "tags" : [ "hackle", "devops" ],
       "license" : "MIT License",
@@ -6362,8 +6177,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ffd57015-8163-4cd1-a66c-700e8ab5fd05",
-      "versionId" : "767ea102-60b9-4b45-94c1-f5bad3e2996d"
+      "serverId" : "bc1ee500-af80-460c-93af-42376d3bd892",
+      "versionId" : "64394131-a40a-4105-b700-099018a27ddf"
     }
   }
 }, {
@@ -6390,9 +6205,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2299,
       "stars" : 2,
-      "githubStars" : 9,
       "category" : "devops",
       "tags" : [ "handwriting-ocr", "devops" ],
       "owner" : "Handwriting-OCR",
@@ -6414,8 +6227,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c618f415-8219-4777-85d1-e86353c111c8",
-      "versionId" : "7a75c15d-a289-4d50-9215-0f9957e79d1a"
+      "serverId" : "8341ccf4-d9a5-47f7-a376-305edfe1c22e",
+      "versionId" : "3839bfdc-6524-4049-8ebd-7393d8561e71"
     }
   }
 }, {
@@ -6442,8 +6255,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 308,
-      "githubStars" : 2,
       "category" : "search",
       "tags" : [ "search" ],
       "license" : "MIT License",
@@ -6518,8 +6329,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "dee88ab0-4d33-4c90-9c1a-81782d0638fb",
-      "versionId" : "1ed16ff2-44b1-4341-a211-64e74358472c"
+      "serverId" : "5308555c-4a56-4bff-b1b9-c82e7d33bc48",
+      "versionId" : "28b9f58f-6653-4626-8454-a489a73d1711"
     }
   }
 }, {
@@ -6546,8 +6357,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1223,
-      "githubStars" : 35,
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "MIT License",
@@ -6760,8 +6569,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "67e2eceb-8ebf-4ffa-b738-16470c51497c",
-      "versionId" : "b271aab6-9401-444e-ac9b-c6875689eff6"
+      "serverId" : "8917121c-ece1-4e30-b752-dae317508954",
+      "versionId" : "3e0a596f-a064-4aed-8906-d14ecb36706c"
     }
   }
 }, {
@@ -6773,7 +6582,14 @@
     "url" : "https://app.hubspot.com/mcp/v1/http",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${HUBSPOT_API_KEY}"
+      "value" : "Bearer {hubspot.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "hubspot.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -6793,8 +6609,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "45327ad3-6cde-4ef6-9bd6-90cb3f6767dd",
-      "versionId" : "7827bef2-713b-4946-aae2-b8d555d1b893"
+      "serverId" : "7bf2190d-f8a7-49d3-a647-3ac9f046b7fa",
+      "versionId" : "5e088ef2-04fd-4f1c-871e-efa41d743aab"
     }
   }
 }, {
@@ -6840,8 +6656,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0155394b-ab6c-4659-a8d5-bc29908c06c8",
-      "versionId" : "25305758-8094-418a-9768-cd0a22c0050c"
+      "serverId" : "d8e53116-e4e8-48b8-b45a-1784dfffec3b",
+      "versionId" : "2a479797-9902-42be-80f7-07296e85176f"
     }
   }
 }, {
@@ -6878,8 +6694,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1417,
-      "githubStars" : 1,
       "category" : "devops",
       "tags" : [ "husqvarna-automower", "devops" ],
       "owner" : "jeanlaurent",
@@ -6897,8 +6711,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2993671e-1d09-4cd6-b2db-59ddd9fba50e",
-      "versionId" : "5c14680a-2923-4f3c-a976-de1cae0e927f"
+      "serverId" : "2c9f941f-2000-465e-bcff-973dcf9c277f",
+      "versionId" : "05bc9afd-a7b1-47aa-b839-e83d58c05d9a"
     }
   }
 }, {
@@ -6925,9 +6739,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2951,
       "stars" : 3,
-      "githubStars" : 615,
       "category" : "devops",
       "tags" : [ "hyperbrowser", "devops" ],
       "license" : "MIT License",
@@ -6964,8 +6776,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3ca542b7-c273-4f23-95eb-495747f9cc24",
-      "versionId" : "b57233e6-454d-489b-8966-7d05a3630dcb"
+      "serverId" : "50a39bef-ab1a-4324-9eeb-74ffc24557b3",
+      "versionId" : "b4026b24-5f0e-46dc-a85f-4d698c04e1cc"
     }
   }
 }, {
@@ -7012,8 +6824,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2039,
-      "githubStars" : 1,
       "category" : "devops",
       "tags" : [ "hyperspell", "devops" ],
       "owner" : "hyperspell",
@@ -7035,8 +6845,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "212bdef8-f16a-4857-8347-2ecd9ef5ea32",
-      "versionId" : "0ada2460-e635-4c4a-bbce-df1e6e5b565c"
+      "serverId" : "d275e04d-e617-442a-874a-6e7e05c728cb",
+      "versionId" : "293f5d8a-5199-49d4-96c0-b76ed7f85ef3"
     }
   }
 }, {
@@ -7073,8 +6883,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1850,
-      "githubStars" : 4,
       "category" : "devops",
       "tags" : [ "iaptic", "devops" ],
       "license" : "MIT License",
@@ -7123,8 +6931,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3f18e34f-5606-4d75-845b-5d33c2c8e747",
-      "versionId" : "902f049b-1ac3-44b4-8492-d61f18e37bec"
+      "serverId" : "9c2dc7e5-baf9-4bf6-afa6-f1a896124767",
+      "versionId" : "ce86ea94-7e5f-4378-ab80-311f3c1b4e33"
     }
   }
 }, {
@@ -7137,7 +6945,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/inspektor-gadget",
-    "version" : "sha256:961c9132aaa3e17d480d515b74af1e039c725cab55e8cdf27d24385f918aa372",
+    "version" : "sha256:0d103deedf6253fed51b49aa99aea0b5869430d892529ad8522882aee3ac9f78",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -7171,9 +6979,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 817,
       "stars" : 2,
-      "githubStars" : 14,
       "category" : "monitoring",
       "tags" : [ "inspektor-gadget", "kubernetes", "monitoring", "ebpf" ],
       "license" : "Apache License 2.0",
@@ -7256,14 +7062,15 @@
       "prompts" : 0,
       "title" : "Inspektor Gadget",
       "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/inspektor-gadget.md",
+      "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/inspektor-gadget.json",
       "dateAdded" : "2025-07-29T14:05:27Z",
       "upstream" : "https://github.com/inspektor-gadget/ig-mcp-server",
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "761d5694-d841-48ce-9f8d-2184c5e7d5b8",
-      "versionId" : "9fcfa196-e6dd-4c48-80ad-45e5d4d99159"
+      "serverId" : "051d7adf-ca76-4dbf-815e-6e53d0c09599",
+      "versionId" : "dd9e2b19-dcfd-4240-9813-71829fbbe77e"
     }
   }
 }, {
@@ -7297,8 +7104,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "68e26de8-0e6f-4e93-ae6b-319f10f1a95b",
-      "versionId" : "64005b2e-30f1-4721-8c04-4b0b02e3d08c"
+      "serverId" : "eaed7f30-b368-4428-82c6-9b340f400e5f",
+      "versionId" : "13027866-0d43-4891-81db-93f5750512f9"
     }
   }
 }, {
@@ -7326,9 +7133,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 6396,
       "stars" : 2,
-      "githubStars" : 3,
       "category" : "devops",
       "tags" : [ "jetbrains", "devops" ],
       "license" : "Apache License 2.0",
@@ -7405,8 +7210,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d96de8d4-aba8-460a-90d1-c8701f5cd593",
-      "versionId" : "fd33e657-f89a-4541-90d0-0b53a8d465f3"
+      "serverId" : "089d38a9-663f-4e33-bd87-114157b230be",
+      "versionId" : "44ca0763-7102-4636-9646-206e40628ee6"
     }
   }
 }, {
@@ -7443,9 +7248,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2258,
       "stars" : 1,
-      "githubStars" : 189,
       "category" : "devops",
       "tags" : [ "kagisearch", "devops" ],
       "license" : "MIT License",
@@ -7466,8 +7269,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e09cf13f-0797-4928-81b5-e484d0ab6299",
-      "versionId" : "4ea69323-5ef8-4e3a-94b4-954d675eb540"
+      "serverId" : "55e2c123-895e-440c-9b98-460d2b89934f",
+      "versionId" : "fc675167-bb78-4c76-8e47-36a1c8a0aeae"
     }
   }
 }, {
@@ -7480,7 +7283,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/keboola-mcp",
-    "version" : "sha256:033110d3083b9986cdb531860730ec4adc2bd417a4efc2f74a8dd95c8b31a6f0",
+    "version" : "sha256:bd33ab86acd728d282ed50fe5e4dab28d7fcd7fb00f32ff8ba0e24ff29c83fd4",
     "environmentVariables" : [ {
       "name" : "KBC_STORAGE_TOKEN",
       "value" : "{keboola-mcp.kbc_storage_token}",
@@ -7504,8 +7307,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1501,
-      "githubStars" : 68,
       "category" : "devops",
       "tags" : [ "data-platform", "etl-pipeline", "storage" ],
       "license" : "MIT License",
@@ -7588,8 +7389,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "333da861-3985-49b1-9b9f-a6483e0d205c",
-      "versionId" : "2ceca5af-bba0-4b64-9fe3-441d3369cc01"
+      "serverId" : "d78cd6e7-6eec-406a-b292-b02202c6174f",
+      "versionId" : "9b9f547c-aba6-493a-b369-8c731ffd3953"
     }
   }
 }, {
@@ -7626,8 +7427,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2133,
-      "githubStars" : 35,
       "category" : "devops",
       "tags" : [ "kong", "devops", "service-mesh" ],
       "license" : "Apache License 2.0",
@@ -7664,8 +7463,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "88a9dc50-2665-47e2-a838-dbe93290a0bc",
-      "versionId" : "eaae940b-6ecf-4781-915f-3b1571dedb06"
+      "serverId" : "827bcc85-037e-48d4-b74c-7f4efb15d56c",
+      "versionId" : "eda7f43f-85d9-4c1a-bd6e-bca3b52b13a0"
     }
   }
 }, {
@@ -7694,8 +7493,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 357,
-      "githubStars" : 721,
       "category" : "devops",
       "tags" : [ "kubectl-mcp-server", "kubernetes", "kubectl", "devops" ],
       "license" : "MIT License",
@@ -7764,8 +7561,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e1dc8cfc-532f-414a-8187-9f8e72f93c8c",
-      "versionId" : "9ed983cf-69e3-4d8c-ab7a-c5ebaadd859c"
+      "serverId" : "a23f301c-ef17-4610-8b8c-2fe64eca6adf",
+      "versionId" : "56007897-4382-46fa-b2c8-ef4d2e812772"
     }
   }
 }, {
@@ -7795,9 +7592,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 22382,
       "stars" : 14,
-      "githubStars" : 1086,
       "category" : "devops",
       "tags" : [ "kubernetes", "devops" ],
       "license" : "MIT License",
@@ -7858,8 +7653,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b6dfc688-8002-42f3-82a4-4267f93c3ead",
-      "versionId" : "cdfc7bc5-6a59-4eea-9006-9023ac642e71"
+      "serverId" : "3157f525-a500-46d5-bab2-e0734262be4f",
+      "versionId" : "d52aafb7-9669-415f-9e76-30b6a01a8cd3"
     }
   }
 }, {
@@ -7896,9 +7691,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2322,
       "stars" : 3,
-      "githubStars" : 71,
       "category" : "devops",
       "tags" : [ "lara", "devops" ],
       "license" : "MIT License",
@@ -7935,8 +7728,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0abb15e4-e283-4f9b-91f8-348d1b83bed1",
-      "versionId" : "2d485080-81df-4bc7-8873-21255733c154"
+      "serverId" : "20fd5925-7d90-4b38-8947-151673e20db9",
+      "versionId" : "581743e8-f30b-4c40-9115-63f5a6af3e8c"
     }
   }
 }, {
@@ -7949,7 +7742,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/line",
-    "version" : "sha256:b0df1e7ff1d79510cd23abbb6a0dacb697e96a4d4f85d9a9f8c625bdf838cd49",
+    "version" : "sha256:6564b3950886819176427af681acd5b5cbea74e08dc8e619f2fdfba356653659",
     "environmentVariables" : [ {
       "name" : "CHANNEL_ACCESS_TOKEN",
       "value" : "{line.access_token}",
@@ -7973,8 +7766,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 5200,
-      "githubStars" : 461,
       "category" : "devops",
       "tags" : [ "line", "devops" ],
       "license" : "Apache License 2.0",
@@ -8011,8 +7802,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "bbf80bdc-8eb0-4f03-8545-3bd466a5fa87",
-      "versionId" : "28eb3425-ecae-483d-b77a-5413b153a169"
+      "serverId" : "79598f98-eb8b-420e-91aa-6ca3d1c65ea7",
+      "versionId" : "d3d84529-5292-4a81-97d3-92e002a6df35"
     }
   }
 }, {
@@ -8044,8 +7835,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "5ef161c5-8047-4a1c-adc8-4226ba9a1791",
-      "versionId" : "37e8c13f-b714-4b25-9004-8afe3c407ee2"
+      "serverId" : "34923804-8e05-4971-a16f-75c2aa0296bb",
+      "versionId" : "88f76866-7372-499e-8676-901b088e5938"
     }
   }
 }, {
@@ -8072,8 +7863,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 62,
-      "githubStars" : 18,
       "category" : "monitoring",
       "tags" : [ "monitoring", "blockchain", "bitcoin", "rpc" ],
       "license" : "Apache License 2.0",
@@ -8160,8 +7949,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "30aafd9f-627f-487b-9916-70a8716c33d2",
-      "versionId" : "edc47a45-9fbf-493b-abad-4fb22602b19f"
+      "serverId" : "546611f4-127f-4d3c-9e6e-de2977cc6066",
+      "versionId" : "86baab7d-a9e9-48b7-b8ff-f843d361ef7f"
     }
   }
 }, {
@@ -8199,8 +7988,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "66b730fb-768e-4305-beee-77e60b9d6375",
-      "versionId" : "39f826d8-2d8a-4700-aced-df3ab24d92ac"
+      "serverId" : "3d209f8e-a740-4a08-a3c9-a32921f73555",
+      "versionId" : "31860d03-e0a8-44aa-b00b-6858c59bfdc7"
     }
   }
 }, {
@@ -8227,8 +8016,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 683,
-      "githubStars" : 264,
       "category" : "maps",
       "tags" : [ "mapbox", "maps", "geospatial", "navigation", "geocoding" ],
       "license" : "MIT License",
@@ -8263,8 +8050,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c89d51ca-7742-458f-9ceb-cccd704e1db1",
-      "versionId" : "c16e9aff-4441-410a-b656-2ddcc071988e"
+      "serverId" : "9f33e846-a35d-4806-b090-d121f29a656b",
+      "versionId" : "699ecc7d-3692-4701-a43d-19e34533b9fd"
     }
   }
 }, {
@@ -8277,7 +8064,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/mapbox-devkit",
-    "version" : "sha256:fa4467bd64a1776d3535b37c5f0806c332b0b3858d3719c7e9625cd0a8d78bef",
+    "version" : "sha256:4375c662ac0f68a359381692993b6b596252cc91df7b7b869cda8148f3b33425",
     "environmentVariables" : [ {
       "name" : "MAPBOX_ACCESS_TOKEN",
       "value" : "{mapbox-devkit.access_token}",
@@ -8291,8 +8078,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 574,
-      "githubStars" : 16,
       "category" : "devops",
       "tags" : [ "mapbox", "development", "devtools", "api", "styles" ],
       "license" : "MIT License",
@@ -8341,8 +8126,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "45554887-2586-4fc1-9554-3719f7318329",
-      "versionId" : "ea9b1131-696a-44d5-9fee-71ae1ecf31f5"
+      "serverId" : "62f462dc-8d06-42fc-adbc-2dc77897257d",
+      "versionId" : "a11bdb64-31da-4d77-8b96-d890bae5d811"
     }
   }
 }, {
@@ -8371,9 +8156,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1612,
       "stars" : 1,
-      "githubStars" : 2144,
       "category" : "productivity",
       "tags" : [ "productivity", "markdown", "conversion", "pdf", "docx", "pptx", "xlsx", "html", "audio", "youtube" ],
       "license" : "MIT License",
@@ -8410,8 +8193,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "bc97d142-c1ae-40f6-81d5-02772e333db4",
-      "versionId" : "55dc402d-3b61-4a7b-8243-f32fb4d2a7ca"
+      "serverId" : "c657ad2b-36af-4126-9950-2c20d7e8b370",
+      "versionId" : "0ad910a6-acb6-4ef1-95bf-a4ac63c6e55a"
     }
   }
 }, {
@@ -8440,8 +8223,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2241,
-      "githubStars" : 79994,
       "category" : "productivity",
       "tags" : [ "productivity", "markdown", "conversion", "pdf", "docx", "pptx", "xlsx", "html", "audio", "youtube" ],
       "license" : "MIT License",
@@ -8460,8 +8241,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a430c994-b628-40ea-ade0-bf50a4271cdb",
-      "versionId" : "d69f8fbc-bf62-4082-9176-c4a526406e5a"
+      "serverId" : "f1f47278-a01c-48db-bec4-356cb9814b6b",
+      "versionId" : "8f7f248b-b51a-45a3-8263-2e36e392c596"
     }
   }
 }, {
@@ -8509,9 +8290,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3913,
       "stars" : 6,
-      "githubStars" : 22,
       "category" : "devops",
       "tags" : [ "api-gateway", "devops" ],
       "owner" : "rflpazini",
@@ -8531,8 +8310,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4465616f-ff83-4df2-932f-646aa7b76de6",
-      "versionId" : "123405d8-784a-40f3-8c23-ac9a4d0614c5"
+      "serverId" : "242228eb-151f-4c4f-ae65-4b2192a07339",
+      "versionId" : "e6b9c4e5-17df-4b9c-a87c-b6c5e589c724"
     }
   }
 }, {
@@ -8554,9 +8333,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1155,
       "stars" : 2,
-      "githubStars" : 4,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -8575,8 +8352,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "8e4654cd-85ec-4e8e-9583-c0a8ef5bbdca",
-      "versionId" : "49819d23-f267-4ae8-b83e-861e041b2ddd"
+      "serverId" : "3cb82845-f327-4d26-9c60-83987509f4bf",
+      "versionId" : "a38c58ac-20c6-47ad-9859-ed9ee68ffe63"
     }
   }
 }, {
@@ -8603,9 +8380,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4292,
       "stars" : 15,
-      "githubStars" : 8,
       "category" : "devops",
       "tags" : [ "discord", "devops" ],
       "license" : "MIT License",
@@ -8662,8 +8437,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "20678009-e34d-4306-a6e8-b330034f82aa",
-      "versionId" : "81c42f83-fc2e-4cc0-ac25-a69b8b4a9822"
+      "serverId" : "4b86b58d-ee1e-4d94-bca6-37c7958f6d1c",
+      "versionId" : "92fbc9aa-6777-4eee-aed2-586472647922"
     }
   }
 }, {
@@ -8680,7 +8455,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 485,
       "stars" : 1,
       "category" : "search",
       "tags" : [ "search" ],
@@ -8705,8 +8479,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "cf4337f7-5e02-4b7a-a494-32706f7b8ac9",
-      "versionId" : "1c9d1470-effe-4c2e-911f-37be01cafd1d"
+      "serverId" : "8940ad54-2988-4e77-88c3-fbdcd7be6c4a",
+      "versionId" : "954dccc5-d742-467d-8e1c-a1322838e97e"
     }
   }
 }, {
@@ -8723,9 +8497,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 568,
       "stars" : 1,
-      "githubStars" : 5,
       "category" : "development",
       "tags" : [ "python", "refactoring", "code-analysis", "education", "development", "code-quality", "static-analysis", "mentoring" ],
       "license" : "MIT License",
@@ -8760,8 +8532,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7d3ee0b2-8978-465d-8ce7-07f7a897b05f",
-      "versionId" : "4c44451e-b3f4-45c9-9f35-dd905361b700"
+      "serverId" : "8bb42daf-e07e-4101-a9af-6e021241f357",
+      "versionId" : "d6632fa2-fa1d-419b-b5ae-d0bee8ea83fc"
     }
   }
 }, {
@@ -8816,8 +8588,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 128,
-      "githubStars" : 3,
       "category" : "communication",
       "tags" : [ "communication" ],
       "license" : "MIT License",
@@ -8846,8 +8616,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "9f37f748-c3f6-4c16-94c1-30a1e550a1a4",
-      "versionId" : "cdd62d62-5d25-4379-8c11-a0d217ac3547"
+      "serverId" : "e6a5938c-247c-49fd-b041-fac94bcafcf1",
+      "versionId" : "ac5725d5-5c09-4b25-b3f6-3442f0d5b2d6"
     }
   }
 }, {
@@ -8869,9 +8639,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 77289,
-      "stars" : 24,
-      "githubStars" : 68780,
+      "stars" : 25,
       "category" : "ai",
       "tags" : [ "mcp", "ai" ],
       "license" : "MIT License",
@@ -8906,8 +8674,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "325e572a-f459-480a-bd24-7d39127e0b30",
-      "versionId" : "be44dd03-14fe-4e0b-b17a-b107a44fa90b"
+      "serverId" : "ddc1fb8d-9b30-47e5-94ad-89475b86d868",
+      "versionId" : "6de7072e-2a5f-4f0f-a279-cdc747f71873"
     }
   }
 }, {
@@ -8919,7 +8687,14 @@
     "url" : "https://mcp.mercadolibre.com",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${MERCADO_LIBRE_API_KEY}"
+      "value" : "Bearer {mercado-libre.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "mercado-libre.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -8939,8 +8714,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "56910cdd-9ad9-45ee-908f-42b1b82bd9a7",
-      "versionId" : "9d06f272-147c-4b3d-bb1e-ec9a987c1bd5"
+      "serverId" : "c316d963-4eec-432e-bab1-88458057eff1",
+      "versionId" : "2de16394-83f1-4c15-9ae2-41dc40952815"
     }
   }
 }, {
@@ -8952,7 +8727,14 @@
     "url" : "https://mcp.mercadopago.com",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${MERCADO_PAGO_API_KEY}"
+      "value" : "Bearer {mercado-pago.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "mercado-pago.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -8972,8 +8754,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d045a882-01c5-43eb-b805-95995adeee0f",
-      "versionId" : "bff9604e-2489-41c8-b811-07ca4d934d08"
+      "serverId" : "f5b71951-e1da-4e68-a1f3-aca5c505a772",
+      "versionId" : "664660e5-c89d-4d3d-bc18-699ea5779bc6"
     }
   }
 }, {
@@ -9029,9 +8811,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 927,
       "stars" : 2,
-      "githubStars" : 6,
       "category" : "data-visualization",
       "tags" : [ "data-visualization" ],
       "license" : "MIT License",
@@ -9104,8 +8884,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "abda6268-6bc4-4aea-92f9-f01ceedbeb9f",
-      "versionId" : "10f267bd-ceb2-4019-80d8-11452a61dc92"
+      "serverId" : "e68d5312-c72f-4b93-a9ee-edd7980e316b",
+      "versionId" : "de18d8df-84ad-42ec-ac88-57615a99c7be"
     }
   }
 }, {
@@ -9122,8 +8902,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1702,
-      "githubStars" : 6,
       "category" : "games",
       "tags" : [ "games", "minecraft", "search" ],
       "owner" : "L3-N0X",
@@ -9157,8 +8935,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "34c5d9f7-054a-4e98-99c5-86f460979016",
-      "versionId" : "63dfb3f1-9b03-4f7e-92c6-f41bcbf73dac"
+      "serverId" : "947128cd-ee9a-4278-a513-bfb5cbed134d",
+      "versionId" : "852f71dd-e34f-473b-afac-a36308184542"
     }
   }
 }, {
@@ -9196,7 +8974,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2040,
       "category" : "devops",
       "tags" : [ "multiversx-mx", "devops" ],
       "license" : "Other",
@@ -9241,8 +9018,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4a35febb-cde6-4f69-83ad-ab7d824ef110",
-      "versionId" : "c98b1ab1-6118-4dc9-bbe3-34aefa32a843"
+      "serverId" : "4375fb40-72ad-4c31-9774-b382fa3a8212",
+      "versionId" : "6e5543e2-928a-4f53-9fc5-cdfc04b5d421"
     }
   }
 }, {
@@ -9269,9 +9046,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1255,
       "stars" : 2,
-      "githubStars" : 44,
       "category" : "finance",
       "tags" : [ "nasdaq", "finance", "data", "intelligence" ],
       "license" : "MIT License",
@@ -9352,8 +9127,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "000c965e-ea58-4bcf-b705-266b2f1c4c00",
-      "versionId" : "08894bcd-f570-4b5c-a4c2-81cb2882d631"
+      "serverId" : "34d12e80-6a3a-4b79-badf-64b48962a3b0",
+      "versionId" : "43e260a0-8544-4d33-9fc5-95bf9ce910e5"
     }
   }
 }, {
@@ -9365,7 +9140,14 @@
     "url" : "https://mcp.needle.app/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${NEEDLE_API_KEY}"
+      "value" : "Bearer {needle.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "needle.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -9385,8 +9167,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "baa89ce2-6213-4315-aec4-e1f4a04cdf08",
-      "versionId" : "94104773-e7b8-4207-b130-0a492e9ab73b"
+      "serverId" : "d2fc7bf6-e55a-4807-8a48-4f18fd684d7c",
+      "versionId" : "b84bcf6b-10d3-4d1e-86ed-3cb519c9caed"
     }
   }
 }, {
@@ -9413,9 +9195,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 967,
       "stars" : 1,
-      "githubStars" : 81,
       "category" : "search",
       "tags" : [ "needle", "search", "productivity", "rag", "semantic-search", "document-management" ],
       "license" : "MIT License",
@@ -9446,8 +9226,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2fc5b839-c38d-45a5-b29c-8ec4652bb747",
-      "versionId" : "9ae6acdf-121b-46ce-9d52-443d1d4d3476"
+      "serverId" : "2c891337-909a-441f-99a7-154caa73a6d7",
+      "versionId" : "1a1364b2-d79d-4322-95da-33f5d0d6cfca"
     }
   }
 }, {
@@ -9544,9 +9324,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2314,
       "stars" : 2,
-      "githubStars" : 707,
       "category" : "devops",
       "tags" : [ "neo4j-cloud-aura-api", "devops" ],
       "license" : "MIT License",
@@ -9587,8 +9365,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c4b42f2d-40ca-42d1-b711-224a68868169",
-      "versionId" : "9804a507-badb-4fdb-9a4c-cbf5e195409b"
+      "serverId" : "42ddf70a-5302-4be2-a83b-40f79283c848",
+      "versionId" : "c9739b15-d270-4fb8-b90c-cdf1b6020488"
     }
   }
 }, {
@@ -9745,9 +9523,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 5886,
       "stars" : 2,
-      "githubStars" : 707,
       "category" : "devops",
       "tags" : [ "neo4j-cypher", "devops" ],
       "license" : "MIT License",
@@ -9770,8 +9546,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "8f6a32a0-2666-405c-8829-9195b065ed5d",
-      "versionId" : "f0239170-664d-463d-b84c-03a6616c614d"
+      "serverId" : "45a59ce8-f240-4e76-ba0d-ad0cbb0d2c47",
+      "versionId" : "8e8204f8-9e4e-4430-85bd-2bb46bb31b9c"
     }
   }
 }, {
@@ -9849,8 +9625,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 374,
-      "githubStars" : 707,
       "category" : "devops",
       "tags" : [ "neo4j-data-modeling", "devops" ],
       "license" : "MIT License",
@@ -9889,8 +9663,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0f167f65-44e8-4881-9ac2-858d08270b66",
-      "versionId" : "cd9445ac-c699-42c6-b761-cafe3674b6fe"
+      "serverId" : "adfb54eb-5adb-4555-be9a-951f2c351524",
+      "versionId" : "883d45ac-b822-4e9a-a483-4c4601c3efdd"
     }
   }
 }, {
@@ -10007,9 +9781,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 5358,
-      "stars" : 8,
-      "githubStars" : 707,
+      "stars" : 9,
       "category" : "devops",
       "tags" : [ "neo4j-memory", "devops" ],
       "license" : "MIT License",
@@ -10044,8 +9816,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "8fc2f767-fe3a-46d1-811a-b606fd10f57e",
-      "versionId" : "2a34a47a-807f-47a8-aeea-de395d53173c"
+      "serverId" : "70d94ea3-feae-44b4-b59a-24b7ec5fad72",
+      "versionId" : "ac7f84ee-20ca-4a53-beae-904f139eb7eb"
     }
   }
 }, {
@@ -10062,9 +9834,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 37128,
       "stars" : 6,
-      "githubStars" : 105,
       "category" : "devops",
       "tags" : [ "node-code-sandbox", "devops" ],
       "owner" : "alfonsograziano",
@@ -10094,8 +9864,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "533bf37f-313f-4f75-894f-08c9bd80f4f6",
-      "versionId" : "93503eb0-5895-40b5-9c8a-5d08392a6384"
+      "serverId" : "9e7345b0-7cff-45f2-91f8-7876c0299414",
+      "versionId" : "f4a7a5fd-3a60-4e19-a05b-875ac390f4fa"
     }
   }
 }, {
@@ -10116,8 +9886,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1119,
-      "githubStars" : 12,
       "category" : "ai",
       "tags" : [ "novita", "ai" ],
       "license" : "MIT License",
@@ -10174,8 +9942,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f87185dd-560e-4a86-a759-2abf92aa1acc",
-      "versionId" : "00c8f9aa-8d3e-4d8b-beae-f753e4790d31"
+      "serverId" : "b76256af-8d6b-4371-a0ca-65632b8864b3",
+      "versionId" : "6eb59fd0-6ddc-4f3f-93a5-7b222f7125bd"
     }
   }
 }, {
@@ -10192,9 +9960,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1750,
       "stars" : 1,
-      "githubStars" : 7,
       "category" : "devops",
       "tags" : [ "npm", "npm-package" ],
       "license" : "MIT License",
@@ -10249,8 +10015,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "fb2578d2-cc09-47f9-880f-f3d7d91c6902",
-      "versionId" : "499efc54-76a7-4852-bc2f-8c253d5f95e0"
+      "serverId" : "a73058ad-003e-4eb4-9535-4ca230321e6a",
+      "versionId" : "1a841047-9a94-4903-8842-602ef3567457"
     }
   }
 }, {
@@ -10280,9 +10046,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 16379,
       "stars" : 15,
-      "githubStars" : 2068,
       "category" : "productivity",
       "tags" : [ "obsidian", "productivity" ],
       "license" : "MIT License",
@@ -10323,8 +10087,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ad031dc4-03e9-4950-a865-91fc14c2d81d",
-      "versionId" : "857ee966-e50f-42b2-9667-78a5f5c038ab"
+      "serverId" : "4dbc8cf2-a9d5-4843-b3cc-5d10ddeb1809",
+      "versionId" : "9dd1b83b-cad1-4028-a7b5-c7b1a63dec72"
     }
   }
 }, {
@@ -10337,7 +10101,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/okta-mcp-fctr",
-    "version" : "sha256:a8ebf9a2adfff38ce567c3bfa35dda3d812ff72cb48a9f90853d90ff775ff57e",
+    "version" : "sha256:c0a95e22c7037aa14f7d476658b4930fcad152bc5836ed2cbe1cf731f50061d4",
     "environmentVariables" : [ {
       "name" : "OKTA_API_TOKEN",
       "value" : "{okta-mcp-fctr.api_token}",
@@ -10384,13 +10148,15 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 710,
-      "githubStars" : 32,
       "category" : "ai",
       "tags" : [ "ai", "okta", "identity", "access-management", "security", "authentication", "audit", "compliance", "enterprise" ],
       "license" : "Apache License 2.0",
       "owner" : "fctr-id",
       "tools" : [ {
+        "name" : "analyze_login_risk"
+      }, {
+        "name" : "analyze_user_app_access"
+      }, {
         "name" : "get_current_time"
       }, {
         "name" : "get_okta_application"
@@ -10438,8 +10204,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d660c4b3-8ea9-4909-8049-0b3ef27acdce",
-      "versionId" : "a9e1379b-35f8-4225-89e6-218d8520466b"
+      "serverId" : "2db6d27f-d879-4ef8-a282-97e358455b8d",
+      "versionId" : "90dc573e-177d-4842-82c2-4581ba2428ec"
     }
   }
 }, {
@@ -10466,9 +10232,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1727,
       "stars" : 1,
-      "githubStars" : 6982,
       "category" : "ai",
       "tags" : [ "ai" ],
       "license" : "MIT License",
@@ -10497,8 +10261,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "9889c472-c78e-4b64-a862-ddb7b897f230",
-      "versionId" : "7bca54b0-d514-4584-9935-a0b35932b69e"
+      "serverId" : "f4c0c78d-e110-49c1-9b74-fefdea99ac27",
+      "versionId" : "59470693-b0df-42c9-ba70-4235996d941d"
     }
   }
 }, {
@@ -10602,8 +10366,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 875,
-      "githubStars" : 5,
       "category" : "productivity",
       "tags" : [ "onlyoffice", "docspace", "productivity" ],
       "license" : "Apache License 2.0",
@@ -10666,8 +10428,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "10d1567e-877e-4d11-85c4-351f0672bcc7",
-      "versionId" : "03d302cb-caab-4431-ad6e-13fe24a15a64"
+      "serverId" : "bfa847a0-c934-42dc-b332-a813a8b0a8c6",
+      "versionId" : "1802309c-3320-4afb-9dc0-43f8586bd7d9"
     }
   }
 }, {
@@ -10695,8 +10457,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 254,
-      "githubStars" : 12,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -10723,8 +10483,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2dbef6bb-34bd-4ef9-8cb8-1a90edef8ae4",
-      "versionId" : "c1559b4e-cf06-4567-801b-0dd96a66341d"
+      "serverId" : "0b9d64ca-d6ed-44ba-9532-6701d3b6cbb6",
+      "versionId" : "bd3e1ded-8a30-498b-acf8-7809d9d1144c"
     }
   }
 }, {
@@ -10741,9 +10501,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2967,
       "stars" : 1,
-      "githubStars" : 292,
       "category" : "search",
       "tags" : [ "airbnb", "openbnb" ],
       "license" : "MIT License",
@@ -10764,8 +10522,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "70e82176-f678-4062-b3c4-026d37a28f72",
-      "versionId" : "5acd06b2-5fa9-4920-9ef2-5a7bde7ade6a"
+      "serverId" : "14b751fe-febe-4168-968f-6123e8dccb2a",
+      "versionId" : "e7397db6-ba58-4332-a377-8901a5e57cf6"
     }
   }
 }, {
@@ -10801,8 +10559,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "bd2ea4b2-7eb4-45f0-9a0b-7c4d3eb531ae",
-      "versionId" : "fba55c28-ebf5-49bd-ae24-5ba3060c0dd0"
+      "serverId" : "c2d0cc20-ce3e-481f-863a-31f100156477",
+      "versionId" : "b0fa5f05-354c-48b7-b3bc-356ab54b26c9"
     }
   }
 }, {
@@ -10829,9 +10587,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3907,
       "stars" : 4,
-      "githubStars" : 10,
       "category" : "search",
       "tags" : [ "weather-api" ],
       "license" : "MIT License",
@@ -10850,8 +10606,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "56b08ca1-f402-4b26-9d1e-2dfe3b5117bf",
-      "versionId" : "71eada30-6839-4b63-9718-3ac8d8f3bc4b"
+      "serverId" : "42155094-28c3-46bd-bfc9-6d9ab57f303d",
+      "versionId" : "b2b302e7-2a29-4384-a378-967120e3e59b"
     }
   }
 }, {
@@ -10895,8 +10651,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e2d0b807-8a53-4857-98d5-c50002792962",
-      "versionId" : "e4f60008-3d9d-45a7-9c01-6e8c9e943fc9"
+      "serverId" : "d9e3a34a-efa1-4d8e-b8f3-2c5bcf4a52ee",
+      "versionId" : "2ebbea87-589d-431c-aabc-156653e9b6fa"
     }
   }
 }, {
@@ -10940,8 +10696,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "068be30c-7337-4bd8-bdf5-f26aefb94653",
-      "versionId" : "91bb97b1-0b84-41f4-80eb-5fb2c7bb780b"
+      "serverId" : "7cea4169-ab8c-4492-a1c2-29e5f586f3e4",
+      "versionId" : "587f70b6-f5a0-431d-854c-412d89f6da71"
     }
   }
 }, {
@@ -10975,8 +10731,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "28032a44-031a-4ab1-81ea-71f94ec03d53",
-      "versionId" : "7f48b60d-f92a-4dc2-b977-33307b7408cc"
+      "serverId" : "de731b56-6f27-4a4a-8355-ee800204b4cd",
+      "versionId" : "f09b9d71-8d6a-4436-b011-a7133354f91f"
     }
   }
 }, {
@@ -11010,8 +10766,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "9ec11225-8441-423a-b5c4-8fa40afdcf37",
-      "versionId" : "5b963957-bd9e-4cb7-822b-8799ae63942c"
+      "serverId" : "a95c6ee4-e098-4e32-a4d6-9861220a2869",
+      "versionId" : "a7728eb8-c012-44d2-9f5b-943bd97bda5c"
     }
   }
 }, {
@@ -11058,9 +10814,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2157,
       "stars" : 1,
-      "githubStars" : 167,
       "category" : "devops",
       "tags" : [ "opik", "devops" ],
       "license" : "Apache License 2.0",
@@ -11103,8 +10857,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "09b6bd0d-f67d-4e24-9241-3bf5eb5861b1",
-      "versionId" : "eae96422-521d-423d-9709-59af446c0da2"
+      "serverId" : "b58c6c6e-4cbc-4ecc-af6a-b316192094d8",
+      "versionId" : "222a00b7-1b8f-4aac-9a47-68aeccd7e74e"
     }
   }
 }, {
@@ -11151,7 +10905,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 267,
       "category" : "database",
       "tags" : [ "oracle", "database", "sql", "enterprise" ],
       "license" : "MIT License",
@@ -11180,8 +10933,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "202f4a87-b348-4c30-ada2-b1830fee0534",
-      "versionId" : "572106a7-9634-4e2d-8a95-4034ed99e84e"
+      "serverId" : "a77d25e6-dc01-45bf-8bfe-083cb72bc893",
+      "versionId" : "23c946d7-8054-4449-a8b3-11f43df10307"
     }
   }
 }, {
@@ -11198,9 +10951,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3139,
       "stars" : 2,
-      "githubStars" : 233,
       "category" : "devops",
       "tags" : [ "osp_marketing_tools", "devops" ],
       "license" : "Creative Commons Attribution Share Alike 4.0 International",
@@ -11229,8 +10980,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e2d9a10d-03bd-402d-8399-f7aa7d618ffd",
-      "versionId" : "e601eef0-2049-45f8-90cc-226012d2dca3"
+      "serverId" : "fda37507-9188-4d25-af37-4d86fa2165c1",
+      "versionId" : "a056b6a4-73fa-4e00-959c-ccfa223909f9"
     }
   }
 }, {
@@ -11267,9 +11018,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2542,
       "stars" : 3,
-      "githubStars" : 64,
       "category" : "devops",
       "tags" : [ "oxylabs", "devops" ],
       "license" : "MIT License",
@@ -11294,8 +11043,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "4d2a3b2b-c089-4f13-814f-b26ce24f5786",
-      "versionId" : "09d9c40b-650d-43e7-b392-05f1bffeba79"
+      "serverId" : "9bfe3214-e11a-4868-b578-9f247cafe80d",
+      "versionId" : "f25b91ee-f255-46ce-99df-908b3902a640"
     }
   }
 }, {
@@ -11312,9 +11061,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4622,
       "stars" : 3,
-      "githubStars" : 355,
       "category" : "search",
       "tags" : [ "academic", "search" ],
       "license" : "MIT License",
@@ -11377,8 +11124,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ecb9003c-4da4-43ce-b711-7ba0a5a1f977",
-      "versionId" : "398c309c-af51-417d-8c46-e4563f626353"
+      "serverId" : "fcd79c64-fee1-4f2b-b07a-afd75303b876",
+      "versionId" : "5e7ef465-aed5-4401-975c-083b4305d0f0"
     }
   }
 }, {
@@ -11405,9 +11152,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 22542,
       "stars" : 14,
-      "githubStars" : 1603,
       "category" : "devops",
       "tags" : [ "perplexity-ask", "devops" ],
       "license" : "MIT License",
@@ -11430,8 +11175,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "f1275481-b9e8-41ba-bb90-4cbd60f5adaa",
-      "versionId" : "fba7b479-785f-4b9e-a7a0-9901cb0d4c2d"
+      "serverId" : "01d714bb-a8c9-41e0-8348-70e931bc429f",
+      "versionId" : "7567a5ca-aadf-422e-9782-fcbc557d5833"
     }
   }
 }, {
@@ -11444,7 +11189,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/pia",
-    "version" : "sha256:63a2b156d29ad3d6d7724e6ea793fa7799559870f5d8e80d2e791cb0de35d004",
+    "version" : "sha256:679aaee3fb310bd9e08c0abbfdc10c8b3b43ffa53fe6c5039d8f5ef81d01728d",
     "environmentVariables" : [ {
       "name" : "PIA_API_KEY",
       "value" : "{pia.api-key}",
@@ -11458,9 +11203,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 441,
       "stars" : 1,
-      "githubStars" : 1,
       "category" : "ai",
       "tags" : [ "ai" ],
       "license" : "MIT License",
@@ -11485,8 +11228,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "25a19e1f-28b4-4c43-9089-07cd5d06e635",
-      "versionId" : "6f1f102a-989e-47a3-b358-c61d767f4e95"
+      "serverId" : "0204c7ad-4f14-4f4f-8fab-04ee6abb23d1",
+      "versionId" : "8108a45f-6fc5-4158-a394-51bd6b8fa333"
     }
   }
 }, {
@@ -11523,9 +11266,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1637,
       "stars" : 3,
-      "githubStars" : 38,
       "category" : "database",
       "tags" : [ "database", "machine-learning" ],
       "license" : "MIT License",
@@ -11544,8 +11285,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "11cf828d-510b-437a-851d-e53f5223e33a",
-      "versionId" : "d672561a-dbc2-4ff1-9374-f7e65e2bfcc1"
+      "serverId" : "5ceb0af7-1e49-4a79-9920-976e52f0d17d",
+      "versionId" : "b8fe8db5-a921-434c-a0cd-df9793558fbe"
     }
   }
 }, {
@@ -11558,13 +11299,11 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/playwright",
-    "version" : "sha256:3e4bbf0294f8576323e687fcbbd7c16087d81363429f485f450e84b5a2c8cd78"
+    "version" : "sha256:779f7a4f7efd7aae698d2d113370a5205becd093e40c23db2f9a753d235a522d"
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 119256,
       "stars" : 23,
-      "githubStars" : 20274,
       "category" : "devops",
       "tags" : [ "playwright", "devops" ],
       "license" : "Apache License 2.0",
@@ -11617,14 +11356,15 @@
       "prompts" : 0,
       "title" : "Playwright",
       "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/playwright.md",
+      "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/playwright.json",
       "dateAdded" : "2025-05-05T20:04:34Z",
       "upstream" : "https://github.com/microsoft/playwright-mcp",
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d6159049-8588-4065-b6cd-4c715ac03c41",
-      "versionId" : "a1f87e48-9866-4811-ba61-fcf55b53df33"
+      "serverId" : "135c870e-6aaf-4919-a054-44cb4925dbd5",
+      "versionId" : "87c54ce4-7d14-410a-b3a8-11ba6d69c92f"
     }
   }
 }, {
@@ -11653,8 +11393,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2038,
-      "githubStars" : 4837,
       "category" : "ai",
       "tags" : [ "ai" ],
       "license" : "MIT License",
@@ -11735,8 +11473,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "fcfc4857-7f32-4803-993f-be0e25a56616",
-      "versionId" : "daef453e-3139-4dec-b707-cc9cafb9243e"
+      "serverId" : "d4c7ddb2-a404-4d4c-9a1f-c240244a4e66",
+      "versionId" : "9e91c132-a4bc-4983-82cc-9839aaa1c176"
     }
   }
 }, {
@@ -11774,9 +11512,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1564,
       "stars" : 2,
-      "githubStars" : 91,
       "category" : "productivity",
       "tags" : [ "productivity", "proxy", "management", "tools", "ai" ],
       "license" : "Apache License 2.0",
@@ -11805,8 +11541,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "678bf9cb-873e-4a36-aa0f-03872193c1b1",
-      "versionId" : "e5be4936-b65b-435b-9674-0d36e985f4d8"
+      "serverId" : "68f4e67b-41c8-4ce9-bd8b-8ca4ec96126b",
+      "versionId" : "2bd149e6-2d3e-4e38-ac69-cfd4b27f4b0c"
     }
   }
 }, {
@@ -11818,7 +11554,14 @@
     "url" : "https://api.polarsignals.com/api/mcp/",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${POLAR_SIGNALS_API_KEY}"
+      "value" : "Bearer {polar-signals.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "polar-signals.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -11838,8 +11581,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "46abb786-70b2-4492-b5a7-c1f98fec0c03",
-      "versionId" : "a3da55a3-38d6-4d84-ae30-bf8d570f7d92"
+      "serverId" : "963692d5-cb3e-4521-a629-239fac05ee01",
+      "versionId" : "6e28b101-46a2-48e4-90ef-0d493bb75c84"
     }
   }
 }, {
@@ -11869,8 +11612,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 180,
-      "githubStars" : 1,
       "category" : "productivity",
       "tags" : [ "tasks", "productivity", "pomodoro", "notes", "projects", "planning" ],
       "license" : "MIT License",
@@ -11915,8 +11656,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2251e7a1-df13-4576-a233-821ee6ef656e",
-      "versionId" : "4b8e11cf-855a-4fe4-a2e1-9c56019aa254"
+      "serverId" : "849d9968-641a-4d4c-9812-69fe8ac514b3",
+      "versionId" : "7c38f56a-846f-4157-8f74-3ef50bf364b1"
     }
   }
 }, {
@@ -11947,9 +11688,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 130385,
-      "stars" : 27,
-      "githubStars" : 68780,
+      "stars" : 28,
       "category" : "database",
       "tags" : [ "postgres", "database" ],
       "license" : "MIT License",
@@ -11968,8 +11707,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d902d952-fcae-437f-8080-8f9ada2f8fdd",
-      "versionId" : "1bfcf671-9d8f-47d6-91b9-2c4efb46bdf9"
+      "serverId" : "824a37b8-46f7-4d97-9104-60218cbfdc3a",
+      "versionId" : "243316a8-2e0f-4809-88f1-e9ccbf68a5af"
     }
   }
 }, {
@@ -11996,8 +11735,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1053,
-      "githubStars" : 43,
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "Apache License 2.0",
@@ -12090,8 +11827,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "9e31bd6c-356c-468a-8a6d-4011ea72c575",
-      "versionId" : "7c361f8d-249f-4662-8c27-25a5bcab5555"
+      "serverId" : "a0d68e01-85b0-4199-9d7a-7808596731f5",
+      "versionId" : "b9a0de99-8f3b-4329-85c4-7539c6f2bc4b"
     }
   }
 }, {
@@ -12108,8 +11845,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1023,
-      "githubStars" : 2,
       "category" : "devops",
       "tags" : [ "android preferences", "android development", "preferences-datastore", "shared-preferences" ],
       "license" : "Apache License 2.0",
@@ -12140,8 +11875,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "334ca1cd-c2da-41e5-8180-2b418099181a",
-      "versionId" : "c60d0161-d422-48d9-b24f-3acac35d855a"
+      "serverId" : "c649491e-788b-4a29-abc3-20db299240c8",
+      "versionId" : "4d6f2b2a-584c-42e4-a5a9-dbd157eab786"
     }
   }
 }, {
@@ -12182,9 +11917,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 119,
       "stars" : 1,
-      "githubStars" : 37,
       "category" : "finance",
       "tags" : [ "finance" ],
       "license" : "Apache License 2.0",
@@ -12329,8 +12062,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2195fafc-e4ff-4120-b101-d5f298414302",
-      "versionId" : "d1ec01aa-19ce-442f-872b-68f67556f028"
+      "serverId" : "0a6250f6-6c99-4414-bece-c0e2a75dd8c5",
+      "versionId" : "34747c7d-bc35-4983-ad0a-62c904a1b58e"
     }
   }
 }, {
@@ -12351,8 +12084,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 541,
-      "githubStars" : 67,
       "category" : "security",
       "tags" : [ "security", "vulnerability-scanning", "mcp-server-analysis", "yara-rules" ],
       "license" : "Apache License 2.0",
@@ -12373,8 +12104,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "76a4f629-185d-45d3-bdfc-db52e1fbfc04",
-      "versionId" : "bf288023-6631-4988-aa36-8dc373a97550"
+      "serverId" : "1274b54e-6f23-4c33-932c-51bd85034291",
+      "versionId" : "9307930c-9cf8-425c-a024-e742a17dd802"
     }
   }
 }, {
@@ -12387,7 +12118,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/razorpay",
-    "version" : "sha256:a6a2f741f9591b0f837f3e2dd6a0ed5a15c3114e73438f33afbd4b17112b03aa",
+    "version" : "sha256:c4218aaf8f9e57eb79afec3491861de98d142b7a40a7f1a13a9b4f03060f346b",
     "environmentVariables" : [ {
       "name" : "RAZORPAY_KEY_SECRET",
       "value" : "{razorpay.key_secret}",
@@ -12411,9 +12142,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2137,
       "stars" : 1,
-      "githubStars" : 205,
       "category" : "devops",
       "tags" : [ "razorpay", "devops" ],
       "license" : "MIT License",
@@ -12512,8 +12241,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "6177bd75-acd8-4882-a28e-5df498896a09",
-      "versionId" : "bdc20c2e-32e0-4eb2-8f47-666ec3fa0fa3"
+      "serverId" : "3b329b79-6727-4d3e-90ab-8b8e8213db09",
+      "versionId" : "2e78b409-2ad3-4618-b512-ed913471c095"
     }
   }
 }, {
@@ -12526,7 +12255,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/redis",
-    "version" : "sha256:97c986bad558e5d8c8a721406ac11f20ced5bf6c974d1b8dc371bd7682ebfa8d",
+    "version" : "sha256:2ae92c81fe4c7f8d3c220c588a1bbb7c3c18d9101f2155057bff21e8e5025c62",
     "environmentVariables" : [ {
       "name" : "REDIS_PWD",
       "value" : "{redis.password}",
@@ -12640,9 +12369,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 13508,
       "stars" : 11,
-      "githubStars" : 252,
       "category" : "database",
       "tags" : [ "redis", "database" ],
       "license" : "MIT License",
@@ -12747,8 +12474,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2570a6f8-5b7b-4bda-aa08-ba73328676e5",
-      "versionId" : "39df4f0d-1246-4661-8219-14da256f4f3e"
+      "serverId" : "7873f5ea-a536-4759-a92a-1224a6fd1f9c",
+      "versionId" : "a55a763e-e416-40ea-81cd-957498c39efc"
     }
   }
 }, {
@@ -12785,9 +12512,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2276,
       "stars" : 1,
-      "githubStars" : 35,
       "category" : "database",
       "tags" : [ "redis-cloud", "database" ],
       "license" : "MIT License",
@@ -12840,8 +12565,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "31d3a531-368f-4d75-8571-753d943118b6",
-      "versionId" : "633f3a76-b10b-4d7f-964f-d3c1e5196caf"
+      "serverId" : "43ea521b-fa02-4840-b8a1-6e83f1743154",
+      "versionId" : "7ecf611e-9ca3-4176-a522-63a34d498dea"
     }
   }
 }, {
@@ -12868,9 +12593,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1573,
       "stars" : 2,
-      "githubStars" : 593,
       "category" : "devops",
       "tags" : [ "devops", "documentation" ],
       "license" : "MIT License",
@@ -12891,8 +12614,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "fd37deb4-c2e4-44b3-88cb-60d2d310177e",
-      "versionId" : "1f4f4820-e196-46b4-b181-93e2b44cd583"
+      "serverId" : "e8eb6e0d-44f9-45ad-a4af-24f8f816ff22",
+      "versionId" : "55f569d5-9f98-4efb-ab83-7f252b8b39b2"
     }
   }
 }, {
@@ -12922,8 +12645,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "6f2318b4-b8f5-4131-bc8d-f9bed0c5e3a7",
-      "versionId" : "16710971-30e2-424d-be6c-5c8c5ea3db81"
+      "serverId" : "44a9fa81-e7e4-4312-9655-7c0e61fb138e",
+      "versionId" : "3e8ee052-5a20-4f82-b3a3-c58a380d0a03"
     }
   }
 }, {
@@ -12950,9 +12673,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2047,
       "stars" : 1,
-      "githubStars" : 49,
       "category" : "devops",
       "tags" : [ "render", "devops" ],
       "license" : "Apache License 2.0",
@@ -13013,8 +12734,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3d25793d-d878-43d5-b2c7-a125adc255b1",
-      "versionId" : "ffa4aa1c-4588-46ce-9f47-2f24864e8715"
+      "serverId" : "184b4019-69d7-4093-9a08-1c4b88254180",
+      "versionId" : "288d9879-5b47-46cf-883a-5643f5559245"
     }
   }
 }, {
@@ -13063,9 +12784,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3154,
       "stars" : 5,
-      "githubStars" : 401,
       "category" : "communication",
       "tags" : [ "resend", "email" ],
       "owner" : "resend",
@@ -13083,8 +12802,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "44a73d56-da3c-43aa-b5e6-2fc1d1b651b5",
-      "versionId" : "e1fe82cf-bb7d-4dda-bbc2-f71bff446a44"
+      "serverId" : "153da092-8ce8-448a-a091-b070b27e1a07",
+      "versionId" : "299f369a-9c28-462f-ba0f-e15a197e2d4f"
     }
   }
 }, {
@@ -13125,8 +12844,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1862,
-      "githubStars" : 6,
       "category" : "devops",
       "tags" : [ "risken", "devops" ],
       "license" : "MIT License",
@@ -13151,8 +12868,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "59828cc9-5cca-4725-91d7-2cffaef7f1ea",
-      "versionId" : "9d0715d9-3415-40a6-a949-9791bf876498"
+      "serverId" : "eb72b9a0-58d7-4c9a-b77a-98eb20ba6abd",
+      "versionId" : "00ac1c1a-15e6-4a67-b0d8-0cd25d94559a"
     }
   }
 }, {
@@ -13179,9 +12896,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 711,
       "stars" : 5,
-      "githubStars" : 2,
       "category" : "security",
       "tags" : [ "security", "vulnerability", "scanning", "remediation" ],
       "license" : "MIT License",
@@ -13220,8 +12935,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7321fabf-55cb-46ea-adeb-224d507939bd",
-      "versionId" : "0b183feb-04b8-4460-8ff9-c73d09c35db1"
+      "serverId" : "a2979bb2-3332-4f91-9061-c2d9d0497560",
+      "versionId" : "f414ff94-bf07-45ee-83af-39dbee60d91b"
     }
   }
 }, {
@@ -13238,8 +12953,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 172,
-      "githubStars" : 38,
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "Mozilla Public License 2.0",
@@ -13272,8 +12985,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "353729c9-0d17-4b68-a4c1-f651fd93f348",
-      "versionId" : "23d73be3-5706-47c9-b442-2e8643968bf5"
+      "serverId" : "de751b34-39e8-43d7-9216-568366ac2340",
+      "versionId" : "f479a693-57dc-4d5f-9910-2cf540aafc88"
     }
   }
 }, {
@@ -13285,7 +12998,14 @@
     "url" : "https://rube.app/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${RUBE_API_KEY}"
+      "value" : "Bearer {rube.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "rube.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -13305,8 +13025,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "47177d95-762b-41de-a41b-51c915ad2b31",
-      "versionId" : "938e027d-b822-4f9a-9a10-a3e0600ca9b3"
+      "serverId" : "4bcd42f6-b2d2-432d-9587-418f23335e6b",
+      "versionId" : "642c3ea1-dab6-4628-a648-bcc38768b2a6"
     }
   }
 }, {
@@ -13371,8 +13091,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 10,
-      "githubStars" : 70,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "license" : "MIT License",
@@ -13437,8 +13155,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "2c7fbcfa-6c3d-4793-8590-194e147bdb51",
-      "versionId" : "643bd2a8-da32-403c-b5fc-1bcd62b549f7"
+      "serverId" : "7bff23ed-c728-43b5-9891-a23b56f82045",
+      "versionId" : "d7fecb02-3d1c-4937-bab9-9f6220fdf4b1"
     }
   }
 }, {
@@ -13563,9 +13281,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 278,
       "stars" : 1,
-      "githubStars" : 2,
       "category" : "database",
       "tags" : [ "ai", "database" ],
       "license" : "Other",
@@ -13592,14 +13308,15 @@
       "prompts" : 0,
       "title" : "SchemaCrawler AI",
       "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/schemacrawler-ai.md",
+      "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/schemacrawler-ai.json",
       "dateAdded" : "2025-09-02T20:44:02Z",
       "upstream" : "https://github.com/schemacrawler/SchemaCrawler-AI",
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "11eecd58-4982-4610-b834-eba1de33eaa9",
-      "versionId" : "5fa460e1-1da8-445e-b160-78dd50c47ac1"
+      "serverId" : "8b28dbd6-ea7c-4e6b-9dfa-5144b76d089e",
+      "versionId" : "fb0580b3-74f1-4fab-9f8c-b575926d9da1"
     }
   }
 }, {
@@ -13616,7 +13333,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 748,
       "category" : "productivity",
       "tags" : [ "productivity" ],
       "owner" : "schogini",
@@ -13638,8 +13354,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "47c00834-6337-48eb-a4d1-80611704835c",
-      "versionId" : "add7e68d-61d1-4a9f-821f-362c57c21c1c"
+      "serverId" : "01349ee3-5f36-4257-ba5b-c13a4f726646",
+      "versionId" : "6dfba8bc-c714-4c7d-9532-e51ed3c5c708"
     }
   }
 }, {
@@ -13666,9 +13382,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3132,
       "stars" : 4,
-      "githubStars" : 39,
       "category" : "devops",
       "tags" : [ "scrapegraph", "devops" ],
       "license" : "MIT License",
@@ -13695,8 +13409,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a57138de-a210-40dd-af0b-10eff4f8834a",
-      "versionId" : "fe443d56-b23a-4d0c-bbb1-80bc0b80b238"
+      "serverId" : "a1e8cd61-c336-450a-ba21-a27377aa2975",
+      "versionId" : "b904f9c3-c794-4ae7-89c6-6e030610de50"
     }
   }
 }, {
@@ -13723,9 +13437,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2325,
       "stars" : 3,
-      "githubStars" : 9,
       "category" : "devops",
       "tags" : [ "scrapezy", "devops" ],
       "license" : "MIT License",
@@ -13744,8 +13456,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ce86b9a3-f89f-4fc7-b03b-6f71e7a1f610",
-      "versionId" : "fdbebfa6-f640-4671-8816-eda62c0507ac"
+      "serverId" : "cbec1722-998a-46be-9049-9a0c8770ddab",
+      "versionId" : "a7204e63-2fb0-4e6c-847f-467386cc98d5"
     }
   }
 }, {
@@ -13758,11 +13470,10 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/securenote-link-mcp-server",
-    "version" : "sha256:38ddb4f13319c20dcafdd59cb5935f59991ea415203bed659a180d90aaa1d989"
+    "version" : "sha256:68cb767e4ebb7d99ccbe8816dfbd37c599722d1278bac55618e440a9941dfc42"
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 921,
       "stars" : 2,
       "category" : "communication",
       "tags" : [ "communication" ],
@@ -13789,8 +13500,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7f354227-5b1a-4432-8f68-7557ba0c0d31",
-      "versionId" : "b30b99c2-406c-461c-8575-83785c28ab02"
+      "serverId" : "d69f4c35-fa08-47c4-b947-1972ec66f357",
+      "versionId" : "99956126-8f0f-4e19-a53a-2f7134dbdc23"
     }
   }
 }, {
@@ -13834,8 +13545,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "636961c4-5f88-4871-9c5a-440489ec6ab5",
-      "versionId" : "5b732dfb-63a7-49c3-b589-fa131a1f35ac"
+      "serverId" : "2b186e6e-67a4-4795-88fd-0cf9f1daddee",
+      "versionId" : "266da64e-a3b8-4075-9ac7-d8e67f97f889"
     }
   }
 }, {
@@ -13869,9 +13580,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 4162,
       "stars" : 5,
-      "githubStars" : 68780,
       "category" : "devops",
       "tags" : [ "sentry", "devops" ],
       "license" : "MIT License",
@@ -13890,8 +13599,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0b3599d2-9e43-4876-8e95-e1a4fe9d1d36",
-      "versionId" : "2e465cd8-c1e1-4877-8a55-479475a39132"
+      "serverId" : "240f137b-582a-4564-b8f6-495b8251de46",
+      "versionId" : "c8599521-bbdc-40ea-a333-4bc38d5c57a5"
     }
   }
 }, {
@@ -13928,9 +13637,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 567,
       "stars" : 1,
-      "githubStars" : 10,
       "category" : "devops",
       "tags" : [ "search", "ai", "devops" ],
       "license" : "MIT License",
@@ -13949,8 +13656,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "8891d58f-091e-458b-bc0c-d5d56e36a761",
-      "versionId" : "f0e48860-2743-4ec5-802e-78317063023d"
+      "serverId" : "f850d7ff-fb19-4ea4-8ead-36d789b7128d",
+      "versionId" : "3d084992-ff53-4f40-91c0-dba326946684"
     }
   }
 }, {
@@ -13967,9 +13674,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 102972,
       "stars" : 28,
-      "githubStars" : 68780,
       "category" : "ai",
       "tags" : [ "mcp", "ai" ],
       "license" : "MIT License",
@@ -13988,8 +13693,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "cbe7854c-be17-4da3-b385-a420c9c2a918",
-      "versionId" : "862d7440-ddfb-446f-b49d-9ab45a428915"
+      "serverId" : "8d79300b-de32-448d-a0f2-085d66fd7d91",
+      "versionId" : "a90c3f55-9cb6-4606-b1e8-5e88c663bfb8"
     }
   }
 }, {
@@ -14001,7 +13706,14 @@
     "url" : "https://ai-assistant.short.io/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${SHORT_IO_API_KEY}"
+      "value" : "Bearer {short-io.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "short-io.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -14021,8 +13733,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0f2edf1e-2f2d-4a7c-a4d2-ebcdc7e02bcf",
-      "versionId" : "b9cdecf2-8fde-461a-8503-6b58443ab106"
+      "serverId" : "7da6a776-b65d-4ba8-8be1-9df4fa6f60b3",
+      "versionId" : "c9690203-8dec-4c99-8c10-07ba6b8fd670"
     }
   }
 }, {
@@ -14049,8 +13761,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1048,
-      "githubStars" : 27,
       "category" : "database",
       "tags" : [ "singlestore", "database" ],
       "license" : "MIT License",
@@ -14099,8 +13809,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d618e0cd-818d-4434-90ec-895a5db856e8",
-      "versionId" : "6543926d-de72-4489-911a-cfcb4461b527"
+      "serverId" : "2eda8a91-bf35-478f-ab9e-d091269e9387",
+      "versionId" : "c7768026-33d1-4ed8-be51-8af28728cd60"
     }
   }
 }, {
@@ -14147,9 +13857,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 270581,
       "stars" : 21,
-      "githubStars" : 68780,
       "category" : "communication",
       "tags" : [ "slack", "communication" ],
       "license" : "MIT License",
@@ -14182,8 +13890,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b40d93bd-f4a9-4b77-b5d1-ed9aebd8516e",
-      "versionId" : "9b7af5a2-ca61-4c2d-9bfd-e7aebbd05e5e"
+      "serverId" : "4da20a50-aa4c-4476-b25a-2d1ef29a091c",
+      "versionId" : "1548f085-d0e6-46b6-ab65-7a6d018915e6"
     }
   }
 }, {
@@ -14286,8 +13994,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 746,
-      "githubStars" : 17,
       "category" : "devops",
       "tags" : [ "smartbear", "devops", "api-testing", "monitoring" ],
       "license" : "MIT License",
@@ -14340,8 +14046,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "42caa5d0-e345-47cf-8426-97563e342dc7",
-      "versionId" : "4fcfd88b-1532-4da9-8b84-2acabdf45012"
+      "serverId" : "21def762-f6dd-41bd-a6b5-40c5e1a8b8ab",
+      "versionId" : "5099d007-1b37-4041-901e-aad73b7391a7"
     }
   }
 }, {
@@ -14354,7 +14060,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/sonarqube",
-    "version" : "sha256:0b8368743f8b588c14ef8248797b6d355f943c8e790324b418ada842046f742e",
+    "version" : "sha256:299e55e57c8196a4144e3e2d4ec2b1b002e5ccc650baa4a92118a76ae8bf000c",
     "environmentVariables" : [ {
       "name" : "SONARQUBE_TOKEN",
       "value" : "{sonarqube.token}",
@@ -14390,9 +14096,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 10561,
       "stars" : 17,
-      "githubStars" : 101,
       "category" : "productivity",
       "tags" : [ "sonarqube" ],
       "license" : "Other",
@@ -14451,8 +14155,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a20587f5-20f7-4d19-805a-64d25e23c499",
-      "versionId" : "07e323f2-1c6f-4152-a4ea-2c725743d0ed"
+      "serverId" : "b4af5e47-37ae-4b4b-b6a6-c4223447665e",
+      "versionId" : "ab178b6a-c70d-446f-9d08-1e3a32a513ab"
     }
   }
 }, {
@@ -14481,9 +14185,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 13979,
       "stars" : 14,
-      "githubStars" : 68780,
       "category" : "database",
       "tags" : [ "sqlite", "database" ],
       "license" : "MIT License",
@@ -14512,8 +14214,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "881ad438-562f-48fc-8ba5-72b860c25b32",
-      "versionId" : "318e3c94-bb14-4ef6-b9e1-4933bed6aded"
+      "serverId" : "cd737222-fd34-452f-b5f7-f0169f57b836",
+      "versionId" : "e6007d05-ac97-4fa7-9141-d8a0a9117613"
     }
   }
 }, {
@@ -14540,7 +14242,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 69,
       "category" : "devops",
       "tags" : [ "devops", "stackhawk", "appsec" ],
       "license" : "Other",
@@ -14593,8 +14294,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "103d7b74-d393-4350-a8c3-3f022bee566f",
-      "versionId" : "02016870-d7ae-414c-ac56-b7f7127c84be"
+      "serverId" : "74c57cf1-db37-4d87-b7d5-3bdadc517201",
+      "versionId" : "5cca624d-4a8b-4afa-a830-5ef6f860bb2c"
     }
   }
 }, {
@@ -14631,9 +14332,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 940,
       "stars" : 1,
-      "githubStars" : 3,
       "category" : "monitoring",
       "tags" : [ "observability" ],
       "license" : "MIT License",
@@ -14654,8 +14353,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "c41759c3-fdc8-48c0-9a45-7396ccc98378",
-      "versionId" : "5189a680-0267-4ebd-a3f5-4d4376a912e4"
+      "serverId" : "f09ed1b0-c5d3-4457-b379-836e6f6858cf",
+      "versionId" : "9bad057d-000a-4533-b50d-c33bc213de67"
     }
   }
 }, {
@@ -14682,9 +14381,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 6957,
       "stars" : 8,
-      "githubStars" : 773,
       "category" : "search",
       "tags" : [ "tavily", "search" ],
       "license" : "MIT License",
@@ -14709,8 +14406,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a73b255e-61f1-477e-bf9e-91c9cbdf0acc",
-      "versionId" : "e6b0184c-f914-429c-aa76-0f3a313962d4"
+      "serverId" : "943a250c-da28-425b-905a-61be0f8a86c9",
+      "versionId" : "89a25d8a-cae4-45af-a4a3-5cb6efdd6ee2"
     }
   }
 }, {
@@ -14723,7 +14420,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/teamwork",
-    "version" : "sha256:51280a63cd8eba124af4a355e0163f6167f7637985e26081be5d7fad56507313",
+    "version" : "sha256:b1a3857c35d4f4084aadcfbe09cc905602a4a860b387cf168f4535509a142666",
     "environmentVariables" : [ {
       "name" : "TW_MCP_BEARER_TOKEN",
       "value" : "{teamwork.tw_mcp_bearer_token}",
@@ -14737,8 +14434,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 516,
-      "githubStars" : 8,
       "category" : "productivity",
       "tags" : [ "ai", "artificial-intelligence", "teamwork" ],
       "license" : "MIT License",
@@ -14957,8 +14652,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d2a470cf-0129-44e0-a5e6-20c2a1df8fe1",
-      "versionId" : "27caf434-403c-490d-8aee-d35976d49bd9"
+      "serverId" : "af075f98-5283-4dfe-83a2-12446aa868d7",
+      "versionId" : "3ee6d553-096b-4139-b66f-56aa8bddb831"
     }
   }
 }, {
@@ -14970,7 +14665,14 @@
     "url" : "https://api.telnyx.com/v2/mcp",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${TELNYX_API_KEY}"
+      "value" : "Bearer {telnyx.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "telnyx.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -14990,8 +14692,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "12ee55af-6f03-4551-bb8d-5c654f5de520",
-      "versionId" : "a0389281-e07f-4156-af35-3131fca02ff4"
+      "serverId" : "53875467-9db4-4916-8fda-de31a581734e",
+      "versionId" : "4b5d1781-cbe0-4d3e-bbaf-b077e9662bc5"
     }
   }
 }, {
@@ -15018,8 +14720,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1783,
-      "githubStars" : 7,
       "category" : "devops",
       "tags" : [ "tembo", "devops" ],
       "license" : "MIT License",
@@ -15056,8 +14756,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "e58fe3a4-44eb-47b3-8349-de50358ac92c",
-      "versionId" : "80fda8c0-abc5-4e93-ad5c-e71d5cc08d64"
+      "serverId" : "dcf2615e-06ce-4d95-8c9c-ec9c7c6a987d",
+      "versionId" : "dc8612c4-4915-4108-9f0a-671da6c8d9d8"
     }
   }
 }, {
@@ -15102,8 +14802,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 815,
-      "githubStars" : 17,
       "category" : "devops",
       "tags" : [ "graphql", "ai", "natural-language", "api", "query-generation" ],
       "license" : "Other",
@@ -15130,8 +14828,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "77a68602-5a6f-45b8-a298-06df3b507d8c",
-      "versionId" : "73953af2-5951-461f-bbf9-5139050a3f1d"
+      "serverId" : "d5f1021c-6cd9-4abb-b97f-5329a93fbf0b",
+      "versionId" : "a08a0618-0693-4e7f-8238-6c5e180822a6"
     }
   }
 }, {
@@ -15178,8 +14876,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 824,
-      "githubStars" : 3,
       "category" : "devops",
       "tags" : [ "s3-storage", "storage", "tigris", "tigris-data" ],
       "license" : "MIT License",
@@ -15216,8 +14912,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d2b4031f-7dbd-45d1-a72b-4c328957d8c7",
-      "versionId" : "a551f449-02ad-42e8-b230-628aacdffedc"
+      "serverId" : "2cd813be-cab0-404a-bb07-f8065e309f6b",
+      "versionId" : "f3765c59-b158-419b-ad10-ac5a3c743d11"
     }
   }
 }, {
@@ -15234,9 +14930,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 191052,
-      "stars" : 7,
-      "githubStars" : 68780,
+      "stars" : 8,
       "category" : "devops",
       "tags" : [ "time", "devops" ],
       "license" : "MIT License",
@@ -15257,8 +14951,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "49573172-23f7-4e5e-af31-da425a2ee86b",
-      "versionId" : "4735ec52-ba16-4392-b597-94f9778c4838"
+      "serverId" : "c231dc3c-7c46-4449-ab6f-b292b729c48d",
+      "versionId" : "95c000ed-a984-4327-b458-85d813e75b14"
     }
   }
 }, {
@@ -15285,8 +14979,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 1901,
-      "githubStars" : 3,
       "category" : "devops",
       "tags" : [ "triplewhale", "devops" ],
       "license" : "MIT License",
@@ -15305,8 +14997,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "dceff102-1b05-4da2-89ac-3da096dd91e8",
-      "versionId" : "0f8e9b70-cc09-4a15-bf86-5ff530afd81f"
+      "serverId" : "de60f6db-ec8d-40ed-b862-5e20061f6dcb",
+      "versionId" : "7b7cd6ff-48e3-4a97-8d0d-2e8814013bb6"
     }
   }
 }, {
@@ -15319,7 +15011,7 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/unreal-engine-mcp-server",
-    "version" : "sha256:e9d176d92fbff91167eca118819c66e1c3e96fb1cef68999274717b8d121bb0d",
+    "version" : "sha256:d5ed05ccda9ce5c3671271644b61e3f8b7855cd62de02601af4af3cafa2f2cb8",
     "environmentVariables" : [ {
       "name" : "UE_HOST",
       "value" : "{unreal-engine-mcp-server.ue_host}",
@@ -15368,39 +15060,37 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 539,
       "stars" : 2,
-      "githubStars" : 4,
       "category" : "games",
       "tags" : [ "games", "unreal-engine", "game-development", "automation", "editor" ],
       "license" : "MIT License",
       "owner" : "ChiR24",
       "tools" : [ {
-        "name" : "manage_asset"
+        "name" : "animation_physics"
+      }, {
+        "name" : "build_environment"
+      }, {
+        "name" : "console_command"
       }, {
         "name" : "control_actor"
       }, {
         "name" : "control_editor"
       }, {
-        "name" : "manage_level"
-      }, {
-        "name" : "animation_physics"
-      }, {
         "name" : "create_effect"
+      }, {
+        "name" : "inspect"
+      }, {
+        "name" : "manage_asset"
       }, {
         "name" : "manage_blueprint"
       }, {
-        "name" : "build_environment"
-      }, {
-        "name" : "system_control"
-      }, {
-        "name" : "console_command"
+        "name" : "manage_level"
       }, {
         "name" : "manage_rc"
       }, {
         "name" : "manage_sequence"
       }, {
-        "name" : "inspect"
+        "name" : "system_control"
       } ],
       "source" : "https://github.com/ChiR24/Unreal_mcp/tree/main",
       "icon" : "https://raw.githubusercontent.com/ChiR24/Unreal_mcp/main/Public/icon.png",
@@ -15413,8 +15103,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "7242bd45-6ffd-46b2-b969-3d69baa5370e",
-      "versionId" : "d3b889b1-49da-4cbd-9581-8ce6ac6b6407"
+      "serverId" : "c06cc599-6ec2-4d08-b1b4-4867a936bc2f",
+      "versionId" : "27328b8a-21d1-44d3-988d-52a78f409cb6"
     }
   }
 }, {
@@ -15441,9 +15131,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2106,
       "stars" : 4,
-      "githubStars" : 45,
       "category" : "devops",
       "tags" : [ "veyrax", "devops" ],
       "owner" : "VeyraX",
@@ -15465,8 +15153,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "a1830834-d317-49af-a8a5-4edea9e0f013",
-      "versionId" : "485a06c4-f7df-409c-a5a4-13aaa598a912"
+      "serverId" : "47e7a3c8-f577-48ef-9872-5b4182e38fd2",
+      "versionId" : "141a0c23-43dd-4626-a192-fe88aea142fd"
     }
   }
 }, {
@@ -15483,9 +15171,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2883,
       "stars" : 1,
-      "githubStars" : 3372,
       "category" : "data-visualization",
       "tags" : [ "dashboard", "data-visualization", "plotly", "plotly-dash", "pydantic", "python", "visualization" ],
       "license" : "Apache License 2.0",
@@ -15514,8 +15200,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "d0ede4a4-b1a7-4a76-ab13-904dd1f7e8b7",
-      "versionId" : "f70fc51e-a524-4c25-930f-2065b345282a"
+      "serverId" : "8e004921-2780-4854-ae51-4068151f4fc0",
+      "versionId" : "9074a1d9-77c3-4954-aeac-0048ee9e334a"
     }
   }
 }, {
@@ -15532,8 +15218,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 290,
-      "githubStars" : 2,
       "category" : "search",
       "tags" : [ "search", "cybersecurity", "vulns", "cves" ],
       "license" : "MIT License",
@@ -15562,8 +15246,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "0ab6a7e5-2b60-42b6-b99e-7c0cbe57fe8c",
-      "versionId" : "a8340fb4-50cd-41fc-bedd-f03196ddfeaa"
+      "serverId" : "8f40ed36-7554-4e6e-a241-26d7f44706f5",
+      "versionId" : "3648bfb3-64ff-4d42-a406-6d9bc526beba"
     }
   }
 }, {
@@ -15575,7 +15259,14 @@
     "url" : "https://app.wayfound.ai/sse",
     "headers" : [ {
       "name" : "Authorization",
-      "value" : "Bearer ${MCP_API_KEY}"
+      "value" : "Bearer {wayfound.mcp_api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "wayfound.mcp_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
     } ]
   } ],
   "_meta" : {
@@ -15603,8 +15294,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "06a0301d-3eaa-4976-a2a3-104d75adaa14",
-      "versionId" : "478d7fff-d01e-4903-9f9a-3ff7afbfd78c"
+      "serverId" : "181d75e3-a602-474b-82c9-774b4ba60848",
+      "versionId" : "00995311-88bb-45b9-a717-367c1ae59d44"
     }
   }
 }, {
@@ -15631,8 +15322,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 2058,
-      "githubStars" : 82,
       "category" : "devops",
       "tags" : [ "webflow", "devops" ],
       "license" : "MIT License",
@@ -15691,8 +15380,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "b3b3d943-1f56-47db-bb62-4a67cd2c606b",
-      "versionId" : "5541a138-644e-40cb-a069-cbf77b3c4343"
+      "serverId" : "47455ff9-61a5-4a72-8d7d-07e754cfcc80",
+      "versionId" : "7724b9d0-f5d8-45b8-bf54-4658031aa3f3"
     }
   }
 }, {
@@ -15705,13 +15394,11 @@
       "type" : "stdio"
     },
     "identifier" : "mcp/wikipedia-mcp",
-    "version" : "sha256:e5a82a51726a9827dfe8740b78978b2c67403ff1415306535343874ab039a65e"
+    "version" : "sha256:c4f11de51360488e6c50ffa55c6701a8bd2b43a749734fcbd37fd262a27fe89b"
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 45347,
       "stars" : 7,
-      "githubStars" : 111,
       "category" : "devops",
       "tags" : [ "wikipedia-mcp", "devops" ],
       "license" : "MIT License",
@@ -15736,6 +15423,8 @@
         "name" : "summarize_article_for_query"
       }, {
         "name" : "summarize_article_section"
+      }, {
+        "name" : "test_wikipedia_connectivity"
       } ],
       "source" : "https://github.com/Rudra-ravi/wikipedia-mcp/tree/main",
       "icon" : "https://avatars.githubusercontent.com/u/56668?s=200&v=4",
@@ -15748,8 +15437,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "ff1dadf8-2325-4936-a0b5-d660d9d58f2f",
-      "versionId" : "d84e6d66-4bae-4edd-8683-9b703d0f2e25"
+      "serverId" : "cbb8eb55-83b7-40ad-9246-1fc60f75c1b5",
+      "versionId" : "b57f09ab-410b-4674-89c0-d79ac9fe4d15"
     }
   }
 }, {
@@ -15776,9 +15465,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 3353,
       "stars" : 6,
-      "githubStars" : 60,
       "category" : "devops",
       "tags" : [ "wolfram-alpha", "devops" ],
       "license" : "MIT License",
@@ -15797,8 +15484,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "1c0aa9b7-59a5-4ed0-9a22-2be8ce89f7c3",
-      "versionId" : "c5603188-7617-45a6-a681-6e5a57086205"
+      "serverId" : "88a6a4c6-4ade-47e3-91d1-05efffb8d464",
+      "versionId" : "c77416f8-435e-4279-874c-a7f81f270f41"
     }
   }
 }, {
@@ -15815,9 +15502,7 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 58707,
       "stars" : 15,
-      "githubStars" : 81,
       "category" : "search",
       "tags" : [ "youtube", "search" ],
       "license" : "MIT License",
@@ -15838,8 +15523,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "3ef6316d-ac4b-446f-a388-a4dcdb724771",
-      "versionId" : "a559f567-eff7-4aa6-9554-69808150ac5d"
+      "serverId" : "71c3547f-5ac9-4e86-9ae6-3e6ad4de2de3",
+      "versionId" : "9cb115c0-98ee-454e-aa8c-9e9d50aeac0b"
     }
   }
 }, {
@@ -15899,7 +15584,6 @@
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
-      "pulls" : 114,
       "category" : "finance",
       "tags" : [ "finance", "trading", "stocks", "india" ],
       "license" : "MIT License",
@@ -15946,8 +15630,8 @@
       "resources" : { }
     },
     "io.modelcontextprotocol.registry/official" : {
-      "serverId" : "50e8725f-0808-40d8-aab7-7f3f6b61731e",
-      "versionId" : "9ca99289-b3d3-4a55-826d-5dfe560eee54"
+      "serverId" : "6ab31fb9-65ef-4929-8238-325b906ba234",
+      "versionId" : "1936b929-a842-4e3a-87ed-1574384f6df2"
     }
   }
 } ]

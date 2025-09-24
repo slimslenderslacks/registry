@@ -1,0 +1,76 @@
+{
+  "name" : "com.docker.mcp/singlestore",
+  "description" : "MCP server for interacting with SingleStore Management API and services.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/singlestore",
+    "version" : "sha256:84f5ce412167ad1783f9877cb69139fa871972ef99542994b9423059615eb9b7",
+    "environmentVariables" : [ {
+      "name" : "MCP_API_KEY",
+      "value" : "{singlestore.mcp_api_key}",
+      "variables" : {
+        "singlestore.mcp_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "singlestore", "database" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_job_from_notebook"
+      }, {
+        "name" : "create_notebook_file"
+      }, {
+        "name" : "create_starter_workspace"
+      }, {
+        "name" : "delete_job"
+      }, {
+        "name" : "get_job"
+      }, {
+        "name" : "get_user_info"
+      }, {
+        "name" : "list_regions"
+      }, {
+        "name" : "list_sharedtier_regions"
+      }, {
+        "name" : "list_starter_workspaces"
+      }, {
+        "name" : "organization_info"
+      }, {
+        "name" : "resume_workspace"
+      }, {
+        "name" : "run_sql"
+      }, {
+        "name" : "terminate_starter_workspace"
+      }, {
+        "name" : "upload_notebook_file"
+      }, {
+        "name" : "workspace_groups_info"
+      }, {
+        "name" : "workspaces_info"
+      } ],
+      "source" : "https://github.com/singlestore-labs/mcp-server-singlestore/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/79943160?v=4",
+      "prompts" : 0,
+      "title" : "Singlestore",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/singlestore.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/singlestore.json",
+      "dateAdded" : "2025-07-09T16:39:19Z",
+      "upstream" : "https://github.com/singlestore-labs/mcp-server-singlestore",
+      "resources" : { },
+      "owner" : "singlestore-labs"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "ef910707-6847-4f2a-89f2-620381bc188b"
+    }
+  }
+}

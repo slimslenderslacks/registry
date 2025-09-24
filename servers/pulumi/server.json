@@ -1,0 +1,72 @@
+{
+  "name" : "com.docker.mcp/pulumi",
+  "description" : "Pulumi MCP server enables AI-powered coding assistants to help you codify cloud architectures and get diffs for infrastructure changes right in your development environment.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pulumi",
+    "version" : "sha256:06ba14e1f542b18d843834974b93c140a5a6b9e3afe68f5b4defc5898bcebfef",
+    "environmentVariables" : [ {
+      "name" : "PULUMI_ACCESS_TOKEN",
+      "value" : "{pulumi.access_token}",
+      "variables" : {
+        "pulumi.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "stdio"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "pulumi", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "deploy-to-aws"
+      }, {
+        "name" : "neo-task-launcher"
+      }, {
+        "name" : "pulumi-cli-preview"
+      }, {
+        "name" : "pulumi-cli-refresh"
+      }, {
+        "name" : "pulumi-cli-stack-output"
+      }, {
+        "name" : "pulumi-cli-up"
+      }, {
+        "name" : "pulumi-registry-get-function"
+      }, {
+        "name" : "pulumi-registry-get-resource"
+      }, {
+        "name" : "pulumi-registry-get-type"
+      }, {
+        "name" : "pulumi-registry-list-functions"
+      }, {
+        "name" : "pulumi-registry-list-resources"
+      }, {
+        "name" : "pulumi-resource-search"
+      } ],
+      "source" : "https://github.com/pulumi/mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/21992475?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Pulumi",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/pulumi.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/pulumi.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/pulumi/mcp-server",
+      "resources" : { },
+      "owner" : "pulumi"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "dc4dc08f-1cbd-4e6f-99e8-37b71f27bc48"
+    }
+  }
+}

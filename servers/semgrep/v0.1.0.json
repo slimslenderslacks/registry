@@ -1,0 +1,45 @@
+{
+  "name" : "com.docker.mcp/semgrep",
+  "description" : "MCP server for using Semgrep to scan code for security vulnerabilities.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.semgrep.ai/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "security", "code-analysis", "sast", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "semgrep_rule_schema"
+      }, {
+        "name" : "get_supported_languages"
+      }, {
+        "name" : "semgrep_findings"
+      }, {
+        "name" : "semgrep_scan_with_custom_rule"
+      }, {
+        "name" : "semgrep_scan"
+      }, {
+        "name" : "semgrep_scan_local"
+      }, {
+        "name" : "security_check"
+      }, {
+        "name" : "get_abstract_syntax_tree"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=semgrep.ai&sz=64",
+      "prompts" : 0,
+      "title" : "Semgrep",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/semgrep.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/semgrep.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "942fb7c8-17d1-4203-9f72-18ef89b1aa5e"
+    }
+  }
+}

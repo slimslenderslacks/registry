@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/cloudinary-analysis",
+  "description" : "Leverage AI-powered content analysis, moderation, and auto-tagging capabilities for your media assets.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://analysis.mcp.cloudinary.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "analysis", "content-moderation", "auto-tagging", "cloudinary", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudinary.com&sz=64",
+      "prompts" : 0,
+      "title" : "Cloudinary Analysis",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudinary-analysis.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "1276eafe-1f90-4e3f-9e37-eef491d95443"
+    }
+  }
+}

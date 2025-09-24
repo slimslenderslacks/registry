@@ -1,0 +1,105 @@
+{
+  "name" : "com.docker.mcp/unreal-engine-mcp-server",
+  "description" : "A comprehensive Model Context Protocol (MCP) server that enables AI assistants to control Unreal Engine via Remote Control API. Built with TypeScript and designed for game development automation.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/unreal-engine-mcp-server",
+    "version" : "sha256:e9d176d92fbff91167eca118819c66e1c3e96fb1cef68999274717b8d121bb0d",
+    "environmentVariables" : [ {
+      "name" : "UE_HOST",
+      "value" : "{unreal-engine-mcp-server.ue_host}",
+      "isRepeated" : false,
+      "variables" : {
+        "unreal-engine-mcp-server.ue_host" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Unreal Engine host address. Use: host.docker.internal for local UE on Windows/Mac Docker, 127.0.0.1 for Linux without Docker, or actual IP address (e.g., 192.168.1.100) for remote UE"
+        }
+      }
+    }, {
+      "name" : "UE_RC_HTTP_PORT",
+      "value" : "{unreal-engine-mcp-server.ue_rc_http_port}",
+      "isRepeated" : false,
+      "variables" : {
+        "unreal-engine-mcp-server.ue_rc_http_port" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Remote Control HTTP port"
+        }
+      }
+    }, {
+      "name" : "UE_RC_WS_PORT",
+      "value" : "{unreal-engine-mcp-server.ue_rc_ws_port}",
+      "isRepeated" : false,
+      "variables" : {
+        "unreal-engine-mcp-server.ue_rc_ws_port" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Remote Control WebSocket port"
+        }
+      }
+    }, {
+      "name" : "LOG_LEVEL",
+      "value" : "{unreal-engine-mcp-server.log_level}",
+      "isRepeated" : false,
+      "variables" : {
+        "unreal-engine-mcp-server.log_level" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Logging level"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "games",
+      "tags" : [ "games", "unreal-engine", "game-development", "automation", "editor" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "manage_asset"
+      }, {
+        "name" : "control_actor"
+      }, {
+        "name" : "control_editor"
+      }, {
+        "name" : "manage_level"
+      }, {
+        "name" : "animation_physics"
+      }, {
+        "name" : "create_effect"
+      }, {
+        "name" : "manage_blueprint"
+      }, {
+        "name" : "build_environment"
+      }, {
+        "name" : "system_control"
+      }, {
+        "name" : "console_command"
+      }, {
+        "name" : "manage_rc"
+      }, {
+        "name" : "manage_sequence"
+      }, {
+        "name" : "inspect"
+      } ],
+      "source" : "https://github.com/ChiR24/Unreal_mcp/tree/main",
+      "icon" : "https://raw.githubusercontent.com/ChiR24/Unreal_mcp/main/Public/icon.png",
+      "prompts" : 0,
+      "title" : "Unreal Engine MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/unreal-engine-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/unreal-engine-mcp-server.json",
+      "dateAdded" : "2025-09-15T16:12:49Z",
+      "upstream" : "https://github.com/ChiR24/Unreal_mcp",
+      "resources" : { },
+      "owner" : "ChiR24"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "c5f8f37a-8d56-4a01-a070-bf3e23e76260"
+    }
+  }
+}

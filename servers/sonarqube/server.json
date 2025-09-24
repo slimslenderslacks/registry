@@ -1,0 +1,105 @@
+{
+  "name" : "com.docker.mcp/sonarqube",
+  "description" : "Interact with SonarQube Cloud, Server and Community build over the web API. Analyze code to identify quality and security issues.",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/sonarqube",
+    "version" : "sha256:299e55e57c8196a4144e3e2d4ec2b1b002e5ccc650baa4a92118a76ae8bf000c",
+    "environmentVariables" : [ {
+      "name" : "SONARQUBE_TOKEN",
+      "value" : "{sonarqube.token}",
+      "variables" : {
+        "sonarqube.token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "SONARQUBE_URL",
+      "value" : "{sonarqube.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "sonarqube.url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "URL of the SonarQube instance, to provide only for SonarQube Server or Community Build"
+        }
+      }
+    }, {
+      "name" : "SONARQUBE_ORG",
+      "value" : "{sonarqube.org}",
+      "isRepeated" : false,
+      "variables" : {
+        "sonarqube.org" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Organization key for SonarQube Cloud, not required for SonarQube Server or Community Build"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "sonarqube" ],
+      "license" : "Other",
+      "owner" : "SonarSource",
+      "tools" : [ {
+        "name" : "analyze_code_snippet"
+      }, {
+        "name" : "change_sonar_issue_status"
+      }, {
+        "name" : "create_webhook"
+      }, {
+        "name" : "get_component_measures"
+      }, {
+        "name" : "get_project_quality_gate_status"
+      }, {
+        "name" : "get_raw_source"
+      }, {
+        "name" : "get_scm_info"
+      }, {
+        "name" : "get_system_health"
+      }, {
+        "name" : "get_system_info"
+      }, {
+        "name" : "get_system_logs"
+      }, {
+        "name" : "get_system_status"
+      }, {
+        "name" : "list_languages"
+      }, {
+        "name" : "list_portfolios"
+      }, {
+        "name" : "list_quality_gates"
+      }, {
+        "name" : "list_rule_repositories"
+      }, {
+        "name" : "list_webhooks"
+      }, {
+        "name" : "ping_system"
+      }, {
+        "name" : "search_metrics"
+      }, {
+        "name" : "search_my_sonarqube_projects"
+      }, {
+        "name" : "search_sonar_issues_in_projects"
+      }, {
+        "name" : "show_rule"
+      } ],
+      "source" : "https://github.com/SonarSource/sonarqube-mcp-server/tree/master",
+      "icon" : "https://avatars.githubusercontent.com/u/545988?s=200&v=4",
+      "prompts" : 0,
+      "title" : "SonarQube",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/sonarqube.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/sonarqube.json",
+      "dateAdded" : "2025-07-01T12:14:18Z",
+      "upstream" : "https://github.com/SonarSource/sonarqube-mcp-server",
+      "resources" : { }
+    }
+  }
+}

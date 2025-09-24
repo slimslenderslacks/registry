@@ -1,0 +1,38 @@
+{
+  "name" : "com.docker.mcp/youtube_transcript",
+  "description" : "Retrieves transcripts for given YouTube video URLs.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/youtube-transcript",
+    "version" : "sha256:1f21b08eb52d2fd6d098c5f6da822666d723a956036f85e61357a143bd96ce91"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "youtube", "search" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "get_transcript"
+      }, {
+        "name" : "get_video_info"
+      } ],
+      "source" : "https://github.com/jkawamoto/mcp-youtube-transcript/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/4052902?s=200&v=4",
+      "prompts" : 0,
+      "title" : "YouTube transcripts",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/youtube_transcript.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/youtube_transcript.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/jkawamoto/mcp-youtube-transcript",
+      "resources" : { },
+      "owner" : "jkawamoto"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "f59c986b-c54c-49ef-a3ef-74c443233db9"
+    }
+  }
+}

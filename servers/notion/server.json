@@ -1,0 +1,82 @@
+{
+  "name" : "com.docker.mcp/notion",
+  "description" : "Official Notion MCP Server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/notion",
+    "version" : "sha256:27fc9ba99c6b9840c9631d2ae4cfc7665e6f2fa6607c0cee413be4d5e99aeea2",
+    "environmentVariables" : [ {
+      "name" : "INTERNAL_INTEGRATION_TOKEN",
+      "value" : "{notion.internal_integration_token}",
+      "variables" : {
+        "notion.internal_integration_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "OPENAPI_MCP_HEADERS",
+      "value" : "{\"Authorization\": \"Bearer $INTERNAL_INTEGRATION_TOKEN\", \"Notion-Version\": \"2022-06-28\"}"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "notion", "secrets" ],
+      "license" : "MIT License",
+      "owner" : "makenotion",
+      "tools" : [ {
+        "name" : "API-create-a-comment"
+      }, {
+        "name" : "API-create-a-database"
+      }, {
+        "name" : "API-delete-a-block"
+      }, {
+        "name" : "API-get-block-children"
+      }, {
+        "name" : "API-get-self"
+      }, {
+        "name" : "API-get-user"
+      }, {
+        "name" : "API-get-users"
+      }, {
+        "name" : "API-patch-block-children"
+      }, {
+        "name" : "API-patch-page"
+      }, {
+        "name" : "API-post-database-query"
+      }, {
+        "name" : "API-post-page"
+      }, {
+        "name" : "API-post-search"
+      }, {
+        "name" : "API-retrieve-a-block"
+      }, {
+        "name" : "API-retrieve-a-comment"
+      }, {
+        "name" : "API-retrieve-a-database"
+      }, {
+        "name" : "API-retrieve-a-page"
+      }, {
+        "name" : "API-retrieve-a-page-property"
+      }, {
+        "name" : "API-update-a-block"
+      }, {
+        "name" : "API-update-a-database"
+      } ],
+      "source" : "https://github.com/makenotion/notion-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/4792552?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Notion",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/notion.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/notion.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/makenotion/notion-mcp-server",
+      "resources" : { }
+    }
+  }
+}

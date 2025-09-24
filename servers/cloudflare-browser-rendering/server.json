@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-browser-rendering",
+  "description" : "Fetch web pages, convert them to markdown and take screenshots.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://browser.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "tools",
+      "tags" : [ "tools", "browser", "rendering", "screenshots", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-browser-rendering",
+          "secret" : "cloudflare-browser-rendering.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare Browser Rendering",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-browser-rendering.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { }
+    }
+  }
+}

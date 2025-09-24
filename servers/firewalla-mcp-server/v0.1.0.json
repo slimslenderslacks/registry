@@ -1,0 +1,149 @@
+{
+  "name" : "com.docker.mcp/firewalla-mcp-server",
+  "description" : "Real-time network monitoring, security analysis, and firewall management through 28 specialized tools. Access security alerts, network flows, device status, and firewall rules directly from your Firewalla device.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/firewalla-mcp-server",
+    "version" : "sha256:af186f868759476978d884704a2736dd070c207424f23fe3f7d46a8bd385c2ed",
+    "environmentVariables" : [ {
+      "name" : "FIREWALLA_MSP_TOKEN",
+      "value" : "{firewalla-mcp-server.msp_token}",
+      "variables" : {
+        "firewalla-mcp-server.msp_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "FIREWALLA_MSP_ID",
+      "value" : "{firewalla-mcp-server.msp_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "firewalla-mcp-server.msp_id" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Your Firewalla MSP domain (e.g., yourdomain.firewalla.net)"
+        }
+      }
+    }, {
+      "name" : "FIREWALLA_BOX_ID",
+      "value" : "{firewalla-mcp-server.box_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "firewalla-mcp-server.box_id" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Your Firewalla Box Global ID"
+        }
+      }
+    }, {
+      "name" : "MCP_WAVE0_ENABLED",
+      "value" : "true"
+    }, {
+      "name" : "MCP_READ_ONLY_MODE",
+      "value" : "false"
+    }, {
+      "name" : "MCP_CACHE_ENABLED",
+      "value" : "true"
+    }, {
+      "name" : "MCP_DEBUG_MODE",
+      "value" : "false"
+    }, {
+      "name" : "NODE_ENV",
+      "value" : "production"
+    }, {
+      "name" : "LOG_LEVEL",
+      "value" : "info"
+    }, {
+      "name" : "MCP_CACHE_TTL",
+      "value" : "300"
+    }, {
+      "name" : "MCP_RATE_LIMIT_WINDOW",
+      "value" : "60000"
+    }, {
+      "name" : "MCP_RATE_LIMIT_MAX_REQUESTS",
+      "value" : "100"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "firewall", "security", "monitoring", "network", "threat-detection" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_target_list"
+      }, {
+        "name" : "delete_target_list"
+      }, {
+        "name" : "get_active_alarms"
+      }, {
+        "name" : "get_alarm_trends"
+      }, {
+        "name" : "get_bandwidth_usage"
+      }, {
+        "name" : "get_boxes"
+      }, {
+        "name" : "get_device_status"
+      }, {
+        "name" : "get_flow_data"
+      }, {
+        "name" : "get_flow_insights"
+      }, {
+        "name" : "get_network_rules"
+      }, {
+        "name" : "get_network_rules_summary"
+      }, {
+        "name" : "get_offline_devices"
+      }, {
+        "name" : "get_recent_flow_activity"
+      }, {
+        "name" : "get_rule_trends"
+      }, {
+        "name" : "get_simple_statistics"
+      }, {
+        "name" : "get_specific_alarm"
+      }, {
+        "name" : "get_specific_target_list"
+      }, {
+        "name" : "get_statistics_by_box"
+      }, {
+        "name" : "get_statistics_by_region"
+      }, {
+        "name" : "get_target_lists"
+      }, {
+        "name" : "pause_rule"
+      }, {
+        "name" : "resume_rule"
+      }, {
+        "name" : "search_alarms"
+      }, {
+        "name" : "search_devices"
+      }, {
+        "name" : "search_flows"
+      }, {
+        "name" : "search_rules"
+      }, {
+        "name" : "search_target_lists"
+      }, {
+        "name" : "update_target_list"
+      } ],
+      "source" : "https://github.com/amittell/firewalla-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/16805913?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Firewalla MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/firewalla-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/firewalla-mcp-server.json",
+      "dateAdded" : "2025-07-29T14:05:27Z",
+      "upstream" : "https://github.com/amittell/firewalla-mcp-server",
+      "resources" : { },
+      "owner" : "amittell"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "ba978a87-8f48-4237-bfea-331191c89ba0"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "name" : "com.docker.mcp/root",
+  "description" : "MCP server that provides container image vulnerability scanning and remediation capabilities through Root.io.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/root",
+    "version" : "sha256:f2627402e2ebc19228ac1136b17cffb476ec9d75a372eb8419cbfb5738a32ac8",
+    "environmentVariables" : [ {
+      "name" : "API_ACCESS_TOKEN",
+      "value" : "{root.api_access_token}",
+      "variables" : {
+        "root.api_access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "security", "vulnerability", "scanning", "remediation" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_registry_integration"
+      }, {
+        "name" : "get_image_remediation"
+      }, {
+        "name" : "get_remediation_continuity_summary"
+      }, {
+        "name" : "get_remediation_details_by_scan_id"
+      }, {
+        "name" : "get_remediation_status"
+      }, {
+        "name" : "get_user_info"
+      }, {
+        "name" : "list_remediation_continuity_summaries"
+      }, {
+        "name" : "list_unique_fqins"
+      }, {
+        "name" : "ping"
+      }, {
+        "name" : "registries_credentials_list"
+      }, {
+        "name" : "trigger_remediation"
+      } ],
+      "source" : "https://github.com/rootio-avr/mcp-proxy/tree/main",
+      "icon" : "https://raw.githubusercontent.com/rootio-avr/mcp-proxy/refs/heads/main/assets/root-logo.svg",
+      "prompts" : 0,
+      "title" : "Root.io Vulnerability Remediation MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/root.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/root.json",
+      "dateAdded" : "2025-07-10T19:06:20Z",
+      "upstream" : "https://github.com/rootio-avr/mcp-proxy",
+      "resources" : { },
+      "owner" : "rootio-avr"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "58af8a55-d18b-4b08-8709-a69a9a94bbc4"
+    }
+  }
+}

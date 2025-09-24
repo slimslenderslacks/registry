@@ -1,0 +1,55 @@
+{
+  "name" : "com.docker.mcp/SQLite",
+  "description" : "Database interaction and business intelligence capabilities.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/sqlite",
+    "version" : "sha256:efbc05ccace18df122f26b674bd1730c76ece716551df2b3961d519909c34696",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "mcp-sqlite:/mcp"
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "--db-path"
+    }, {
+      "type" : "positional",
+      "value" : "/mcp/db.sqlite"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "sqlite", "database" ],
+      "license" : "MIT License",
+      "owner" : "modelcontextprotocol",
+      "tools" : [ {
+        "name" : "append_insight"
+      }, {
+        "name" : "create_table"
+      }, {
+        "name" : "describe_table"
+      }, {
+        "name" : "list_tables"
+      }, {
+        "name" : "read_query"
+      }, {
+        "name" : "write_query"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/sqlite",
+      "icon" : "https://avatars.githubusercontent.com/u/48680494?v=4",
+      "prompts" : 0,
+      "title" : "SQLite (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/SQLite.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/SQLite.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { }
+    }
+  }
+}

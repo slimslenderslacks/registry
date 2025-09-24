@@ -1,0 +1,52 @@
+{
+  "name" : "com.docker.mcp/mcp-python-refactoring",
+  "description" : "Educational Python refactoring assistant that provides guided suggestions for AI assistants.  Features: • Step-by-step refactoring instructions without modifying code • Comprehensive code analysis using professional tools (Rope, Radon, Vulture, Jedi, LibCST, Pyrefly) • Educational approach teaching refactoring patterns through guided practice • Support for both guide-only and apply-changes modes • Identifies long functions, high complexity, dead code, and type issues • Provides precise line numbers and specific refactoring instructions • Compatible with all AI assistants (Claude, GPT, Cursor, Continue, etc.)  Perfect for developers learning refactoring patterns while maintaining full control over code changes. Acts as a refactoring mentor rather than an automated code modifier.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mcp-python-refactoring",
+    "version" : "sha256:4cd4303da424f021f03e9fafc46187a08bcab212ead6f1e39867afee1d42cd24"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "development",
+      "tags" : [ "python", "refactoring", "code-analysis", "education", "development", "code-quality", "static-analysis", "mentoring" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "analyze_python_file"
+      }, {
+        "name" : "analyze_python_package"
+      }, {
+        "name" : "analyze_security_and_patterns"
+      }, {
+        "name" : "analyze_test_coverage"
+      }, {
+        "name" : "find_long_functions"
+      }, {
+        "name" : "find_package_issues"
+      }, {
+        "name" : "get_extraction_guidance"
+      }, {
+        "name" : "get_package_metrics"
+      }, {
+        "name" : "tdd_refactoring_guidance"
+      } ],
+      "source" : "https://github.com/slamer59/mcp-python-refactoring/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/2664231?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Python Refactoring Assistant",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/mcp-python-refactoring.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/mcp-python-refactoring.json",
+      "dateAdded" : "2025-09-04T19:31:40Z",
+      "upstream" : "https://github.com/slamer59/mcp-python-refactoring",
+      "resources" : { },
+      "owner" : "slamer59"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "4c991851-93ad-4045-9d4e-e108bc6c29f2"
+    }
+  }
+}

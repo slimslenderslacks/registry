@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/instant",
+  "description" : "Build real-time, offline-first applications with a modern Firebase-like database and instant synchronization.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.instantdb.com/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "database", "realtime", "backend", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=instantdb.com&sz=64",
+      "prompts" : 0,
+      "title" : "Instant",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/instant.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "81e3c91c-a766-40a8-9c24-a49f030bbc99"
+    }
+  }
+}

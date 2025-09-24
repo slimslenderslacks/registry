@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/aws-core-mcp-server",
+  "description" : "Starting point for using the awslabs MCP servers.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-core-mcp-server",
+    "version" : "sha256:8acdccef88507a6a91fe9047a645af72cdc78164328408940716195224dae49c"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws-core-mcp-server", "devops" ],
+      "license" : "Apache License 2.0",
+      "owner" : "awslabs",
+      "tools" : [ {
+        "name" : "prompt_understanding"
+      } ],
+      "source" : "https://github.com/awslabs/mcp/tree/main/src/core-mcp-server",
+      "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "prompts" : 0,
+      "title" : "AWS Core MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-core-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-core-mcp-server.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/awslabs/mcp",
+      "resources" : { }
+    }
+  }
+}

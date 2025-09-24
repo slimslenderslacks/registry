@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/atlassian-remote",
+  "description" : "Tools for Atlassian products (Confluence and Jira). This integration supports both Atlassian Cloud and Jira Server/Data Center deployments.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.atlassian.com/v1/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "software-development", "collaboration", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=atlassian.com&sz=64",
+      "prompts" : 0,
+      "title" : "Atlassian",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/atlassian-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "e3b0f372-1b27-49b3-9d32-f852a1cd12ea"
+    }
+  }
+}

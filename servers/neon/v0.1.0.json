@@ -1,0 +1,82 @@
+{
+  "name" : "com.docker.mcp/neon",
+  "description" : "MCP server for interacting with Neon Management API and databases.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/neon",
+    "version" : "sha256:fab32eb73fb01e858b1effecc735c907488ba42536f7498e034b0567729051de",
+    "environmentVariables" : [ {
+      "name" : "NEON_API_KEY",
+      "value" : "{neon.api_key}",
+      "variables" : {
+        "neon.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "neon", "database" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "__node_version"
+      }, {
+        "name" : "complete_database_migration"
+      }, {
+        "name" : "complete_query_tuning"
+      }, {
+        "name" : "create_branch"
+      }, {
+        "name" : "create_project"
+      }, {
+        "name" : "delete_branch"
+      }, {
+        "name" : "delete_project"
+      }, {
+        "name" : "describe_branch"
+      }, {
+        "name" : "describe_project"
+      }, {
+        "name" : "describe_table_schema"
+      }, {
+        "name" : "explain_sql_statement"
+      }, {
+        "name" : "get_connection_string"
+      }, {
+        "name" : "get_database_tables"
+      }, {
+        "name" : "list_projects"
+      }, {
+        "name" : "prepare_database_migration"
+      }, {
+        "name" : "prepare_query_tuning"
+      }, {
+        "name" : "provision_neon_auth"
+      }, {
+        "name" : "run_sql"
+      }, {
+        "name" : "run_sql_transaction"
+      } ],
+      "source" : "https://github.com/neondatabase-labs/mcp-server-neon/tree/dbfa184afd9fc677c0d6b007a62b33194e883821",
+      "icon" : "https://avatars.githubusercontent.com/u/183852044?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Neon",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/neon.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/neon.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/neondatabase-labs/mcp-server-neon",
+      "resources" : { },
+      "owner" : "neondatabase"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "39e016ed-c9af-40c1-b195-8eaedf7b8c0f"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name" : "com.docker.mcp/hackle",
+  "description" : "Model Context Protocol server for Hackle.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/hackle",
+    "version" : "sha256:03e3a8a3e3b7b9cdc172a34f5aed26e19ab7f7c865d4b991c8dc7f4e309deadb",
+    "environmentVariables" : [ {
+      "name" : "API_KEY",
+      "value" : "{hackle.api_key}",
+      "variables" : {
+        "hackle.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "hackle", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "active-user-series"
+      }, {
+        "name" : "analytics-chart-detail"
+      }, {
+        "name" : "analytics-chart-list"
+      }, {
+        "name" : "data-report-detail"
+      }, {
+        "name" : "data-report-list"
+      }, {
+        "name" : "experiment-detail"
+      }, {
+        "name" : "experiment-list"
+      }, {
+        "name" : "in-app-message-detail"
+      }, {
+        "name" : "in-app-message-list"
+      }, {
+        "name" : "push-message-detail"
+      }, {
+        "name" : "push-message-list"
+      }, {
+        "name" : "remote-config-create"
+      }, {
+        "name" : "remote-config-detail"
+      }, {
+        "name" : "remote-config-list"
+      }, {
+        "name" : "remote-config-update"
+      }, {
+        "name" : "remote-config-update-description"
+      }, {
+        "name" : "remote-config-update-user-identifier-criteria"
+      }, {
+        "name" : "retention-series"
+      }, {
+        "name" : "stickiness-series"
+      } ],
+      "source" : "https://github.com/hackle-io/hackle-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/65485327?v=4",
+      "prompts" : 0,
+      "title" : "Hackle",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/hackle.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/hackle.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/hackle-io/hackle-mcp",
+      "resources" : { },
+      "owner" : "hackle-io"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "b2292435-fe5f-498f-a0e3-68075a7d97fd"
+    }
+  }
+}

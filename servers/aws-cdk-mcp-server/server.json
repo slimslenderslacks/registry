@@ -1,0 +1,45 @@
+{
+  "name" : "com.docker.mcp/aws-cdk-mcp-server",
+  "description" : "AWS Cloud Development Kit (CDK) best practices, infrastructure as code patterns, and security compliance with CDK Nag.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-cdk-mcp-server",
+    "version" : "sha256:73b7ecb48adbc9dd3b170c859c4a11d03b6167590d4b0dee5396e6b61aa1a0eb"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws-cdk-mcp-server", "devops" ],
+      "license" : "Apache License 2.0",
+      "owner" : "awslabs",
+      "tools" : [ {
+        "name" : "CDKGeneralGuidance"
+      }, {
+        "name" : "CheckCDKNagSuppressions"
+      }, {
+        "name" : "ExplainCDKNagRule"
+      }, {
+        "name" : "GenerateBedrockAgentSchema"
+      }, {
+        "name" : "GetAwsSolutionsConstructPattern"
+      }, {
+        "name" : "LambdaLayerDocumentationProvider"
+      }, {
+        "name" : "SearchGenAICDKConstructs"
+      } ],
+      "source" : "https://github.com/awslabs/mcp/tree/main/src/cdk-mcp-server",
+      "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "prompts" : 0,
+      "title" : "AWS CDK",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-cdk-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-cdk-mcp-server.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/awslabs/mcp",
+      "resources" : { }
+    }
+  }
+}

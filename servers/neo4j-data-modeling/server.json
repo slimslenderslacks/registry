@@ -1,0 +1,114 @@
+{
+  "name" : "com.docker.mcp/neo4j-data-modeling",
+  "description" : "MCP server that assists in creating, validating and visualizing graph data models.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/neo4j-data-modeling",
+    "version" : "sha256:18d70dafe9e0ee13f6eaf44ccc5992668ead2f8d908bccb10de5213bf99d5109",
+    "environmentVariables" : [ {
+      "name" : "NEO4J_TRANSPORT",
+      "value" : "{neo4j-data-modeling.transport}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.transport" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_HOST",
+      "value" : "{neo4j-data-modeling.server_host}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.server_host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PORT",
+      "value" : "{neo4j-data-modeling.server_port}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.server_port" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PATH",
+      "value" : "{neo4j-data-modeling.server_path}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.server_path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOW_ORIGINS",
+      "value" : "{neo4j-data-modeling.server_allow_origins}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.server_allow_origins" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOWED_HOSTS",
+      "value" : "{neo4j-data-modeling.server_allowed_hosts}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-data-modeling.server_allowed_hosts" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "neo4j-data-modeling", "devops" ],
+      "license" : "MIT License",
+      "owner" : "neo4j-contrib",
+      "tools" : [ {
+        "name" : "export_to_arrows_json"
+      }, {
+        "name" : "get_constraints_cypher_queries"
+      }, {
+        "name" : "get_example_data_model"
+      }, {
+        "name" : "get_mermaid_config_str"
+      }, {
+        "name" : "get_node_cypher_ingest_query"
+      }, {
+        "name" : "get_relationship_cypher_ingest_query"
+      }, {
+        "name" : "list_example_data_models"
+      }, {
+        "name" : "load_from_arrows_json"
+      }, {
+        "name" : "validate_data_model"
+      }, {
+        "name" : "validate_node"
+      }, {
+        "name" : "validate_relationship"
+      } ],
+      "source" : "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-data-modeling",
+      "icon" : "https://avatars.githubusercontent.com/u/916372?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Neo4j Data Modeling",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/neo4j-data-modeling.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/neo4j-data-modeling.json",
+      "dateAdded" : "2025-09-09T15:35:27Z",
+      "upstream" : "https://github.com/neo4j-contrib/mcp-neo4j",
+      "resources" : { }
+    }
+  }
+}

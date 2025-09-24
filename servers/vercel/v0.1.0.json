@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/vercel",
+  "description" : "Deploy and scale web applications with serverless functions, global CDN, and automatic Git integration.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.vercel.com/"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "hosting", "deployment", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=vercel.com&sz=64",
+      "prompts" : 0,
+      "title" : "Vercel",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/vercel.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "327e1528-8525-4ee0-afeb-873045e18988"
+    }
+  }
+}

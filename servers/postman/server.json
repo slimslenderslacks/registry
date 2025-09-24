@@ -1,0 +1,117 @@
+{
+  "name" : "com.docker.mcp/postman",
+  "description" : "Postman's MCP server connects AI agents, assistants, and chatbots directly to your APIs on Postman. Use natural language to prompt AI to automate work across your Postman collections, environments, workspaces, and more.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/postman",
+    "version" : "sha256:c0da82f3b69203a898f2ccce3a3b875255b2e4cff818b073412497b5c4954ea3",
+    "environmentVariables" : [ {
+      "name" : "POSTMAN_API_KEY",
+      "value" : "{postman.postman-api-key}",
+      "variables" : {
+        "postman.postman-api-key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops" ],
+      "license" : "Apache License 2.0",
+      "owner" : "postmanlabs",
+      "tools" : [ {
+        "name" : "createCollection"
+      }, {
+        "name" : "createCollectionRequest"
+      }, {
+        "name" : "createCollectionResponse"
+      }, {
+        "name" : "createEnvironment"
+      }, {
+        "name" : "createMock"
+      }, {
+        "name" : "createSpec"
+      }, {
+        "name" : "createSpecFile"
+      }, {
+        "name" : "createWorkspace"
+      }, {
+        "name" : "duplicateCollection"
+      }, {
+        "name" : "generateCollection"
+      }, {
+        "name" : "generateSpecFromCollection"
+      }, {
+        "name" : "getAllSpecs"
+      }, {
+        "name" : "getAuthenticatedUser"
+      }, {
+        "name" : "getCollection"
+      }, {
+        "name" : "getCollections"
+      }, {
+        "name" : "getEnvironment"
+      }, {
+        "name" : "getEnvironments"
+      }, {
+        "name" : "getGeneratedCollectionSpecs"
+      }, {
+        "name" : "getMock"
+      }, {
+        "name" : "getMocks"
+      }, {
+        "name" : "getSpec"
+      }, {
+        "name" : "getSpecCollections"
+      }, {
+        "name" : "getSpecDefinition"
+      }, {
+        "name" : "getSpecFile"
+      }, {
+        "name" : "getSpecFiles"
+      }, {
+        "name" : "getStatusOfAnAsyncApiTask"
+      }, {
+        "name" : "getTaggedEntities"
+      }, {
+        "name" : "getWorkspace"
+      }, {
+        "name" : "getWorkspaces"
+      }, {
+        "name" : "publishMock"
+      }, {
+        "name" : "putCollection"
+      }, {
+        "name" : "putEnvironment"
+      }, {
+        "name" : "syncCollectionWithSpec"
+      }, {
+        "name" : "syncSpecWithCollection"
+      }, {
+        "name" : "updateMock"
+      }, {
+        "name" : "updateSpecFile"
+      }, {
+        "name" : "updateSpecProperties"
+      }, {
+        "name" : "updateWorkspace"
+      } ],
+      "source" : "https://github.com/postmanlabs/postman-mcp-server/tree/main",
+      "icon" : "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
+      "prompts" : 0,
+      "title" : "Postman MCP server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/postman.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/postman.json",
+      "dateAdded" : "2025-09-11T17:03:42Z",
+      "upstream" : "https://github.com/postmanlabs/postman-mcp-server",
+      "resources" : { }
+    }
+  }
+}

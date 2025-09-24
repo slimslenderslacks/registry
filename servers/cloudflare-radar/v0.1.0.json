@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/cloudflare-radar",
+  "description" : "Get global Internet traffic insights, trends, URL scans, and other utilities.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://radar.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "analytics",
+      "tags" : [ "analytics", "internet-traffic", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "title" : "Cloudflare Radar",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-radar.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "32bf057b-4e04-48ca-8800-a962b1dd4375"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name" : "com.docker.mcp/openzeppelin-stylus",
+  "description" : "Access to OpenZeppelin Stylus Contracts.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.openzeppelin.com/contracts/stylus/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "blockchain",
+      "tags" : [ "blockchain", "stylus", "smart-contracts", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "stylus-erc20"
+      }, {
+        "name" : "stylus-erc721"
+      }, {
+        "name" : "stylus-erc1155"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
+      "prompts" : 0,
+      "title" : "OpenZeppelin Stylus Contracts",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/openzeppelin-stylus.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/openzeppelin-stylus.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "fc44b760-cde9-408e-8e93-3699ccb65468"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "name" : "com.docker.mcp/astra-db",
+  "description" : "An MCP server for Astra DB workloads.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/astra-db",
+    "version" : "sha256:5f80909d7182448a1f7c2a84901de61ce2832b28defb729164e591e1312a92e0",
+    "environmentVariables" : [ {
+      "name" : "ASTRA_DB_APPLICATION_TOKEN",
+      "value" : "{astra-db.application_token}",
+      "variables" : {
+        "astra-db.application_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "ASTRA_DB_API_ENDPOINT",
+      "value" : "{astra-db.endpoint}",
+      "isRepeated" : false,
+      "variables" : {
+        "astra-db.endpoint" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "astra-db", "database" ],
+      "license" : "Apache License 2.0",
+      "owner" : "datastax",
+      "tools" : [ {
+        "name" : "BulkCreateRecords"
+      }, {
+        "name" : "BulkDeleteRecords"
+      }, {
+        "name" : "BulkUpdateRecords"
+      }, {
+        "name" : "CreateCollection"
+      }, {
+        "name" : "CreateRecord"
+      }, {
+        "name" : "DeleteCollection"
+      }, {
+        "name" : "DeleteRecord"
+      }, {
+        "name" : "EstimateDocumentCount"
+      }, {
+        "name" : "FindRecord"
+      }, {
+        "name" : "GetCollections"
+      }, {
+        "name" : "GetRecord"
+      }, {
+        "name" : "HelpAddToClient"
+      }, {
+        "name" : "ListRecords"
+      }, {
+        "name" : "OpenBrowser"
+      }, {
+        "name" : "UpdateCollection"
+      }, {
+        "name" : "UpdateRecord"
+      } ],
+      "source" : "https://github.com/datastax/astra-db-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/573369?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Astra DB",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/astra-db.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/astra-db.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/datastax/astra-db-mcp",
+      "resources" : { }
+    }
+  }
+}

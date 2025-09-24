@@ -1,0 +1,83 @@
+{
+  "name" : "com.docker.mcp/webflow",
+  "description" : "Model Context Protocol (MCP) server for the Webflow Data API.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/webflow",
+    "version" : "sha256:20e73bbc57ed58fa4396eefb0e0ee7f2a60c4121521765ffb40d70da60850f13",
+    "environmentVariables" : [ {
+      "name" : "WEBFLOW_TOKEN",
+      "value" : "{webflow.token}",
+      "variables" : {
+        "webflow.token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "webflow", "devops" ],
+      "license" : "MIT License",
+      "owner" : "webflow",
+      "tools" : [ {
+        "name" : "collection_fields_create_option"
+      }, {
+        "name" : "collection_fields_create_reference"
+      }, {
+        "name" : "collection_fields_create_static"
+      }, {
+        "name" : "collection_fields_update"
+      }, {
+        "name" : "collections_create"
+      }, {
+        "name" : "collections_get"
+      }, {
+        "name" : "collections_items_create_item"
+      }, {
+        "name" : "collections_items_create_item_live"
+      }, {
+        "name" : "collections_items_list_items"
+      }, {
+        "name" : "collections_items_publish_items"
+      }, {
+        "name" : "collections_items_update_items"
+      }, {
+        "name" : "collections_items_update_items_live"
+      }, {
+        "name" : "collections_list"
+      }, {
+        "name" : "pages_get_content"
+      }, {
+        "name" : "pages_get_metadata"
+      }, {
+        "name" : "pages_list"
+      }, {
+        "name" : "pages_update_page_settings"
+      }, {
+        "name" : "pages_update_static_content"
+      }, {
+        "name" : "sites_get"
+      }, {
+        "name" : "sites_list"
+      }, {
+        "name" : "sites_publish"
+      } ],
+      "source" : "https://github.com/slimslenderslacks/mcp-server/tree/slim/docker",
+      "icon" : "https://avatars.githubusercontent.com/u/1229663?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Webflow",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/webflow.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/webflow.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/webflow/mcp-server",
+      "resources" : { }
+    }
+  }
+}

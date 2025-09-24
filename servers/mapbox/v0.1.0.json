@@ -1,0 +1,62 @@
+{
+  "name" : "com.docker.mcp/mapbox",
+  "description" : "Transform any AI agent into a geospatially-aware system with Mapbox APIs. Provides geocoding, POI search, routing, travel time matrices, isochrones, and static map generation.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mapbox",
+    "version" : "sha256:5d3e688b0bafc79287bf6b56f27bbe56505ff7c9541631f49076029fc4b109f3",
+    "environmentVariables" : [ {
+      "name" : "MAPBOX_ACCESS_TOKEN",
+      "value" : "{mapbox.access_token}",
+      "variables" : {
+        "mapbox.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "maps",
+      "tags" : [ "mapbox", "maps", "geospatial", "navigation", "geocoding" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "category_list_tool"
+      }, {
+        "name" : "category_search_tool"
+      }, {
+        "name" : "directions_tool"
+      }, {
+        "name" : "isochrone_tool"
+      }, {
+        "name" : "matrix_tool"
+      }, {
+        "name" : "reverse_geocode_tool"
+      }, {
+        "name" : "search_and_geocode_tool"
+      }, {
+        "name" : "static_map_image_tool"
+      }, {
+        "name" : "version_tool"
+      } ],
+      "source" : "https://github.com/mapbox/mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/600935?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Mapbox MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/mapbox.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/mapbox.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/mapbox/mcp-server",
+      "resources" : { },
+      "owner" : "mapbox"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "409435a7-fbbb-4223-881b-217b0f861c02"
+    }
+  }
+}

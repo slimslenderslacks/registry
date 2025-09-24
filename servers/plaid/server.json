@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/plaid",
+  "description" : "Connect to banking data, verify accounts, and access transaction history across thousands of financial institutions.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://api.dashboard.plaid.com/mcp/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "fintech",
+      "tags" : [ "fintech", "banking", "financial-data", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=plaid.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "plaid",
+          "secret" : "plaid.personal_access_token",
+          "env" : "PLAID_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Plaid",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/plaid.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

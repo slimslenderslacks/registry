@@ -1,0 +1,46 @@
+{
+  "name" : "com.docker.mcp/openweather",
+  "description" : "A simple MCP service that provides current weather and 5-day forecast using the free OpenWeatherMap API.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/openweather",
+    "version" : "sha256:e2f49acbb718e28b6f2f1bb00d8eebcc4dfc73e6788ed2040974496856375d5f",
+    "environmentVariables" : [ {
+      "name" : "OWM_API_KEY",
+      "value" : "{openweather.owm_api_key}",
+      "variables" : {
+        "openweather.owm_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "weather-api" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "weather"
+      } ],
+      "source" : "https://github.com/mschneider82/mcp-openweather/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/1743227?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Openweather",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/openweather.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/openweather.json",
+      "dateAdded" : "2025-07-01T12:14:18Z",
+      "upstream" : "https://github.com/mschneider82/mcp-openweather",
+      "resources" : { },
+      "owner" : "mschneider82"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "d7ae9ff7-0517-4241-ab3d-a5618bb32ebc"
+    }
+  }
+}

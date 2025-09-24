@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/monday",
+  "description" : "Manage projects, workflows, and team collaboration with AI-powered automation and customizable boards.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.monday.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "project-management", "workflow", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=monday.com&sz=64",
+      "prompts" : 0,
+      "title" : "monday.com",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/monday.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "f78f6f9d-0cd5-4b47-a2f7-99f239acccc9"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/github-remote",
+  "description" : "Enhance development workflows with AI pair programming, code suggestions, and intelligent version control assistance.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.githubcopilot.com/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "version-control", "collaboration", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=githubcopilot.com&sz=64",
+      "prompts" : 0,
+      "title" : "GitHub",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/github-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "86f58dfd-58aa-43bd-b9e4-e11300707410"
+    }
+  }
+}

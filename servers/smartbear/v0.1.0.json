@@ -1,0 +1,156 @@
+{
+  "name" : "com.docker.mcp/smartbear",
+  "description" : "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, API Hub, PactFlow.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/smartbear",
+    "version" : "sha256:2508e105f02beb3ef97e4558d450e24c1c0f9f17a6a438aa2c1d760b2cc0e183",
+    "environmentVariables" : [ {
+      "name" : "BUGSNAG_AUTH_TOKEN",
+      "value" : "{smartbear.bugsnag_auth_token}",
+      "variables" : {
+        "smartbear.bugsnag_auth_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "REFLECT_API_TOKEN",
+      "value" : "{smartbear.reflect_api_token}",
+      "variables" : {
+        "smartbear.reflect_api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "API_HUB_API_KEY",
+      "value" : "{smartbear.api_hub_api_key}",
+      "variables" : {
+        "smartbear.api_hub_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "PACT_BROKER_TOKEN",
+      "value" : "{smartbear.pact_broker_token}",
+      "variables" : {
+        "smartbear.pact_broker_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "PACT_BROKER_PASSWORD",
+      "value" : "{smartbear.pact_broker_password}",
+      "variables" : {
+        "smartbear.pact_broker_password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "BUGSNAG_PROJECT_API_KEY",
+      "value" : "{smartbear.bugsnag_api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "smartbear.bugsnag_api_key" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "BUGSNAG_ENDPOINT",
+      "value" : "{smartbear.bugsnag_endpoint}",
+      "isRepeated" : false,
+      "variables" : {
+        "smartbear.bugsnag_endpoint" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "PACT_BROKER_BASE_URL",
+      "value" : "{smartbear.pact_broker_base_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "smartbear.pact_broker_base_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "PACT_BROKER_USERNAME",
+      "value" : "{smartbear.pact_broker_username}",
+      "isRepeated" : false,
+      "variables" : {
+        "smartbear.pact_broker_username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "smartbear", "devops", "api-testing", "monitoring" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "api_hub_create_portal"
+      }, {
+        "name" : "api_hub_create_portal_product"
+      }, {
+        "name" : "api_hub_delete_portal"
+      }, {
+        "name" : "api_hub_delete_portal_product"
+      }, {
+        "name" : "api_hub_get_portal"
+      }, {
+        "name" : "api_hub_get_portal_product"
+      }, {
+        "name" : "api_hub_list_portal_products"
+      }, {
+        "name" : "api_hub_list_portals"
+      }, {
+        "name" : "api_hub_update_portal"
+      }, {
+        "name" : "api_hub_update_portal_product"
+      }, {
+        "name" : "reflect_cancel_suite_execution"
+      }, {
+        "name" : "reflect_execute_suite"
+      }, {
+        "name" : "reflect_get_suite_execution_status"
+      }, {
+        "name" : "reflect_get_test_status"
+      }, {
+        "name" : "reflect_list_suite_executions"
+      }, {
+        "name" : "reflect_list_suites"
+      }, {
+        "name" : "reflect_list_tests"
+      }, {
+        "name" : "reflect_run_test"
+      } ],
+      "source" : "https://github.com/SmartBear/smartbear-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/1644671?s=200&v=4",
+      "prompts" : 0,
+      "title" : "SmartBear MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/smartbear.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/smartbear.json",
+      "dateAdded" : "2025-08-05T16:31:03Z",
+      "upstream" : "https://github.com/SmartBear/smartbear-mcp",
+      "resources" : { },
+      "owner" : "SmartBear"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "710bbace-1769-4349-a23a-9fba43a17d48"
+    }
+  }
+}

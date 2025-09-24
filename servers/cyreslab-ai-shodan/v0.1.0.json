@@ -1,0 +1,54 @@
+{
+  "name" : "com.docker.mcp/cyreslab-ai-shodan",
+  "description" : "A Model Context Protocol server that provides access to Shodan API functionality.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/cyreslab-ai-shodan",
+    "version" : "sha256:f99f2d2d69555aafcc67229ea7b757db57073d501ed1d60beb47049d3f60e08c",
+    "environmentVariables" : [ {
+      "name" : "SHODAN_API_KEY",
+      "value" : "{cyreslab-ai-shodan.api_key}",
+      "variables" : {
+        "cyreslab-ai-shodan.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "cyreslab-ai-shodan", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "get_host_info"
+      }, {
+        "name" : "get_ssl_info"
+      }, {
+        "name" : "scan_network_range"
+      }, {
+        "name" : "search_iot_devices"
+      }, {
+        "name" : "search_shodan"
+      } ],
+      "source" : "https://github.com/Cyreslab-AI/shodan-mcp-server/tree/935f7044f60570cf2d094d94596eeea7872fb6be",
+      "icon" : "https://avatars.githubusercontent.com/u/178556137?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Shodan",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/cyreslab-ai-shodan.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/cyreslab-ai-shodan.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/Cyreslab-AI/shodan-mcp-server",
+      "resources" : { },
+      "owner" : "Cyreslab-AI"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "c86dd9a5-114c-4b9a-9642-7ea47621bee2"
+    }
+  }
+}

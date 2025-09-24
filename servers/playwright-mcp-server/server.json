@@ -1,0 +1,107 @@
+{
+  "name" : "com.docker.mcp/playwright-mcp-server",
+  "description" : "Playwright Model Context Protocol Server - Tool to automate Browsers and APIs in Claude Desktop, Cline, Cursor IDE and More 🔌.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mcp-playwright",
+    "version" : "sha256:5ffcdfc3d929758be1a4f951b7413ff4828a10311e735b24bee3367469959004",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{playwright-mcp-server.data}:{playwright-mcp-server.data}",
+      "isRepeated" : false,
+      "variables" : {
+        "playwright-mcp-server.data" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai" ],
+      "license" : "MIT License",
+      "owner" : "executeautomation",
+      "tools" : [ {
+        "name" : "clear_codegen_session"
+      }, {
+        "name" : "end_codegen_session"
+      }, {
+        "name" : "get_codegen_session"
+      }, {
+        "name" : "playwright_assert_response"
+      }, {
+        "name" : "playwright_click"
+      }, {
+        "name" : "playwright_click_and_switch_tab"
+      }, {
+        "name" : "playwright_close"
+      }, {
+        "name" : "playwright_console_logs"
+      }, {
+        "name" : "playwright_custom_user_agent"
+      }, {
+        "name" : "playwright_delete"
+      }, {
+        "name" : "playwright_drag"
+      }, {
+        "name" : "playwright_evaluate"
+      }, {
+        "name" : "playwright_expect_response"
+      }, {
+        "name" : "playwright_fill"
+      }, {
+        "name" : "playwright_get"
+      }, {
+        "name" : "playwright_get_visible_html"
+      }, {
+        "name" : "playwright_get_visible_text"
+      }, {
+        "name" : "playwright_go_back"
+      }, {
+        "name" : "playwright_go_forward"
+      }, {
+        "name" : "playwright_hover"
+      }, {
+        "name" : "playwright_iframe_click"
+      }, {
+        "name" : "playwright_iframe_fill"
+      }, {
+        "name" : "playwright_navigate"
+      }, {
+        "name" : "playwright_patch"
+      }, {
+        "name" : "playwright_post"
+      }, {
+        "name" : "playwright_press_key"
+      }, {
+        "name" : "playwright_put"
+      }, {
+        "name" : "playwright_save_as_pdf"
+      }, {
+        "name" : "playwright_screenshot"
+      }, {
+        "name" : "playwright_select"
+      }, {
+        "name" : "playwright_upload_file"
+      }, {
+        "name" : "start_codegen_session"
+      } ],
+      "source" : "https://github.com/executeautomation/mcp-playwright/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/10337030?v=4",
+      "prompts" : 0,
+      "title" : "ExecuteAutomation Playwright MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/playwright-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/playwright-mcp-server.json",
+      "dateAdded" : "2025-07-21T12:46:15Z",
+      "upstream" : "https://github.com/executeautomation/mcp-playwright",
+      "resources" : { }
+    }
+  }
+}

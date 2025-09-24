@@ -1,0 +1,99 @@
+{
+  "name" : "com.docker.mcp/hdx",
+  "description" : "HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. This server offers 33 specialized tools for retrieving humanitarian information including affected populations (refugees, IDPs, returnees), baseline demographics, food security indicators, conflict data, funding information, and operational presence across hundreds of countries and territories. See repository for instructions on getting a free HDX_APP_INDENTIFIER for access.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/hdx",
+    "version" : "sha256:4fc4363ac4076d16cc8774467d64d0e489902c6ae50f1e9332ccf1bf4c21141c",
+    "environmentVariables" : [ {
+      "name" : "HDX_APP_IDENTIFIER",
+      "value" : "{hdx.HDX_APP_IDENTIFIER}",
+      "variables" : {
+        "hdx.HDX_APP_IDENTIFIER" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "search" ],
+      "license" : "MIT License",
+      "owner" : "dividor",
+      "tools" : [ {
+        "name" : "affected_people_humanitarian_needs_get"
+      }, {
+        "name" : "affected_people_idps_get"
+      }, {
+        "name" : "affected_people_refugees_get"
+      }, {
+        "name" : "affected_people_returnees_get"
+      }, {
+        "name" : "baseline_population_get"
+      }, {
+        "name" : "climate_rainfall_get"
+      }, {
+        "name" : "coordination_conflict_events_get"
+      }, {
+        "name" : "coordination_funding_get"
+      }, {
+        "name" : "coordination_national_risk_get"
+      }, {
+        "name" : "coordination_operational_presence_get"
+      }, {
+        "name" : "food_prices_get"
+      }, {
+        "name" : "food_security_get"
+      }, {
+        "name" : "hdx_get_dataset_info"
+      }, {
+        "name" : "hdx_search_locations"
+      }, {
+        "name" : "hdx_server_info"
+      }, {
+        "name" : "metadata_admin1_get"
+      }, {
+        "name" : "metadata_admin2_get"
+      }, {
+        "name" : "metadata_currency_get"
+      }, {
+        "name" : "metadata_data_availability_get"
+      }, {
+        "name" : "metadata_dataset_get"
+      }, {
+        "name" : "metadata_location_get"
+      }, {
+        "name" : "metadata_org_get"
+      }, {
+        "name" : "metadata_org_type_get"
+      }, {
+        "name" : "metadata_resource_get"
+      }, {
+        "name" : "metadata_sector_get"
+      }, {
+        "name" : "metadata_wfp_commodity_get"
+      }, {
+        "name" : "metadata_wfp_market_get"
+      }, {
+        "name" : "poverty_rate_get"
+      }, {
+        "name" : "util_version_get"
+      } ],
+      "source" : "https://github.com/dividor/hdx-mcp/tree/main",
+      "icon" : "https://raw.githubusercontent.com/dividor/hdx-mcp/main/assets/hdx_mcp_icon_transparent_512.png",
+      "prompts" : 0,
+      "title" : "Humanitarian Data Exchange MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/hdx.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hdx.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/dividor/hdx-mcp",
+      "resources" : { }
+    }
+  }
+}

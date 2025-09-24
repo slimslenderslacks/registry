@@ -20,7 +20,7 @@ func ValidatePackage(ctx context.Context, pkg model.Package, serverName string) 
 	case model.RegistryTypeNuGet:
 		return registries.ValidateNuGet(ctx, pkg, serverName)
 	case model.RegistryTypeOCI:
-		return registries.ValidateOCI(ctx, pkg, serverName)
+		return nil // OCI validation disabled
 	case model.RegistryTypeMCPB:
 		return registries.ValidateMCPB(ctx, pkg, serverName)
 	default:

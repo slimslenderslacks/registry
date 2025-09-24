@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/meta-ads",
+  "description" : "Analyze and optimize Facebook and Instagram ad campaigns with AI-powered insights and performance recommendations.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.pipeboard.co/meta-ads-mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "marketing",
+      "tags" : [ "marketing", "advertising", "meta", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=pipeboard.co&sz=64",
+      "prompts" : 0,
+      "title" : "Meta Ads by Pipeboard",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/meta-ads.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "e1ceb798-5509-40ed-b01d-8b3b7fad499f"
+    }
+  }
+}

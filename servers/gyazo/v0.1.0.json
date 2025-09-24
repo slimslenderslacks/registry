@@ -1,0 +1,52 @@
+{
+  "name" : "com.docker.mcp/gyazo",
+  "description" : "Official Model Context Protocol server for Gyazo.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/gyazo",
+    "version" : "sha256:f85108362eaa179e2f7272b2b14ff9a61d6a24c538ba2f270fe0e48ea7a4366f",
+    "environmentVariables" : [ {
+      "name" : "GYAZO_ACCESS_TOKEN",
+      "value" : "{gyazo.access_token}",
+      "variables" : {
+        "gyazo.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "gyazo", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "gyazo_image"
+      }, {
+        "name" : "gyazo_latest_image"
+      }, {
+        "name" : "gyazo_search"
+      }, {
+        "name" : "gyazo_upload"
+      } ],
+      "source" : "https://github.com/nota/gyazo-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/113151?v=4",
+      "prompts" : 0,
+      "title" : "Gyazo",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/gyazo.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/gyazo.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/nota/gyazo-mcp-server",
+      "resources" : { },
+      "owner" : "nota"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "629b5b80-e7ea-408a-88b6-10cd66c9091e"
+    }
+  }
+}

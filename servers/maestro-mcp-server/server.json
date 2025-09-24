@@ -1,0 +1,111 @@
+{
+  "name" : "com.docker.mcp/maestro-mcp-server",
+  "description" : "A Model Context Protocol (MCP) server exposing Bitcoin blockchain data through the Maestro API platform. Provides tools to explore blocks, transactions, addresses, inscriptions, runes, and other metaprotocol data.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/maestro-mcp-server",
+    "version" : "sha256:f59151e2a665580f0fd7064112d5bac378f46179462bfe02307e016f98e2cd96",
+    "environmentVariables" : [ {
+      "name" : "API_KEY_API_KEY",
+      "value" : "{maestro-mcp-server.API_KEY_API_KEY}",
+      "variables" : {
+        "maestro-mcp-server.API_KEY_API_KEY" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "monitoring", "blockchain", "bitcoin", "rpc" ],
+      "license" : "Apache License 2.0",
+      "owner" : "maestro-org",
+      "tools" : [ {
+        "name" : "get_address_activity"
+      }, {
+        "name" : "get_address_balance"
+      }, {
+        "name" : "get_address_balance_historical"
+      }, {
+        "name" : "get_address_brc20"
+      }, {
+        "name" : "get_address_brc20_transfer_inscriptions"
+      }, {
+        "name" : "get_address_inscriptions"
+      }, {
+        "name" : "get_address_inscription_activity"
+      }, {
+        "name" : "get_address_runes"
+      }, {
+        "name" : "get_address_rune_activity"
+      }, {
+        "name" : "get_address_rune_utxos"
+      }, {
+        "name" : "get_address_statistics"
+      }, {
+        "name" : "get_address_txs"
+      }, {
+        "name" : "get_address_utxos"
+      }, {
+        "name" : "get_mempool_address_balance"
+      }, {
+        "name" : "get_mempool_address_runes"
+      }, {
+        "name" : "list_brc20_assets"
+      }, {
+        "name" : "get_brc20_info"
+      }, {
+        "name" : "list_supported_dexs"
+      }, {
+        "name" : "get_dex_ohlc"
+      }, {
+        "name" : "get_btc_price_by_timestamp"
+      }, {
+        "name" : "get_rune_price_by_timestamp"
+      }, {
+        "name" : "rpc_chain_info"
+      }, {
+        "name" : "rpc_mempool_info"
+      }, {
+        "name" : "rpc_mempool_transactions"
+      }, {
+        "name" : "rpc_block_miner_info"
+      }, {
+        "name" : "rpc_block_volume"
+      }, {
+        "name" : "event_healthcheck"
+      }, {
+        "name" : "event_list_logs"
+      }, {
+        "name" : "event_get_log"
+      }, {
+        "name" : "event_list_triggers"
+      }, {
+        "name" : "event_create_trigger"
+      }, {
+        "name" : "event_get_trigger"
+      }, {
+        "name" : "event_update_trigger"
+      }, {
+        "name" : "event_delete_trigger"
+      }, {
+        "name" : "event_list_trigger_condition_options"
+      } ],
+      "source" : "https://github.com/maestro-org/maestro-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/84299480?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Maestro MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/maestro-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/maestro-mcp-server.json",
+      "dateAdded" : "2025-09-19T18:59:08Z",
+      "upstream" : "https://github.com/maestro-org/maestro-mcp-server",
+      "resources" : { }
+    }
+  }
+}

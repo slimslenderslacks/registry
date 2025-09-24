@@ -1,0 +1,37 @@
+{
+  "name" : "com.docker.mcp/short-io",
+  "description" : "Access to Short.io's link shortener and analytics tools.",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://ai-assistant.short.io/mcp",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer {short-io.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "short-io.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "tools",
+      "tags" : [ "tools", "url-shortener", "analytics", "remote" ],
+      "license" : "Apache License 2.0",
+      "owner" : "docker",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=short.io&sz=64",
+      "prompts" : 0,
+      "title" : "Short.io",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/short-io.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/short-io.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { }
+    }
+  }
+}

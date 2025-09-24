@@ -1,0 +1,108 @@
+{
+  "name" : "com.docker.mcp/nasdaq-data-link",
+  "description" : "MCP server to interact with the data feeds provided by the Nasdaq Data Link. Developed by the community and maintained by Stefano Amorelli.",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/nasdaq-data-link",
+    "version" : "sha256:b90ef17326348108db9116027f3f921da61869943df6fca9573db09f3c269843",
+    "environmentVariables" : [ {
+      "name" : "NASDAQ_DATA_LINK_API_KEY",
+      "value" : "{nasdaq_data_link_api_key}",
+      "variables" : {
+        "nasdaq_data_link_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "finance",
+      "tags" : [ "nasdaq", "finance", "data", "intelligence" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "country_code"
+      }, {
+        "name" : "get_balance_sheet_data"
+      }, {
+        "name" : "get_cash_flow_data"
+      }, {
+        "name" : "get_company_reference_data"
+      }, {
+        "name" : "get_corporate_action_data"
+      }, {
+        "name" : "get_detailed_financials"
+      }, {
+        "name" : "get_fees_and_expenses"
+      }, {
+        "name" : "get_fund_information"
+      }, {
+        "name" : "get_fund_master_report"
+      }, {
+        "name" : "get_fundamental_data"
+      }, {
+        "name" : "get_indicator_value"
+      }, {
+        "name" : "get_monthly_flows"
+      }, {
+        "name" : "get_performance_analytics"
+      }, {
+        "name" : "get_performance_benchmark"
+      }, {
+        "name" : "get_performance_statistics"
+      }, {
+        "name" : "get_price_history"
+      }, {
+        "name" : "get_recent_price_history"
+      }, {
+        "name" : "get_rtat"
+      }, {
+        "name" : "get_rtat10"
+      }, {
+        "name" : "get_share_class_information"
+      }, {
+        "name" : "get_share_class_master"
+      }, {
+        "name" : "get_stock_stats"
+      }, {
+        "name" : "get_trade_summary_data"
+      }, {
+        "name" : "list_balance_sheet_fields"
+      }, {
+        "name" : "list_cash_flow_fields"
+      }, {
+        "name" : "list_corporate_action_fields"
+      }, {
+        "name" : "list_detailed_financial_fields"
+      }, {
+        "name" : "list_fundamental_fields"
+      }, {
+        "name" : "list_reference_data_fields"
+      }, {
+        "name" : "list_stock_stat_fields"
+      }, {
+        "name" : "list_worldbank_indicators"
+      }, {
+        "name" : "search_worldbank_indicators"
+      } ],
+      "source" : "https://github.com/stefanoamorelli/nasdaq-data-link-mcp/tree/main",
+      "icon" : "https://raw.githubusercontent.com/stefanoamorelli/nasdaq-data-link-mcp/refs/heads/main/nasdaq-mcp-server-logo.png",
+      "prompts" : 0,
+      "title" : "Nasdaq Data Link",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v2/readme/nasdaq-data-link.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v2/tools/nasdaq-data-link.json",
+      "dateAdded" : "2025-07-01T14:14:18Z",
+      "upstream" : "https://github.com/stefanoamorelli/nasdaq-data-link-mcp",
+      "resources" : { },
+      "owner" : "stefanoamorelli"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "0a36f328-465e-4b20-9401-0eafba11f669"
+    }
+  }
+}

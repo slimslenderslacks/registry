@@ -1,0 +1,28 @@
+{
+  "name" : "com.docker.mcp/cloudflare-one-casb",
+  "description" : "Quickly identify any security misconfigurations for SaaS applications to safeguard users & data.",
+  "version" : "v0.1.0",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://casb.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "security", "casb", "saas", "cloudflare-one", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "title" : "Cloudflare One CASB",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-one-casb.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    },
+    "io.modelcontextprotocol.registry/official" : {
+      "serverId" : "62358a29-a08e-4dfe-85d0-02598b328791"
+    }
+  }
+}
