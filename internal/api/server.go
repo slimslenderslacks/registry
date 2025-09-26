@@ -4,6 +4,7 @@ import (
 	"context"
 	"log"
 	"net/http"
+	"slices"
 	"strings"
 	"time"
 
@@ -16,6 +17,29 @@ import (
 	"github.com/modelcontextprotocol/registry/internal/service"
 	"github.com/modelcontextprotocol/registry/internal/telemetry"
 )
+
+// CORSMiddleware adds CORS headers to allow cross-origin requests
+func CORSMiddleware(cfg *config.Config, next http.Handler) http.Handler {
+	allowedOrigins := strings.Split(cfg.AllowedOrigins, ",")
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		// Set CORS headers
+		origin := r.Header.Get("Origin")
+		if slices.Contains(allowedOrigins, origin) {
+			w.Header().Set("Access-Control-Allow-Origin", origin)
+			w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
+			w.Header().Set("Access-Control-Allow-Headers", "Content-Type, X-Requested-With")
+			w.Header().Set("Access-Control-Max-Age", "86400") // 24 hours
+		}
+
+		// Handle preflight requests
+		if r.Method == "OPTIONS" {
+			w.WriteHeader(http.StatusOK)
+			return
+		}
+
+		next.ServeHTTP(w, r)
+	})
+}
 
 // TrailingSlashMiddleware redirects requests with trailing slashes to their canonical form
 func TrailingSlashMiddleware(next http.Handler) http.Handler {
