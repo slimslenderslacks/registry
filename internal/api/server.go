@@ -4,12 +4,12 @@ import (
 	"context"
 	"log"
 	"net/http"
-	"slices"
 	"strings"
 	"time"
 
 	"github.com/danielgtaylor/huma/v2"
 	"github.com/rs/cors"
+	"github.com/gobwas/glob"
 
 	v0 "github.com/modelcontextprotocol/registry/internal/api/handlers/v0"
 	"github.com/modelcontextprotocol/registry/internal/api/router"
@@ -20,11 +20,14 @@ import (
 
 // CORSMiddleware adds CORS headers to allow cross-origin requests
 func CORSMiddleware(cfg *config.Config, next http.Handler) http.Handler {
-	allowedOrigins := strings.Split(cfg.AllowedOrigins, ",")
+	var g glob.Glob
+	if cfg.AllowedOriginsGlob != "" {
+		g = glob.MustCompile(cfg.AllowedOriginsGlob)
+	}
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		// Set CORS headers
 		origin := r.Header.Get("Origin")
-		if slices.Contains(allowedOrigins, origin) {
+		if cfg.AllowedOriginsGlob != "" && g.Match(origin) {
 			w.Header().Set("Access-Control-Allow-Origin", origin)
 			w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
 			w.Header().Set("Access-Control-Allow-Headers", "Content-Type, X-Requested-With")
