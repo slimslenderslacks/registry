@@ -9,6 +9,7 @@ The following is a list of notable community-driven projects in the ecosystem re
 - [mcp-registry-cli](https://pypi.org/project/mcp-registry-cli/) - CLI tool to navigate the MCP registry servers
 - [mcp-insights](https://github.com/joelverhagen/mcp-insights/) - Analytics and insights for the MCP Registry
 - [Open Chat MCP Registry Client](https://github.com/cameronapak/open-chat/blob/main/apps/server/src/lib/mcp-registry/index.ts) - TypeScript client for the MCP Registry
+- [MCP Server for MCP Registry](https://github.com/formulahendry/mcp-server-mcp-registry) - MCP Server to discover and search for available MCP servers in the registry
 - Add your project here!
 
 ## Adding Your Project
