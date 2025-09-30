@@ -16,10 +16,34 @@ The release workflow will automatically:
 
 ## After Release
 
-- Docker images will be available at:
+The release workflow will automatically:
+- Build and publish Docker images:
   - `ghcr.io/modelcontextprotocol/registry:latest` - Latest stable release
   - `ghcr.io/modelcontextprotocol/registry:vX.Y.Z` - Specific release version
-- Binaries can be downloaded from the GitHub release page
+- Binaries will be available on the GitHub release page
+
+**Important:** Creating a release does **not** automatically deploy to production. Production deployments are triggered by pushes to the `main` branch.
+
+## Deploying the Release to Production
+
+After creating a release, you need to ensure production pulls the new `:latest` Docker image. You have two options:
+
+1. **Recommended:** Merge a commit to `main` (e.g., a changelog update or version bump). This will trigger the deployment workflow which will:
+   - Build and push a new `:main` Docker image
+   - Deploy to staging
+   - Deploy to production (which uses `:latest` and will pull the new image)
+
+2. **Manual restart (requires kubectl access):**
+   ```bash
+   kubectl rollout restart deployment/mcp-registry -n default
+   ```
+
+## Verifying the Deployment
+
+After deployment completes, verify the changes are live:
+- Check the deployment workflow succeeded: https://github.com/modelcontextprotocol/registry/actions/workflows/deploy.yml
+- Test the API endpoint to confirm schema changes are applied
+- Check migrations ran successfully in the pod logs
 
 ## Docker Image Tags
 
