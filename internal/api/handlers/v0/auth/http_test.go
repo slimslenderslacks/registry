@@ -387,6 +387,7 @@ func TestDefaultHTTPKeyFetcher(t *testing.T) {
 	}
 }
 
+
 func TestHTTPAuthHandler_Permissions(t *testing.T) {
 	cfg := &config.Config{
 		JWTPrivateKey: "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
@@ -737,3 +738,4 @@ func TestHTTPvsDNS_PermissionDifferences(t *testing.T) {
 		})
 	}
 }
+
