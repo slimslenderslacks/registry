@@ -371,7 +371,7 @@ Add the `remotes` field to your `server.json` (can coexist with `packages`):
 ### Requirements
 
 - **Service endpoint**: Your MCP server must be accessible at the specified URL
-- **Transport protocol**: Choose from `sse` (Server-Sent Events) or `streamable-http`
+- **Transport protocol**: Choose from `streamable-http` (recommended) or `sse` (deprecated)
 - **URL validation**: For domain namespaces only (see URL requirements below)
 
 ### Example server.json
@@ -384,8 +384,8 @@ Add the `remotes` field to your `server.json` (can coexist with `packages`):
   "version": "2.0.0",
   "remotes": [
     {
-      "type": "sse",
-      "url": "https://mcp.yourcompany.com/sse"
+      "type": "streamable-http",
+      "url": "https://mcp.yourcompany.com/http"
     }
   ]
 }
@@ -399,12 +399,12 @@ You can offer multiple connection methods:
 {
   "remotes": [
     {
-      "type": "sse",
-      "url": "https://mcp.yourcompany.com/sse"
+      "type": "streamable-http",
+      "url": "https://mcp.yourcompany.com/http"
     },
     {
-      "type": "streamable-http", 
-      "url": "https://mcp.yourcompany.com/http"
+      "type": "sse",
+      "url": "https://mcp.yourcompany.com/sse"
     }
   ]
 }
@@ -423,11 +423,11 @@ Configure headers that clients should send when connecting:
 {
   "remotes": [
     {
-      "type": "sse",
-      "url": "https://mcp.yourcompany.com/sse",
+      "type": "streamable-http",
+      "url": "https://mcp.yourcompany.com/http",
       "headers": [
         {
-          "name": "X-API-Key", 
+          "name": "X-API-Key",
           "description": "API key for authentication",
           "isRequired": true,
           "isSecret": true
