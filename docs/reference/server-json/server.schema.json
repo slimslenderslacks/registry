@@ -396,6 +396,13 @@
           "minLength": 1,
           "maxLength": 100
         },
+        "title": {
+          "type": "string",
+          "description": "Optional human-readable title or display name for the MCP server. MCP subregistries or clients MAY choose to use this for display purposes.",
+          "example": "Weather API",
+          "minLength": 1,
+          "maxLength": 100
+        },
         "repository": {
           "$ref": "#/definitions/Repository",
           "description": "Optional repository metadata for the MCP server source code. Recommended for transparency and security inspection."
