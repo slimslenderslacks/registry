@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/rube",
   "description" : "Access to Rube's catalog of remote MCP servers.",
-  "version" : "v0.1.2",
+  "title" : "Rube",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://rube.app/mcp",
@@ -23,15 +25,14 @@
       "tags" : [ "tools", "automation", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=composio.dev&sz=64",
-      "prompts" : 0,
-      "title" : "Rube",
+      "dateAdded" : "2025-09-08T19:03:35Z",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/rube.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/rube.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "icon" : "https://www.google.com/s2/favicons?domain=composio.dev&sz=64",
+      "tools" : [ ],
+      "prompts" : 0,
+      "resources" : { },
+      "source" : ""
     }
   }
 }

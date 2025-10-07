@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/waystation",
+  "description" : "Connect AI to your productivity ecosystem with integrations across Notion, Slack, Asana, Monday.com, and 50+ other business tools.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://waystation.ai/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "workflow", "automation", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=waystation.ai&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "waystation",
+          "secret" : "waystation.personal_access_token",
+          "env" : "WAYSTATION_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "WayStation",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/waystation.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

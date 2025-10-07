@@ -1,0 +1,37 @@
+{
+  "name" : "com.docker.mcp/close",
+  "description" : "Streamline sales processes with integrated calling, email, SMS, and automated workflows for small and scaling businesses.",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.close.com/mcp",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer {close.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "close.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "crm",
+      "tags" : [ "crm", "sales", "customer-management", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=close.com&sz=64",
+      "prompts" : 0,
+      "title" : "Close",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/close.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/close.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

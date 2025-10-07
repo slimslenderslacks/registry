@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/explorium",
   "description" : "Discover companies, contacts, and business insights—powered by dozens of trusted external data sources.",
-  "version" : "v0.1.1",
+  "title" : "Explorium B2B Data",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -51,10 +53,9 @@
       }, {
         "name" : "web-search"
       } ],
-      "source" : "https://github.com/explorium-ai/mcp-explorium/tree/main",
+      "source" : "https://github.com/explorium-ai/mcp-explorium/tree/68b1d497f6b4b42af581727a4cf08ded3b70a66c",
       "icon" : "https://marketing-public-links.s3.us-east-1.amazonaws.com/Brand/Logo-dark.png",
       "prompts" : 0,
-      "title" : "Explorium B2B Data",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/explorium.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/explorium.json",
       "dateAdded" : "2025-09-19T18:59:08Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/render",
   "description" : "Interact with your Render resources via LLMs.",
-  "version" : "v0.1.1",
+  "title" : "Render",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -71,10 +73,9 @@
       }, {
         "name" : "update_web_service"
       } ],
-      "source" : "https://github.com/render-oss/render-mcp-server/tree/main",
+      "source" : "https://github.com/render-oss/render-mcp-server/tree/aa1ad111a4eb856988125c430634d3632a78864f",
       "icon" : "https://avatars.githubusercontent.com/u/114033652?v=4",
       "prompts" : 0,
-      "title" : "Render",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/render.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/render.json",
       "dateAdded" : "2025-05-23T20:08:35Z",

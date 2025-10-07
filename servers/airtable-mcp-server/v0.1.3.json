@@ -1,0 +1,82 @@
+{
+  "name" : "com.docker.mcp/airtable-mcp-server",
+  "description" : "Provides AI assistants with direct access to Airtable bases, allowing them to read schemas, query records, and interact with your Airtable data. Supports listing bases, retrieving table structures, and searching through records to help automate workflows and answer questions about your organized data.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/airtable-mcp-server",
+    "version" : "sha256:cd9219e08158069ad0153aedb091b285b5eb7553a7a9251977f2dabb6fe8e283",
+    "environmentVariables" : [ {
+      "name" : "AIRTABLE_API_KEY",
+      "value" : "{airtable-mcp-server.api_key}",
+      "variables" : {
+        "airtable-mcp-server.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "NODE_ENV",
+      "value" : "{airtable-mcp-server.nodeenv}",
+      "isRepeated" : false,
+      "variables" : {
+        "airtable-mcp-server.nodeenv" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_comment"
+      }, {
+        "name" : "create_field"
+      }, {
+        "name" : "create_record"
+      }, {
+        "name" : "create_table"
+      }, {
+        "name" : "delete_records"
+      }, {
+        "name" : "describe_table"
+      }, {
+        "name" : "get_record"
+      }, {
+        "name" : "list_bases"
+      }, {
+        "name" : "list_comments"
+      }, {
+        "name" : "list_records"
+      }, {
+        "name" : "list_tables"
+      }, {
+        "name" : "search_records"
+      }, {
+        "name" : "update_field"
+      }, {
+        "name" : "update_records"
+      }, {
+        "name" : "update_table"
+      } ],
+      "source" : "https://github.com/domdomegg/airtable-mcp-server/tree/3b8770cae3a1ba18bf6aeac2f40095c12749bd92",
+      "icon" : "https://www.google.com/s2/favicons?domain=airtable.com&sz=64",
+      "prompts" : 0,
+      "title" : "Airtable MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/airtable-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/airtable-mcp-server.json",
+      "dateAdded" : "2025-09-17T06:19:29Z",
+      "upstream" : "https://github.com/domdomegg/airtable-mcp-server",
+      "resources" : { },
+      "owner" : "domdomegg"
+    }
+  }
+}

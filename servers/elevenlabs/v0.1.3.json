@@ -1,0 +1,102 @@
+{
+  "name" : "com.docker.mcp/elevenlabs",
+  "description" : "Official ElevenLabs Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech and audio processing APIs.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/elevenlabs",
+    "version" : "sha256:dc749573ffd71f1ed1c1ec1f16d798c60cba5982cf8e00f41115e088e09b1df7",
+    "environmentVariables" : [ {
+      "name" : "ELEVENLABS_API_KEY",
+      "value" : "{elevenlabs.api_key}",
+      "variables" : {
+        "elevenlabs.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ],
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{elevenlabs.data}:/root/Desktop",
+      "isRepeated" : false,
+      "variables" : {
+        "elevenlabs.data" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "elevenlabs", "elevenlabs-api" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "add_knowledge_base_to_agent"
+      }, {
+        "name" : "check_subscription"
+      }, {
+        "name" : "compose_music"
+      }, {
+        "name" : "create_agent"
+      }, {
+        "name" : "create_composition_plan"
+      }, {
+        "name" : "create_voice_from_preview"
+      }, {
+        "name" : "get_agent"
+      }, {
+        "name" : "get_conversation"
+      }, {
+        "name" : "get_voice"
+      }, {
+        "name" : "isolate_audio"
+      }, {
+        "name" : "list_agents"
+      }, {
+        "name" : "list_conversations"
+      }, {
+        "name" : "list_models"
+      }, {
+        "name" : "list_phone_numbers"
+      }, {
+        "name" : "make_outbound_call"
+      }, {
+        "name" : "play_audio"
+      }, {
+        "name" : "search_voice_library"
+      }, {
+        "name" : "search_voices"
+      }, {
+        "name" : "speech_to_speech"
+      }, {
+        "name" : "speech_to_text"
+      }, {
+        "name" : "text_to_sound_effects"
+      }, {
+        "name" : "text_to_speech"
+      }, {
+        "name" : "text_to_voice"
+      }, {
+        "name" : "voice_clone"
+      } ],
+      "source" : "https://github.com/elevenlabs/elevenlabs-mcp/tree/b0070bde82b742aa1d24822d8a2cab7287c913f8",
+      "icon" : "https://avatars.githubusercontent.com/u/94471909?v=4",
+      "prompts" : 0,
+      "title" : "Elevenlabs MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/elevenlabs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/elevenlabs.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/elevenlabs/elevenlabs-mcp",
+      "resources" : { },
+      "owner" : "elevenlabs"
+    }
+  }
+}

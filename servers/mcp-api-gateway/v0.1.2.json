@@ -1,0 +1,66 @@
+{
+  "name" : "com.docker.mcp/mcp-api-gateway",
+  "description" : "A universal MCP (Model Context Protocol) server to integrate any API with Claude Desktop using only Docker configurations.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/api-gateway",
+    "version" : "sha256:9cc67b4a037fa5657bbc7231b3b8ec8524e663125ba7c1636ef2bd892137b1da",
+    "environmentVariables" : [ {
+      "name" : "API_1_NAME",
+      "value" : "{mcp-api-gateway.api_1_name}",
+      "isRepeated" : false,
+      "variables" : {
+        "mcp-api-gateway.api_1_name" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "API_1_SWAGGER_URL",
+      "value" : "{mcp-api-gateway.api_1_swagger_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "mcp-api-gateway.api_1_swagger_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "API_1_HEADER_AUTHORIZATION",
+      "value" : "{mcp-api-gateway.api_1_header_authorization}",
+      "isRepeated" : false,
+      "variables" : {
+        "mcp-api-gateway.api_1_header_authorization" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "api-gateway", "devops" ],
+      "tools" : [ {
+        "name" : "execute_api"
+      }, {
+        "name" : "get_api_info"
+      } ],
+      "source" : "https://github.com/rflpazini/mcp-api-gateway/tree/f197f8db4f4990d76148342e27f005d9022df417",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Api-gateway",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mcp-api-gateway.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mcp-api-gateway.json",
+      "dateAdded" : "2025-06-11T14:21:25Z",
+      "upstream" : "https://github.com/rflpazini/mcp-api-gateway",
+      "resources" : { },
+      "owner" : "rflpazini"
+    }
+  }
+}

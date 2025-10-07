@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/aws-core-mcp-server",
   "description" : "Starting point for using the awslabs MCP servers.",
-  "version" : "v0.1.1",
+  "title" : "AWS Core MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/aws-core-mcp-server",
-    "version" : "sha256:8acdccef88507a6a91fe9047a645af72cdc78164328408940716195224dae49c"
+    "version" : "sha256:eeb1783ded05b61b49c1bcae4207ea6e43a397cd1d26cd8a28406cab8c5894bc"
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
@@ -19,10 +21,9 @@
       "tools" : [ {
         "name" : "prompt_understanding"
       } ],
-      "source" : "https://github.com/awslabs/mcp/tree/main/src/core-mcp-server",
+      "source" : "https://github.com/awslabs/mcp/tree/96f3e569e2a054d31ccbc452bda89580265e8dae/src/core-mcp-server",
       "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
       "prompts" : 0,
-      "title" : "AWS Core MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-core-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-core-mcp-server.json",
       "dateAdded" : "2025-05-05T20:04:34Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/cdata-connectcloud",
   "description" : "This fully functional MCP Server allows you to connect to any data source in Connect Cloud from Claude Desktop.",
-  "version" : "v0.1.1",
+  "title" : "CData Connect Cloud",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -60,10 +62,9 @@
       }, {
         "name" : "queryData"
       } ],
-      "source" : "https://github.com/CDataSoftware/connectcloud-mcp-server/tree/00fe03b372819d143f266fd49e53d98181f4dd12",
+      "source" : "https://github.com/CDataSoftware/connectcloud-mcp-server/tree/87a53f68d7aa375fb8fd883be0daee8c12ec98fe",
       "icon" : "https://avatars.githubusercontent.com/u/24947354?v=4",
       "prompts" : 0,
-      "title" : "CData Connect Cloud",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cdata-connectcloud.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cdata-connectcloud.json",
       "dateAdded" : "2025-05-15T20:08:35Z",

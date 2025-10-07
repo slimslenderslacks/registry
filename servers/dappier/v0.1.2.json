@@ -1,0 +1,46 @@
+{
+  "name" : "com.docker.mcp/dappier",
+  "description" : "Enable fast, free real-time web search and access premium data from trusted media brands—news, financial markets, sports, entertainment, weather, and more. Build powerful AI agents with Dappier.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/dappier",
+    "version" : "sha256:ba9b2d17fc77406a7b8b54c29ee6915a4f8e6be88542f1c06316c589b7b5b7b6",
+    "environmentVariables" : [ {
+      "name" : "DAPPIER_API_KEY",
+      "value" : "{dappier.api_key}",
+      "variables" : {
+        "dappier.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "dappier", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "dappier_ai_recommendations"
+      }, {
+        "name" : "dappier_real_time_search"
+      } ],
+      "source" : "https://github.com/dappierai/dappier-mcp/tree/38bbde12ef9ea3a7a5fd142d018150c8c53bc63d",
+      "icon" : "https://avatars.githubusercontent.com/u/152645347?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Dappier",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dappier.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dappier.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/dappierai/dappier-mcp",
+      "resources" : { },
+      "owner" : "DappierAI"
+    }
+  }
+}

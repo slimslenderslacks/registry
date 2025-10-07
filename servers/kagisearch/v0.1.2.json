@@ -1,0 +1,56 @@
+{
+  "name" : "com.docker.mcp/kagisearch",
+  "description" : "The Official Model Context Protocol (MCP) server for Kagi search & other tools.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/kagisearch",
+    "version" : "sha256:a04696f75f842225462060a8b5f4207e6ca086e59dc38c3fb52ae02d36d41403",
+    "environmentVariables" : [ {
+      "name" : "KAGI_API_KEY",
+      "value" : "{kagisearch.api_key}",
+      "variables" : {
+        "kagisearch.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "KAGI_SUMMARIZER_ENGINE",
+      "value" : "{kagisearch.engine}",
+      "isRepeated" : false,
+      "variables" : {
+        "kagisearch.engine" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "kagisearch", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "kagi_search_fetch"
+      }, {
+        "name" : "kagi_summarizer"
+      } ],
+      "source" : "https://github.com/kagisearch/kagimcp/tree/f2c2157cd520f37c2a926c6434bc03a29a9f5ceb",
+      "icon" : "https://avatars.githubusercontent.com/u/92134518?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Kagi search",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/kagisearch.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/kagisearch.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/kagisearch/kagimcp",
+      "resources" : { },
+      "owner" : "kagisearch"
+    }
+  }
+}

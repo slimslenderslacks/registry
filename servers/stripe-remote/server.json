@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/stripe-remote",
   "description" : "Interact with Stripe services over the Stripe API.",
-  "version" : "v0.1.1",
+  "title" : "Stripe",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://mcp.stripe.com"
@@ -12,21 +14,20 @@
       "tags" : [ "payments", "finance", "billing", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/stripe-remote.md",
       "icon" : "https://www.google.com/s2/favicons?domain=stripe.com&sz=64",
+      "tools" : [ ],
       "prompts" : 0,
+      "resources" : { },
+      "source" : "",
       "oauth" : {
         "providers" : [ {
           "provider" : "stripe-remote",
           "secret" : "stripe-remote.personal_access_token",
           "env" : "STRIPE_REMOTE_PERSONAL_ACCESS_TOKEN"
         } ]
-      },
-      "title" : "Stripe",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/stripe-remote.md",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      }
     }
   }
 }

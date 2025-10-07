@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/paypal",
+  "description" : "Process online payments, manage transactions, and integrate PayPal's payment solutions into applications.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.paypal.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "payments",
+      "tags" : [ "payments", "finance", "transactions", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=paypal.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "paypal",
+          "secret" : "paypal.personal_access_token",
+          "env" : "PAYPAL_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "PayPal",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/paypal.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

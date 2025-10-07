@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/grafbase",
+  "description" : "Build and deploy high-performance GraphQL APIs with federation, edge computing, and enterprise-grade governance.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.grafbase.com/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "graphql", "database", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=grafbase.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "grafbase",
+          "secret" : "grafbase.personal_access_token",
+          "env" : "GRAFBASE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Grafbase",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/grafbase.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

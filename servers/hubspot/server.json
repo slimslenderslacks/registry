@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/hubspot",
   "description" : "Unite marketing, sales, and customer service with AI-powered automation, lead management, and comprehensive analytics.",
-  "version" : "v0.1.2",
+  "title" : "HubSpot",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://app.hubspot.com/mcp/v1/http",
@@ -23,15 +25,14 @@
       "tags" : [ "crm", "marketing", "sales", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=hubspot.com&sz=64",
-      "prompts" : 0,
-      "title" : "HubSpot",
+      "dateAdded" : "2025-09-08T19:03:35Z",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/hubspot.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hubspot.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "icon" : "https://www.google.com/s2/favicons?domain=hubspot.com&sz=64",
+      "tools" : [ ],
+      "prompts" : 0,
+      "resources" : { },
+      "source" : ""
     }
   }
 }

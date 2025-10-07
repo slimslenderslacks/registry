@@ -1,0 +1,53 @@
+{
+  "name" : "com.docker.mcp/pinecone",
+  "description" : "Pinecone Assistant MCP server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pinecone",
+    "version" : "sha256:bec1d8853fb679c33f3115a2b0d27f5d6854e17a20cd481ce4d2cb2e8506092d",
+    "environmentVariables" : [ {
+      "name" : "PINECONE_API_KEY",
+      "value" : "{pinecone.api_key}",
+      "variables" : {
+        "pinecone.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "PINECONE_ASSISTANT_HOST",
+      "value" : "{pinecone.assistant_host}",
+      "isRepeated" : false,
+      "variables" : {
+        "pinecone.assistant_host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "database", "machine-learning" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "assistant_context"
+      } ],
+      "source" : "https://github.com/pinecone-io/assistant-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/54333248?v=4",
+      "prompts" : 0,
+      "title" : "Pinecone Assistant",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/pinecone.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/pinecone.json",
+      "dateAdded" : "2025-06-05T06:44:51Z",
+      "upstream" : "https://github.com/pinecone-io/assistant-mcp",
+      "resources" : { },
+      "owner" : "pinecone-io"
+    }
+  }
+}

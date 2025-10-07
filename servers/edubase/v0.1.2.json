@@ -1,0 +1,376 @@
+{
+  "name" : "com.docker.mcp/edubase",
+  "description" : "The EduBase MCP server enables Claude and other LLMs to interact with EduBase's comprehensive e-learning platform through the Model Context Protocol (MCP).",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/edubase",
+    "version" : "sha256:cde5bcdb2f32e7dc27bb848b686caccf9172b212c363ebf02f5d24a69cc65fd6",
+    "environmentVariables" : [ {
+      "name" : "EDUBASE_API_KEY",
+      "value" : "{edubase.api_key}",
+      "variables" : {
+        "edubase.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "EDUBASE_API_APP",
+      "value" : "{edubase.app}",
+      "isRepeated" : false,
+      "variables" : {
+        "edubase.app" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "EDUBASE_API_URL",
+      "value" : "{edubase.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "edubase.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "edubase", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "edubase_delete_class_members"
+      }, {
+        "name" : "edubase_delete_class_permission"
+      }, {
+        "name" : "edubase_delete_class_tag"
+      }, {
+        "name" : "edubase_delete_course_permission"
+      }, {
+        "name" : "edubase_delete_course_tag"
+      }, {
+        "name" : "edubase_delete_course_transfer"
+      }, {
+        "name" : "edubase_delete_event_permission"
+      }, {
+        "name" : "edubase_delete_event_tag"
+      }, {
+        "name" : "edubase_delete_exam"
+      }, {
+        "name" : "edubase_delete_exam_permission"
+      }, {
+        "name" : "edubase_delete_exam_tag"
+      }, {
+        "name" : "edubase_delete_exam_users"
+      }, {
+        "name" : "edubase_delete_integration"
+      }, {
+        "name" : "edubase_delete_integration_permission"
+      }, {
+        "name" : "edubase_delete_integration_tag"
+      }, {
+        "name" : "edubase_delete_organization"
+      }, {
+        "name" : "edubase_delete_organization_members"
+      }, {
+        "name" : "edubase_delete_organization_permission"
+      }, {
+        "name" : "edubase_delete_organization_tag"
+      }, {
+        "name" : "edubase_delete_organization_webhook"
+      }, {
+        "name" : "edubase_delete_question"
+      }, {
+        "name" : "edubase_delete_quiz"
+      }, {
+        "name" : "edubase_delete_quiz_permission"
+      }, {
+        "name" : "edubase_delete_quiz_questions"
+      }, {
+        "name" : "edubase_delete_quiz_tag"
+      }, {
+        "name" : "edubase_delete_scorm_permission"
+      }, {
+        "name" : "edubase_delete_scorm_tag"
+      }, {
+        "name" : "edubase_delete_tag_permission"
+      }, {
+        "name" : "edubase_delete_user"
+      }, {
+        "name" : "edubase_delete_user_assume"
+      }, {
+        "name" : "edubase_delete_user_classes"
+      }, {
+        "name" : "edubase_delete_user_login"
+      }, {
+        "name" : "edubase_delete_user_organizations"
+      }, {
+        "name" : "edubase_delete_video_permission"
+      }, {
+        "name" : "edubase_delete_video_tag"
+      }, {
+        "name" : "edubase_get_class"
+      }, {
+        "name" : "edubase_get_class_assignments"
+      }, {
+        "name" : "edubase_get_class_members"
+      }, {
+        "name" : "edubase_get_class_permission"
+      }, {
+        "name" : "edubase_get_class_tag"
+      }, {
+        "name" : "edubase_get_class_tags"
+      }, {
+        "name" : "edubase_get_classes"
+      }, {
+        "name" : "edubase_get_course_permission"
+      }, {
+        "name" : "edubase_get_course_tag"
+      }, {
+        "name" : "edubase_get_course_tags"
+      }, {
+        "name" : "edubase_get_event_permission"
+      }, {
+        "name" : "edubase_get_event_tag"
+      }, {
+        "name" : "edubase_get_event_tags"
+      }, {
+        "name" : "edubase_get_exam"
+      }, {
+        "name" : "edubase_get_exam_certificates_user"
+      }, {
+        "name" : "edubase_get_exam_permission"
+      }, {
+        "name" : "edubase_get_exam_results_raw"
+      }, {
+        "name" : "edubase_get_exam_results_user"
+      }, {
+        "name" : "edubase_get_exam_tag"
+      }, {
+        "name" : "edubase_get_exam_tags"
+      }, {
+        "name" : "edubase_get_exam_users"
+      }, {
+        "name" : "edubase_get_exams"
+      }, {
+        "name" : "edubase_get_integration"
+      }, {
+        "name" : "edubase_get_integration_keys"
+      }, {
+        "name" : "edubase_get_integration_permission"
+      }, {
+        "name" : "edubase_get_integration_tag"
+      }, {
+        "name" : "edubase_get_integration_tags"
+      }, {
+        "name" : "edubase_get_integrations"
+      }, {
+        "name" : "edubase_get_organization"
+      }, {
+        "name" : "edubase_get_organization_members"
+      }, {
+        "name" : "edubase_get_organization_permission"
+      }, {
+        "name" : "edubase_get_organization_tag"
+      }, {
+        "name" : "edubase_get_organization_tags"
+      }, {
+        "name" : "edubase_get_organization_webhook"
+      }, {
+        "name" : "edubase_get_organizations"
+      }, {
+        "name" : "edubase_get_question"
+      }, {
+        "name" : "edubase_get_question_id"
+      }, {
+        "name" : "edubase_get_questions"
+      }, {
+        "name" : "edubase_get_quiz"
+      }, {
+        "name" : "edubase_get_quiz_permission"
+      }, {
+        "name" : "edubase_get_quiz_play_results"
+      }, {
+        "name" : "edubase_get_quiz_questions"
+      }, {
+        "name" : "edubase_get_quiz_results_user"
+      }, {
+        "name" : "edubase_get_quiz_tag"
+      }, {
+        "name" : "edubase_get_quiz_tags"
+      }, {
+        "name" : "edubase_get_quizes"
+      }, {
+        "name" : "edubase_get_scorm_permission"
+      }, {
+        "name" : "edubase_get_scorm_tag"
+      }, {
+        "name" : "edubase_get_scorm_tags"
+      }, {
+        "name" : "edubase_get_tag"
+      }, {
+        "name" : "edubase_get_tag_permission"
+      }, {
+        "name" : "edubase_get_tags"
+      }, {
+        "name" : "edubase_get_user"
+      }, {
+        "name" : "edubase_get_user_classes"
+      }, {
+        "name" : "edubase_get_user_group"
+      }, {
+        "name" : "edubase_get_user_login"
+      }, {
+        "name" : "edubase_get_user_me"
+      }, {
+        "name" : "edubase_get_user_name"
+      }, {
+        "name" : "edubase_get_user_organizations"
+      }, {
+        "name" : "edubase_get_user_search"
+      }, {
+        "name" : "edubase_get_users"
+      }, {
+        "name" : "edubase_get_video_permission"
+      }, {
+        "name" : "edubase_get_video_tag"
+      }, {
+        "name" : "edubase_get_video_tags"
+      }, {
+        "name" : "edubase_patch_integration"
+      }, {
+        "name" : "edubase_patch_organization"
+      }, {
+        "name" : "edubase_patch_organization_webhook"
+      }, {
+        "name" : "edubase_patch_user"
+      }, {
+        "name" : "edubase_post_class_members"
+      }, {
+        "name" : "edubase_post_class_permission"
+      }, {
+        "name" : "edubase_post_class_tag"
+      }, {
+        "name" : "edubase_post_class_transfer"
+      }, {
+        "name" : "edubase_post_classes_members"
+      }, {
+        "name" : "edubase_post_course_permission"
+      }, {
+        "name" : "edubase_post_course_tag"
+      }, {
+        "name" : "edubase_post_custom_metric"
+      }, {
+        "name" : "edubase_post_event_permission"
+      }, {
+        "name" : "edubase_post_event_tag"
+      }, {
+        "name" : "edubase_post_event_transfer"
+      }, {
+        "name" : "edubase_post_exam"
+      }, {
+        "name" : "edubase_post_exam_certificates_user_download"
+      }, {
+        "name" : "edubase_post_exam_permission"
+      }, {
+        "name" : "edubase_post_exam_summary"
+      }, {
+        "name" : "edubase_post_exam_tag"
+      }, {
+        "name" : "edubase_post_exam_transfer"
+      }, {
+        "name" : "edubase_post_exam_users"
+      }, {
+        "name" : "edubase_post_integration"
+      }, {
+        "name" : "edubase_post_integration_keys"
+      }, {
+        "name" : "edubase_post_integration_permission"
+      }, {
+        "name" : "edubase_post_integration_tag"
+      }, {
+        "name" : "edubase_post_integration_transfer"
+      }, {
+        "name" : "edubase_post_organization"
+      }, {
+        "name" : "edubase_post_organization_members"
+      }, {
+        "name" : "edubase_post_organization_permission"
+      }, {
+        "name" : "edubase_post_organization_tag"
+      }, {
+        "name" : "edubase_post_organization_transfer"
+      }, {
+        "name" : "edubase_post_organization_webhook"
+      }, {
+        "name" : "edubase_post_organization_webhook_trigger"
+      }, {
+        "name" : "edubase_post_organizations_members"
+      }, {
+        "name" : "edubase_post_question"
+      }, {
+        "name" : "edubase_post_question_export"
+      }, {
+        "name" : "edubase_post_question_id"
+      }, {
+        "name" : "edubase_post_quiz"
+      }, {
+        "name" : "edubase_post_quiz_permission"
+      }, {
+        "name" : "edubase_post_quiz_questions"
+      }, {
+        "name" : "edubase_post_quiz_tag"
+      }, {
+        "name" : "edubase_post_quiz_transfer"
+      }, {
+        "name" : "edubase_post_scorm_permission"
+      }, {
+        "name" : "edubase_post_scorm_tag"
+      }, {
+        "name" : "edubase_post_scorm_transfer"
+      }, {
+        "name" : "edubase_post_tag_permission"
+      }, {
+        "name" : "edubase_post_tag_transfer"
+      }, {
+        "name" : "edubase_post_user"
+      }, {
+        "name" : "edubase_post_user_assume"
+      }, {
+        "name" : "edubase_post_user_classes"
+      }, {
+        "name" : "edubase_post_user_group"
+      }, {
+        "name" : "edubase_post_user_login"
+      }, {
+        "name" : "edubase_post_user_name"
+      }, {
+        "name" : "edubase_post_user_organizations"
+      }, {
+        "name" : "edubase_post_video_permission"
+      }, {
+        "name" : "edubase_post_video_tag"
+      }, {
+        "name" : "edubase_post_video_transfer"
+      } ],
+      "source" : "https://github.com/EduBase/MCP/tree/8e6f6e9eaab135194c436710dd33572ce0bc0cab",
+      "icon" : "https://avatars.githubusercontent.com/u/33938028?s=200&v=4",
+      "prompts" : 0,
+      "title" : "EduBase",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/edubase.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/edubase.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/EduBase/MCP",
+      "resources" : { },
+      "owner" : "EduBase"
+    }
+  }
+}

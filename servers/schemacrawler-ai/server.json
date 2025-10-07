@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/schemacrawler-ai",
   "description" : "The SchemaCrawler AI MCP Server enables natural language interaction with your database schema using an MCP client in \"Agent\" mode. It allows users to explore tables, columns, foreign keys, triggers, stored procedures and more simply by asking questions like \"Explain the code for the interest calculation stored procedure\". You can also ask it to help with SQL, since it knows your schema. This is ideal for developers, DBAs, and data analysts who want to streamline schema comprehension and query development without diving into dense documentation.",
-  "version" : "v0.1.1",
+  "title" : "SchemaCrawler AI",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -141,10 +143,9 @@
       }, {
         "name" : "table-sample"
       } ],
-      "source" : "https://github.com/schemacrawler/SchemaCrawler-AI/tree/docker-mcp-registry",
+      "source" : "https://github.com/schemacrawler/SchemaCrawler-AI/tree/2fadcfcb3c7eb141dcfa323494b7cde148b090d9",
       "icon" : "https://avatars.githubusercontent.com/u/58572?v=4",
       "prompts" : 0,
-      "title" : "SchemaCrawler AI",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/schemacrawler-ai.md",
       "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/schemacrawler-ai.json",

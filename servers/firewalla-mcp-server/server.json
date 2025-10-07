@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/firewalla-mcp-server",
   "description" : "Real-time network monitoring, security analysis, and firewall management through 28 specialized tools. Access security alerts, network flows, device status, and firewall rules directly from your Firewalla device.",
-  "version" : "v0.1.1",
+  "title" : "Firewalla MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -132,10 +134,9 @@
       }, {
         "name" : "update_target_list"
       } ],
-      "source" : "https://github.com/amittell/firewalla-mcp-server/tree/main",
+      "source" : "https://github.com/amittell/firewalla-mcp-server/tree/d6f8c6ac25701a7eb69c3dfdda312817979329e9",
       "icon" : "https://avatars.githubusercontent.com/u/16805913?s=200&v=4",
       "prompts" : 0,
-      "title" : "Firewalla MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/firewalla-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/firewalla-mcp-server.json",
       "dateAdded" : "2025-07-29T14:05:27Z",

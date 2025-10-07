@@ -1,0 +1,64 @@
+{
+  "name" : "com.docker.mcp/resend",
+  "description" : "Send emails directly from Cursor with this email sending MCP server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/resend",
+    "version" : "sha256:2a786579214e118992c62875fd81488fee01918b10b06b447beb1acd5824e8ed",
+    "environmentVariables" : [ {
+      "name" : "RESEND_API_KEY",
+      "value" : "{resend.api_key}",
+      "variables" : {
+        "resend.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "REPLY_TO_EMAIL_ADDRESSES",
+      "value" : "{resend.reply_to}",
+      "isRepeated" : false,
+      "variables" : {
+        "resend.reply_to" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "comma separated list of reply to email addresses"
+        }
+      }
+    }, {
+      "name" : "SENDER_EMAIL_ADDRESS",
+      "value" : "{resend.sender}",
+      "isRepeated" : false,
+      "variables" : {
+        "resend.sender" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "sender email address"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "communication",
+      "tags" : [ "resend", "email" ],
+      "tools" : [ {
+        "name" : "send-email"
+      } ],
+      "source" : "https://github.com/slimslenderslacks/mcp-send-email/tree/slim/docker",
+      "icon" : "https://avatars.githubusercontent.com/u/109384852?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Send emails",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/resend.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/resend.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/resend/mcp-send-email",
+      "resources" : { },
+      "owner" : "resend"
+    }
+  }
+}

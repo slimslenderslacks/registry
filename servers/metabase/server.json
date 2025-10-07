@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/metabase",
   "description" : "A comprehensive MCP server for Metabase with 70+ tools.",
-  "version" : "v0.1.1",
+  "title" : "Metabase MCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -112,10 +114,9 @@
       }, {
         "name" : "update_dashboard_card"
       } ],
-      "source" : "https://github.com/easecloudio/mcp-metabase-server/tree/v1.0.2",
+      "source" : "https://github.com/easecloudio/mcp-metabase-server/tree/8a4dfce8afd45ead9cc4c2764f41ace6f91adf66",
       "icon" : "https://avatars.githubusercontent.com/u/10520629?s=48&v=4",
       "prompts" : 0,
-      "title" : "Metabase MCP",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/metabase.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/metabase.json",
       "dateAdded" : "2025-07-29T14:05:27Z",

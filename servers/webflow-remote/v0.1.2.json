@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/webflow-remote",
+  "description" : "Design and build professional websites visually with no-code tools, advanced CMS, and responsive layouts.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.webflow.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "web",
+      "tags" : [ "web", "cms", "design", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=webflow.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "webflow-remote",
+          "secret" : "webflow-remote.personal_access_token",
+          "env" : "WEBFLOW_REMOTE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Webflow",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/webflow-remote.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

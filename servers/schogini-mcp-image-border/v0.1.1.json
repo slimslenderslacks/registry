@@ -1,0 +1,36 @@
+{
+  "name" : "com.docker.mcp/schogini-mcp-image-border",
+  "description" : "This adds a border to an image and returns base64 encoded image.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/schogini_mcp_image_border",
+    "version" : "sha256:aadb75058ed149533d43a5011cf61f3daaed9787acdfe4082093c6ddc494d061"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "tools" : [ {
+        "name" : "add-two-numbers"
+      }, {
+        "name" : "image-border"
+      }, {
+        "name" : "image-meta"
+      } ],
+      "source" : "https://github.com/schogini/schogini_mcp_image_border/tree/main",
+      "icon" : "https://d1yei2z3i6k35z.cloudfront.net/7429984/669a56c4ca69e_SCHOGINI-LOGO-ROUND.png",
+      "prompts" : 0,
+      "title" : "Schogini MCP Image Border",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/schogini-mcp-image-border.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/schogini-mcp-image-border.json",
+      "dateAdded" : "2025-07-11T18:29:38Z",
+      "upstream" : "https://github.com/schogini/schogini_mcp_image_border",
+      "resources" : { },
+      "owner" : "schogini"
+    }
+  }
+}

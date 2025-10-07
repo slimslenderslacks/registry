@@ -1,0 +1,43 @@
+{
+  "name" : "com.docker.mcp/vuln-nist-mcp-server",
+  "description" : "This MCP server exposes tools to query the NVD/CVE REST API and return formatted text results suitable for LLM consumption via the MCP protocol. It includes automatic query chunking for large date ranges and parallel processing for improved performance.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/vuln-nist-mcp-server",
+    "version" : "sha256:e5025e66c0d28a4fb4b00f4762b91309f2538ab5ade9a9d2ea10cfacf5c04645"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "search", "cybersecurity", "vulns", "cves" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "cve_change_history"
+      }, {
+        "name" : "cves_by_cpe"
+      }, {
+        "name" : "get_cve_by_id"
+      }, {
+        "name" : "get_temporal_context"
+      }, {
+        "name" : "kevs_between"
+      }, {
+        "name" : "search_cves"
+      } ],
+      "source" : "https://github.com/HaroldFinchIFT/vuln-nist-mcp-server/tree/main",
+      "icon" : "https://raw.githubusercontent.com/HaroldFinchIFT/vuln-nist-mcp-server/refs/heads/main/nvd_logo.png",
+      "prompts" : 0,
+      "title" : "Vuln nist mcp server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/vuln-nist-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/vuln-nist-mcp-server.json",
+      "dateAdded" : "2025-09-15T16:12:49Z",
+      "upstream" : "https://github.com/HaroldFinchIFT/vuln-nist-mcp-server",
+      "resources" : { },
+      "owner" : "HaroldFinchIFT"
+    }
+  }
+}

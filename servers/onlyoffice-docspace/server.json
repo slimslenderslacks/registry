@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/onlyoffice-docspace",
   "description" : "ONLYOFFICE DocSpace is a room-based collaborative platform which allows organizing a clear file structure depending on users' needs or project goals.",
-  "version" : "v0.1.1",
+  "title" : "ONLYOFFICE DocSpace",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -150,10 +152,9 @@
       }, {
         "name" : "upload_file"
       } ],
-      "source" : "https://github.com/ONLYOFFICE/docspace-mcp/tree/main",
+      "source" : "https://github.com/ONLYOFFICE/docspace-mcp/tree/207df07a0f57e322787f6e6b60c7301572a87d9e",
       "icon" : "https://avatars.githubusercontent.com/u/1426033?v=4",
       "prompts" : 0,
-      "title" : "ONLYOFFICE DocSpace",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/onlyoffice-docspace.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/onlyoffice-docspace.json",
       "dateAdded" : "2025-07-19T06:20:02Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/vizro",
   "description" : "provides tools and templates to create a functioning Vizro chart or dashboard step by step.",
-  "version" : "v0.1.1",
+  "title" : "Vizro",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -29,10 +31,9 @@
       }, {
         "name" : "validate_dashboard_config"
       } ],
-      "source" : "https://github.com/mckinsey/vizro/tree/main/vizro-mcp",
+      "source" : "https://github.com/mckinsey/vizro/tree/19867f28630286059658c802487c541cc9771767/vizro-mcp",
       "icon" : "https://avatars.githubusercontent.com/u/4265350?v=4",
       "prompts" : 0,
-      "title" : "Vizro",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/vizro.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/vizro.json",
       "dateAdded" : "2025-05-29T20:04:34Z",

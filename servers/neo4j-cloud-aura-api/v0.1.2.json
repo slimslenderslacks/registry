@@ -1,0 +1,136 @@
+{
+  "name" : "com.docker.mcp/neo4j-cloud-aura-api",
+  "description" : "Manage Neo4j Aura database instances through the Neo4j Aura API.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/neo4j-cloud-aura-api",
+    "version" : "sha256:922fea38ae0dc6a29ed4b6606bddd41c254b2b68488efe4393d03338499ede66",
+    "environmentVariables" : [ {
+      "name" : "NEO4J_AURA_CLIENT_SECRET",
+      "value" : "{neo4j-cloud-aura-api.client_secret}",
+      "variables" : {
+        "neo4j-cloud-aura-api.client_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "NEO4J_AURA_CLIENT_ID",
+      "value" : "{neo4j-cloud-aura-api.client_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.client_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_TRANSPORT",
+      "value" : "{neo4j-cloud-aura-api.transport}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.transport" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_HOST",
+      "value" : "{neo4j-cloud-aura-api.server_host}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.server_host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PORT",
+      "value" : "{neo4j-cloud-aura-api.server_port}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.server_port" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_PATH",
+      "value" : "{neo4j-cloud-aura-api.server_path}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.server_path" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOW_ORIGINS",
+      "value" : "{neo4j-cloud-aura-api.server_allow_origins}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.server_allow_origins" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "NEO4J_MCP_SERVER_ALLOWED_HOSTS",
+      "value" : "{neo4j-cloud-aura-api.server_allowed_hosts}",
+      "isRepeated" : false,
+      "variables" : {
+        "neo4j-cloud-aura-api.server_allowed_hosts" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "neo4j-cloud-aura-api", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_instance"
+      }, {
+        "name" : "delete_instance"
+      }, {
+        "name" : "get_instance_by_name"
+      }, {
+        "name" : "get_instance_details"
+      }, {
+        "name" : "get_tenant_details"
+      }, {
+        "name" : "list_instances"
+      }, {
+        "name" : "list_tenants"
+      }, {
+        "name" : "pause_instance"
+      }, {
+        "name" : "resume_instance"
+      }, {
+        "name" : "update_instance_memory"
+      }, {
+        "name" : "update_instance_name"
+      }, {
+        "name" : "update_instance_vector_optimization"
+      } ],
+      "source" : "https://github.com/neo4j-contrib/mcp-neo4j/tree/7bf941bb6d9d8cf95d91fd1209b2bf24fdc609d2/servers/mcp-neo4j-cloud-aura-api",
+      "icon" : "https://avatars.githubusercontent.com/u/916372?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Neo4j Cloud Aura Api",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/neo4j-cloud-aura-api.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/neo4j-cloud-aura-api.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/neo4j-contrib/mcp-neo4j",
+      "resources" : { },
+      "owner" : "neo4j-contrib"
+    }
+  }
+}

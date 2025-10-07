@@ -1,0 +1,128 @@
+{
+  "name" : "com.docker.mcp/charmhealth-mcp-server",
+  "description" : "An MCP server for CharmHealth EHR that allows LLMs and MCP clients to interact with patient records, encounters, and practice information.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/charmhealth-mcp-server",
+    "version" : "sha256:55b309736e904905aa8495488587128f2ad27cbf065731f20dacf1a824afc602",
+    "environmentVariables" : [ {
+      "name" : "CHARMHEALTH_API_KEY",
+      "value" : "{charmhealth-mcp-server.charmhealth_api_key}",
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_REFRESH_TOKEN",
+      "value" : "{charmhealth-mcp-server.charmhealth_refresh_token}",
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_refresh_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_BASE_URL",
+      "value" : "{charmhealth-mcp-server.charmhealth_base_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_base_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_CLIENT_ID",
+      "value" : "{charmhealth-mcp-server.charmhealth_client_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_client_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_CLIENT_SECRET",
+      "value" : "{charmhealth-mcp-server.charmhealth_client_secret}",
+      "isRepeated" : false,
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_client_secret" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_REDIRECT_URI",
+      "value" : "{charmhealth-mcp-server.charmhealth_redirect_uri}",
+      "isRepeated" : false,
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_redirect_uri" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CHARMHEALTH_TOKEN_URL",
+      "value" : "{charmhealth-mcp-server.charmhealth_token_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "charmhealth-mcp-server.charmhealth_token_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "charmhealth", "ehr", "medical", "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "findPatients"
+      }, {
+        "name" : "getPracticeInfo"
+      }, {
+        "name" : "manageAppointments"
+      }, {
+        "name" : "manageEncounter"
+      }, {
+        "name" : "managePatient"
+      }, {
+        "name" : "managePatientAllergies"
+      }, {
+        "name" : "managePatientDiagnoses"
+      }, {
+        "name" : "managePatientDrugs"
+      }, {
+        "name" : "managePatientFiles"
+      }, {
+        "name" : "managePatientLabs"
+      }, {
+        "name" : "managePatientNotes"
+      }, {
+        "name" : "managePatientRecalls"
+      }, {
+        "name" : "managePatientVitals"
+      }, {
+        "name" : "reviewPatientHistory"
+      } ],
+      "source" : "https://github.com/CharmHealth/charm-mcp-server/tree/main",
+      "icon" : "https://raw.githubusercontent.com/CharmHealth/charm-mcp-server/d7928f1ed514f59656e36693749dffea52ab04c2/Charm_icon.png",
+      "prompts" : 0,
+      "title" : "CharmHealth MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/charmhealth-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/charmhealth-mcp-server.json",
+      "dateAdded" : "2025-09-04T19:31:40Z",
+      "upstream" : "https://github.com/CharmHealth/charm-mcp-server",
+      "resources" : { },
+      "owner" : "CharmHealth"
+    }
+  }
+}

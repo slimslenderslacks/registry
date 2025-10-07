@@ -40,22 +40,19 @@
 ;; =======================================================
 
 (spec/def :registry/repository (spec/keys :req-un [:registry/url :registry/source]
-                                  :opt-un [:registry/id :registyr/subfolder]))
-
-(spec/def :registry/Server (spec/keys :req-un [:registry/name :registry/description :registry/version]
-                              :opt-un [:registry/repository :registry/websiteUrl]))
+                                          :opt-un [:registry/id :registry/subfolder]))
 
 ;; Package
 (spec/def :registry/Package (spec/keys :req-un [:registry/registryType
-                                        :registry/identifier
-                                        :registry/version
-                                        :registry/transport]
-                               :opt-un [:registry/registryBaseUrl
-                                        :registry/runtimeHint
-                                        :registry/fileSha256
-                                        :registry/runtimeArguments
-                                        :registry/packageArguments
-                                        :registry/environmentVariables]))
+                                                :registry/identifier
+                                                :registry/version
+                                                :registry/transport]
+                                       :opt-un [:registry/registryBaseUrl
+                                                :registry/runtimeHint
+                                                :registry/fileSha256
+                                                :registry/runtimeArguments
+                                                :registry/packageArguments
+                                                :registry/environmentVariables]))
 (spec/def :registry/runtimeArguments (spec/coll-of :registry/Argument))
 (spec/def :registry/packageArguments (spec/coll-of :registry/Argument))
 (spec/def :registry/environmentVariables (spec/coll-of :registry/KeyValueInput))
@@ -63,20 +60,21 @@
 ;; Input
 (spec/def :registry/registryType #{"npm" "pypi" "oci" "nuget" "mcpb"})
 (spec/def :registry/Input (spec/keys :opt-un [:registry/description
-                                      :registry/isRequired
-                                      :registry/format
-                                      :registry/value
-                                      :registry/isSecret
-                                      :registry/default
-                                      :registry/choices]))
+                                              :registry/isRequired
+                                              :registry/format
+                                              :registry/value
+                                              :registry/isSecret
+                                              :registry/default
+                                              :registry/choices
+                                              :registry/placeholder]))
 (spec/def :registry/format #{"string" "number" "boolean" "filepath"})
 (spec/def :registry/InputWithVariables (spec/merge
-                                :registry/Input
-                                (spec/keys :opt-un [:registry/variables])))
+                                        :registry/Input
+                                        (spec/keys :opt-un [:registry/variables])))
 (spec/def :registry/KeyValueInput (spec/and
-                           :registry/InputWithVariables
-                           (spec/keys :req-un [:registry/name])))
-(spec/def :registry/variables (spec/map-of string? :registry/Input))
+                                   :registry/InputWithVariables
+                                   (spec/keys :req-un [:registry/name])))
+(spec/def :registry/variables (spec/map-of (fn [s] (or (keyword? s) (string? s))) :registry/Input))
 (defmulti argument-type :type)
 (defmethod argument-type "positional" [_]
   (spec/merge
@@ -94,6 +92,15 @@
 (spec/def :registry/Argument (spec/multi-spec argument-type :type))
 (spec/def :registry/type #{"named" "positional"})
 
+;; Icon
+(spec/def :icon/src string?) ;maxLength 255 format uri
+(spec/def :icon/theme #{"light" "dark"})
+(spec/def :icon/mimeType #{"image/png" "image/jpeg" "image/jpg" "image/svg+xml" "image/webp"})
+(spec/def :icon/size (fn [s] (and (string? s) (re-matches #"\d+x\d+|.*" s))))
+(spec/def :icon/sizes (spec/coll-of :icon/size))
+(spec/def :registry/Icon (spec/keys :req-un [:icon/src]
+                                    :opt-un [:icon/theme :icon/mimeType :icon/sizes]))
+
 ;; Remote
 (spec/def :remote/type string?)
 (defmulti remote-type :type)
@@ -108,18 +115,29 @@
                            :registry/KeyValueInput))
 
 ;; ServerDetail
-(spec/def :registry/ServerDetail (spec/merge
-                          :registry/Server
-                          (spec/keys :opt-un [:registry/packages :registry/remotes :registry/$schema :registry/_meta])))
+
+(spec/def :registry/ServerDetail (spec/keys
+                                  :req-un [:registry/name 
+                                           :registry/description 
+                                           :registry/version 
+                                           :registry/$schema]
+                                  :opt-un [:registry/repository 
+                                           :registry/websiteUrl 
+                                           :registry/packages 
+                                           :registry/remotes 
+                                           :registry/icons
+                                           :registry/_meta
+                                           :registry/title]))
+(spec/def :registry/icons (spec/coll-of :registry/Icon))
 (spec/def :registry/packages (spec/coll-of :registry/Package))
 (spec/def :registry/remotes (spec/coll-of
-                     (spec/and
-                      :registry/transport
-                      (comp #{"sse" "streamable-http"} :type))))
+                             (spec/and
+                              :registry/transport
+                              (comp #{"sse" "streamable-http"} :type))))
 (spec/def :registry/_meta (spec/and
-                   (spec/keys :opt [:io.modelcontextprotocol.registry/publisher-provided
-                                    :io.modelcontextprotocol.registry/official])
-                   (spec/map-of keyword? any?)))
+                           (spec/keys :opt [:io.modelcontextprotocol.registry/publisher-provided
+                                            :io.modelcontextprotocol.registry/official])
+                           (spec/map-of keyword? any?)))
 (spec/def :io.modelcontextprotocol.registry/publisher-provided (spec/map-of keyword? any?))
 (spec/def :io.modelcontextprotocol.registry/official (spec/map-of keyword? any?))
 
@@ -144,4 +162,6 @@
 (spec/def :registry/isRepeated boolean?)
 (spec/def :registry/valueHint string?)
 (spec/def :registry/value string?)
+(spec/def :registry/placeholder string?)
+(spec/def :registry/title (fn [s] (and (string? s) (< (count s) 100))))
 

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/hdx",
   "description" : "HDX MCP Server provides access to humanitarian data through the Humanitarian Data Exchange (HDX) API - https://data.humdata.org/hapi. This server offers 33 specialized tools for retrieving humanitarian information including affected populations (refugees, IDPs, returnees), baseline demographics, food security indicators, conflict data, funding information, and operational presence across hundreds of countries and territories. See repository for instructions on getting a free HDX_APP_INDENTIFIER for access.",
-  "version" : "v0.1.1",
+  "title" : "Humanitarian Data Exchange MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -85,10 +87,9 @@
       }, {
         "name" : "util_version_get"
       } ],
-      "source" : "https://github.com/dividor/hdx-mcp/tree/main",
+      "source" : "https://github.com/dividor/hdx-mcp/tree/c625bf9ae120ed93a36aa7ac9352bdc41f6d9546",
       "icon" : "https://raw.githubusercontent.com/dividor/hdx-mcp/main/assets/hdx_mcp_icon_transparent_512.png",
       "prompts" : 0,
-      "title" : "Humanitarian Data Exchange MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/hdx.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hdx.json",
       "dateAdded" : "2025-09-02T20:44:02Z",

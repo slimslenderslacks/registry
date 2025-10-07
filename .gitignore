@@ -13,3 +13,4 @@ coverage.out
 coverage.html
 deploy/infra/infra
 registry
+/mcp-publisher

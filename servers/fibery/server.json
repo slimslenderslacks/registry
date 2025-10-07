@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/fibery",
   "description" : "Interact with your Fibery workspace.",
-  "version" : "v0.1.2",
+  "title" : "Fibery",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -51,10 +53,9 @@
       }, {
         "name" : "update_entity"
       } ],
-      "source" : "https://github.com/Fibery-inc/fibery-mcp-server/tree/main",
+      "source" : "https://github.com/Fibery-inc/fibery-mcp-server/tree/16b206bd7ee740d2928b72a020660ec4187aba8b",
       "icon" : "https://avatars.githubusercontent.com/u/72027989?v=4",
       "prompts" : 0,
-      "title" : "Fibery",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/fibery.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/fibery.json",
       "dateAdded" : "2025-05-05T20:08:35Z",

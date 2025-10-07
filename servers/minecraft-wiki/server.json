@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/minecraft-wiki",
   "description" : "A MCP Server for browsing the official Minecraft Wiki!.",
-  "version" : "v0.1.1",
+  "title" : "Minecraft Wiki",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -34,10 +36,9 @@
       }, {
         "name" : "MinecraftWiki_searchWiki"
       } ],
-      "source" : "https://github.com/L3-N0X/Minecraft-Wiki-MCP/tree/main",
+      "source" : "https://github.com/L3-N0X/Minecraft-Wiki-MCP/tree/7a753f50eab0ddf1f743d1cb1ab7edb7a9737ad2",
       "icon" : "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/minecraft.svg",
       "prompts" : 0,
-      "title" : "Minecraft Wiki",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/minecraft-wiki.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/minecraft-wiki.json",
       "dateAdded" : "2025-06-05T06:09:26Z",

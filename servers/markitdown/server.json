@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/markitdown",
   "description" : "A lightweight MCP server for calling MarkItDown.",
-  "version" : "v0.1.1",
+  "title" : "Markitdown",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -31,10 +33,9 @@
       "tools" : [ {
         "name" : "convert_to_markdown"
       } ],
-      "source" : "https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp",
+      "source" : "https://github.com/microsoft/markitdown/tree/3d4fe3cdcced195c7f6ce6d266dbf508aa147e54/packages/markitdown-mcp",
       "icon" : "https://avatars.githubusercontent.com/u/6154722?v=4",
       "prompts" : 0,
-      "title" : "Markitdown",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/markitdown.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/markitdown.json",
       "dateAdded" : "2025-08-25T06:19:52Z",

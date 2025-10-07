@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/charmhealth-mcp-server",
   "description" : "An MCP server for CharmHealth EHR that allows LLMs and MCP clients to interact with patient records, encounters, and practice information.",
-  "version" : "v0.1.1",
+  "title" : "CharmHealth MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/charmhealth-mcp-server",
-    "version" : "sha256:55b309736e904905aa8495488587128f2ad27cbf065731f20dacf1a824afc602",
+    "version" : "sha256:041de15ba9b4a56aeb3122fdb3dde92e4facb8c3decbc391b10c6cda715b2421",
     "environmentVariables" : [ {
       "name" : "CHARMHEALTH_API_KEY",
       "value" : "{charmhealth-mcp-server.charmhealth_api_key}",
@@ -114,10 +116,9 @@
       }, {
         "name" : "reviewPatientHistory"
       } ],
-      "source" : "https://github.com/CharmHealth/charm-mcp-server/tree/main",
+      "source" : "https://github.com/CharmHealth/charm-mcp-server/tree/1c52c486a2425c6dffc666096acfb8fb39e9016b",
       "icon" : "https://raw.githubusercontent.com/CharmHealth/charm-mcp-server/d7928f1ed514f59656e36693749dffea52ab04c2/Charm_icon.png",
       "prompts" : 0,
-      "title" : "CharmHealth MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/charmhealth-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/charmhealth-mcp-server.json",
       "dateAdded" : "2025-09-04T19:31:40Z",

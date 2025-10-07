@@ -1,0 +1,42 @@
+{
+  "name" : "com.docker.mcp/openzeppelin-cairo",
+  "description" : "Access to OpenZeppelin Cairo Contracts.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.openzeppelin.com/contracts/cairo/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "blockchain",
+      "tags" : [ "blockchain", "cairo", "smart-contracts", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "cairo-erc20"
+      }, {
+        "name" : "cairo-erc721"
+      }, {
+        "name" : "cairo-erc1155"
+      }, {
+        "name" : "cairo-account"
+      }, {
+        "name" : "cairo-multisig"
+      }, {
+        "name" : "cairo-governor"
+      }, {
+        "name" : "cairo-vesting"
+      }, {
+        "name" : "cairo-custom"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
+      "prompts" : 0,
+      "title" : "OpenZeppelin Cairo Contracts",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openzeppelin-cairo.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openzeppelin-cairo.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

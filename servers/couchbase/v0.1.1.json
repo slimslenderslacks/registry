@@ -1,0 +1,107 @@
+{
+  "name" : "com.docker.mcp/couchbase",
+  "description" : "Couchbase is a distributed document database with a powerful search engine and in-built operational and analytical capabilities.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/couchbase",
+    "version" : "sha256:96856e24d4b5e66325f0e95fbf3783766d698e6686cb4506b5c2ec0f884de1f7",
+    "environmentVariables" : [ {
+      "name" : "CB_PASSWORD",
+      "value" : "{couchbase.cb_password}",
+      "variables" : {
+        "couchbase.cb_password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CB_CONNECTION_STRING",
+      "value" : "{couchbase.cb_connection_string}",
+      "isRepeated" : false,
+      "variables" : {
+        "couchbase.cb_connection_string" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Connection string for the Couchbase cluster."
+        }
+      }
+    }, {
+      "name" : "CB_USERNAME",
+      "value" : "{couchbase.cb_username}",
+      "isRepeated" : false,
+      "variables" : {
+        "couchbase.cb_username" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Username for the Couchbase cluster with access to the bucket."
+        }
+      }
+    }, {
+      "name" : "CB_BUCKET_NAME",
+      "value" : "{couchbase.cb_bucket_name}",
+      "isRepeated" : false,
+      "variables" : {
+        "couchbase.cb_bucket_name" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Bucket in the Couchbase cluster to use for the MCP server."
+        }
+      }
+    }, {
+      "name" : "CB_MCP_READ_ONLY_QUERY_MODE",
+      "value" : "{couchbase.cb_mcp_read_only_query_mode}",
+      "isRepeated" : false,
+      "variables" : {
+        "couchbase.cb_mcp_read_only_query_mode" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Setting to \"true\" (default) enables read-only query mode while running SQL++ queries."
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "database",
+      "tags" : [ "couchbase", "database" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "delete_document_by_id"
+      }, {
+        "name" : "get_buckets_in_cluster"
+      }, {
+        "name" : "get_collections_in_scope"
+      }, {
+        "name" : "get_document_by_id"
+      }, {
+        "name" : "get_schema_for_collection"
+      }, {
+        "name" : "get_scopes_and_collections_in_bucket"
+      }, {
+        "name" : "get_scopes_in_bucket"
+      }, {
+        "name" : "get_server_configuration_status"
+      }, {
+        "name" : "run_sql_plus_plus_query"
+      }, {
+        "name" : "test_cluster_connection"
+      }, {
+        "name" : "upsert_document_by_id"
+      } ],
+      "source" : "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/605755?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Couchbase",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/couchbase.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/couchbase.json",
+      "dateAdded" : "2025-07-29T14:05:27Z",
+      "upstream" : "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+      "resources" : { },
+      "owner" : "Couchbase-Ecosystem"
+    }
+  }
+}

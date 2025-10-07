@@ -1,0 +1,36 @@
+{
+  "name" : "com.docker.mcp/effect-mcp",
+  "description" : "Tools and resources for writing Effect code in Typescript.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/effect-mcp",
+    "version" : "sha256:a0e077abc89044c8ac55bfd498d5dcb69ed9c3de93e3d2750050b36495df5b10"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "effect_docs_search"
+      }, {
+        "name" : "get_effect_doc"
+      } ],
+      "source" : "https://github.com/tim-smart/effect-mcp/tree/05c19d789d4c4cbd9b881240f815ee8b7fa96ca6",
+      "icon" : "https://avatars.githubusercontent.com/u/77678942?v=4",
+      "prompts" : 0,
+      "title" : "Effect MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/effect-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/effect-mcp.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/tim-smart/effect-mcp",
+      "resources" : { },
+      "owner" : "tim-smart"
+    }
+  }
+}

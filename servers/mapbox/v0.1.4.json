@@ -1,0 +1,60 @@
+{
+  "name" : "com.docker.mcp/mapbox",
+  "description" : "Transform any AI agent into a geospatially-aware system with Mapbox APIs. Provides geocoding, POI search, routing, travel time matrices, isochrones, and static map generation.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mapbox",
+    "version" : "sha256:2f641ddd7da71b4c8c4947a6ae226c665c095d7293386e16ff62d56ec67fd1ed",
+    "environmentVariables" : [ {
+      "name" : "MAPBOX_ACCESS_TOKEN",
+      "value" : "{mapbox.access_token}",
+      "variables" : {
+        "mapbox.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "maps",
+      "tags" : [ "mapbox", "maps", "geospatial", "navigation", "geocoding" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "category_list_tool"
+      }, {
+        "name" : "category_search_tool"
+      }, {
+        "name" : "directions_tool"
+      }, {
+        "name" : "isochrone_tool"
+      }, {
+        "name" : "matrix_tool"
+      }, {
+        "name" : "reverse_geocode_tool"
+      }, {
+        "name" : "search_and_geocode_tool"
+      }, {
+        "name" : "static_map_image_tool"
+      }, {
+        "name" : "version_tool"
+      } ],
+      "source" : "https://github.com/mapbox/mcp-server/tree/4a101fdec2d4cbcea4badc6c407d83d6fcafd4cd",
+      "icon" : "https://avatars.githubusercontent.com/u/600935?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Mapbox MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mapbox.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mapbox.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/mapbox/mcp-server",
+      "resources" : { },
+      "owner" : "mapbox"
+    }
+  }
+}

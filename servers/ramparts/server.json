@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/ramparts",
   "description" : "A comprehensive security scanner for MCP servers with YARA rules and static analysis capabilities.",
-  "version" : "v0.1.1",
+  "title" : "Ramparts MCP Security Scanner",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -25,10 +27,9 @@
       }, {
         "name" : "scan-config"
       } ],
-      "source" : "https://github.com/getjavelin/ramparts/tree/main",
+      "source" : "https://github.com/getjavelin/ramparts/tree/f206d33e6fe746aae1d58d00c56073c546189900",
       "icon" : "https://raw.githubusercontent.com/getjavelin/ramparts/main/assets/ramparts.png",
       "prompts" : 0,
-      "title" : "Ramparts MCP Security Scanner",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/ramparts.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/ramparts.json",
       "dateAdded" : "2025-08-20T06:26:55Z",

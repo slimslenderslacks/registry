@@ -1,0 +1,65 @@
+{
+  "name" : "com.docker.mcp/fibery",
+  "description" : "Interact with your Fibery workspace.",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/fibery",
+    "version" : "sha256:180025908104eefa42f748382d2f25904e07109df3ae53bf960a6c61100f901f",
+    "environmentVariables" : [ {
+      "name" : "FIBERY_API_TOKEN",
+      "value" : "{fibery.api_token}",
+      "variables" : {
+        "fibery.api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "FIBERY_HOST",
+      "value" : "{fibery.host}",
+      "isRepeated" : false,
+      "variables" : {
+        "fibery.host" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "fibery", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_entities_batch"
+      }, {
+        "name" : "create_entity"
+      }, {
+        "name" : "current_date"
+      }, {
+        "name" : "describe_database"
+      }, {
+        "name" : "list_databases"
+      }, {
+        "name" : "query_database"
+      }, {
+        "name" : "update_entity"
+      } ],
+      "source" : "https://github.com/Fibery-inc/fibery-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/72027989?v=4",
+      "prompts" : 0,
+      "title" : "Fibery",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/fibery.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/fibery.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/Fibery-inc/fibery-mcp-server",
+      "resources" : { },
+      "owner" : "Fibery-inc"
+    }
+  }
+}

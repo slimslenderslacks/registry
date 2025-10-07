@@ -1,0 +1,49 @@
+{
+  "name" : "com.docker.mcp/pia",
+  "description" : "An MCP server to help make U.S. Government open datasets AI-friendly.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pia",
+    "version" : "sha256:679aaee3fb310bd9e08c0abbfdc10c8b3b43ffa53fe6c5039d8f5ef81d01728d",
+    "environmentVariables" : [ {
+      "name" : "PIA_API_KEY",
+      "value" : "{pia.api-key}",
+      "variables" : {
+        "pia.api-key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "pia_search_content"
+      }, {
+        "name" : "pia_search_content_facets"
+      }, {
+        "name" : "pia_search_titles"
+      }, {
+        "name" : "pia_search_titles_facets"
+      } ],
+      "source" : "https://github.com/Program-Integrity-Alliance/pia-mcp-local/tree/main",
+      "icon" : "http://programintegrity.org/wp-content/uploads/2025/08/docker-mcp-pia-icon-512.png",
+      "prompts" : 0,
+      "title" : "Program Integrity Alliance",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/pia.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/pia.json",
+      "dateAdded" : "2025-08-20T06:26:55Z",
+      "upstream" : "https://github.com/Program-Integrity-Alliance/pia-mcp-local",
+      "resources" : { },
+      "owner" : "Program-Integrity-Alliance"
+    }
+  }
+}

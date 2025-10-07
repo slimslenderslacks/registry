@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/aks",
   "description" : "Azure Kubernetes Service (AKS) official MCP server.",
-  "version" : "v0.1.3",
+  "title" : "Azure Kubernetes Service (AKS)",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/aks",
-    "version" : "sha256:9670301e0b27c9a423213b743ab08ad8b6d0445bc463672de48044fda2ceb549",
+    "version" : "sha256:486fa1e9ba0afc7d678e2c680a4e476341d69ca834e38ad8abda8f292386bd1b",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-u",
@@ -125,10 +127,9 @@
       }, {
         "name" : "run_detectors_by_category"
       } ],
-      "source" : "https://github.com/Azure/aks-mcp/tree/main",
-      "icon" : "https://raw.githubusercontent.com/Azure/AKS/master/blog/assets/images/400x400.png",
+      "source" : "https://github.com/Azure/aks-mcp/tree/6c6d6600de5bfbbbe477407c311324cb7e0d78e7",
+      "icon" : "https://raw.githubusercontent.com/Azure/AKS/1c3979cf6729c78cfff2c0c78cb0aa657e1bbf7a/blog/assets/images/400x400.png",
       "prompts" : 0,
-      "title" : "Azure Kubernetes Service (AKS)",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aks.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aks.json",
       "dateAdded" : "2025-08-20T06:26:55Z",

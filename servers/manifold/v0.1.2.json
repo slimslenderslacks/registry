@@ -1,0 +1,37 @@
+{
+  "name" : "com.docker.mcp/manifold",
+  "description" : "Tools for accessing the Manifold Markets online prediction market platform.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.manifold.markets/v0/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "analytics",
+      "tags" : [ "analytics", "forecasting", "prediction-markets", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "search-markets"
+      }, {
+        "name" : "get-market"
+      }, {
+        "name" : "get-user"
+      }, {
+        "name" : "get-bets"
+      }, {
+        "name" : "search-users"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=manifold.markets&sz=64",
+      "prompts" : 0,
+      "title" : "Manifold",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/manifold.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/manifold.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

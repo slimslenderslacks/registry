@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/cloudflare-ai-gateway",
   "description" : "Search your logs, get details about the prompts and responses.",
-  "version" : "v0.1.1",
+  "title" : "Cloudflare AI Gateway",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://ai-gateway.mcp.cloudflare.com/sse"
@@ -12,21 +14,20 @@
       "tags" : [ "ai", "gateway", "logs", "cloudflare", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-ai-gateway.md",
       "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "tools" : [ ],
       "prompts" : 0,
+      "resources" : { },
+      "source" : "",
       "oauth" : {
         "providers" : [ {
           "provider" : "cloudflare-ai-gateway",
           "secret" : "cloudflare-ai-gateway.personal_access_token",
           "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
         } ]
-      },
-      "title" : "Cloudflare AI Gateway",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-ai-gateway.md",
-      "dateAdded" : "2025-09-24T06:16:16Z",
-      "resources" : { }
+      }
     }
   }
 }

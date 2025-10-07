@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/dockerhub",
   "description" : "Docker Hub official MCP server.",
-  "version" : "v0.1.1",
+  "title" : "Docker Hub",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/dockerhub",
-    "version" : "sha256:6d15361c655580c7aad72b0152daef9208b466577e794361f64904aa974f5e67",
+    "version" : "sha256:6b4059389ccbe29e4420ba14f1ed6433ade5d0a3ad8b05c8d34e077140c9f7ea",
     "environmentVariables" : [ {
       "name" : "HUB_PAT_TOKEN",
       "value" : "{dockerhub.pat_token}",
@@ -69,10 +71,9 @@
       }, {
         "name" : "updateRepositoryInfo"
       } ],
-      "source" : "https://github.com/docker/hub-mcp/tree/main",
+      "source" : "https://github.com/docker/hub-mcp/tree/04cfa435b2f0cde66b8c5d4b0d378661400a1ba4",
       "icon" : "https://avatars.githubusercontent.com/u/5429470?s=200&v=4",
       "prompts" : 0,
-      "title" : "Docker Hub",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dockerhub.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dockerhub.json",
       "dateAdded" : "2025-06-16T15:56:21Z",

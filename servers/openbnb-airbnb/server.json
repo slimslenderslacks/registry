@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/openbnb-airbnb",
   "description" : "MCP Server for searching Airbnb and get listing details.",
-  "version" : "v0.1.1",
+  "title" : "Airbnb Search",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -21,10 +23,9 @@
       }, {
         "name" : "airbnb_search"
       } ],
-      "source" : "https://github.com/openbnb-org/mcp-server-airbnb/tree/main",
+      "source" : "https://github.com/openbnb-org/mcp-server-airbnb/tree/57d9d6cdabe813c4d4ab57f90481490aaf8b1b0a",
       "icon" : "https://avatars.githubusercontent.com/u/202564951?v=4",
       "prompts" : 0,
-      "title" : "Airbnb Search",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openbnb-airbnb.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openbnb-airbnb.json",
       "dateAdded" : "2025-07-01T12:14:18Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/dynatrace-mcp-server",
   "description" : "This MCP Server allows interaction with the Dynatrace observability platform, brining real-time observability data directly into your development workflow.",
-  "version" : "v0.1.1",
+  "title" : "Dynatrace MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -78,10 +80,9 @@
       }, {
         "name" : "verify_dql"
       } ],
-      "source" : "https://github.com/dynatrace-oss/dynatrace-mcp/tree/main",
+      "source" : "https://github.com/dynatrace-oss/dynatrace-mcp/tree/e1b9fcf382515c51e2c60fc6442b97bebc641b44",
       "icon" : "https://avatars.githubusercontent.com/u/58178984?s=200&v=4",
       "prompts" : 0,
-      "title" : "Dynatrace MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dynatrace-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dynatrace-mcp-server.json",
       "dateAdded" : "2025-08-11T20:20:11Z",

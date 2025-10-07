@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/teamwork",
   "description" : "Tools for Teamwork.com products.",
-  "version" : "v0.1.3",
+  "title" : "Teamwork",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/teamwork",
-    "version" : "sha256:d7e57fa4bcce753975020b4af1a545c62eec1152ed1c308ece5ecbb8cf6a39bb",
+    "version" : "sha256:9cdd8c596c319b75ac9cd3041ef795f02d432ba01048243b9ac8d236dfdacbfd",
     "environmentVariables" : [ {
       "name" : "TW_MCP_BEARER_TOKEN",
       "value" : "{teamwork.tw_mcp_bearer_token}",
@@ -235,10 +237,9 @@
       }, {
         "name" : "twprojects-users_workload"
       } ],
-      "source" : "https://github.com/teamwork/mcp/tree/main",
+      "source" : "https://github.com/teamwork/mcp/tree/84a2d50a2ecae26d7224b393b29dd3b91f46c387",
       "icon" : "https://avatars.githubusercontent.com/u/4037476?v=4",
       "prompts" : 0,
-      "title" : "Teamwork",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/teamwork.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/teamwork.json",
       "dateAdded" : "2025-09-02T20:44:02Z",

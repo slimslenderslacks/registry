@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/tavily",
   "description" : "The Tavily MCP server provides seamless interaction with the tavily-search and tavily-extract tools, real-time web search capabilities through the tavily-search tool and Intelligent data extraction from web pages via the tavily-extract tool.",
-  "version" : "v0.1.1",
+  "title" : "Tavily",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/tavily",
-    "version" : "sha256:deb302515c6087da68547ac060492b72c12f0eeecbe6669ebcf26d9f929ab9dd",
+    "version" : "sha256:971d2b952306d11558c0099b91f8910382c8dacbb7265834fda33187146d5f5a",
     "environmentVariables" : [ {
       "name" : "TAVILY_API_KEY",
       "value" : "{tavily.api_token}",
@@ -35,10 +37,9 @@
       }, {
         "name" : "tavily-search"
       } ],
-      "source" : "https://github.com/tavily-ai/tavily-mcp/tree/main",
+      "source" : "https://github.com/tavily-ai/tavily-mcp/tree/2be989a881f402a608a780827d3df92c5e946eb5",
       "icon" : "https://avatars.githubusercontent.com/u/170207473?s=200&v=4",
       "prompts" : 0,
-      "title" : "Tavily",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/tavily.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/tavily.json",
       "dateAdded" : "2025-05-05T20:04:34Z",

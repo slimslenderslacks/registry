@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/airtable-mcp-server",
   "description" : "Provides AI assistants with direct access to Airtable bases, allowing them to read schemas, query records, and interact with your Airtable data. Supports listing bases, retrieving table structures, and searching through records to help automate workflows and answer questions about your organized data.",
-  "version" : "v0.1.2",
+  "title" : "Airtable MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/airtable-mcp-server",
-    "version" : "sha256:ea7c265057018337a5fe7a98b4e10568a688a5161f4e2261e20b8616a1db065f",
+    "version" : "sha256:cd9219e08158069ad0153aedb091b285b5eb7553a7a9251977f2dabb6fe8e283",
     "environmentVariables" : [ {
       "name" : "AIRTABLE_API_KEY",
       "value" : "{airtable-mcp-server.api_key}",
@@ -37,6 +39,8 @@
       "license" : "MIT License",
       "owner" : "domdomegg",
       "tools" : [ {
+        "name" : "create_comment"
+      }, {
         "name" : "create_field"
       }, {
         "name" : "create_record"
@@ -51,6 +55,8 @@
       }, {
         "name" : "list_bases"
       }, {
+        "name" : "list_comments"
+      }, {
         "name" : "list_records"
       }, {
         "name" : "list_tables"
@@ -63,10 +69,9 @@
       }, {
         "name" : "update_table"
       } ],
-      "source" : "https://github.com/domdomegg/airtable-mcp-server/tree/master",
+      "source" : "https://github.com/domdomegg/airtable-mcp-server/tree/3b8770cae3a1ba18bf6aeac2f40095c12749bd92",
       "icon" : "https://www.google.com/s2/favicons?domain=airtable.com&sz=64",
       "prompts" : 0,
-      "title" : "Airtable MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/airtable-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/airtable-mcp-server.json",
       "dateAdded" : "2025-09-17T06:19:29Z",

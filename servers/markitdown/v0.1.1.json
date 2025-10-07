@@ -1,0 +1,45 @@
+{
+  "name" : "com.docker.mcp/markitdown",
+  "description" : "A lightweight MCP server for calling MarkItDown.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/markitdown",
+    "version" : "sha256:ac2cdd96f844c7535b1dd2f1b96cdc433f55a7117fb2d48f223740f5ad1db1cc",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{markitdown.paths}:{markitdown.paths}",
+      "isRepeated" : true,
+      "variables" : {
+        "markitdown.paths" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "markdown", "conversion", "pdf", "docx", "pptx", "xlsx", "html", "audio", "youtube" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "convert_to_markdown"
+      } ],
+      "source" : "https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp",
+      "icon" : "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "prompts" : 0,
+      "title" : "Markitdown",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/markitdown.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/markitdown.json",
+      "dateAdded" : "2025-08-25T06:19:52Z",
+      "upstream" : "https://github.com/microsoft/markitdown",
+      "resources" : { },
+      "owner" : "microsoft"
+    }
+  }
+}

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/cloudflare-docs",
   "description" : "Access the latest documentation on Cloudflare products such as Workers, Pages, R2, D1, KV.",
-  "version" : "v0.1.1",
+  "title" : "Cloudflare Docs",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://docs.mcp.cloudflare.com/sse"
@@ -12,19 +14,18 @@
       "tags" : [ "documentation", "cloudflare", "cloud", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-docs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cloudflare-docs.json",
+      "icon" : "https://www.cloudflare.com/favicon.ico",
       "tools" : [ {
         "name" : "search_cloudflare_documentation"
       }, {
         "name" : "migrate_pages_to_workers_guide"
       } ],
-      "source" : "",
-      "icon" : "https://www.cloudflare.com/favicon.ico",
       "prompts" : 0,
-      "title" : "Cloudflare Docs",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-docs.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cloudflare-docs.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

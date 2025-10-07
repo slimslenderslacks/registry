@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-audit-logs",
+  "description" : "Query audit logs and generate reports for review.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://auditlogs.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "security",
+      "tags" : [ "security", "audit", "logs", "compliance", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-audit-logs",
+          "secret" : "cloudflare-audit-logs.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare Audit Logs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-audit-logs.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

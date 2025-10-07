@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/apify",
   "description" : "Apify is the world's largest marketplace of tools for web scraping, data extraction, and web automation. You can extract structured data from social media, e-commerce, search engines, maps, travel sites, or any other website.",
-  "version" : "v0.1.2",
+  "title" : "Apify Remote MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://mcp.apify.com",
@@ -23,15 +25,14 @@
       "tags" : [ "automation", "web-scraping", "data-extraction", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=apify.com&sz=64",
-      "prompts" : 0,
-      "title" : "Apify Remote MCP Server",
+      "dateAdded" : "2025-09-08T19:03:35Z",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/apify.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/apify.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "icon" : "https://www.google.com/s2/favicons?domain=apify.com&sz=64",
+      "tools" : [ ],
+      "prompts" : 0,
+      "resources" : { },
+      "source" : ""
     }
   }
 }

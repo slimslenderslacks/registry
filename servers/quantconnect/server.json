@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/quantconnect",
   "description" : "The QuantConnect MCP Server is a bridge for AIs (such as Claude and OpenAI o3 Pro) to interact with our cloud platform. When equipped with our MCP, the AI can perform tasks on your behalf through our API such as updating projects, writing strategies, backtesting, and deploying strategies to production live-trading.",
-  "version" : "v0.1.1",
+  "title" : "QuantConnect MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -169,10 +171,9 @@
       }, {
         "name" : "upload_object"
       } ],
-      "source" : "https://github.com/QuantConnect/mcp-server/tree/master",
+      "source" : "https://github.com/QuantConnect/mcp-server/tree/3a656b0897adb401fb27b0cfe6be1570da03920f",
       "icon" : "https://avatars.githubusercontent.com/u/3912814?v=4",
       "prompts" : 0,
-      "title" : "QuantConnect MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/quantconnect.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/quantconnect.json",
       "dateAdded" : "2025-09-17T06:19:29Z",

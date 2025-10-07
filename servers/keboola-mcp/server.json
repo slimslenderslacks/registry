@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/keboola-mcp",
   "description" : "Keboola MCP Server is an open-source bridge between your Keboola project and modern AI tools.",
-  "version" : "v0.1.3",
+  "title" : "Keboola MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/keboola-mcp",
-    "version" : "sha256:3cd438269184daf0252a688311f8b45a62048d949654f763e20d4c1622f7668c",
+    "version" : "sha256:70183b96969c50ef40dd63f70efb01cbf10fb9387563e97654254c22f11da53f",
     "environmentVariables" : [ {
       "name" : "KBC_STORAGE_TOKEN",
       "value" : "{keboola-mcp.kbc_storage_token}",
@@ -103,10 +105,9 @@
       }, {
         "name" : "update_table_description"
       } ],
-      "source" : "https://github.com/keboola/mcp-server/tree/main",
+      "source" : "https://github.com/keboola/mcp-server/tree/edac338db26ba0f2f72747c4430d9cf8b10932e9",
       "icon" : "https://avatars.githubusercontent.com/u/1424387?v=4",
       "prompts" : 0,
-      "title" : "Keboola MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/keboola-mcp.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/keboola-mcp.json",
       "dateAdded" : "2025-06-16T10:10:08Z",

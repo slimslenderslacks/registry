@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/grafana",
   "description" : "MCP server for Grafana.",
-  "version" : "v0.1.2",
+  "title" : "Grafana",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/grafana",
-    "version" : "sha256:2967cef8d8a436fd41a322b3898ff012ec78b587a68cf56ab04ec13eee94f572",
+    "version" : "sha256:f1c7573ecdaccba0af1d27978c0c0fae6208d21372fb7d3682526134641bb20f",
     "environmentVariables" : [ {
       "name" : "GRAFANA_API_KEY",
       "value" : "{grafana.api_key}",
@@ -44,9 +46,13 @@
       "tools" : [ {
         "name" : "add_activity_to_incident"
       }, {
+        "name" : "create_alert_rule"
+      }, {
         "name" : "create_folder"
       }, {
         "name" : "create_incident"
+      }, {
+        "name" : "delete_alert_rule"
       }, {
         "name" : "fetch_pyroscope_profile"
       }, {
@@ -134,12 +140,13 @@
       }, {
         "name" : "search_folders"
       }, {
+        "name" : "update_alert_rule"
+      }, {
         "name" : "update_dashboard"
       } ],
-      "source" : "https://github.com/grafana/mcp-grafana/tree/main",
+      "source" : "https://github.com/grafana/mcp-grafana/tree/d8ca62185565f69a4585d5e918f617db033eaa72",
       "icon" : "https://avatars.githubusercontent.com/u/7195757?s=200&v=4",
       "prompts" : 0,
-      "title" : "Grafana",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/grafana.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/grafana.json",
       "dateAdded" : "2025-05-05T20:04:34Z",

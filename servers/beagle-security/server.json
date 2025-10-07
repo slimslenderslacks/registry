@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/beagle-security",
   "description" : "Connects with the Beagle Security backend using a user token to manage applications, run automated security tests, track vulnerabilities across environments, and gain intelligence from Application and API vulnerability data.",
-  "version" : "v0.1.1",
+  "title" : "Beagle security MCP server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -61,10 +63,9 @@
       }, {
         "name" : "beagle_verify_domain"
       } ],
-      "source" : "https://github.com/beaglesecurity/beagle-security-mcp-server/tree/main",
+      "source" : "https://github.com/beaglesecurity/beagle-security-mcp-server/tree/4b0e0ee2f309d7fa0e19c9e63feee2a4ea2e9f3a",
       "icon" : "https://cdn.beaglesecurity.com/assets/brand/png/beagle-blue-icon.png",
       "prompts" : 0,
-      "title" : "Beagle security MCP server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/beagle-security.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/beagle-security.json",
       "dateAdded" : "2025-07-08T13:38:25Z",

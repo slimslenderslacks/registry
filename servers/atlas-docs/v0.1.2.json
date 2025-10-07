@@ -1,0 +1,53 @@
+{
+  "name" : "com.docker.mcp/atlas-docs",
+  "description" : "Provide LLMs hosted, clean markdown documentation of libraries and frameworks.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/atlas-docs",
+    "version" : "sha256:4d235adb74986ea8f8ff1751a4f5d28532d0e2aa03d3c55a3fcb1c57e3917079",
+    "environmentVariables" : [ {
+      "name" : "ATLAS_API_URL",
+      "value" : "{atlas-docs.api_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "atlas-docs.api_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "atlas-docs", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "get_docs_full"
+      }, {
+        "name" : "get_docs_index"
+      }, {
+        "name" : "get_docs_page"
+      }, {
+        "name" : "list_docs"
+      }, {
+        "name" : "search_docs"
+      } ],
+      "source" : "https://github.com/CartographAI/atlas-docs-mcp/tree/ce4c4fe8ef23d0a9db4f04370b533ac4b9b172f8",
+      "icon" : "https://avatars.githubusercontent.com/u/184709581?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Atlas Docs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/atlas-docs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/atlas-docs.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/CartographAI/atlas-docs-mcp",
+      "resources" : { },
+      "owner" : "CartographAI"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name" : "com.docker.mcp/obsidian",
+  "description" : "MCP server that interacts with Obsidian via the Obsidian rest API community plugin.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/obsidian",
+    "version" : "sha256:0eba4c05742ad35faeb91eca40b792454d440d86449c9f1b3cb6c387a510651b",
+    "environmentVariables" : [ {
+      "name" : "OBSIDIAN_API_KEY",
+      "value" : "{obsidian.api_key}",
+      "variables" : {
+        "obsidian.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "OBSIDIAN_HOST",
+      "value" : "host.docker.internal"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "obsidian", "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "obsidian_append_content"
+      }, {
+        "name" : "obsidian_batch_get_file_contents"
+      }, {
+        "name" : "obsidian_complex_search"
+      }, {
+        "name" : "obsidian_delete_file"
+      }, {
+        "name" : "obsidian_get_file_contents"
+      }, {
+        "name" : "obsidian_get_periodic_note"
+      }, {
+        "name" : "obsidian_get_recent_changes"
+      }, {
+        "name" : "obsidian_get_recent_periodic_notes"
+      }, {
+        "name" : "obsidian_list_files_in_dir"
+      }, {
+        "name" : "obsidian_list_files_in_vault"
+      }, {
+        "name" : "obsidian_patch_content"
+      }, {
+        "name" : "obsidian_simple_search"
+      } ],
+      "source" : "https://github.com/docker/mcp-obsidian/tree/b20ad46eea43988a4c1a6f8ec7947ef4c6cbf9a9",
+      "icon" : "https://avatars.githubusercontent.com/u/65011256?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Obsidian",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/obsidian.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/obsidian.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/MarkusPfundstein/mcp-obsidian",
+      "resources" : { },
+      "owner" : "MarkusPfundstein"
+    }
+  }
+}

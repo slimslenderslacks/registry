@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/arxiv-mcp-server",
   "description" : "The ArXiv MCP Server provides a comprehensive bridge between AI assistants and arXiv's research repository through the Model Context Protocol (MCP).   Features: • Search arXiv papers with advanced filtering • Download and store papers locally as markdown • Read and analyze paper content • Deep research analysis prompts • Local paper management and storage • Enhanced tool descriptions optimized for local AI models • Docker MCP Gateway compatible with detailed context  Perfect for researchers, academics, and AI assistants conducting literature reviews and research analysis.  **Recent Update**: Enhanced tool descriptions specifically designed to resolve local AI model confusion and improve Docker MCP Gateway compatibility.",
-  "version" : "v0.1.1",
+  "title" : "ArXiv MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -42,10 +44,9 @@
       }, {
         "name" : "search_papers"
       } ],
-      "source" : "https://github.com/jasonleinart/arxiv-mcp-server/tree/main",
+      "source" : "https://github.com/jasonleinart/arxiv-mcp-server/tree/fe977e538dc24bb2da937c6c9e48febb54083226",
       "icon" : "https://avatars.githubusercontent.com/u/15390319?v=4",
       "prompts" : 0,
-      "title" : "ArXiv MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/arxiv-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/arxiv-mcp-server.json",
       "dateAdded" : "2025-07-16T06:22:24Z",

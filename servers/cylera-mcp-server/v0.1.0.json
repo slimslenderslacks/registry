@@ -1,0 +1,74 @@
+{
+  "name" : "com.docker.mcp/cylera-mcp-server",
+  "description" : "Brings context about device inventory, threats, risks and utilization powered by the Cylera Partner API into an LLM.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/cylera-mcp-server",
+    "version" : "sha256:e9e80b0807a18bd22a734a577792b6eb9acf3b1497cf581f2cc74e4cb62f2e94",
+    "environmentVariables" : [ {
+      "name" : "CYLERA_BASE_URL",
+      "value" : "{cylera-mcp-server.cylera.base_url}",
+      "variables" : {
+        "cylera-mcp-server.cylera.base_url" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CYLERA_USERNAME",
+      "value" : "{cylera-mcp-server.cylera.username}",
+      "variables" : {
+        "cylera-mcp-server.cylera.username" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CYLERA_PASSWORD",
+      "value" : "{cylera-mcp-server.cylera.password}",
+      "variables" : {
+        "cylera-mcp-server.cylera.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "get_device"
+      }, {
+        "name" : "get_procedures"
+      }, {
+        "name" : "get_device_attributes"
+      }, {
+        "name" : "get_risk_mitigations"
+      }, {
+        "name" : "get_subnets"
+      }, {
+        "name" : "get_vulnerabilities"
+      }, {
+        "name" : "search_for_devices"
+      } ],
+      "source" : "https://github.com/Cylera/cylera-mcp-server/tree/d8034893525a78d5e4bfca65dd291e7d498f8f0e",
+      "icon" : "https://github.com/Cylera/cylera-mcp-server/blob/main/assets/cylera_logo.png?raw=true",
+      "prompts" : 0,
+      "title" : "The official MCP Server for Cylera.",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cylera-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cylera-mcp-server.json",
+      "dateAdded" : "2025-10-16T16:09:40Z",
+      "upstream" : "https://github.com/Cylera/cylera-mcp-server",
+      "resources" : { },
+      "owner" : "Cylera"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/sequentialthinking",
+  "description" : "Dynamic and reflective problem-solving through thought sequences.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/sequentialthinking",
+    "version" : "sha256:cd3174b2ecf37738654cf7671fb1b719a225c40a78274817da00c4241f465e5f"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "mcp", "ai" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "sequentialthinking"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.6/src/sequentialthinking",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Sequential Thinking (Reference)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/sequentialthinking.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/sequentialthinking.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    }
+  }
+}

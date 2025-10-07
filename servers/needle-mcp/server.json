@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/needle-mcp",
   "description" : "Production-ready RAG service to search and retrieve data from your documents.",
-  "version" : "v0.1.1",
+  "title" : "Needle",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -41,10 +43,9 @@
       }, {
         "name" : "needle_search"
       } ],
-      "source" : "https://github.com/needle-ai/needle-mcp/tree/main",
+      "source" : "https://github.com/needle-ai/needle-mcp/tree/96d82632e3c719ffa61dc8f0909a7cc0d185a161",
       "icon" : "https://avatars.githubusercontent.com/u/194782563?s=200&v=4",
       "prompts" : 0,
-      "title" : "Needle",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/needle-mcp.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/needle-mcp.json",
       "dateAdded" : "2025-07-11T18:29:38Z",

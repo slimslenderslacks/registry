@@ -1,0 +1,44 @@
+{
+  "name" : "com.docker.mcp/wolfram-alpha",
+  "description" : "Connect your chat repl to wolfram alpha computational intelligence.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/wolfram-alpha",
+    "version" : "sha256:4cd89d002d55d3f6f1115745b7d05a9d3e6fbb28e1e57536406b79805208571a",
+    "environmentVariables" : [ {
+      "name" : "WOLFRAM_API_KEY",
+      "value" : "{wolfram-alpha.api_key}",
+      "variables" : {
+        "wolfram-alpha.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "wolfram-alpha", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "query-wolfram-alpha"
+      } ],
+      "source" : "https://github.com/SecretiveShell/MCP-wolfram-alpha/tree/0aa2530c8da8f3976a8c5383f9f9e1376bd337df",
+      "icon" : "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/wolfram.svg",
+      "prompts" : 0,
+      "title" : "WolframAlpha",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/wolfram-alpha.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/wolfram-alpha.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/SecretiveShell/MCP-wolfram-alpha",
+      "resources" : { },
+      "owner" : "SecretiveShell"
+    }
+  }
+}

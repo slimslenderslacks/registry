@@ -1,0 +1,53 @@
+{
+  "name" : "com.docker.mcp/omi",
+  "description" : "A Model Context Protocol server for Omi interaction and automation. This server provides tools to read, search, and manipulate Memories and Conversations.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/omi",
+    "version" : "sha256:5e475b2391ac8af79950feba10dbacbb99b40e69790ed36e77e40e662a5e84c7",
+    "environmentVariables" : [ {
+      "name" : "OMI_API_KEY",
+      "value" : "{omi.api_key}",
+      "variables" : {
+        "omi.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_memory"
+      }, {
+        "name" : "delete_memory"
+      }, {
+        "name" : "edit_memory"
+      }, {
+        "name" : "get_conversation_by_id"
+      }, {
+        "name" : "get_conversations"
+      }, {
+        "name" : "get_memories"
+      } ],
+      "source" : "https://github.com/BasedHardware/omi/tree/main/mcp",
+      "icon" : "https://avatars.githubusercontent.com/u/162546372?v=4",
+      "prompts" : 0,
+      "title" : "omi-mcp",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/omi.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/omi.json",
+      "dateAdded" : "2025-07-21T12:46:15Z",
+      "upstream" : "https://github.com/BasedHardware/omi",
+      "resources" : { },
+      "owner" : "BasedHardware"
+    }
+  }
+}

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/omi",
   "description" : "A Model Context Protocol server for Omi interaction and automation. This server provides tools to read, search, and manipulate Memories and Conversations.",
-  "version" : "v0.1.1",
+  "title" : "omi-mcp",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -39,10 +41,9 @@
       }, {
         "name" : "get_memories"
       } ],
-      "source" : "https://github.com/BasedHardware/omi/tree/main/mcp",
+      "source" : "https://github.com/BasedHardware/omi/tree/3418cc24f8ab117f7891cb6d5665d451bca1948a/mcp",
       "icon" : "https://avatars.githubusercontent.com/u/162546372?v=4",
       "prompts" : 0,
-      "title" : "omi-mcp",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/omi.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/omi.json",
       "dateAdded" : "2025-07-21T12:46:15Z",

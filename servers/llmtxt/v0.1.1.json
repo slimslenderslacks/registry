@@ -1,0 +1,30 @@
+{
+  "name" : "com.docker.mcp/llmtxt",
+  "description" : "Discovers and retrieves llms.txt from websites.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://mcp.llmtxt.dev/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "llm", "text-processing", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "llms.txt-file"
+      }, {
+        "name" : "git"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=llmtxt.dev&sz=64",
+      "prompts" : 0,
+      "title" : "LLM Text",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/llmtxt.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/llmtxt.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

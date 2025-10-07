@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/remote-mcp",
   "description" : "Tools for finding remote MCP servers.",
-  "version" : "v0.1.1",
+  "title" : "Remote MCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://mcp.remote-mcp.com"
@@ -12,17 +14,16 @@
       "tags" : [ "tools", "mcp", "directory", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/remote-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/remote-mcp.json",
+      "icon" : "https://www.google.com/s2/favicons?domain=remote-mcp.com&sz=64",
       "tools" : [ {
         "name" : "ListRemoteMCPServers"
       } ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=remote-mcp.com&sz=64",
       "prompts" : 0,
-      "title" : "Remote MCP",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/remote-mcp.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/remote-mcp.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

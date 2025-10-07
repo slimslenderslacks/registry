@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/telnyx",
   "description" : "Enables interaction with powerful telephony, messaging, and AI assistant APIs.",
-  "version" : "v0.1.2",
+  "title" : "Telnyx",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://api.telnyx.com/v2/mcp",
@@ -23,15 +25,14 @@
       "tags" : [ "communication", "telephony", "sms", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=telnyx.com&sz=64",
-      "prompts" : 0,
-      "title" : "Telnyx",
+      "dateAdded" : "2025-09-08T19:03:35Z",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/telnyx.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/telnyx.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "icon" : "https://www.google.com/s2/favicons?domain=telnyx.com&sz=64",
+      "tools" : [ ],
+      "prompts" : 0,
+      "resources" : { },
+      "source" : ""
     }
   }
 }

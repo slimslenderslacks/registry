@@ -1,0 +1,53 @@
+{
+  "name" : "com.docker.mcp/aws-kb-retrieval-server",
+  "description" : "An MCP server implementation for retrieving information from the AWS Knowledge Base using the Bedrock Agent Runtime.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-kb-retrieval-server",
+    "version" : "sha256:1522c7ffee3f84faf7a157f7c185cb0923123823f19bfd14ce26498fcd1377db",
+    "environmentVariables" : [ {
+      "name" : "AWS_SECRET_ACCESS_KEY",
+      "value" : "{aws.secret_access_key}",
+      "variables" : {
+        "aws.secret_access_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "AWS_ACCESS_KEY_ID",
+      "value" : "{aws-kb-retrieval-server.access_key_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "aws-kb-retrieval-server.access_key_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "retrieve_from_aws_kb"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "AWS KB Retrieval (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-kb-retrieval-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-kb-retrieval-server.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    }
+  }
+}

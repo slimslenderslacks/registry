@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/apify-mcp-server",
   "description" : "Apify is the world's largest marketplace of tools for web scraping, data extraction, and web automation. You can extract structured data from social media, e-commerce, search engines, maps, travel sites, or any other website.",
-  "version" : "v0.1.3",
+  "title" : "Apify MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/apify-mcp-server",
-    "version" : "sha256:122628782624a2fad8ac9353fccce97175c5c014a4ba10bf2a4b8463c5c3b71d",
+    "version" : "sha256:cafa23b6f977b8e5b1ad51a31465d393f4166e9316edb1cb3ed8472572467b5d",
     "environmentVariables" : [ {
       "name" : "APIFY_TOKEN",
       "value" : "{apify-mcp-server.apify_token}",
@@ -52,10 +54,9 @@
       }, {
         "name" : "search-apify-docs"
       } ],
-      "source" : "https://github.com/apify/actors-mcp-server/tree/master",
+      "source" : "https://github.com/apify/actors-mcp-server/tree/4e3cf9de2ea4896665a200b07f2e785881a2da9b",
       "icon" : "https://avatars.githubusercontent.com/u/24586296?s=200&v=4",
       "prompts" : 0,
-      "title" : "Apify MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/apify-mcp-server.md",
       "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/apify-mcp-server.json",

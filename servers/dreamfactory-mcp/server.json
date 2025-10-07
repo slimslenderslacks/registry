@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/dreamfactory-mcp",
   "description" : "DreamFactory is a REST API generation platform with support for hundreds of data sources, including Microsoft SQL Server, MySQL, PostgreSQL, and MongoDB. The DreamFactory MCP Server makes it easy for users to securely interact with their data sources via an MCP client.",
-  "version" : "v0.1.1",
+  "title" : "DreamFactory MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -54,10 +56,9 @@
       }, {
         "name" : "list-tools"
       } ],
-      "source" : "https://github.com/dreamfactorysoftware/df-mcp/tree/master",
+      "source" : "https://github.com/dreamfactorysoftware/df-mcp/tree/ef98884d55917885316ca4ac48002ba16a54a1b8",
       "icon" : "https://avatars.githubusercontent.com/u/2593688?v=4",
       "prompts" : 0,
-      "title" : "DreamFactory MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dreamfactory-mcp.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dreamfactory-mcp.json",
       "dateAdded" : "2025-09-17T06:19:29Z",

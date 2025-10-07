@@ -1,0 +1,64 @@
+{
+  "name" : "com.docker.mcp/markdownify",
+  "description" : "A Model Context Protocol server for converting almost anything to Markdown.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/markdownify",
+    "version" : "sha256:310ee6fb7120f9da1318e58addf888686d816e255e2a8c43996f35e494812a6c",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{markdownify.paths}:{markdownify.paths}",
+      "isRepeated" : true,
+      "variables" : {
+        "markdownify.paths" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "markdown", "conversion", "pdf", "docx", "pptx", "xlsx", "html", "audio", "youtube" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "audio-to-markdown"
+      }, {
+        "name" : "bing-search-to-markdown"
+      }, {
+        "name" : "docx-to-markdown"
+      }, {
+        "name" : "get-markdown-file"
+      }, {
+        "name" : "image-to-markdown"
+      }, {
+        "name" : "pdf-to-markdown"
+      }, {
+        "name" : "pptx-to-markdown"
+      }, {
+        "name" : "webpage-to-markdown"
+      }, {
+        "name" : "xlsx-to-markdown"
+      }, {
+        "name" : "youtube-to-markdown"
+      } ],
+      "source" : "https://github.com/zcaceres/markdownify-mcp/tree/4add350f4643365d31f7b3385ab1b65d37f97f1e",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Markdownify",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/markdownify.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/markdownify.json",
+      "dateAdded" : "2025-08-25T06:19:52Z",
+      "upstream" : "https://github.com/zcaceres/markdownify-mcp",
+      "resources" : { },
+      "owner" : "zcaceres"
+    }
+  }
+}

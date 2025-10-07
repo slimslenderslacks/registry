@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/linear",
   "description" : "Track issues, plan sprints, and manage product development with a fast, keyboard-first interface designed for software teams.",
-  "version" : "v0.1.1",
+  "title" : "Linear",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://mcp.linear.app/mcp"
@@ -12,21 +14,20 @@
       "tags" : [ "productivity", "project-management", "issue-tracking", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/linear.md",
       "icon" : "https://www.google.com/s2/favicons?domain=linear.app&sz=64",
+      "tools" : [ ],
       "prompts" : 0,
+      "resources" : { },
+      "source" : "",
       "oauth" : {
         "providers" : [ {
           "provider" : "linear",
           "secret" : "linear.personal_access_token",
           "env" : "LINEAR_PERSONAL_ACCESS_TOKEN"
         } ]
-      },
-      "title" : "Linear",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/linear.md",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      }
     }
   }
 }

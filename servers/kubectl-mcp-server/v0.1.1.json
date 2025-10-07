@@ -1,0 +1,95 @@
+{
+  "name" : "com.docker.mcp/kubectl-mcp-server",
+  "description" : "MCP Server that enables AI assistants to interact with Kubernetes clusters via kubectl operations.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/kubectl-mcp-server",
+    "version" : "sha256:29bf6aef7a69f8ce7927106f1bd7eb3977c11422bacb20c5d1389d3d50f1c8d6",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{kubectl-mcp-server.kubeconfig}:/root/.kube",
+      "isRepeated" : false,
+      "variables" : {
+        "kubectl-mcp-server.kubeconfig" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "kubectl-mcp-server", "kubernetes", "kubectl", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "check_pod_health"
+      }, {
+        "name" : "create_deployment"
+      }, {
+        "name" : "delete_resource"
+      }, {
+        "name" : "get_api_resources"
+      }, {
+        "name" : "get_cluster_roles"
+      }, {
+        "name" : "get_configmaps"
+      }, {
+        "name" : "get_current_context"
+      }, {
+        "name" : "get_deployments"
+      }, {
+        "name" : "get_events"
+      }, {
+        "name" : "get_logs"
+      }, {
+        "name" : "get_namespaces"
+      }, {
+        "name" : "get_nodes"
+      }, {
+        "name" : "get_pod_events"
+      }, {
+        "name" : "get_pods"
+      }, {
+        "name" : "get_rbac_roles"
+      }, {
+        "name" : "get_resource_usage"
+      }, {
+        "name" : "get_secrets"
+      }, {
+        "name" : "get_services"
+      }, {
+        "name" : "health_check"
+      }, {
+        "name" : "install_helm_chart"
+      }, {
+        "name" : "kubectl_explain"
+      }, {
+        "name" : "port_forward"
+      }, {
+        "name" : "scale_deployment"
+      }, {
+        "name" : "switch_context"
+      }, {
+        "name" : "uninstall_helm_chart"
+      }, {
+        "name" : "upgrade_helm_chart"
+      } ],
+      "source" : "https://github.com/rohitg00/kubectl-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/13629408?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Kubectl MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/kubectl-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/kubectl-mcp-server.json",
+      "dateAdded" : "2025-09-16T14:38:22Z",
+      "upstream" : "https://github.com/rohitg00/kubectl-mcp-server",
+      "resources" : { },
+      "owner" : "rohitg00"
+    }
+  }
+}

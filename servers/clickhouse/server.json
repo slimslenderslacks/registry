@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/clickhouse",
   "description" : "Official ClickHouse MCP Server.",
-  "version" : "v0.1.2",
+  "title" : "Official ClickHouse MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/clickhouse",
-    "version" : "sha256:861aae9d664cc13efe099a30f38f187812937af7c985d72b1bc02cb83f0a4c98",
+    "version" : "sha256:51bcd33e17adede7cf6de666a50e9b1275d53fbe0f4ad0cfd7bd35678a5b8c3f",
     "environmentVariables" : [ {
       "name" : "CLICKHOUSE_PASSWORD",
       "value" : "{clickhouse.password}",
@@ -103,10 +105,9 @@
       }, {
         "name" : "run_select_query"
       } ],
-      "source" : "https://github.com/ClickHouse/mcp-clickhouse/tree/main",
+      "source" : "https://github.com/ClickHouse/mcp-clickhouse/tree/21e6cb2b0758150e8fd0627b699fbfd78e31837b",
       "icon" : "https://avatars.githubusercontent.com/u/54801242?v=4",
       "prompts" : 0,
-      "title" : "Official ClickHouse MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/clickhouse.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/clickhouse.json",
       "dateAdded" : "2025-06-12T18:00:16Z",

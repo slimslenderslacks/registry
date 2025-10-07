@@ -1,0 +1,237 @@
+{
+  "name" : "com.docker.mcp/hostinger-mcp-server",
+  "description" : "Interact with Hostinger services over the Hostinger API.",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/api-mcp-server",
+    "version" : "sha256:70d50b4f15c0ba254eebe2d63d1032cc335876b561815f1ac554ec890d4fb944",
+    "environmentVariables" : [ {
+      "name" : "APITOKEN",
+      "value" : "{hostinger-mcp-server.api_token}",
+      "variables" : {
+        "hostinger-mcp-server.api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "DNS_deleteDNSRecordsV1"
+      }, {
+        "name" : "DNS_getDNSRecordsV1"
+      }, {
+        "name" : "DNS_getDNSSnapshotListV1"
+      }, {
+        "name" : "DNS_getDNSSnapshotV1"
+      }, {
+        "name" : "DNS_resetDNSRecordsV1"
+      }, {
+        "name" : "DNS_restoreDNSSnapshotV1"
+      }, {
+        "name" : "DNS_updateDNSRecordsV1"
+      }, {
+        "name" : "DNS_validateDNSRecordsV1"
+      }, {
+        "name" : "VPS_activateFirewallV1"
+      }, {
+        "name" : "VPS_attachPublicKeyV1"
+      }, {
+        "name" : "VPS_createFirewallRuleV1"
+      }, {
+        "name" : "VPS_createNewFirewallV1"
+      }, {
+        "name" : "VPS_createNewProjectV1"
+      }, {
+        "name" : "VPS_createPTRRecordV1"
+      }, {
+        "name" : "VPS_createPostInstallScriptV1"
+      }, {
+        "name" : "VPS_createPublicKeyV1"
+      }, {
+        "name" : "VPS_createSnapshotV1"
+      }, {
+        "name" : "VPS_deactivateFirewallV1"
+      }, {
+        "name" : "VPS_deleteFirewallRuleV1"
+      }, {
+        "name" : "VPS_deleteFirewallV1"
+      }, {
+        "name" : "VPS_deletePTRRecordV1"
+      }, {
+        "name" : "VPS_deletePostInstallScriptV1"
+      }, {
+        "name" : "VPS_deleteProjectV1"
+      }, {
+        "name" : "VPS_deletePublicKeyV1"
+      }, {
+        "name" : "VPS_deleteSnapshotV1"
+      }, {
+        "name" : "VPS_getActionDetailsV1"
+      }, {
+        "name" : "VPS_getActionsV1"
+      }, {
+        "name" : "VPS_getAttachedPublicKeysV1"
+      }, {
+        "name" : "VPS_getBackupsV1"
+      }, {
+        "name" : "VPS_getDataCenterListV1"
+      }, {
+        "name" : "VPS_getFirewallDetailsV1"
+      }, {
+        "name" : "VPS_getFirewallListV1"
+      }, {
+        "name" : "VPS_getMetricsV1"
+      }, {
+        "name" : "VPS_getPostInstallScriptV1"
+      }, {
+        "name" : "VPS_getPostInstallScriptsV1"
+      }, {
+        "name" : "VPS_getProjectContainersV1"
+      }, {
+        "name" : "VPS_getProjectContentsV1"
+      }, {
+        "name" : "VPS_getProjectListV1"
+      }, {
+        "name" : "VPS_getProjectLogsV1"
+      }, {
+        "name" : "VPS_getPublicKeysV1"
+      }, {
+        "name" : "VPS_getScanMetricsV1"
+      }, {
+        "name" : "VPS_getSnapshotV1"
+      }, {
+        "name" : "VPS_getTemplateDetailsV1"
+      }, {
+        "name" : "VPS_getTemplatesV1"
+      }, {
+        "name" : "VPS_getVirtualMachineDetailsV1"
+      }, {
+        "name" : "VPS_getVirtualMachinesV1"
+      }, {
+        "name" : "VPS_installMonarxV1"
+      }, {
+        "name" : "VPS_purchaseNewVirtualMachineV1"
+      }, {
+        "name" : "VPS_recreateVirtualMachineV1"
+      }, {
+        "name" : "VPS_resetHostnameV1"
+      }, {
+        "name" : "VPS_restartProjectV1"
+      }, {
+        "name" : "VPS_restartVirtualMachineV1"
+      }, {
+        "name" : "VPS_restoreBackupV1"
+      }, {
+        "name" : "VPS_restoreSnapshotV1"
+      }, {
+        "name" : "VPS_setHostnameV1"
+      }, {
+        "name" : "VPS_setNameserversV1"
+      }, {
+        "name" : "VPS_setPanelPasswordV1"
+      }, {
+        "name" : "VPS_setRootPasswordV1"
+      }, {
+        "name" : "VPS_setupPurchasedVirtualMachineV1"
+      }, {
+        "name" : "VPS_startProjectV1"
+      }, {
+        "name" : "VPS_startRecoveryModeV1"
+      }, {
+        "name" : "VPS_startVirtualMachineV1"
+      }, {
+        "name" : "VPS_stopProjectV1"
+      }, {
+        "name" : "VPS_stopRecoveryModeV1"
+      }, {
+        "name" : "VPS_stopVirtualMachineV1"
+      }, {
+        "name" : "VPS_syncFirewallV1"
+      }, {
+        "name" : "VPS_uninstallMonarxV1"
+      }, {
+        "name" : "VPS_updateFirewallRuleV1"
+      }, {
+        "name" : "VPS_updatePostInstallScriptV1"
+      }, {
+        "name" : "VPS_updateProjectV1"
+      }, {
+        "name" : "billing_cancelSubscriptionV1"
+      }, {
+        "name" : "billing_createServiceOrderV1"
+      }, {
+        "name" : "billing_deletePaymentMethodV1"
+      }, {
+        "name" : "billing_getCatalogItemListV1"
+      }, {
+        "name" : "billing_getPaymentMethodListV1"
+      }, {
+        "name" : "billing_getSubscriptionListV1"
+      }, {
+        "name" : "billing_setDefaultPaymentMethodV1"
+      }, {
+        "name" : "domains_checkDomainAvailabilityV1"
+      }, {
+        "name" : "domains_createDomainForwardingV1"
+      }, {
+        "name" : "domains_createWHOISProfileV1"
+      }, {
+        "name" : "domains_deleteDomainForwardingV1"
+      }, {
+        "name" : "domains_deleteWHOISProfileV1"
+      }, {
+        "name" : "domains_disableDomainLockV1"
+      }, {
+        "name" : "domains_disablePrivacyProtectionV1"
+      }, {
+        "name" : "domains_enableDomainLockV1"
+      }, {
+        "name" : "domains_enablePrivacyProtectionV1"
+      }, {
+        "name" : "domains_getDomainDetailsV1"
+      }, {
+        "name" : "domains_getDomainForwardingV1"
+      }, {
+        "name" : "domains_getDomainListV1"
+      }, {
+        "name" : "domains_getWHOISProfileListV1"
+      }, {
+        "name" : "domains_getWHOISProfileUsageV1"
+      }, {
+        "name" : "domains_getWHOISProfileV1"
+      }, {
+        "name" : "domains_purchaseNewDomainV1"
+      }, {
+        "name" : "domains_updateDomainNameserversV1"
+      }, {
+        "name" : "reach_createANewContactV1"
+      }, {
+        "name" : "reach_deleteAContactV1"
+      }, {
+        "name" : "reach_listContactGroupsV1"
+      }, {
+        "name" : "reach_listContactsV1"
+      } ],
+      "source" : "https://github.com/hostinger/api-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/2630767?v=4",
+      "prompts" : 0,
+      "title" : "Hostinger API MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/hostinger-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hostinger-mcp-server.json",
+      "dateAdded" : "2025-08-05T16:31:03Z",
+      "upstream" : "https://github.com/hostinger/api-mcp-server",
+      "resources" : { },
+      "owner" : "hostinger"
+    }
+  }
+}

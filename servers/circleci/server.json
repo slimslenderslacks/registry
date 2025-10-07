@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/circleci",
   "description" : "A specialized server implementation for the Model Context Protocol (MCP) designed to integrate with CircleCI's development workflow. This project serves as a bridge between CircleCI's infrastructure and the Model Context Protocol, enabling enhanced AI-powered development experiences.",
-  "version" : "v0.1.1",
+  "title" : "CircleCI",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -65,10 +67,9 @@
       }, {
         "name" : "run_pipeline"
       } ],
-      "source" : "https://github.com/cmrigney/mcp-server-circleci/tree/use-cmd-docker",
+      "source" : "https://github.com/cmrigney/mcp-server-circleci/tree/34ac141d8ceb27c829932cf5689da2c1c2c21b93",
       "icon" : "https://avatars.githubusercontent.com/u/26607840?s=200&v=4",
       "prompts" : 0,
-      "title" : "CircleCI",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/circleci.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/circleci.json",
       "dateAdded" : "2025-05-05T20:04:34Z",

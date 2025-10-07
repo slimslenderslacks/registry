@@ -1,0 +1,41 @@
+{
+  "name" : "com.docker.mcp/next-devtools-mcp",
+  "description" : "next-devtools-mcp is a Model Context Protocol (MCP) server that provides Next.js development tools and utilities for AI coding assistants.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/next-devtools-mcp",
+    "version" : "sha256:3064e349c266ddae35bf49a0d1d9eb8dd2ec699fb8dddbdab61650e522c9b322"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devtools",
+      "tags" : [ "devtools", "nextjs" ],
+      "tools" : [ {
+        "name" : "browser_eval"
+      }, {
+        "name" : "enable_cache_components"
+      }, {
+        "name" : "nextjs_docs"
+      }, {
+        "name" : "nextjs_runtime"
+      }, {
+        "name" : "upgrade_nextjs_16"
+      } ],
+      "source" : "https://github.com/kgprs/next-devtools-mcp/tree/9ed2aab35ef34d7e19707cf19fb49d6bfc1936f5",
+      "icon" : "https://avatars.githubusercontent.com/u/14985020?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Next.js DevTools MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/next-devtools-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/next-devtools-mcp.json",
+      "dateAdded" : "2025-10-22T16:14:05Z",
+      "upstream" : "https://github.com/kgprs/next-devtools-mcp",
+      "resources" : { },
+      "owner" : "kgprs"
+    }
+  }
+}

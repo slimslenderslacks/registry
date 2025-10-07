@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/cockroachdb",
   "description" : "Enable AI agents to manage, monitor, and query CockroachDB using natural language. Perform complex database operations, cluster management, and query execution seamlessly through AI-driven workflows. Integrate effortlessly with MCP clients for scalable and high-performance data operations.",
-  "version" : "v0.1.1",
+  "title" : "CockroachDB",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -165,10 +167,9 @@
       }, {
         "name" : "switch_database"
       } ],
-      "source" : "https://github.com/amineelkouhen/mcp-cockroachdb/tree/main",
+      "source" : "https://github.com/amineelkouhen/mcp-cockroachdb/tree/5c323e49ef52dbf1f3d4714dcd2dffa577d368fe",
       "icon" : "https://avatars.githubusercontent.com/u/6748139?v=4",
       "prompts" : 0,
-      "title" : "CockroachDB",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cockroachdb.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cockroachdb.json",
       "dateAdded" : "2025-07-16T06:22:24Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/neo4j-data-modeling",
   "description" : "MCP server that assists in creating, validating and visualizing graph data models.",
-  "version" : "v0.1.1",
+  "title" : "Neo4j Data Modeling",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -100,10 +102,9 @@
       }, {
         "name" : "validate_relationship"
       } ],
-      "source" : "https://github.com/neo4j-contrib/mcp-neo4j/tree/main/servers/mcp-neo4j-data-modeling",
+      "source" : "https://github.com/neo4j-contrib/mcp-neo4j/tree/7bf941bb6d9d8cf95d91fd1209b2bf24fdc609d2/servers/mcp-neo4j-data-modeling",
       "icon" : "https://avatars.githubusercontent.com/u/916372?s=200&v=4",
       "prompts" : 0,
-      "title" : "Neo4j Data Modeling",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/neo4j-data-modeling.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/neo4j-data-modeling.json",
       "dateAdded" : "2025-09-09T15:35:27Z",

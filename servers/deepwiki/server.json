@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/deepwiki",
   "description" : "Tools for fetching and asking questions about GitHub repositories.",
-  "version" : "v0.1.1",
+  "title" : "DeepWiki",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://mcp.deepwiki.com/sse"
@@ -12,6 +14,10 @@
       "tags" : [ "knowledge", "wiki", "documentation", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/deepwiki.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/deepwiki.json",
+      "icon" : "https://devin.ai/apple-icon.png",
       "tools" : [ {
         "name" : "read_wiki_structure"
       }, {
@@ -19,14 +25,9 @@
       }, {
         "name" : "ask_question"
       } ],
-      "source" : "",
-      "icon" : "https://devin.ai/apple-icon.png",
       "prompts" : 0,
-      "title" : "DeepWiki",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/deepwiki.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/deepwiki.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

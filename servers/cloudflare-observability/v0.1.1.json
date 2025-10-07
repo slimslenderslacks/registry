@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-observability",
+  "description" : "Monitor application performance, analyze logs, and gain insights with comprehensive observability tools and real-time analytics.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://observability.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "monitoring", "observability", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-observability",
+          "secret" : "cloudflare-observability.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare Observability",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-observability.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

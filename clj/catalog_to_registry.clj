@@ -3,7 +3,6 @@
    [babashka.fs :as fs]
    [cheshire.core :as json]
    [clj-yaml.core]
-   [clojure.data :as data]
    [clojure.edn :as edn]
    [clojure.pprint :as pprint]
    [clojure.spec.alpha :as spec]
@@ -40,7 +39,7 @@
    {:io.modelcontextprotocol.registry/publisher-provided
     (merge
      (dissoc (:metadata server) :pulls :githubStars :stars)
-     (select-keys server [:title :upstream :dateAdded :readme :toolsUrl :icon :tools :prompts :resources :source :longLived :oauth]))}})
+     (select-keys server [:upstream :dateAdded :readme :toolsUrl :icon :tools :prompts :resources :source :longLived :oauth]))}})
 
 (defn add-package [community-server config-map _server-name server]
   (if-let [[repository digest] (parse-ref (:image server))]
@@ -238,6 +237,8 @@
     (->
      {:name (format "%s/%s" publisher-namespace (name server-name))
       :description (:description server)
+      :title (:title server)
+      :$schema "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json"
       :version "v0.1.0"}
      (add-package config-map server-name server)
      (add-remote config-map server-name server)
@@ -388,7 +389,11 @@
        )
   (def transformed-servers (transform-all-servers docker-servers))
   (count transformed-servers)
-  (map output-json transformed-servers)
+  ;; update the servers dir
+  (doall
+    (map output-json transformed-servers))
+
+  (output-seed-data (into [] transformed-servers))
 
   (map first
        (mapcat :inputs

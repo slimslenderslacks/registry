@@ -1,0 +1,50 @@
+{
+  "name" : "com.docker.mcp/sentry",
+  "description" : "A Model Context Protocol server for retrieving and analyzing issues from Sentry.io. This server provides tools to inspect error reports, stacktraces, and other debugging information from your Sentry account.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/sentry",
+    "version" : "sha256:f38467297a1ed273009e0ad85bd0fc9f4ce44578114be0f349d6333c5000558b",
+    "environmentVariables" : [ {
+      "name" : "SENTRY_AUTH_TOKEN",
+      "value" : "{sentry.auth_token}",
+      "variables" : {
+        "sentry.auth_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "--auth-token"
+    }, {
+      "type" : "positional",
+      "value" : "$SENTRY_AUTH_TOKEN"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "sentry", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "get_sentry_issue"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24/src/sentry",
+      "icon" : "https://avatars.githubusercontent.com/u/1396951?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Sentry (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/sentry.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/sentry.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    }
+  }
+}

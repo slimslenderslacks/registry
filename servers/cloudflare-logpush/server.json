@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/cloudflare-logpush",
   "description" : "Get quick summaries for Logpush job health.",
-  "version" : "v0.1.1",
+  "title" : "Cloudflare Logpush",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://logs.mcp.cloudflare.com/sse"
@@ -12,21 +14,20 @@
       "tags" : [ "monitoring", "logs", "logpush", "cloudflare", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-logpush.md",
       "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "tools" : [ ],
       "prompts" : 0,
+      "resources" : { },
+      "source" : "",
       "oauth" : {
         "providers" : [ {
           "provider" : "cloudflare-logpush",
           "secret" : "cloudflare-logpush.personal_access_token",
           "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
         } ]
-      },
-      "title" : "Cloudflare Logpush",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-logpush.md",
-      "dateAdded" : "2025-09-24T06:16:16Z",
-      "resources" : { }
+      }
     }
   }
 }

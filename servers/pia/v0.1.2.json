@@ -1,0 +1,64 @@
+{
+  "name" : "com.docker.mcp/pia",
+  "description" : "An MCP server to help make U.S. Government open datasets AI-friendly.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/pia",
+    "version" : "sha256:cbc0ff189b4ee8bc048067dbfab3261e59ecf7904a01b995439b163e98f97c12",
+    "environmentVariables" : [ {
+      "name" : "PIA_API_KEY",
+      "value" : "{pia.api-key}",
+      "variables" : {
+        "pia.api-key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "fetch"
+      }, {
+        "name" : "pia_search_content"
+      }, {
+        "name" : "pia_search_content_congress"
+      }, {
+        "name" : "pia_search_content_crs"
+      }, {
+        "name" : "pia_search_content_doj"
+      }, {
+        "name" : "pia_search_content_facets"
+      }, {
+        "name" : "pia_search_content_gao"
+      }, {
+        "name" : "pia_search_content_oig"
+      }, {
+        "name" : "pia_search_titles"
+      }, {
+        "name" : "pia_search_titles_facets"
+      }, {
+        "name" : "search"
+      } ],
+      "source" : "https://github.com/Program-Integrity-Alliance/pia-mcp-local/tree/9e11c24a74f5dd3d85c7a279faa95ef50d86fab5",
+      "icon" : "http://programintegrity.org/wp-content/uploads/2025/08/docker-mcp-pia-icon-512.png",
+      "prompts" : 0,
+      "title" : "Program Integrity Alliance",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/pia.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/pia.json",
+      "dateAdded" : "2025-08-20T06:26:55Z",
+      "upstream" : "https://github.com/Program-Integrity-Alliance/pia-mcp-local",
+      "resources" : { },
+      "owner" : "Program-Integrity-Alliance"
+    }
+  }
+}

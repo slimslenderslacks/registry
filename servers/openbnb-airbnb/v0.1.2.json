@@ -1,0 +1,36 @@
+{
+  "name" : "com.docker.mcp/openbnb-airbnb",
+  "description" : "MCP Server for searching Airbnb and get listing details.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/openbnb-airbnb",
+    "version" : "sha256:352f5716e418f7d94e1bcd5c6846d7940b3250255b78ab1acb7e0adbd8f89331"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "airbnb", "openbnb" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "airbnb_listing_details"
+      }, {
+        "name" : "airbnb_search"
+      } ],
+      "source" : "https://github.com/openbnb-org/mcp-server-airbnb/tree/57d9d6cdabe813c4d4ab57f90481490aaf8b1b0a",
+      "icon" : "https://avatars.githubusercontent.com/u/202564951?v=4",
+      "prompts" : 0,
+      "title" : "Airbnb Search",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openbnb-airbnb.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openbnb-airbnb.json",
+      "dateAdded" : "2025-07-01T12:14:18Z",
+      "upstream" : "https://github.com/openbnb-org/mcp-server-airbnb",
+      "resources" : { },
+      "owner" : "openbnb-org"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "com.docker.mcp/mercado-pago",
+  "description" : "Provides access to Mercado Pago Marketplace API.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.mercadopago.com",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer {mercado-pago.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "mercado-pago.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "payments",
+      "tags" : [ "payments", "finance", "latin-america", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=mercadopago.com&sz=64",
+      "prompts" : 0,
+      "title" : "Mercado Pago",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mercado-pago.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mercado-pago.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

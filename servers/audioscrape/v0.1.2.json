@@ -1,0 +1,33 @@
+{
+  "name" : "com.docker.mcp/audioscrape",
+  "description" : "Search and analyze audio content from a massive database of podcasts, interviews, and other talks.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.audioscrape.com"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "rag", "audio", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=audioscrape.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "audioscrape",
+          "secret" : "audioscrape.personal_access_token",
+          "env" : "AUDIOSCRAPE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Audioscrape",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/audioscrape.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

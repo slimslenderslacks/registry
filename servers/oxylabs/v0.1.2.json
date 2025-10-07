@@ -1,0 +1,60 @@
+{
+  "name" : "com.docker.mcp/oxylabs",
+  "description" : "A Model Context Protocol (MCP) server that enables AI assistants like Claude to seamlessly access web data through Oxylabs' powerful web scraping technology.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/oxylabs",
+    "version" : "sha256:67085d076c5b7c29dd4167754bc4164405f00bfd955529fc8319e1497d24de78",
+    "environmentVariables" : [ {
+      "name" : "OXYLABS_PASSWORD",
+      "value" : "{oxylabs.password}",
+      "variables" : {
+        "oxylabs.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "OXYLABS_USERNAME",
+      "value" : "{oxylabs.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "oxylabs.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "oxylabs", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "amazon_product_scraper"
+      }, {
+        "name" : "amazon_search_scraper"
+      }, {
+        "name" : "google_search_scraper"
+      }, {
+        "name" : "universal_scraper"
+      } ],
+      "source" : "https://github.com/oxylabs/oxylabs-mcp/tree/0e738c89335e8e521a5b1b925f048ea075c8235b",
+      "icon" : "https://avatars.githubusercontent.com/u/43960873?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Oxylabs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/oxylabs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/oxylabs.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/oxylabs/oxylabs-mcp",
+      "resources" : { },
+      "owner" : "oxylabs"
+    }
+  }
+}

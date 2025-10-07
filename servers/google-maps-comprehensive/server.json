@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/google-maps-comprehensive",
   "description" : "Complete Google Maps integration with 8 tools including geocoding, places search, directions, elevation data, and more using Google's latest APIs.",
-  "version" : "v0.1.2",
+  "title" : "Google Maps Comprehensive MCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -42,10 +44,9 @@
       }, {
         "name" : "maps_search_places"
       } ],
-      "source" : "https://github.com/vicpeacock/google-maps-comprehensive-mcp/tree/main",
+      "source" : "https://github.com/vicpeacock/google-maps-comprehensive-mcp/tree/32d7f4c1f497f97f2cf9f4a74ed5f6ff6daca687",
       "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
       "prompts" : 0,
-      "title" : "Google Maps Comprehensive MCP",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/google-maps-comprehensive.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/google-maps-comprehensive.json",
       "dateAdded" : "2025-09-24T20:01:26Z",

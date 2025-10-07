@@ -1,0 +1,141 @@
+{
+  "name" : "com.docker.mcp/inspektor-gadget",
+  "description" : "AI interface to troubleshoot and observe Kubernetes/Container workloads.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/inspektor-gadget",
+    "version" : "sha256:2e3f85144f52d082919dd0fc2fea0726135564bf78b16f89c188ac6a879296d0",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{inspektor-gadget.kubeconfig}:/kubeconfig",
+      "isRepeated" : false,
+      "variables" : {
+        "inspektor-gadget.kubeconfig" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Path to the kubeconfig file for accessing Kubernetes clusters"
+        }
+      }
+    }, {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "ig-mcp-cache:/root/.cache/ig-mcp-server"
+    } ],
+    "packageArguments" : [ {
+      "type" : "named",
+      "name" : "-gadget-discoverer",
+      "value" : "artifacthub"
+    }, {
+      "type" : "named",
+      "name" : "-gadget-images",
+      "value" : "{inspektor-gadget.gadget-images}",
+      "isRepeated" : false,
+      "variables" : {
+        "inspektor-gadget.gadget-images" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Comma-separated list of gadget images (trace_dns, trace_tcp, etc) to use, allowing control over which gadgets are available as MCP tools"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "inspektor-gadget", "kubernetes", "monitoring", "ebpf" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "gadget_advise_networkpolicy"
+      }, {
+        "name" : "gadget_advise_seccomp"
+      }, {
+        "name" : "gadget_audit_seccomp"
+      }, {
+        "name" : "gadget_bpfstats"
+      }, {
+        "name" : "gadget_deadlock"
+      }, {
+        "name" : "gadget_fdpass"
+      }, {
+        "name" : "gadget_fsnotify"
+      }, {
+        "name" : "gadget_profile_blockio"
+      }, {
+        "name" : "gadget_profile_cpu"
+      }, {
+        "name" : "gadget_profile_qdisc_latency"
+      }, {
+        "name" : "gadget_profile_tcprtt"
+      }, {
+        "name" : "gadget_snapshot_process"
+      }, {
+        "name" : "gadget_snapshot_socket"
+      }, {
+        "name" : "gadget_tcpdump"
+      }, {
+        "name" : "gadget_top_blockio"
+      }, {
+        "name" : "gadget_top_file"
+      }, {
+        "name" : "gadget_top_process"
+      }, {
+        "name" : "gadget_top_tcp"
+      }, {
+        "name" : "gadget_trace_bind"
+      }, {
+        "name" : "gadget_trace_capabilities"
+      }, {
+        "name" : "gadget_trace_dns"
+      }, {
+        "name" : "gadget_trace_exec"
+      }, {
+        "name" : "gadget_trace_fsslower"
+      }, {
+        "name" : "gadget_trace_lsm"
+      }, {
+        "name" : "gadget_trace_malloc"
+      }, {
+        "name" : "gadget_trace_mount"
+      }, {
+        "name" : "gadget_trace_oomkill"
+      }, {
+        "name" : "gadget_trace_open"
+      }, {
+        "name" : "gadget_trace_signal"
+      }, {
+        "name" : "gadget_trace_sni"
+      }, {
+        "name" : "gadget_trace_ssl"
+      }, {
+        "name" : "gadget_trace_tcp"
+      }, {
+        "name" : "gadget_trace_tcpdrop"
+      }, {
+        "name" : "gadget_trace_tcpretrans"
+      }, {
+        "name" : "gadget_traceloop"
+      }, {
+        "name" : "ig_deploy"
+      }, {
+        "name" : "ig_gadgets"
+      } ],
+      "source" : "https://github.com/inspektor-gadget/ig-mcp-server/tree/e9bacad1366e85b42ddf38a68d843a308ce4e3d4",
+      "icon" : "https://avatars.githubusercontent.com/u/111520143?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Inspektor Gadget",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/inspektor-gadget.md",
+      "longLived" : true,
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/inspektor-gadget.json",
+      "dateAdded" : "2025-07-29T14:05:27Z",
+      "upstream" : "https://github.com/inspektor-gadget/ig-mcp-server",
+      "resources" : { },
+      "owner" : "inspektor-gadget"
+    }
+  }
+}

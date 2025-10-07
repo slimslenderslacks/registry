@@ -1,0 +1,118 @@
+{
+  "name" : "com.docker.mcp/keboola-mcp",
+  "description" : "Keboola MCP Server is an open-source bridge between your Keboola project and modern AI tools.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/keboola-mcp",
+    "version" : "sha256:70183b96969c50ef40dd63f70efb01cbf10fb9387563e97654254c22f11da53f",
+    "environmentVariables" : [ {
+      "name" : "KBC_STORAGE_TOKEN",
+      "value" : "{keboola-mcp.kbc_storage_token}",
+      "variables" : {
+        "keboola-mcp.kbc_storage_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "KBC_WORKSPACE_SCHEMA",
+      "value" : "{keboola-mcp.kbc_workspace_schema}",
+      "isRepeated" : false,
+      "variables" : {
+        "keboola-mcp.kbc_workspace_schema" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "data-platform", "etl-pipeline", "storage" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "add_config_row"
+      }, {
+        "name" : "create_config"
+      }, {
+        "name" : "create_flow"
+      }, {
+        "name" : "create_oauth_url"
+      }, {
+        "name" : "create_sql_transformation"
+      }, {
+        "name" : "docs_query"
+      }, {
+        "name" : "find_component_id"
+      }, {
+        "name" : "get_bucket"
+      }, {
+        "name" : "get_component"
+      }, {
+        "name" : "get_config"
+      }, {
+        "name" : "get_config_examples"
+      }, {
+        "name" : "get_flow"
+      }, {
+        "name" : "get_flow_schema"
+      }, {
+        "name" : "get_job"
+      }, {
+        "name" : "get_project_info"
+      }, {
+        "name" : "get_sql_dialect"
+      }, {
+        "name" : "get_table"
+      }, {
+        "name" : "list_buckets"
+      }, {
+        "name" : "list_configs"
+      }, {
+        "name" : "list_flows"
+      }, {
+        "name" : "list_jobs"
+      }, {
+        "name" : "list_tables"
+      }, {
+        "name" : "list_transformations"
+      }, {
+        "name" : "query_data"
+      }, {
+        "name" : "run_job"
+      }, {
+        "name" : "search"
+      }, {
+        "name" : "update_bucket_description"
+      }, {
+        "name" : "update_column_description"
+      }, {
+        "name" : "update_config"
+      }, {
+        "name" : "update_config_row"
+      }, {
+        "name" : "update_flow"
+      }, {
+        "name" : "update_sql_transformation"
+      }, {
+        "name" : "update_table_description"
+      } ],
+      "source" : "https://github.com/keboola/mcp-server/tree/edac338db26ba0f2f72747c4430d9cf8b10932e9",
+      "icon" : "https://avatars.githubusercontent.com/u/1424387?v=4",
+      "prompts" : 0,
+      "title" : "Keboola MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/keboola-mcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/keboola-mcp.json",
+      "dateAdded" : "2025-06-16T10:10:08Z",
+      "upstream" : "https://github.com/keboola/mcp-server",
+      "resources" : { },
+      "owner" : "keboola"
+    }
+  }
+}

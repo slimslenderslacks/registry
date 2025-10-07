@@ -1,0 +1,55 @@
+{
+  "name" : "com.docker.mcp/google-maps",
+  "description" : "Tools for interacting with the Google Maps API.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/google-maps",
+    "version" : "sha256:d8652c8c9c52ac9d82e9cadd1dc0468ade7a4f8c53e102e641eb4248894aa914",
+    "environmentVariables" : [ {
+      "name" : "GOOGLE_MAPS_API_KEY",
+      "value" : "{google-maps.api_key}",
+      "variables" : {
+        "google-maps.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "google-maps", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "maps_directions"
+      }, {
+        "name" : "maps_distance_matrix"
+      }, {
+        "name" : "maps_elevation"
+      }, {
+        "name" : "maps_geocode"
+      }, {
+        "name" : "maps_place_details"
+      }, {
+        "name" : "maps_reverse_geocode"
+      }, {
+        "name" : "maps_search_places"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.6",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Google Maps (Archived)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/google-maps.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/google-maps.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    }
+  }
+}

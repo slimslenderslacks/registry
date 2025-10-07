@@ -1,0 +1,76 @@
+{
+  "name" : "com.docker.mcp/beagle-security",
+  "description" : "Connects with the Beagle Security backend using a user token to manage applications, run automated security tests, track vulnerabilities across environments, and gain intelligence from Application and API vulnerability data.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/beagle-security-mcp-server",
+    "version" : "sha256:4be5e4ae43698ba5317d303052723b8201002e1237b0e515d0a5461c49c797f2",
+    "environmentVariables" : [ {
+      "name" : "BEAGLE_SECURITY_API_TOKEN",
+      "value" : "{beagle-security.Beagle-Security-Personal-access-token}",
+      "variables" : {
+        "beagle-security.Beagle-Security-Personal-access-token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "beagle_create_application"
+      }, {
+        "name" : "beagle_create_project"
+      }, {
+        "name" : "beagle_delete_application"
+      }, {
+        "name" : "beagle_delete_project"
+      }, {
+        "name" : "beagle_get_application"
+      }, {
+        "name" : "beagle_get_domain_signature"
+      }, {
+        "name" : "beagle_get_test_result"
+      }, {
+        "name" : "beagle_get_test_status"
+      }, {
+        "name" : "beagle_list_applications"
+      }, {
+        "name" : "beagle_list_projects"
+      }, {
+        "name" : "beagle_list_running_tests"
+      }, {
+        "name" : "beagle_list_test_sessions"
+      }, {
+        "name" : "beagle_modify_application"
+      }, {
+        "name" : "beagle_modify_project"
+      }, {
+        "name" : "beagle_start_test"
+      }, {
+        "name" : "beagle_stop_test"
+      }, {
+        "name" : "beagle_verify_domain"
+      } ],
+      "source" : "https://github.com/beaglesecurity/beagle-security-mcp-server/tree/4b0e0ee2f309d7fa0e19c9e63feee2a4ea2e9f3a",
+      "icon" : "https://cdn.beaglesecurity.com/assets/brand/png/beagle-blue-icon.png",
+      "prompts" : 0,
+      "title" : "Beagle security MCP server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/beagle-security.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/beagle-security.json",
+      "dateAdded" : "2025-07-08T13:38:25Z",
+      "upstream" : "https://github.com/beaglesecurity/beagle-security-mcp-server",
+      "resources" : { },
+      "owner" : "beaglesecurity"
+    }
+  }
+}

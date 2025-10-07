@@ -1,0 +1,85 @@
+{
+  "name" : "com.docker.mcp/render",
+  "description" : "Interact with your Render resources via LLMs.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/render",
+    "version" : "sha256:e5500a609618576dd8b09cda71587987a4404438e0220a0e50b86b69845b8043",
+    "environmentVariables" : [ {
+      "name" : "RENDER_API_KEY",
+      "value" : "{render.api_key}",
+      "variables" : {
+        "render.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "render", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "create_key_value"
+      }, {
+        "name" : "create_postgres"
+      }, {
+        "name" : "create_static_site"
+      }, {
+        "name" : "create_web_service"
+      }, {
+        "name" : "get_deploy"
+      }, {
+        "name" : "get_key_value"
+      }, {
+        "name" : "get_metrics"
+      }, {
+        "name" : "get_postgres"
+      }, {
+        "name" : "get_selected_workspace"
+      }, {
+        "name" : "get_service"
+      }, {
+        "name" : "list_deploys"
+      }, {
+        "name" : "list_key_value"
+      }, {
+        "name" : "list_log_label_values"
+      }, {
+        "name" : "list_logs"
+      }, {
+        "name" : "list_postgres_instances"
+      }, {
+        "name" : "list_services"
+      }, {
+        "name" : "list_workspaces"
+      }, {
+        "name" : "query_render_postgres"
+      }, {
+        "name" : "select_workspace"
+      }, {
+        "name" : "update_environment_variables"
+      }, {
+        "name" : "update_static_site"
+      }, {
+        "name" : "update_web_service"
+      } ],
+      "source" : "https://github.com/render-oss/render-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/114033652?v=4",
+      "prompts" : 0,
+      "title" : "Render",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/render.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/render.json",
+      "dateAdded" : "2025-05-23T20:08:35Z",
+      "upstream" : "https://github.com/render-oss/render-mcp-server",
+      "resources" : { },
+      "owner" : "render-oss"
+    }
+  }
+}

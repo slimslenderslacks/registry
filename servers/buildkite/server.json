@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/buildkite",
   "description" : "Buildkite MCP lets agents interact with Buildkite Builds, Jobs, Logs, Packages and Test Suites.",
-  "version" : "v0.1.3",
+  "title" : "Buildkite",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/buildkite",
-    "version" : "sha256:d26affb9eaeed3807644e89ff5477d7734ea5663278d606f0e18c84fe0592620",
+    "version" : "sha256:875d8a195310d92b711281ddee0838d2ec531a857f2fbda93ec36b54232e6def",
     "environmentVariables" : [ {
       "name" : "BUILDKITE_API_TOKEN",
       "value" : "{buildkite.api_key}",
@@ -75,10 +77,9 @@
       }, {
         "name" : "user_token_organization"
       } ],
-      "source" : "https://github.com/buildkite/buildkite-mcp-server/tree/main",
+      "source" : "https://github.com/buildkite/buildkite-mcp-server/tree/d4a9582d64d53c282de07d356bb79dbdcad77cc0",
       "icon" : "https://avatars.githubusercontent.com/u/5055988?v=4",
       "prompts" : 0,
-      "title" : "Buildkite",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/buildkite.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/buildkite.json",
       "dateAdded" : "2025-07-21T12:46:15Z",

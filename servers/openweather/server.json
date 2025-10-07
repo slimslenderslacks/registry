@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/openweather",
   "description" : "A simple MCP service that provides current weather and 5-day forecast using the free OpenWeatherMap API.",
-  "version" : "v0.1.1",
+  "title" : "Openweather",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -29,10 +31,9 @@
       "tools" : [ {
         "name" : "weather"
       } ],
-      "source" : "https://github.com/mschneider82/mcp-openweather/tree/main",
+      "source" : "https://github.com/mschneider82/mcp-openweather/tree/e032683574a0723591445462ef7104d360ad0889",
       "icon" : "https://avatars.githubusercontent.com/u/1743227?s=200&v=4",
       "prompts" : 0,
-      "title" : "Openweather",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openweather.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openweather.json",
       "dateAdded" : "2025-07-01T12:14:18Z",

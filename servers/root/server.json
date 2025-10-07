@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/root",
   "description" : "MCP server that provides container image vulnerability scanning and remediation capabilities through Root.io.",
-  "version" : "v0.1.1",
+  "title" : "Root.io Vulnerability Remediation MCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -49,10 +51,9 @@
       }, {
         "name" : "trigger_remediation"
       } ],
-      "source" : "https://github.com/rootio-avr/mcp-proxy/tree/main",
+      "source" : "https://github.com/rootio-avr/mcp-proxy/tree/1d1eb02366e4b47ae9d86ac510929bde4be1f0da",
       "icon" : "https://raw.githubusercontent.com/rootio-avr/mcp-proxy/refs/heads/main/assets/root-logo.svg",
       "prompts" : 0,
-      "title" : "Root.io Vulnerability Remediation MCP",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/root.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/root.json",
       "dateAdded" : "2025-07-10T19:06:20Z",

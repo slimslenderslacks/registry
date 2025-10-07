@@ -1,0 +1,68 @@
+{
+  "name" : "com.docker.mcp/chroma",
+  "description" : "A Model Context Protocol (MCP) server implementation that provides database capabilities for Chroma.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/chroma",
+    "version" : "sha256:c050ca8e1d4e258dd66649fc91acbc77615ce4b89bbc18281a985932bd9c9874",
+    "environmentVariables" : [ {
+      "name" : "CHROMA_API_KEY",
+      "value" : "{chroma.api_key}",
+      "variables" : {
+        "chroma.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "chroma", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "chroma_add_documents"
+      }, {
+        "name" : "chroma_create_collection"
+      }, {
+        "name" : "chroma_delete_collection"
+      }, {
+        "name" : "chroma_delete_documents"
+      }, {
+        "name" : "chroma_fork_collection"
+      }, {
+        "name" : "chroma_get_collection_count"
+      }, {
+        "name" : "chroma_get_collection_info"
+      }, {
+        "name" : "chroma_get_documents"
+      }, {
+        "name" : "chroma_list_collections"
+      }, {
+        "name" : "chroma_modify_collection"
+      }, {
+        "name" : "chroma_peek_collection"
+      }, {
+        "name" : "chroma_query_documents"
+      }, {
+        "name" : "chroma_update_documents"
+      } ],
+      "source" : "https://github.com/chroma-core/chroma-mcp/tree/98ff67589bdcc31b730a5415ff9529433f949077",
+      "icon" : "https://avatars.githubusercontent.com/u/105881770?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Chroma",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/chroma.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/chroma.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/chroma-core/chroma-mcp",
+      "resources" : { },
+      "owner" : "chroma-core"
+    }
+  }
+}

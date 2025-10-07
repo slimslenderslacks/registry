@@ -1,0 +1,182 @@
+{
+  "name" : "com.docker.mcp/atlassian",
+  "description" : "Tools for Atlassian products (Confluence and Jira). This integration supports both Atlassian Cloud and Jira Server/Data Center deployments.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/atlassian",
+    "version" : "sha256:85b5a316edf04eeee782647ed50edb61a365a59ebe2c8f9c241834061a7d0ad6",
+    "environmentVariables" : [ {
+      "name" : "CONFLUENCE_API_TOKEN",
+      "value" : "{atlassian.confluence.api_token}",
+      "variables" : {
+        "atlassian.confluence.api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CONFLUENCE_PERSONAL_TOKEN",
+      "value" : "{atlassian.confluence.personal_token}",
+      "variables" : {
+        "atlassian.confluence.personal_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "JIRA_API_TOKEN",
+      "value" : "{atlassian.jira.api_token}",
+      "variables" : {
+        "atlassian.jira.api_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "JIRA_PERSONAL_TOKEN",
+      "value" : "{atlassian.jira.personal_token}",
+      "variables" : {
+        "atlassian.jira.personal_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CONFLUENCE_URL",
+      "value" : "{atlassian.confluence.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "atlassian.confluence.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "CONFLUENCE_USERNAME",
+      "value" : "{atlassian.confluence.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "atlassian.confluence.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "JIRA_URL",
+      "value" : "{atlassian.jira.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "atlassian.jira.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "JIRA_USERNAME",
+      "value" : "{atlassian.jira.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "atlassian.jira.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "atlassian", "confluence", "jira" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "confluence_add_comment"
+      }, {
+        "name" : "confluence_add_label"
+      }, {
+        "name" : "confluence_create_page"
+      }, {
+        "name" : "confluence_delete_page"
+      }, {
+        "name" : "confluence_get_comments"
+      }, {
+        "name" : "confluence_get_labels"
+      }, {
+        "name" : "confluence_get_page"
+      }, {
+        "name" : "confluence_get_page_children"
+      }, {
+        "name" : "confluence_search"
+      }, {
+        "name" : "confluence_update_page"
+      }, {
+        "name" : "jira_add_comment"
+      }, {
+        "name" : "jira_add_worklog"
+      }, {
+        "name" : "jira_batch_create_issues"
+      }, {
+        "name" : "jira_batch_get_changelogs"
+      }, {
+        "name" : "jira_create_issue"
+      }, {
+        "name" : "jira_create_issue_link"
+      }, {
+        "name" : "jira_create_sprint"
+      }, {
+        "name" : "jira_delete_issue"
+      }, {
+        "name" : "jira_download_attachments"
+      }, {
+        "name" : "jira_get_agile_boards"
+      }, {
+        "name" : "jira_get_board_issues"
+      }, {
+        "name" : "jira_get_issue"
+      }, {
+        "name" : "jira_get_link_types"
+      }, {
+        "name" : "jira_get_project_issues"
+      }, {
+        "name" : "jira_get_project_versions"
+      }, {
+        "name" : "jira_get_sprint_issues"
+      }, {
+        "name" : "jira_get_sprints_from_board"
+      }, {
+        "name" : "jira_get_transitions"
+      }, {
+        "name" : "jira_get_user_profile"
+      }, {
+        "name" : "jira_get_worklog"
+      }, {
+        "name" : "jira_link_to_epic"
+      }, {
+        "name" : "jira_remove_issue_link"
+      }, {
+        "name" : "jira_search"
+      }, {
+        "name" : "jira_search_fields"
+      }, {
+        "name" : "jira_transition_issue"
+      }, {
+        "name" : "jira_update_issue"
+      }, {
+        "name" : "jira_update_sprint"
+      } ],
+      "source" : "https://github.com/sooperset/mcp-atlassian/tree/v0.11.2",
+      "icon" : "https://avatars.githubusercontent.com/u/43281909?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Atlassian",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/atlassian.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/atlassian.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/sooperset/mcp-atlassian",
+      "resources" : { },
+      "owner" : "sooperset"
+    }
+  }
+}

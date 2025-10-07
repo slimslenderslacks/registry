@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/npm-sentinel",
   "description" : "MCP server that enables intelligent NPM package analysis powered by AI.",
-  "version" : "v0.1.1",
+  "title" : "NPM Sentinel",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -55,10 +57,9 @@
       }, {
         "name" : "npmVulnerabilities"
       } ],
-      "source" : "https://github.com/Nekzus/npm-sentinel-mcp/tree/main",
+      "source" : "https://github.com/Nekzus/npm-sentinel-mcp/tree/a1bd358e4348d7dd4a8fe9a4ab091fc34e0397a8",
       "icon" : "https://avatars.githubusercontent.com/u/85507589?v=4",
       "prompts" : 0,
-      "title" : "NPM Sentinel",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/npm-sentinel.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/npm-sentinel.json",
       "dateAdded" : "2025-07-01T14:14:18Z",

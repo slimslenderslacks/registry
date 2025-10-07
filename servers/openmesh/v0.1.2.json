@@ -1,0 +1,35 @@
+{
+  "name" : "com.docker.mcp/openmesh",
+  "description" : "Discover and connect to a curated marketplace of MCP servers for extending AI agent capabilities.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.openmesh.dev/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "infrastructure",
+      "tags" : [ "infrastructure", "discovery", "mesh", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "discover_service"
+      }, {
+        "name" : "call_service"
+      }, {
+        "name" : "report_experience"
+      }, {
+        "name" : "get_alternative"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=openmesh.network&sz=64",
+      "prompts" : 0,
+      "title" : "OpenMesh",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openmesh.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openmesh.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

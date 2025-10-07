@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/postman",
   "description" : "Postman's MCP server connects AI agents, assistants, and chatbots directly to your APIs on Postman. Use natural language to prompt AI to automate work across your Postman collections, environments, workspaces, and more.",
-  "version" : "v0.1.2",
+  "title" : "Postman MCP server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -103,10 +105,9 @@
       }, {
         "name" : "updateWorkspace"
       } ],
-      "source" : "https://github.com/postmanlabs/postman-mcp-server/tree/main",
+      "source" : "https://github.com/postmanlabs/postman-mcp-server/tree/1ee7e1b3ea09058c3cf40f80abb72c171c6f2401",
       "icon" : "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
       "prompts" : 0,
-      "title" : "Postman MCP server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/postman.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/postman.json",
       "dateAdded" : "2025-09-11T17:03:42Z",

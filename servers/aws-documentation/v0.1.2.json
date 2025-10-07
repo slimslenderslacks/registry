@@ -1,0 +1,38 @@
+{
+  "name" : "com.docker.mcp/aws-documentation",
+  "description" : "Tools to access AWS documentation, search for content, and get recommendations.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/aws-documentation",
+    "version" : "sha256:726fb47808dad5589ad61e13fc5ffec22626d0b6d1e7328efd78d1bbf1d4e6f7"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "aws-documentation", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "read_documentation"
+      }, {
+        "name" : "recommend"
+      }, {
+        "name" : "search_documentation"
+      } ],
+      "source" : "https://github.com/awslabs/mcp/tree/96f3e569e2a054d31ccbc452bda89580265e8dae/src/aws-documentation-mcp-server",
+      "icon" : "https://avatars.githubusercontent.com/u/3299148?v=4",
+      "prompts" : 0,
+      "title" : "AWS Documentation",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/aws-documentation.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aws-documentation.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/awslabs/mcp",
+      "resources" : { },
+      "owner" : "awslabs"
+    }
+  }
+}

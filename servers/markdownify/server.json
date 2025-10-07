@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/markdownify",
   "description" : "A Model Context Protocol server for converting almost anything to Markdown.",
-  "version" : "v0.1.1",
+  "title" : "Markdownify",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -49,10 +51,9 @@
       }, {
         "name" : "youtube-to-markdown"
       } ],
-      "source" : "https://github.com/zcaceres/markdownify-mcp/tree/main",
+      "source" : "https://github.com/zcaceres/markdownify-mcp/tree/4add350f4643365d31f7b3385ab1b65d37f97f1e",
       "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
       "prompts" : 0,
-      "title" : "Markdownify",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/markdownify.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/markdownify.json",
       "dateAdded" : "2025-08-25T06:19:52Z",

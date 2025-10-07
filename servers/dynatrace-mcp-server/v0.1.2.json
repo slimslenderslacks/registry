@@ -1,0 +1,93 @@
+{
+  "name" : "com.docker.mcp/dynatrace-mcp-server",
+  "description" : "This MCP Server allows interaction with the Dynatrace observability platform, brining real-time observability data directly into your development workflow.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/dynatrace-mcp-server",
+    "version" : "sha256:101536db9b2538162dbb1566b96b10bbb513b70442785a97155d5376344de0ec",
+    "environmentVariables" : [ {
+      "name" : "OAUTH_CLIENT_ID",
+      "value" : "{dynatrace-mcp-server.oauth_client_id}",
+      "variables" : {
+        "dynatrace-mcp-server.oauth_client_id" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "OAUTH_CLIENT_SECRET",
+      "value" : "{dynatrace-mcp-server.oauth_client_secret}",
+      "variables" : {
+        "dynatrace-mcp-server.oauth_client_secret" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DT_ENVIRONMENT",
+      "value" : "{dynatrace-mcp-server.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "dynatrace-mcp-server.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "Dynatrace", "Observability", "Monitoring" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "chat_with_davis_copilot"
+      }, {
+        "name" : "create_workflow_for_notification"
+      }, {
+        "name" : "execute_dql"
+      }, {
+        "name" : "explain_dql_in_natural_language"
+      }, {
+        "name" : "find_entity_by_name"
+      }, {
+        "name" : "generate_dql_from_natural_language"
+      }, {
+        "name" : "get_entity_details"
+      }, {
+        "name" : "get_environment_info"
+      }, {
+        "name" : "get_kubernetes_events"
+      }, {
+        "name" : "get_logs_for_entity"
+      }, {
+        "name" : "get_ownership"
+      }, {
+        "name" : "list_problems"
+      }, {
+        "name" : "list_vulnerabilities"
+      }, {
+        "name" : "make_workflow_public"
+      }, {
+        "name" : "send_slack_message"
+      }, {
+        "name" : "verify_dql"
+      } ],
+      "source" : "https://github.com/dynatrace-oss/dynatrace-mcp/tree/e1b9fcf382515c51e2c60fc6442b97bebc641b44",
+      "icon" : "https://avatars.githubusercontent.com/u/58178984?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Dynatrace MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dynatrace-mcp-server.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dynatrace-mcp-server.json",
+      "dateAdded" : "2025-08-11T20:20:11Z",
+      "upstream" : "https://github.com/dynatrace-oss/dynatrace-mcp",
+      "resources" : { },
+      "owner" : "dynatrace-oss"
+    }
+  }
+}

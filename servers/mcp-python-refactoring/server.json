@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/mcp-python-refactoring",
   "description" : "Educational Python refactoring assistant that provides guided suggestions for AI assistants.  Features: • Step-by-step refactoring instructions without modifying code • Comprehensive code analysis using professional tools (Rope, Radon, Vulture, Jedi, LibCST, Pyrefly) • Educational approach teaching refactoring patterns through guided practice • Support for both guide-only and apply-changes modes • Identifies long functions, high complexity, dead code, and type issues • Provides precise line numbers and specific refactoring instructions • Compatible with all AI assistants (Claude, GPT, Cursor, Continue, etc.)  Perfect for developers learning refactoring patterns while maintaining full control over code changes. Acts as a refactoring mentor rather than an automated code modifier.",
-  "version" : "v0.1.1",
+  "title" : "Python Refactoring Assistant",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -35,10 +37,9 @@
       }, {
         "name" : "tdd_refactoring_guidance"
       } ],
-      "source" : "https://github.com/slamer59/mcp-python-refactoring/tree/main",
+      "source" : "https://github.com/slamer59/mcp-python-refactoring/tree/b66781d58674cd066e4ed8786215ab44ecc0b14b",
       "icon" : "https://avatars.githubusercontent.com/u/2664231?s=200&v=4",
       "prompts" : 0,
-      "title" : "Python Refactoring Assistant",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mcp-python-refactoring.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mcp-python-refactoring.json",
       "dateAdded" : "2025-09-04T19:31:40Z",

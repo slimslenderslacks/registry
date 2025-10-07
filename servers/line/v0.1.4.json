@@ -1,0 +1,72 @@
+{
+  "name" : "com.docker.mcp/line",
+  "description" : "MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/line",
+    "version" : "sha256:c50a812b47f8645f0004c4594f0c94bf0d28c414a3413ff702886468a4bdc66c",
+    "environmentVariables" : [ {
+      "name" : "CHANNEL_ACCESS_TOKEN",
+      "value" : "{line.access_token}",
+      "variables" : {
+        "line.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DESTINATION_USER_ID",
+      "value" : "{line.user_id}",
+      "isRepeated" : false,
+      "variables" : {
+        "line.user_id" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "line", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "broadcast_flex_message"
+      }, {
+        "name" : "broadcast_text_message"
+      }, {
+        "name" : "cancel_rich_menu_default"
+      }, {
+        "name" : "delete_rich_menu"
+      }, {
+        "name" : "get_message_quota"
+      }, {
+        "name" : "get_profile"
+      }, {
+        "name" : "get_rich_menu_list"
+      }, {
+        "name" : "push_flex_message"
+      }, {
+        "name" : "push_text_message"
+      }, {
+        "name" : "set_rich_menu_default"
+      } ],
+      "source" : "https://github.com/line/line-bot-mcp-server/tree/f65cc1923f01da71427330d854e9dd77175585d6",
+      "icon" : "https://avatars.githubusercontent.com/u/13128444?v=4",
+      "prompts" : 0,
+      "title" : "LINE",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/line.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/line.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/line/line-bot-mcp-server",
+      "resources" : { },
+      "owner" : "line"
+    }
+  }
+}

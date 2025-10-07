@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/gitmcp",
   "description" : "Tools for interacting with Git repositories.",
-  "version" : "v0.1.1",
+  "title" : "GitMCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://gitmcp.io/docs"
@@ -12,6 +14,10 @@
       "tags" : [ "git", "version-control", "development", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/gitmcp.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/gitmcp.json",
+      "icon" : "https://www.google.com/s2/favicons?domain=gitmcp.io&sz=64",
       "tools" : [ {
         "name" : "match_common_libs_owner_repo_mapping"
       }, {
@@ -23,14 +29,9 @@
       }, {
         "name" : "fetch_generic_url_content"
       } ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=gitmcp.io&sz=64",
       "prompts" : 0,
-      "title" : "GitMCP",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/gitmcp.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/gitmcp.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

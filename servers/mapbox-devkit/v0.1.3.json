@@ -1,0 +1,73 @@
+{
+  "name" : "com.docker.mcp/mapbox-devkit",
+  "description" : "Direct access to Mapbox developer APIs for AI assistants. Enables style management, token management, GeoJSON preview, and other developer tools for building Mapbox applications.",
+  "version" : "v0.1.3",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mapbox-devkit",
+    "version" : "sha256:c883a42c275295008983f56a54d72cdd667c53fe0b50d56b605210256313f9b5",
+    "environmentVariables" : [ {
+      "name" : "MAPBOX_ACCESS_TOKEN",
+      "value" : "{mapbox-devkit.access_token}",
+      "variables" : {
+        "mapbox-devkit.access_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "mapbox", "development", "devtools", "api", "styles" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "bounding_box_tool"
+      }, {
+        "name" : "coordinate_conversion_tool"
+      }, {
+        "name" : "country_bounding_box_tool"
+      }, {
+        "name" : "create_style_tool"
+      }, {
+        "name" : "create_token_tool"
+      }, {
+        "name" : "delete_style_tool"
+      }, {
+        "name" : "geojson_preview_tool"
+      }, {
+        "name" : "get_latest_mapbox_docs_tool"
+      }, {
+        "name" : "list_styles_tool"
+      }, {
+        "name" : "list_tokens_tool"
+      }, {
+        "name" : "preview_style_tool"
+      }, {
+        "name" : "retrieve_style_tool"
+      }, {
+        "name" : "style_builder_tool"
+      }, {
+        "name" : "style_comparison_tool"
+      }, {
+        "name" : "tilequery_tool"
+      }, {
+        "name" : "update_style_tool"
+      } ],
+      "source" : "https://github.com/mapbox/mcp-devkit-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/600935?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Mapbox Developer MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mapbox-devkit.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mapbox-devkit.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/mapbox/mcp-devkit-server",
+      "resources" : { },
+      "owner" : "mapbox"
+    }
+  }
+}

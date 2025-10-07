@@ -1,0 +1,164 @@
+{
+  "name" : "com.docker.mcp/onlyoffice-docspace",
+  "description" : "ONLYOFFICE DocSpace is a room-based collaborative platform which allows organizing a clear file structure depending on users' needs or project goals.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/onlyoffice-docspace",
+    "version" : "sha256:4efbf4879e6227e61475d3adc68b2fcce9d6b632dc0d2ae6676a830228b67e3a",
+    "environmentVariables" : [ {
+      "name" : "DOCSPACE_API_KEY",
+      "value" : "{onlyoffice-docspace.api_key}",
+      "variables" : {
+        "onlyoffice-docspace.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_AUTH_TOKEN",
+      "value" : "{onlyoffice-docspace.auth_token}",
+      "variables" : {
+        "onlyoffice-docspace.auth_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_USERNAME",
+      "value" : "{onlyoffice-docspace.username}",
+      "variables" : {
+        "onlyoffice-docspace.username" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_PASSWORD",
+      "value" : "{onlyoffice-docspace.password}",
+      "variables" : {
+        "onlyoffice-docspace.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_BASE_URL",
+      "value" : "{onlyoffice-docspace.base_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "onlyoffice-docspace.base_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_ORIGIN",
+      "value" : "{onlyoffice-docspace.origin}",
+      "isRepeated" : false,
+      "variables" : {
+        "onlyoffice-docspace.origin" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_USER_AGENT",
+      "value" : "{onlyoffice-docspace.user_agent}",
+      "isRepeated" : false,
+      "variables" : {
+        "onlyoffice-docspace.user_agent" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_DYNAMIC",
+      "value" : "{onlyoffice-docspace.dynamic}",
+      "isRepeated" : false,
+      "variables" : {
+        "onlyoffice-docspace.dynamic" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "DOCSPACE_TOOLSETS",
+      "value" : "{onlyoffice-docspace.toolsets}",
+      "isRepeated" : false,
+      "variables" : {
+        "onlyoffice-docspace.toolsets" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "onlyoffice", "docspace", "productivity" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "archive_room"
+      }, {
+        "name" : "copy_batch_items"
+      }, {
+        "name" : "create_folder"
+      }, {
+        "name" : "create_room"
+      }, {
+        "name" : "delete_file"
+      }, {
+        "name" : "delete_folder"
+      }, {
+        "name" : "download_file_as_text"
+      }, {
+        "name" : "get_all_people"
+      }, {
+        "name" : "get_file_info"
+      }, {
+        "name" : "get_folder_content"
+      }, {
+        "name" : "get_folder_info"
+      }, {
+        "name" : "get_my_folder"
+      }, {
+        "name" : "get_room_access_levels"
+      }, {
+        "name" : "get_room_info"
+      }, {
+        "name" : "get_room_security_info"
+      }, {
+        "name" : "get_room_types"
+      }, {
+        "name" : "get_rooms_folder"
+      }, {
+        "name" : "move_batch_items"
+      }, {
+        "name" : "rename_folder"
+      }, {
+        "name" : "set_room_security"
+      }, {
+        "name" : "update_file"
+      }, {
+        "name" : "update_room"
+      }, {
+        "name" : "upload_file"
+      } ],
+      "source" : "https://github.com/ONLYOFFICE/docspace-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/1426033?v=4",
+      "prompts" : 0,
+      "title" : "ONLYOFFICE DocSpace",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/onlyoffice-docspace.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/onlyoffice-docspace.json",
+      "dateAdded" : "2025-07-19T06:20:02Z",
+      "upstream" : "https://github.com/ONLYOFFICE/docspace-mcp",
+      "resources" : { },
+      "owner" : "ONLYOFFICE"
+    }
+  }
+}

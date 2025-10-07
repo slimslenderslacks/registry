@@ -1,0 +1,68 @@
+{
+  "name" : "com.docker.mcp/apify-mcp-server",
+  "description" : "Apify is the world's largest marketplace of tools for web scraping, data extraction, and web automation. You can extract structured data from social media, e-commerce, search engines, maps, travel sites, or any other website.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/apify-mcp-server",
+    "version" : "sha256:cafa23b6f977b8e5b1ad51a31465d393f4166e9316edb1cb3ed8472572467b5d",
+    "environmentVariables" : [ {
+      "name" : "APIFY_TOKEN",
+      "value" : "{apify-mcp-server.apify_token}",
+      "variables" : {
+        "apify-mcp-server.apify_token" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "TOOLS",
+      "value" : "{apify-mcp-server.tools}",
+      "isRepeated" : false,
+      "variables" : {
+        "apify-mcp-server.tools" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "Comma-separated list of tools to enable. Can be either a tool category, a specific tool, or an Apify Actor. For example: \"actors,docs,apify/rag-web-browser\". For more details visit https://mcp.apify.com."
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "search", "mcp", "automation", "web scraping", "api", "data extraction" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "apify-slash-rag-web-browser"
+      }, {
+        "name" : "call-actor"
+      }, {
+        "name" : "fetch-actor-details"
+      }, {
+        "name" : "fetch-apify-docs"
+      }, {
+        "name" : "get-actor-output"
+      }, {
+        "name" : "search-actors"
+      }, {
+        "name" : "search-apify-docs"
+      } ],
+      "source" : "https://github.com/apify/actors-mcp-server/tree/4e3cf9de2ea4896665a200b07f2e785881a2da9b",
+      "icon" : "https://avatars.githubusercontent.com/u/24586296?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Apify MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/apify-mcp-server.md",
+      "longLived" : true,
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/apify-mcp-server.json",
+      "dateAdded" : "2025-08-22T06:21:38Z",
+      "upstream" : "https://github.com/apify/actors-mcp-server",
+      "resources" : { },
+      "owner" : "apify"
+    }
+  }
+}

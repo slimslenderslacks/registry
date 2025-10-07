@@ -1,0 +1,74 @@
+{
+  "name" : "com.docker.mcp/cdata-connectcloud",
+  "description" : "This fully functional MCP Server allows you to connect to any data source in Connect Cloud from Claude Desktop.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/cdata-connectcloud",
+    "version" : "sha256:0cf0d5812998d38966ba64e6c4dbaabd153fe20177bcd34ee28647cd7de5929e",
+    "environmentVariables" : [ {
+      "name" : "CDATA_PAT",
+      "value" : "{cdata-connectcloud.pat}",
+      "variables" : {
+        "cdata-connectcloud.pat" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "CDATA_USERNAME",
+      "value" : "{cdata-connectcloud.username}",
+      "isRepeated" : false,
+      "variables" : {
+        "cdata-connectcloud.username" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "cdata-connectcloud", "devops" ],
+      "tools" : [ {
+        "name" : "execData"
+      }, {
+        "name" : "getCatalogs"
+      }, {
+        "name" : "getColumns"
+      }, {
+        "name" : "getExportedKeys"
+      }, {
+        "name" : "getImportedKeys"
+      }, {
+        "name" : "getIndexes"
+      }, {
+        "name" : "getPrimaryKeys"
+      }, {
+        "name" : "getProcedureParameters"
+      }, {
+        "name" : "getProcedures"
+      }, {
+        "name" : "getSchemas"
+      }, {
+        "name" : "getTables"
+      }, {
+        "name" : "queryData"
+      } ],
+      "source" : "https://github.com/CDataSoftware/connectcloud-mcp-server/tree/00fe03b372819d143f266fd49e53d98181f4dd12",
+      "icon" : "https://avatars.githubusercontent.com/u/24947354?v=4",
+      "prompts" : 0,
+      "title" : "CData Connect Cloud",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cdata-connectcloud.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/cdata-connectcloud.json",
+      "dateAdded" : "2025-05-15T20:08:35Z",
+      "upstream" : "https://github.com/CDataSoftware/connectcloud-mcp-server",
+      "resources" : { },
+      "owner" : "CDataSoftware"
+    }
+  }
+}

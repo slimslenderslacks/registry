@@ -1,0 +1,101 @@
+{
+  "name" : "com.docker.mcp/flexprice",
+  "description" : "Official flexprice MCP Server.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/flexprice",
+    "version" : "sha256:70c2126ddacdc4f8f3c003d59327288c050802cab6ce6b779821bc2af384a65c",
+    "environmentVariables" : [ {
+      "name" : "API_KEY",
+      "value" : "{flexprice.api_key}",
+      "variables" : {
+        "flexprice.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "BASE_URL",
+      "value" : "{flexprice.base_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "flexprice.base_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "flexprice", "devops" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "getCustomerById"
+      }, {
+        "name" : "getCustomerByLookupKey"
+      }, {
+        "name" : "getCustomerEntitlements"
+      }, {
+        "name" : "getCustomerSubscriptions"
+      }, {
+        "name" : "getCustomerUsageSummary"
+      }, {
+        "name" : "getCustomers"
+      }, {
+        "name" : "getEventsByCustomer"
+      }, {
+        "name" : "getInvoiceById"
+      }, {
+        "name" : "getInvoiceByNumber"
+      }, {
+        "name" : "getInvoices"
+      }, {
+        "name" : "getInvoicesByCustomerId"
+      }, {
+        "name" : "getPaymentById"
+      }, {
+        "name" : "getPayments"
+      }, {
+        "name" : "getPlanById"
+      }, {
+        "name" : "getPlans"
+      }, {
+        "name" : "getPriceById"
+      }, {
+        "name" : "getPrices"
+      }, {
+        "name" : "getSubscriptionById"
+      }, {
+        "name" : "getSubscriptionPauses"
+      }, {
+        "name" : "getSubscriptionUsage"
+      }, {
+        "name" : "getSubscriptions"
+      }, {
+        "name" : "getWalletBalance"
+      }, {
+        "name" : "getWalletById"
+      }, {
+        "name" : "getWalletTransactions"
+      }, {
+        "name" : "getWalletsByCustomerId"
+      } ],
+      "source" : "https://github.com/flexprice/mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/168305045?v=4",
+      "prompts" : 0,
+      "title" : "FlexPrice",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/flexprice.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/flexprice.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/flexprice/mcp-server",
+      "resources" : { },
+      "owner" : "flexprice"
+    }
+  }
+}

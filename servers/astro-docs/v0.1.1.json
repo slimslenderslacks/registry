@@ -1,0 +1,29 @@
+{
+  "name" : "com.docker.mcp/astro-docs",
+  "description" : "Access the latest Astro web framework documentation, guides, and API references.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.docs.astro.build/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "documentation",
+      "tags" : [ "documentation", "astro", "web-framework", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "search_astro_docs"
+      } ],
+      "source" : "",
+      "icon" : "https://astro.build/favicon.svg",
+      "prompts" : 0,
+      "title" : "Astro Docs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/astro-docs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/astro-docs.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "upstream" : "https://github.com/withastro/docs-mcp",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

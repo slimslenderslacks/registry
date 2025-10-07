@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/dart",
   "description" : "Dart AI Model Context Protocol (MCP) server.",
-  "version" : "v0.1.1",
+  "title" : "Dart AI",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -69,10 +71,9 @@
       }, {
         "name" : "update_task"
       } ],
-      "source" : "https://github.com/its-dart/dart-mcp-server/tree/main",
+      "source" : "https://github.com/its-dart/dart-mcp-server/tree/8b2e239afe9f0b6d2cd598383e53dd2c554dc3b7",
       "icon" : "https://avatars.githubusercontent.com/u/92822028?s=200&v=4",
       "prompts" : 0,
-      "title" : "Dart AI",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dart.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dart.json",
       "dateAdded" : "2025-05-05T20:04:34Z",

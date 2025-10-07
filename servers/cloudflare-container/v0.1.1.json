@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-container",
+  "description" : "Spin up a sandbox development environment.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://containers.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "containers", "development", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-container",
+          "secret" : "cloudflare-container.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare Container",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-container.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

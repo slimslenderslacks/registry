@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/desktop-commander",
   "description" : "Search, update, manage files and run terminal commands with AI.",
-  "version" : "v0.1.3",
+  "title" : "Desktop Commander",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/desktop-commander",
-    "version" : "sha256:7308759d4d0319b90934ecf622298fc3b60443d65deeb8ef7451917175b4a9af",
+    "version" : "sha256:6e6308a8e47da1d18d93f583543581e6a5d5e92ce6916910615e9175592b8631",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -90,10 +92,9 @@
       }, {
         "name" : "write_file"
       } ],
-      "source" : "https://github.com/wonderwhy-er/DesktopCommanderMCP/tree/main",
+      "source" : "https://github.com/wonderwhy-er/DesktopCommanderMCP/tree/e3afba4d58f342375d2d983dc353b03fa0e859dc",
       "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
       "prompts" : 0,
-      "title" : "Desktop Commander",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/desktop-commander.md",
       "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/desktop-commander.json",

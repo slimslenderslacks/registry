@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/carbon-voice",
+  "description" : "Communicate asynchronously with voice messages featuring AI transcription, summaries, and automated action item extraction.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.carbonvoice.app"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity", "voice", "automation", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=carbonvoice.app&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "carbon-voice",
+          "secret" : "carbon-voice.personal_access_token",
+          "env" : "CARBON_VOICE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Carbon Voice",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/carbon-voice.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

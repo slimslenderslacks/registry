@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/hostinger-mcp-server",
   "description" : "Interact with Hostinger services over the Hostinger API.",
-  "version" : "v0.1.2",
+  "title" : "Hostinger API MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/api-mcp-server",
-    "version" : "sha256:70d50b4f15c0ba254eebe2d63d1032cc335876b561815f1ac554ec890d4fb944",
+    "version" : "sha256:93ef64165299860573af7645633996af781035ef56db4f462074670688204306",
     "environmentVariables" : [ {
       "name" : "APITOKEN",
       "value" : "{hostinger-mcp-server.api_token}",
@@ -173,6 +175,10 @@
       }, {
         "name" : "billing_deletePaymentMethodV1"
       }, {
+        "name" : "billing_disableAutoRenewalV1"
+      }, {
+        "name" : "billing_enableAutoRenewalV1"
+      }, {
         "name" : "billing_getCatalogItemListV1"
       }, {
         "name" : "billing_getPaymentMethodListV1"
@@ -215,6 +221,18 @@
       }, {
         "name" : "domains_updateDomainNameserversV1"
       }, {
+        "name" : "hosting_createWebsiteV1"
+      }, {
+        "name" : "hosting_generateAFreeSubdomainV1"
+      }, {
+        "name" : "hosting_listAvailableDatacentersV1"
+      }, {
+        "name" : "hosting_listOrdersV1"
+      }, {
+        "name" : "hosting_listWebsitesV1"
+      }, {
+        "name" : "hosting_verifyDomainOwnershipV1"
+      }, {
         "name" : "reach_createANewContactV1"
       }, {
         "name" : "reach_deleteAContactV1"
@@ -223,10 +241,9 @@
       }, {
         "name" : "reach_listContactsV1"
       } ],
-      "source" : "https://github.com/hostinger/api-mcp-server/tree/main",
+      "source" : "https://github.com/hostinger/api-mcp-server/tree/1d13729f08e089c8878725342e83847e34f945bc",
       "icon" : "https://avatars.githubusercontent.com/u/2630767?v=4",
       "prompts" : 0,
-      "title" : "Hostinger API MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/hostinger-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hostinger-mcp-server.json",
       "dateAdded" : "2025-08-05T16:31:03Z",

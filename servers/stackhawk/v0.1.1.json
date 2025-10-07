@@ -1,0 +1,77 @@
+{
+  "name" : "com.docker.mcp/stackhawk",
+  "description" : "A Model Context Protocol (MCP) server for integrating with StackHawk's security scanning platform. Provides security analytics, YAML configuration management, sensitive data/threat surface analysis, and anti-hallucination tools for LLMs.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/stackhawk",
+    "version" : "sha256:058c26ca70e33599bf387521667d599c8838c4cf5ffcb3e8016013fceeb358ac",
+    "environmentVariables" : [ {
+      "name" : "STACKHAWK_API_KEY",
+      "value" : "{stackhawk.api_key}",
+      "variables" : {
+        "stackhawk.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "stackhawk", "appsec" ],
+      "license" : "Other",
+      "tools" : [ {
+        "name" : "analyze_sensitive_data_trends"
+      }, {
+        "name" : "create_stackhawk_config"
+      }, {
+        "name" : "generate_security_dashboard"
+      }, {
+        "name" : "generate_sensitive_data_summary"
+      }, {
+        "name" : "get_app_findings_for_triage"
+      }, {
+        "name" : "get_critical_sensitive_data"
+      }, {
+        "name" : "get_organization_info"
+      }, {
+        "name" : "get_sensitive_data"
+      }, {
+        "name" : "get_sensitive_data_report"
+      }, {
+        "name" : "get_stackhawk_scan_instructions"
+      }, {
+        "name" : "get_stackhawk_schema"
+      }, {
+        "name" : "list_applications"
+      }, {
+        "name" : "map_sensitive_data_surface"
+      }, {
+        "name" : "run_stackhawk_scan"
+      }, {
+        "name" : "search_vulnerabilities"
+      }, {
+        "name" : "setup_stackhawk_for_project"
+      }, {
+        "name" : "validate_field_exists"
+      }, {
+        "name" : "validate_stackhawk_config"
+      } ],
+      "source" : "https://github.com/stackhawk/stackhawk-mcp/tree/feature/image-entrypoint",
+      "icon" : "https://avatars.githubusercontent.com/u/53230463?v=4",
+      "prompts" : 0,
+      "title" : "StackHawk",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/stackhawk.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/stackhawk.json",
+      "dateAdded" : "2025-09-19T06:18:27Z",
+      "upstream" : "https://github.com/stackhawk/stackhawk-mcp",
+      "resources" : { },
+      "owner" : "stackhawk"
+    }
+  }
+}

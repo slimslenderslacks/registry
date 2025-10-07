@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/unreal-engine-mcp-server",
   "description" : "A comprehensive Model Context Protocol (MCP) server that enables AI assistants to control Unreal Engine via Remote Control API. Built with TypeScript and designed for game development automation.",
-  "version" : "v0.1.3",
+  "title" : "Unreal Engine MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.5",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/unreal-engine-mcp-server",
-    "version" : "sha256:a736a90624ff08221d27a6f6c74263c1c158160012240cba7390e5bdc13f4b38",
+    "version" : "sha256:36733a308a2fda33edcea935f7436cea9abc7ffb1a7c45a699cd11cf9c1bfa7a",
     "environmentVariables" : [ {
       "name" : "UE_HOST",
       "value" : "{unreal-engine-mcp-server.ue_host}",
@@ -88,10 +90,9 @@
       }, {
         "name" : "system_control"
       } ],
-      "source" : "https://github.com/ChiR24/Unreal_mcp/tree/main",
+      "source" : "https://github.com/ChiR24/Unreal_mcp/tree/a24dafda619d7b0fb9bef37d9c715c22d1b1e899",
       "icon" : "https://raw.githubusercontent.com/ChiR24/Unreal_mcp/main/Public/icon.png",
       "prompts" : 0,
-      "title" : "Unreal Engine MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/unreal-engine-mcp-server.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/unreal-engine-mcp-server.json",
       "dateAdded" : "2025-09-15T16:12:49Z",

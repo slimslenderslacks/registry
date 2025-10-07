@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/handwriting-ocr",
   "description" : "Model Context Protocol (MCP) Server for Handwriting OCR.",
-  "version" : "v0.1.1",
+  "title" : "Handwriting OCR",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -32,10 +34,9 @@
       }, {
         "name" : "upload_document"
       } ],
-      "source" : "https://github.com/Handwriting-OCR/handwriting-ocr-mcp-server/tree/main",
+      "source" : "https://github.com/Handwriting-OCR/handwriting-ocr-mcp-server/tree/1b81cd90103265eac82d4a441fe669e6c7ccf03a",
       "icon" : "https://avatars.githubusercontent.com/u/202432073?s=200&v=4",
       "prompts" : 0,
-      "title" : "Handwriting OCR",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/handwriting-ocr.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/handwriting-ocr.json",
       "dateAdded" : "2025-05-05T20:08:35Z",

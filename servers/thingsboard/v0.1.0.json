@@ -1,0 +1,186 @@
+{
+  "name" : "com.docker.mcp/thingsboard",
+  "description" : "Connect your AI workflows to the ThingsBoard IoT Platform through this MCP server.  Enables LLMs to query device telemetry, manage IoT entities (devices, assets, customers), and analyze sensor data - all through natural language.  Perfect for building AI-powered IoT monitoring, predictive maintenance, and automated device management workflows. Supports both ThingsBoard Community Edition and Professional Edition.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.0",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/thingsboard",
+    "version" : "sha256:b6733d2cfbb97665a34b63cd86356e25a7ccd7ba98840b70ecb555b5af48d0c8",
+    "environmentVariables" : [ {
+      "name" : "THINGSBOARD_USERNAME",
+      "value" : "{thingsboard.username}",
+      "variables" : {
+        "thingsboard.username" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "THINGSBOARD_PASSWORD",
+      "value" : "{thingsboard.password}",
+      "variables" : {
+        "thingsboard.password" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "THINGSBOARD_URL",
+      "value" : "{thingsboard.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "thingsboard.url" : {
+          "isSecret" : false,
+          "format" : "string",
+          "description" : "URL of your ThingsBoard Platform instance"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "thingsboard", "iot platform", "monitoring", "data-visualization", "device-management" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "findByFrom"
+      }, {
+        "name" : "findByFromWithRelationType"
+      }, {
+        "name" : "findByTo"
+      }, {
+        "name" : "findByToWithRelationType"
+      }, {
+        "name" : "findInfoByFrom"
+      }, {
+        "name" : "findInfoByTo"
+      }, {
+        "name" : "getAdminSettings"
+      }, {
+        "name" : "getAlarmById"
+      }, {
+        "name" : "getAlarmInfoById"
+      }, {
+        "name" : "getAlarmTypes"
+      }, {
+        "name" : "getAlarms"
+      }, {
+        "name" : "getAllAlarms"
+      }, {
+        "name" : "getAllCustomerUsers"
+      }, {
+        "name" : "getAssetById"
+      }, {
+        "name" : "getAssetsByEntityGroupId"
+      }, {
+        "name" : "getAssetsByIds"
+      }, {
+        "name" : "getAttributeKeys"
+      }, {
+        "name" : "getAttributeKeysByScope"
+      }, {
+        "name" : "getAttributes"
+      }, {
+        "name" : "getAttributesByScope"
+      }, {
+        "name" : "getCustomerAssets"
+      }, {
+        "name" : "getCustomerById"
+      }, {
+        "name" : "getCustomerDevices"
+      }, {
+        "name" : "getCustomerUsers"
+      }, {
+        "name" : "getCustomers"
+      }, {
+        "name" : "getCustomersByEntityGroupId"
+      }, {
+        "name" : "getDeviceById"
+      }, {
+        "name" : "getDeviceCredentialsByDeviceId"
+      }, {
+        "name" : "getDevicesByEntityGroupId"
+      }, {
+        "name" : "getDevicesByIds"
+      }, {
+        "name" : "getEntityGroupById"
+      }, {
+        "name" : "getEntityGroupByOwnerAndNameAndType"
+      }, {
+        "name" : "getEntityGroupsByIds"
+      }, {
+        "name" : "getEntityGroupsByOwnerAndType"
+      }, {
+        "name" : "getEntityGroupsByType"
+      }, {
+        "name" : "getEntityGroupsForEntity"
+      }, {
+        "name" : "getHighestAlarmSeverity"
+      }, {
+        "name" : "getLatestTimeseries"
+      }, {
+        "name" : "getRelation"
+      }, {
+        "name" : "getSecuritySettings"
+      }, {
+        "name" : "getSystemInfo"
+      }, {
+        "name" : "getTenantAdmins"
+      }, {
+        "name" : "getTenantAsset"
+      }, {
+        "name" : "getTenantAssets"
+      }, {
+        "name" : "getTenantCustomer"
+      }, {
+        "name" : "getTenantDevice"
+      }, {
+        "name" : "getTenantDevices"
+      }, {
+        "name" : "getTimeseries"
+      }, {
+        "name" : "getTimeseriesKeys"
+      }, {
+        "name" : "getUsageInfo"
+      }, {
+        "name" : "getUserAssets"
+      }, {
+        "name" : "getUserById"
+      }, {
+        "name" : "getUserCustomers"
+      }, {
+        "name" : "getUserDevices"
+      }, {
+        "name" : "getUsers"
+      }, {
+        "name" : "getUsersByEntityGroupId"
+      }, {
+        "name" : "getUsersForAssign"
+      }, {
+        "name" : "saveDeviceAttributes"
+      }, {
+        "name" : "saveEntityAttributesV1"
+      }, {
+        "name" : "saveEntityAttributesV2"
+      }, {
+        "name" : "saveEntityTelemetry"
+      }, {
+        "name" : "saveEntityTelemetryWithTTL"
+      } ],
+      "source" : "https://github.com/thingsboard/thingsboard-mcp/tree/adac2d247c408487ef1f99ebb65f8889792dc632",
+      "icon" : "https://avatars.githubusercontent.com/u/24291394?v=4",
+      "prompts" : 0,
+      "title" : "ThingsBoard",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/thingsboard.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/thingsboard.json",
+      "dateAdded" : "2025-10-30T01:48:22Z",
+      "upstream" : "https://github.com/thingsboard/thingsboard-mcp",
+      "resources" : { },
+      "owner" : "thingsboard"
+    }
+  }
+}

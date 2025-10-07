@@ -1,0 +1,43 @@
+{
+  "name" : "com.docker.mcp/vizro",
+  "description" : "provides tools and templates to create a functioning Vizro chart or dashboard step by step.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/vizro",
+    "version" : "sha256:371774d00e41084d2b9b35db8445b6f746a071b9700f93eff26b549ff09ee797"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "data-visualization",
+      "tags" : [ "dashboard", "data-visualization", "plotly", "plotly-dash", "pydantic", "python", "visualization" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "get_model_json_schema"
+      }, {
+        "name" : "get_sample_data_info"
+      }, {
+        "name" : "get_vizro_chart_or_dashboard_plan"
+      }, {
+        "name" : "load_and_analyze_data"
+      }, {
+        "name" : "validate_chart_code"
+      }, {
+        "name" : "validate_dashboard_config"
+      } ],
+      "source" : "https://github.com/mckinsey/vizro/tree/main/vizro-mcp",
+      "icon" : "https://avatars.githubusercontent.com/u/4265350?v=4",
+      "prompts" : 0,
+      "title" : "Vizro",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/vizro.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/vizro.json",
+      "dateAdded" : "2025-05-29T20:04:34Z",
+      "upstream" : "https://github.com/mckinsey/vizro",
+      "resources" : { },
+      "owner" : "mckinsey"
+    }
+  }
+}

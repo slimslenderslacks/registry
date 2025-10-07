@@ -1,0 +1,124 @@
+{
+  "name" : "com.docker.mcp/firecrawl",
+  "description" : "🔥 Official Firecrawl MCP Server - Adds powerful web scraping and search to Cursor, Claude and any other LLM clients.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/firecrawl",
+    "version" : "sha256:1c6a307297715be07c1646b40527bdaf7cdf0141b1a50c55f2293e5380c4acaa",
+    "environmentVariables" : [ {
+      "name" : "FIRECRAWL_API_KEY",
+      "value" : "{firecrawl.api_key}",
+      "variables" : {
+        "firecrawl.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_API_URL",
+      "value" : "{firecrawl.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_RETRY_MAX_ATTEMPTS",
+      "value" : "{firecrawl.retry_max}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.retry_max" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_RETRY_INITIAL_DELAY",
+      "value" : "{firecrawl.retry_delay}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.retry_delay" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_RETRY_MAX_DELAY",
+      "value" : "{firecrawl.retry_max_delay}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.retry_max_delay" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_RETRY_BACKOFF_FACTOR",
+      "value" : "{firecrawl.retry_backoff_factor}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.retry_backoff_factor" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_CREDIT_WARNING_THRESHOLD",
+      "value" : "{firecrawl.credit_warning_threshold}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.credit_warning_threshold" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "FIRECRAWL_CREDIT_CRITICAL_THRESHOLD",
+      "value" : "{firecrawl.credit_critical_threshold}",
+      "isRepeated" : false,
+      "variables" : {
+        "firecrawl.credit_critical_threshold" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "firecrawl", "search", "scraping" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "firecrawl_check_crawl_status"
+      }, {
+        "name" : "firecrawl_crawl"
+      }, {
+        "name" : "firecrawl_extract"
+      }, {
+        "name" : "firecrawl_map"
+      }, {
+        "name" : "firecrawl_scrape"
+      }, {
+        "name" : "firecrawl_search"
+      } ],
+      "source" : "https://github.com/mendableai/firecrawl-mcp-server/tree/e35ab3267e1fddd4c3bc6633cc33ce6f7e14ee22",
+      "icon" : "https://avatars.githubusercontent.com/u/135057108?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Firecrawl",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/firecrawl.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/firecrawl.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/mendableai/firecrawl-mcp-server",
+      "resources" : { },
+      "owner" : "firecrawl"
+    }
+  }
+}

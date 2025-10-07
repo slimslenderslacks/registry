@@ -1,0 +1,39 @@
+{
+  "name" : "com.docker.mcp/mcp-code-interpreter",
+  "description" : "A Python-based execution tool that mimics a Jupyter notebook environment. It accepts code snippets, executes them, and maintains state across sessions — preserving variables, imports, and past results. Ideal for iterative development, debugging, or code execution.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/mcp-code-interpreter",
+    "version" : "sha256:d6ce03d191c78b8e1b76eb861759c005469fc05606c7d8cc4fe64355a24550a9",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "notebooks:/app/notebooks"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "execute_code"
+      } ],
+      "source" : "https://github.com/akuadane/mcp-code-interpreter/tree/209ddfca8c7a20cd44834a6217dfca358b532f90",
+      "icon" : "https://raw.githubusercontent.com/akuadane/mcp-code-interpreter/refs/heads/main/asset/logo.png",
+      "prompts" : 0,
+      "title" : "Python Interpreter",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mcp-code-interpreter.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mcp-code-interpreter.json",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "upstream" : "https://github.com/akuadane/mcp-code-interpreter",
+      "resources" : { },
+      "owner" : "akuadane"
+    }
+  }
+}

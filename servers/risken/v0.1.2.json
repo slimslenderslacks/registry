@@ -1,0 +1,64 @@
+{
+  "name" : "com.docker.mcp/risken",
+  "description" : "RISKEN's official MCP Server.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/risken",
+    "version" : "sha256:2df37e7ad5ca173c269f4cad66cd80e23b62f9c4ea59147b71a4ac5a4b05da54",
+    "environmentVariables" : [ {
+      "name" : "RISKEN_ACCESS_TOKEN",
+      "value" : "{risken.access_key}",
+      "variables" : {
+        "risken.access_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "RISKEN_URL",
+      "value" : "{risken.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "risken.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "stdio"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "risken", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "archive_finding"
+      }, {
+        "name" : "get_project"
+      }, {
+        "name" : "search_alert"
+      }, {
+        "name" : "search_finding"
+      } ],
+      "source" : "https://github.com/ca-risken/risken-mcp-server/tree/e1a0ceefa761ccafb20201cd9b213c921f7a3ac2",
+      "icon" : "https://avatars.githubusercontent.com/u/88366693?s=200&v=4",
+      "prompts" : 0,
+      "title" : "RISKEN",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/risken.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/risken.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/ca-risken/risken-mcp-server",
+      "resources" : { },
+      "owner" : "ca-risken"
+    }
+  }
+}

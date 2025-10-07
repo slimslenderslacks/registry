@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/dialer",
+  "description" : "Enable AI agents to conduct professional outbound calls for research, interviews, and market validation using your phone number.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://getdialer.app/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "communication",
+      "tags" : [ "communication", "telephony", "outbound", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=getdialer.app&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "dialer",
+          "secret" : "dialer.personal_access_token",
+          "env" : "DIALER_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Dialer",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dialer.md",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "name" : "com.docker.mcp/google-maps-comprehensive",
+  "description" : "Complete Google Maps integration with 8 tools including geocoding, places search, directions, elevation data, and more using Google's latest APIs.",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/google-maps-comprehensive",
+    "version" : "sha256:fc37a12a21f451ae7601cc8a9109af172357196f0bbc50d47947a65690dcb6fb",
+    "environmentVariables" : [ {
+      "name" : "GOOGLE_MAPS_API_KEY",
+      "value" : "{google-maps-comprehensive.api_key}",
+      "variables" : {
+        "google-maps-comprehensive.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "google-maps", "maps", "geocoding", "directions", "places", "elevation", "location", "devops" ],
+      "tools" : [ {
+        "name" : "maps_directions"
+      }, {
+        "name" : "maps_distance_matrix"
+      }, {
+        "name" : "maps_elevation"
+      }, {
+        "name" : "maps_geocode"
+      }, {
+        "name" : "maps_ping"
+      }, {
+        "name" : "maps_place_details"
+      }, {
+        "name" : "maps_reverse_geocode"
+      }, {
+        "name" : "maps_search_places"
+      } ],
+      "source" : "https://github.com/vicpeacock/google-maps-comprehensive-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Google Maps Comprehensive MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/google-maps-comprehensive.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/google-maps-comprehensive.json",
+      "dateAdded" : "2025-09-24T20:01:26Z",
+      "upstream" : "https://github.com/vicpeacock/google-maps-comprehensive-mcp",
+      "resources" : { },
+      "owner" : "vicpeacock"
+    }
+  }
+}

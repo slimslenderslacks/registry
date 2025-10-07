@@ -1,0 +1,54 @@
+{
+  "name" : "com.docker.mcp/sequa",
+  "description" : "Stop stitching context for Copilot and Cursor. With Sequa MCP, your AI tools know your entire codebase and docs out of the box.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/sequa",
+    "version" : "sha256:184164f3d118f2b069370a8c3b1841daf83b57ac012cb6080dd62bdb3ad26109",
+    "environmentVariables" : [ {
+      "name" : "API_KEY",
+      "value" : "{sequa.api_key}",
+      "variables" : {
+        "sequa.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "MCP_SERVER_URL",
+      "value" : "{sequa.mcp_server_url}",
+      "isRepeated" : false,
+      "variables" : {
+        "sequa.mcp_server_url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "search", "ai", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "system_context_shzn-z0D"
+      } ],
+      "source" : "https://github.com/sequa-ai/sequa-mcp/tree/712d19b691db6f3ef3ad9074e42eeddde2c8b2e9",
+      "icon" : "https://avatars.githubusercontent.com/u/187640573?v=4",
+      "prompts" : 0,
+      "title" : "Sequa.AI",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/sequa.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/sequa.json",
+      "dateAdded" : "2025-08-11T20:20:11Z",
+      "upstream" : "https://github.com/sequa-ai/sequa-mcp",
+      "resources" : { },
+      "owner" : "sequa-ai"
+    }
+  }
+}

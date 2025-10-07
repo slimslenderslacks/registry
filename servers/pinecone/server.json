@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/pinecone",
   "description" : "Pinecone Assistant MCP server.",
-  "version" : "v0.1.1",
+  "title" : "Pinecone Assistant",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -39,10 +41,9 @@
       "tools" : [ {
         "name" : "assistant_context"
       } ],
-      "source" : "https://github.com/pinecone-io/assistant-mcp/tree/main",
+      "source" : "https://github.com/pinecone-io/assistant-mcp/tree/7e32e35c20fe3f79d2504d4371f28e1b1eb34009",
       "icon" : "https://avatars.githubusercontent.com/u/54333248?v=4",
       "prompts" : 0,
-      "title" : "Pinecone Assistant",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/pinecone.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/pinecone.json",
       "dateAdded" : "2025-06-05T06:44:51Z",

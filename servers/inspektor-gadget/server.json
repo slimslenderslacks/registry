@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/inspektor-gadget",
   "description" : "AI interface to troubleshoot and observe Kubernetes/Container workloads.",
-  "version" : "v0.1.4",
+  "title" : "Inspektor Gadget",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.6",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/inspektor-gadget",
-    "version" : "sha256:156aa720e8400360ca15764d67aa671699ebf79cc39acf923039582de7f4ff60",
+    "version" : "sha256:2e3f85144f52d082919dd0fc2fea0726135564bf78b16f89c188ac6a879296d0",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -77,6 +79,8 @@
       }, {
         "name" : "gadget_snapshot_socket"
       }, {
+        "name" : "gadget_tcpdump"
+      }, {
         "name" : "gadget_top_blockio"
       }, {
         "name" : "gadget_top_file"
@@ -123,10 +127,9 @@
       }, {
         "name" : "ig_gadgets"
       } ],
-      "source" : "https://github.com/inspektor-gadget/ig-mcp-server/tree/main",
+      "source" : "https://github.com/inspektor-gadget/ig-mcp-server/tree/e9bacad1366e85b42ddf38a68d843a308ce4e3d4",
       "icon" : "https://avatars.githubusercontent.com/u/111520143?s=200&v=4",
       "prompts" : 0,
-      "title" : "Inspektor Gadget",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/inspektor-gadget.md",
       "longLived" : true,
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/inspektor-gadget.json",

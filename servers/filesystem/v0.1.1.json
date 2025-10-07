@@ -1,0 +1,76 @@
+{
+  "name" : "com.docker.mcp/filesystem",
+  "description" : "Local filesystem access with configurable allowed paths.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/filesystem",
+    "version" : "sha256:35fcf0217ca0d5bf7b0a5bd68fb3b89e08174676c0e0b4f431604512cf7b3f67",
+    "runtimeArguments" : [ {
+      "type" : "named",
+      "name" : "-v",
+      "value" : "{filesystem.paths}:{filesystem.paths}",
+      "isRepeated" : true,
+      "variables" : {
+        "filesystem.paths" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "{filesystem.paths|volume-target|into}",
+      "isRepeated" : true,
+      "variables" : {
+        "filesystem.paths" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "filesystem", "devops" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_directory"
+      }, {
+        "name" : "directory_tree"
+      }, {
+        "name" : "edit_file"
+      }, {
+        "name" : "get_file_info"
+      }, {
+        "name" : "list_allowed_directories"
+      }, {
+        "name" : "list_directory"
+      }, {
+        "name" : "move_file"
+      }, {
+        "name" : "read_file"
+      }, {
+        "name" : "read_multiple_files"
+      }, {
+        "name" : "search_files"
+      }, {
+        "name" : "write_file"
+      } ],
+      "source" : "https://github.com/modelcontextprotocol/servers/tree/2025.4.24",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Filesystem (Reference)",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/filesystem.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/filesystem.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/modelcontextprotocol/servers",
+      "resources" : { },
+      "owner" : "modelcontextprotocol"
+    }
+  }
+}

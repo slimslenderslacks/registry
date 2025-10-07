@@ -1,0 +1,52 @@
+{
+  "name" : "com.docker.mcp/openapi",
+  "description" : "Fetch, validate, and generate code or curl from any OpenAPI or Swagger spec - all from a single URL.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/openapi",
+    "version" : "sha256:26234065b6a786e69088b9b22ec4f9130572704664211e76e9b0887c388186e5",
+    "environmentVariables" : [ {
+      "name" : "MODE",
+      "value" : "{openapi.mode}",
+      "isRepeated" : false,
+      "variables" : {
+        "openapi.mode" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "productivity",
+      "tags" : [ "productivity" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create_csharp_snippet"
+      }, {
+        "name" : "generate_curl_command"
+      }, {
+        "name" : "get_known_responses"
+      }, {
+        "name" : "get_list_of_operations"
+      }, {
+        "name" : "validate_document"
+      } ],
+      "source" : "https://github.com/lepoco/openapi.client/tree/main",
+      "icon" : "https://raw.githubusercontent.com/lepoco/openapi.client/refs/heads/main/build/nuget.png",
+      "prompts" : 0,
+      "title" : "OpenAPI Toolkit for MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openapi.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openapi.json",
+      "dateAdded" : "2025-09-15T16:12:49Z",
+      "upstream" : "https://github.com/lepoco/openapi.client",
+      "resources" : { },
+      "owner" : "lepoco"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name" : "com.docker.mcp/suzieq",
+  "description" : "MCP Server to interact with a SuzieQ network observability instance via its REST API.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/suzieq-mcp",
+    "version" : "sha256:ea9f7d06053dc97bd1af1cc24636c3020ece91746323b6229560bf3d0a457200",
+    "environmentVariables" : [ {
+      "name" : "SUZIEQ_API_KEY",
+      "value" : "{suzieq.api_key}",
+      "variables" : {
+        "suzieq.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "SUZIEQ_API_ENDPOINT",
+      "value" : "{suzieq.api_endpoint}",
+      "isRepeated" : false,
+      "variables" : {
+        "suzieq.api_endpoint" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "monitoring",
+      "tags" : [ "observability" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "run_suzieq_show"
+      }, {
+        "name" : "run_suzieq_summarize"
+      } ],
+      "source" : "https://github.com/PovedaAqui/suzieq-mcp/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/182288589?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Suzieq MCP",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/suzieq.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/suzieq.json",
+      "dateAdded" : "2025-06-11T14:18:50Z",
+      "upstream" : "https://github.com/PovedaAqui/suzieq-mcp",
+      "resources" : { },
+      "owner" : "PovedaAqui"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name" : "com.docker.mcp/mercado-libre",
+  "description" : "Provides access to Mercado Libre E-Commerce API.",
+  "version" : "v0.1.2",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.mercadolibre.com",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer {mercado-libre.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "mercado-libre.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "commerce",
+      "tags" : [ "commerce", "marketplace", "latin-america", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=mercadolibre.com&sz=64",
+      "prompts" : 0,
+      "title" : "Mercado Libre",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/mercado-libre.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mercado-libre.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

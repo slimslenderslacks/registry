@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/camunda",
   "description" : "Tools to interact with the Camunda 7 Community Edition Engine using the Model Context Protocol (MCP). Whether you're automating workflows, querying process instances, or integrating with external systems, Camunda MCP Server is your agentic solution for seamless interaction with Camunda.",
-  "version" : "v0.1.1",
+  "title" : "Camunda BPM process engine MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -52,10 +54,9 @@
       }, {
         "name" : "send_message"
       } ],
-      "source" : "https://github.com/lepoco/mcp-camunda/tree/main",
+      "source" : "https://github.com/lepoco/mcp-camunda/tree/4b50f37af26a66cced81895ba9b6d71b382ff022",
       "icon" : "https://raw.githubusercontent.com/lepoco/mcp-camunda/refs/heads/main/build/icon.png",
       "prompts" : 0,
-      "title" : "Camunda BPM process engine MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/camunda.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/camunda.json",
       "dateAdded" : "2025-09-02T20:44:02Z",

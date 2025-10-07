@@ -1,0 +1,48 @@
+{
+  "name" : "com.docker.mcp/minecraft-wiki",
+  "description" : "A MCP Server for browsing the official Minecraft Wiki!.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/minecraft-wiki",
+    "version" : "sha256:b191b5c6725ba90954bd86956afd1555d44fd58a1984f9e96a7657e029ad57fd"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "games",
+      "tags" : [ "games", "minecraft", "search" ],
+      "tools" : [ {
+        "name" : "MinecraftWiki_getCategoriesForPage"
+      }, {
+        "name" : "MinecraftWiki_getPageContent"
+      }, {
+        "name" : "MinecraftWiki_getPageSection"
+      }, {
+        "name" : "MinecraftWiki_getPageSummary"
+      }, {
+        "name" : "MinecraftWiki_getSectionsInPage"
+      }, {
+        "name" : "MinecraftWiki_listAllCategories"
+      }, {
+        "name" : "MinecraftWiki_listCategoryMembers"
+      }, {
+        "name" : "MinecraftWiki_resolveRedirect"
+      }, {
+        "name" : "MinecraftWiki_searchWiki"
+      } ],
+      "source" : "https://github.com/L3-N0X/Minecraft-Wiki-MCP/tree/main",
+      "icon" : "https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/minecraft.svg",
+      "prompts" : 0,
+      "title" : "Minecraft Wiki",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/minecraft-wiki.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/minecraft-wiki.json",
+      "dateAdded" : "2025-06-05T06:09:26Z",
+      "upstream" : "https://github.com/L3-N0X/Minecraft-Wiki-MCP",
+      "resources" : { },
+      "owner" : "L3-N0X"
+    }
+  }
+}

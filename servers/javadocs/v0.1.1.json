@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/javadocs",
+  "description" : "Access to Java, Kotlin, and Scala library documentation.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://www.javadocs.dev/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "documentation",
+      "tags" : [ "documentation", "java", "api", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "get_latest_version"
+      }, {
+        "name" : "get_javadoc_content_list"
+      }, {
+        "name" : "get_javadoc_symbol_contents"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=javadocs.dev&sz=64",
+      "prompts" : 0,
+      "title" : "Javadocs",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/javadocs.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/javadocs.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/ros2",
   "description" : "Python server implementing Model Context Protocol (MCP) for ROS2.",
-  "version" : "v0.1.1",
+  "title" : "WiseVision ROS2 MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -33,10 +35,9 @@
       }, {
         "name" : "ros2_topic_subscribe"
       } ],
-      "source" : "https://github.com/wise-vision/mcp_server_ros_2/tree/main",
+      "source" : "https://github.com/wise-vision/mcp_server_ros_2/tree/22c7184713840e3c233734c6477893a603fd480c",
       "icon" : "https://avatars.githubusercontent.com/u/85994630?v=4",
       "prompts" : 0,
-      "title" : "WiseVision ROS2 MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/ros2.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/ros2.json",
       "dateAdded" : "2025-09-15T16:12:49Z",

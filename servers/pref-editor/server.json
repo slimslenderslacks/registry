@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/pref-editor",
   "description" : "Pref Editor is a tool for viewing and editing Android app preferences during development.",
-  "version" : "v0.1.1",
+  "title" : "Pref Editor",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -31,10 +33,9 @@
       }, {
         "name" : "read_preferences"
       } ],
-      "source" : "https://github.com/charlesmuchene/pref-editor-mcp-server/tree/main",
+      "source" : "https://github.com/charlesmuchene/pref-editor-mcp-server/tree/8a795f068654c4d2eb67c1138a72438fe2911e35",
       "icon" : "https://raw.githubusercontent.com/charlesmuchene/pref-editor-mcp-server/refs/heads/main/logo.png",
       "prompts" : 0,
-      "title" : "Pref Editor",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/pref-editor.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/pref-editor.json",
       "dateAdded" : "2025-07-01T14:14:18Z",

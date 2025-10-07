@@ -1,0 +1,38 @@
+{
+  "name" : "com.docker.mcp/dappier-remote",
+  "description" : "Enable fast, free real-time web search and access premium data from trusted media brands—news, financial markets, sports, entertainment, weather, and more. Build powerful AI agents with Dappier.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://mcp.dappier.com/mcp",
+    "headers" : [ {
+      "name" : "Authorization",
+      "value" : "Bearer {dappier-remote.api_key}",
+      "isRepeated" : false,
+      "variables" : {
+        "dappier-remote.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "ai", "rag", "knowledge-base", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://avatars.githubusercontent.com/u/152645347?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Dappier Remote MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/dappier-remote.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/dappier-remote.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

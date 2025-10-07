@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/smartbear",
   "description" : "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, API Hub, PactFlow.",
-  "version" : "v0.1.2",
+  "title" : "SmartBear MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/smartbear",
-    "version" : "sha256:ff7ed8a789031a181ead01ccc356fde402eab417aa806e6121ba156e2a2d01b0",
+    "version" : "sha256:60bb3ffc4825c4842540064fb5ff54d6139918c9d52fa4ac21b23f390beae688",
     "environmentVariables" : [ {
       "name" : "BUGSNAG_AUTH_TOKEN",
       "value" : "{smartbear.bugsnag_auth_token}",
@@ -103,6 +105,10 @@
       "license" : "MIT License",
       "owner" : "SmartBear",
       "tools" : [ {
+        "name" : "api_hub_create_api_from_template"
+      }, {
+        "name" : "api_hub_create_or_update_api"
+      }, {
         "name" : "api_hub_create_portal"
       }, {
         "name" : "api_hub_create_portal_product"
@@ -135,10 +141,6 @@
       }, {
         "name" : "bugsnag_get_release"
       }, {
-        "name" : "bugsnag_list_builds"
-      }, {
-        "name" : "bugsnag_list_builds_in_release"
-      }, {
         "name" : "bugsnag_list_project_errors"
       }, {
         "name" : "bugsnag_list_project_event_filters"
@@ -151,13 +153,13 @@
       }, {
         "name" : "contract-testing_can_i_deploy"
       }, {
+        "name" : "contract-testing_check_pactflow_ai_entitlements"
+      }, {
         "name" : "contract-testing_generate_pact_tests"
       }, {
         "name" : "contract-testing_get_provider_states"
       }, {
         "name" : "contract-testing_matrix"
-      }, {
-        "name" : "contract-testing_pactflow_ai_status"
       }, {
         "name" : "contract-testing_review_pact_tests"
       }, {
@@ -177,10 +179,9 @@
       }, {
         "name" : "reflect_run_test"
       } ],
-      "source" : "https://github.com/SmartBear/smartbear-mcp/tree/main",
+      "source" : "https://github.com/SmartBear/smartbear-mcp/tree/bea22ab726fdc54bbd4d032eaa9f85a92d1ece92",
       "icon" : "https://avatars.githubusercontent.com/u/1644671?s=200&v=4",
       "prompts" : 0,
-      "title" : "SmartBear MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/smartbear.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/smartbear.json",
       "dateAdded" : "2025-08-05T16:31:03Z",

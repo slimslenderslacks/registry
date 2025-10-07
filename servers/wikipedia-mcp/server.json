@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/wikipedia-mcp",
   "description" : "A Model Context Protocol (MCP) server that retrieves information from Wikipedia to provide context to LLMs.",
-  "version" : "v0.1.2",
+  "title" : "Wikipedia",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -39,10 +41,9 @@
       }, {
         "name" : "test_wikipedia_connectivity"
       } ],
-      "source" : "https://github.com/Rudra-ravi/wikipedia-mcp/tree/main",
+      "source" : "https://github.com/Rudra-ravi/wikipedia-mcp/tree/bc12a6490be23c3481e29d0258736372a1a2f865",
       "icon" : "https://avatars.githubusercontent.com/u/56668?s=200&v=4",
       "prompts" : 0,
-      "title" : "Wikipedia",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/wikipedia-mcp.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/wikipedia-mcp.json",
       "dateAdded" : "2025-05-05T20:08:35Z",

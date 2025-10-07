@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/okta-mcp-fctr",
   "description" : "Secure Okta identity and access management via Model Context Protocol (MCP). Access Okta users, groups, applications, logs, and policies through AI assistants with enterprise-grade security.",
-  "version" : "v0.1.1",
+  "title" : "Okta MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -100,10 +102,9 @@
       }, {
         "name" : "parse_relative_time"
       } ],
-      "source" : "https://github.com/fctr-id/okta-mcp-server/tree/main",
+      "source" : "https://github.com/fctr-id/okta-mcp-server/tree/39b4151a2ece178640fc19ccbb045346ad761e53",
       "icon" : "https://avatars.githubusercontent.com/u/198773578?v=4",
       "prompts" : 0,
-      "title" : "Okta MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/okta-mcp-fctr.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/okta-mcp-fctr.json",
       "dateAdded" : "2025-08-01T06:21:29Z",

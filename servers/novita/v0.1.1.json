@@ -1,0 +1,75 @@
+{
+  "name" : "com.docker.mcp/novita",
+  "description" : "Seamless interaction with Novita AI platform resources.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/novita",
+    "version" : "sha256:ddc904348d9e0be0fd4572840a41b398e95b23a64d7e1d58c9d6275eb7d67899",
+    "environmentVariables" : [ {
+      "name" : "NOVITA_API_KEY",
+      "value" : ""
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "ai",
+      "tags" : [ "novita", "ai" ],
+      "license" : "MIT License",
+      "tools" : [ {
+        "name" : "create-container-registry-auth"
+      }, {
+        "name" : "create-gpu-instance"
+      }, {
+        "name" : "create-network-storage"
+      }, {
+        "name" : "create-template"
+      }, {
+        "name" : "delete-container-registry-auth"
+      }, {
+        "name" : "delete-gpu-instance"
+      }, {
+        "name" : "delete-network-storage"
+      }, {
+        "name" : "delete-template"
+      }, {
+        "name" : "get-gpu-instance"
+      }, {
+        "name" : "get-template"
+      }, {
+        "name" : "list-clusters"
+      }, {
+        "name" : "list-container-registry-auths"
+      }, {
+        "name" : "list-gpu-instances"
+      }, {
+        "name" : "list-network-storage"
+      }, {
+        "name" : "list-products"
+      }, {
+        "name" : "list-templates"
+      }, {
+        "name" : "restart-gpu-instance"
+      }, {
+        "name" : "start-gpu-instance"
+      }, {
+        "name" : "stop-gpu-instance"
+      }, {
+        "name" : "update-network-storage"
+      } ],
+      "source" : "https://github.com/novitalabs/novita-mcp-server/tree/main",
+      "icon" : "https://avatars.githubusercontent.com/u/145963681?v=4",
+      "prompts" : 0,
+      "title" : "Novita",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/novita.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/novita.json",
+      "dateAdded" : "2025-05-05T20:08:35Z",
+      "upstream" : "https://github.com/novitalabs/novita-mcp-server",
+      "resources" : { },
+      "owner" : "novitalabs"
+    }
+  }
+}

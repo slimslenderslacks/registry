@@ -1,14 +1,16 @@
 {
   "name" : "com.docker.mcp/rust-mcp-filesystem",
   "description" : "The Rust MCP Filesystem is a high-performance, asynchronous, and lightweight Model Context Protocol (MCP) server built in Rust for secure and efficient filesystem operations. Designed with security in mind, it operates in read-only mode by default and restricts clients from updating allowed directories via MCP Roots unless explicitly enabled, ensuring robust protection against unauthorized access. Leveraging asynchronous I/O, it delivers blazingly fast performance with a minimal resource footprint. Optimized for token efficiency, the Rust MCP Filesystem enables large language models (LLMs) to precisely target searches and edits within specific sections of large files and restrict operations by file size range, making it ideal for efficient file exploration, automation, and system integration.",
-  "version" : "v0.1.1",
+  "title" : "Blazing-fast, asynchronous MCP server for seamless filesystem operations.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/rust-mcp-filesystem",
-    "version" : "sha256:487f4cb1d4e0ecefb4bba648988371b9dae1f162c405d7889cd28ffede8e1e05",
+    "version" : "sha256:eb3ba49c7555719f4d2c76a4bc3b971fad787bd1026557b6512b0821fa931a61",
     "environmentVariables" : [ {
       "name" : "ENABLE_ROOTS",
       "value" : "{rust-mcp-filesystem.enable_roots}",
@@ -81,8 +83,6 @@
       }, {
         "name" : "head_file"
       }, {
-        "name" : "head_file"
-      }, {
         "name" : "list_allowed_directories"
       }, {
         "name" : "list_directory"
@@ -105,6 +105,8 @@
       }, {
         "name" : "search_files_content"
       }, {
+        "name" : "tail_file"
+      }, {
         "name" : "unzip_file"
       }, {
         "name" : "write_file"
@@ -113,10 +115,9 @@
       }, {
         "name" : "zip_files"
       } ],
-      "source" : "https://github.com/rust-mcp-stack/rust-mcp-filesystem/tree/main",
+      "source" : "https://github.com/rust-mcp-stack/rust-mcp-filesystem/tree/45e85194cb4b43b0b2f584e65302001b8feb4e25",
       "icon" : "https://raw.githubusercontent.com/rust-mcp-stack/rust-mcp-filesystem/refs/heads/main/docs/_media/rust-mcp-filesystem.png",
       "prompts" : 0,
-      "title" : "Blazing-fast, asynchronous MCP server for seamless filesystem operations.",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/rust-mcp-filesystem.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/rust-mcp-filesystem.json",
       "dateAdded" : "2025-09-24T20:01:26Z",

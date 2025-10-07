@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/wayfound",
   "description" : "Wayfound’s MCP server allows business users to govern, supervise, and improve AI Agents.",
-  "version" : "v0.1.2",
+  "title" : "Wayfound MCP",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.4",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://app.wayfound.ai/sse",
@@ -23,6 +25,10 @@
       "tags" : [ "ai" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-02T20:44:02Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/wayfound.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/wayfound.json",
+      "icon" : "https://cdn.prod.website-files.com/682a0b46722bcd80642ab415/6838cf7b36751e0ad527d851_favicon.png",
       "tools" : [ {
         "name" : "list_agents"
       }, {
@@ -32,14 +38,9 @@
       }, {
         "name" : "get_improvement_suggestions_for_agents"
       } ],
-      "source" : "",
-      "icon" : "https://cdn.prod.website-files.com/682a0b46722bcd80642ab415/6838cf7b36751e0ad527d851_favicon.png",
       "prompts" : 0,
-      "title" : "Wayfound MCP",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/wayfound.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/wayfound.json",
-      "dateAdded" : "2025-09-02T20:44:02Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

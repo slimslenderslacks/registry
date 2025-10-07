@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/globalping",
   "description" : "Run network tests like ping, traceroute, and DNS queries from hundreds of global probes for monitoring and debugging.",
-  "version" : "v0.1.1",
+  "title" : "Globalping",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "sse",
     "url" : "https://mcp.globalping.dev/sse"
@@ -12,21 +14,20 @@
       "tags" : [ "devops", "monitoring", "network", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
-      "tools" : [ ],
-      "source" : "",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/globalping.md",
       "icon" : "https://www.google.com/s2/favicons?domain=globalping.io&sz=64",
+      "tools" : [ ],
       "prompts" : 0,
+      "resources" : { },
+      "source" : "",
       "oauth" : {
         "providers" : [ {
           "provider" : "globalping",
           "secret" : "globalping.personal_access_token",
           "env" : "GLOBALPING_PERSONAL_ACCESS_TOKEN"
         } ]
-      },
-      "title" : "Globalping",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/globalping.md",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      }
     }
   }
 }

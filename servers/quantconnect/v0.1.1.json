@@ -1,0 +1,183 @@
+{
+  "name" : "com.docker.mcp/quantconnect",
+  "description" : "The QuantConnect MCP Server is a bridge for AIs (such as Claude and OpenAI o3 Pro) to interact with our cloud platform. When equipped with our MCP, the AI can perform tasks on your behalf through our API such as updating projects, writing strategies, backtesting, and deploying strategies to production live-trading.",
+  "version" : "v0.1.1",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/quantconnect",
+    "version" : "sha256:39b2c063f71fb391d90ed103afc4fc8c492eeb662250e22bdcd29c960d82accd",
+    "environmentVariables" : [ {
+      "name" : "QUANTCONNECT_USER_ID",
+      "value" : "{quantconnect.quantconnectuserid}",
+      "isRepeated" : false,
+      "variables" : {
+        "quantconnect.quantconnectuserid" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "QUANTCONNECT_API_TOKEN",
+      "value" : "{quantconnect.quantconnectapitoken}",
+      "isRepeated" : false,
+      "variables" : {
+        "quantconnect.quantconnectapitoken" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    }, {
+      "name" : "AGENT_NAME",
+      "value" : "MCP Server"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "finance",
+      "tags" : [ "finance" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "abort_optimization"
+      }, {
+        "name" : "authorize_connection"
+      }, {
+        "name" : "broadcast_live_command"
+      }, {
+        "name" : "check_initialization_errors"
+      }, {
+        "name" : "check_syntax"
+      }, {
+        "name" : "complete_code"
+      }, {
+        "name" : "create_backtest"
+      }, {
+        "name" : "create_compile"
+      }, {
+        "name" : "create_file"
+      }, {
+        "name" : "create_live_algorithm"
+      }, {
+        "name" : "create_live_command"
+      }, {
+        "name" : "create_optimization"
+      }, {
+        "name" : "create_project"
+      }, {
+        "name" : "create_project_collaborator"
+      }, {
+        "name" : "delete_backtest"
+      }, {
+        "name" : "delete_file"
+      }, {
+        "name" : "delete_object"
+      }, {
+        "name" : "delete_optimization"
+      }, {
+        "name" : "delete_project"
+      }, {
+        "name" : "delete_project_collaborator"
+      }, {
+        "name" : "enhance_error_message"
+      }, {
+        "name" : "estimate_optimization_time"
+      }, {
+        "name" : "liquidate_live_algorithm"
+      }, {
+        "name" : "list_backtests"
+      }, {
+        "name" : "list_live_algorithms"
+      }, {
+        "name" : "list_object_store_files"
+      }, {
+        "name" : "list_optimizations"
+      }, {
+        "name" : "list_projects"
+      }, {
+        "name" : "lock_project_with_collaborators"
+      }, {
+        "name" : "patch_file"
+      }, {
+        "name" : "read_account"
+      }, {
+        "name" : "read_backtest"
+      }, {
+        "name" : "read_backtest_chart"
+      }, {
+        "name" : "read_backtest_insights"
+      }, {
+        "name" : "read_backtest_orders"
+      }, {
+        "name" : "read_compile"
+      }, {
+        "name" : "read_file"
+      }, {
+        "name" : "read_latest_mcp_server_version"
+      }, {
+        "name" : "read_lean_versions"
+      }, {
+        "name" : "read_live_algorithm"
+      }, {
+        "name" : "read_live_chart"
+      }, {
+        "name" : "read_live_insights"
+      }, {
+        "name" : "read_live_logs"
+      }, {
+        "name" : "read_live_orders"
+      }, {
+        "name" : "read_live_portfolio"
+      }, {
+        "name" : "read_mcp_server_version"
+      }, {
+        "name" : "read_object_properties"
+      }, {
+        "name" : "read_object_store_file_download_url"
+      }, {
+        "name" : "read_object_store_file_job_id"
+      }, {
+        "name" : "read_optimization"
+      }, {
+        "name" : "read_project"
+      }, {
+        "name" : "read_project_collaborators"
+      }, {
+        "name" : "read_project_nodes"
+      }, {
+        "name" : "search_quantconnect"
+      }, {
+        "name" : "stop_live_algorithm"
+      }, {
+        "name" : "update_backtest"
+      }, {
+        "name" : "update_code_to_pep8"
+      }, {
+        "name" : "update_file_contents"
+      }, {
+        "name" : "update_file_name"
+      }, {
+        "name" : "update_optimization"
+      }, {
+        "name" : "update_project"
+      }, {
+        "name" : "update_project_collaborator"
+      }, {
+        "name" : "update_project_nodes"
+      }, {
+        "name" : "upload_object"
+      } ],
+      "source" : "https://github.com/QuantConnect/mcp-server/tree/master",
+      "icon" : "https://avatars.githubusercontent.com/u/3912814?v=4",
+      "prompts" : 0,
+      "title" : "QuantConnect MCP Server",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/quantconnect.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/quantconnect.json",
+      "dateAdded" : "2025-09-17T06:19:29Z",
+      "upstream" : "https://github.com/QuantConnect/mcp-server",
+      "resources" : { },
+      "owner" : "QuantConnect"
+    }
+  }
+}

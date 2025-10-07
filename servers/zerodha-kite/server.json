@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/zerodha-kite",
   "description" : "MCP server for Zerodha Kite Connect API - India's leading stock broker trading platform. Execute trades, manage portfolios, and access real-time market data for NSE, BSE, and other Indian exchanges.",
-  "version" : "v0.1.1",
+  "title" : "Zerodha Kite Connect",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -90,10 +92,9 @@
       }, {
         "name" : "get_market_status"
       } ],
-      "source" : "https://github.com/anshuljain90/zerodha-kite-mcp/tree/main",
+      "source" : "https://github.com/anshuljain90/zerodha-kite-mcp/tree/3902c5283c2c98b567e1de35c86d0ca9fe0c3403",
       "icon" : "https://avatars.githubusercontent.com/u/34680622?s=300&v=4",
       "prompts" : 0,
-      "title" : "Zerodha Kite Connect",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/zerodha-kite.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/zerodha-kite.json",
       "dateAdded" : "2025-09-19T06:18:27Z",

@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/stackhawk",
   "description" : "A Model Context Protocol (MCP) server for integrating with StackHawk's security scanning platform. Provides security analytics, YAML configuration management, sensitive data/threat surface analysis, and anti-hallucination tools for LLMs.",
-  "version" : "v0.1.1",
+  "title" : "StackHawk",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -63,10 +65,9 @@
       }, {
         "name" : "validate_stackhawk_config"
       } ],
-      "source" : "https://github.com/stackhawk/stackhawk-mcp/tree/feature/image-entrypoint",
+      "source" : "https://github.com/stackhawk/stackhawk-mcp/tree/a330ddfc85aa880346b4555cb168c6ef28562ad3",
       "icon" : "https://avatars.githubusercontent.com/u/53230463?v=4",
       "prompts" : 0,
-      "title" : "StackHawk",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/stackhawk.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/stackhawk.json",
       "dateAdded" : "2025-09-19T06:18:27Z",

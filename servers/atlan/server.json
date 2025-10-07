@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/atlan",
   "description" : "MCP server for interacting with Atlan services including asset search, updates, and lineage traversal for comprehensive data governance and discovery.",
-  "version" : "v0.1.1",
+  "title" : "Atlan MCP Server",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -50,10 +52,9 @@
       }, {
         "name" : "update_assets_tool"
       } ],
-      "source" : "https://github.com/atlanhq/agent-toolkit/tree/main/modelcontextprotocol",
+      "source" : "https://github.com/atlanhq/agent-toolkit/tree/b78a61ff5a6fd24acf8950b49cf043f33333d271/modelcontextprotocol",
       "icon" : "https://avatars.githubusercontent.com/u/47002402?s=200&v=4",
       "prompts" : 0,
-      "title" : "Atlan MCP Server",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/atlan.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/atlan.json",
       "dateAdded" : "2025-07-18T06:21:15Z",

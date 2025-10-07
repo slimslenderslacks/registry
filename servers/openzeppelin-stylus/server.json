@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/openzeppelin-stylus",
   "description" : "Access to OpenZeppelin Stylus Contracts.",
-  "version" : "v0.1.1",
+  "title" : "OpenZeppelin Stylus Contracts",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "remotes" : [ {
     "type" : "streamable-http",
     "url" : "https://mcp.openzeppelin.com/contracts/stylus/mcp"
@@ -12,6 +14,10 @@
       "tags" : [ "blockchain", "stylus", "smart-contracts", "remote" ],
       "license" : "Apache License 2.0",
       "owner" : "docker",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openzeppelin-stylus.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openzeppelin-stylus.json",
+      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
       "tools" : [ {
         "name" : "stylus-erc20"
       }, {
@@ -19,14 +25,9 @@
       }, {
         "name" : "stylus-erc1155"
       } ],
-      "source" : "",
-      "icon" : "https://www.google.com/s2/favicons?domain=openzeppelin.com&sz=64",
       "prompts" : 0,
-      "title" : "OpenZeppelin Stylus Contracts",
-      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/openzeppelin-stylus.md",
-      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/openzeppelin-stylus.json",
-      "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "source" : ""
     }
   }
 }

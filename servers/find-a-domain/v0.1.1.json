@@ -1,0 +1,30 @@
+{
+  "name" : "com.docker.mcp/find-a-domain",
+  "description" : "Tools for finding domain names.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "streamable-http",
+    "url" : "https://api.findadomain.dev/mcp"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "tools",
+      "tags" : [ "tools", "domain", "productivity", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "check_domain"
+      }, {
+        "name" : "list_tlds"
+      } ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=findadomain.dev&sz=64",
+      "prompts" : 0,
+      "title" : "Find-A-Domain",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/find-a-domain.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/find-a-domain.json",
+      "dateAdded" : "2025-09-08T19:03:35Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

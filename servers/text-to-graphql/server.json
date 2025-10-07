@@ -1,7 +1,9 @@
 {
   "name" : "com.docker.mcp/text-to-graphql",
   "description" : "Transform natural language queries into GraphQL queries using an AI agent. Provides schema management, query validation, execution, and history tracking.",
-  "version" : "v0.1.1",
+  "title" : "Text-to-GraphQL",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
@@ -55,10 +57,9 @@
       }, {
         "name" : "validate_graphql_query"
       } ],
-      "source" : "https://github.com/Arize-ai/text-to-graphql-mcp/tree/main",
+      "source" : "https://github.com/Arize-ai/text-to-graphql-mcp/tree/03a88ab0d9d99c3da110e12326803497b094fc56",
       "icon" : "https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg",
       "prompts" : 0,
-      "title" : "Text-to-GraphQL",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/text-to-graphql.md",
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/text-to-graphql.json",
       "dateAdded" : "2025-07-08T13:38:25Z",

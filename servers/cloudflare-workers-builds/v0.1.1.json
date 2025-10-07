@@ -1,0 +1,32 @@
+{
+  "name" : "com.docker.mcp/cloudflare-workers-builds",
+  "description" : "Get insights and manage your Cloudflare Workers Builds.",
+  "version" : "v0.1.1",
+  "remotes" : [ {
+    "type" : "sse",
+    "url" : "https://builds.mcp.cloudflare.com/sse"
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "devops",
+      "tags" : [ "devops", "builds", "cloudflare", "remote" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ ],
+      "source" : "",
+      "icon" : "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=64",
+      "prompts" : 0,
+      "oauth" : {
+        "providers" : [ {
+          "provider" : "cloudflare-workers-builds",
+          "secret" : "cloudflare-workers-builds.personal_access_token",
+          "env" : "CLOUDFLARE_PERSONAL_ACCESS_TOKEN"
+        } ]
+      },
+      "title" : "Cloudflare Workers Builds",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/cloudflare-workers-builds.md",
+      "dateAdded" : "2025-09-24T06:16:16Z",
+      "resources" : { },
+      "owner" : "docker"
+    }
+  }
+}

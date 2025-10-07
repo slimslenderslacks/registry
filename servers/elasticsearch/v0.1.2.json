@@ -1,0 +1,66 @@
+{
+  "name" : "com.docker.mcp/elasticsearch",
+  "description" : "Interact with your Elasticsearch indices through natural language conversations.",
+  "$schema" : "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+  "version" : "v0.1.2",
+  "packages" : [ {
+    "registryType" : "oci",
+    "transport" : {
+      "type" : "stdio"
+    },
+    "identifier" : "mcp/elasticsearch",
+    "version" : "sha256:9c978b8277e32be0229e0c2f5c631e4106dd1c9c955ec361814588688582bcfd",
+    "environmentVariables" : [ {
+      "name" : "ES_API_KEY",
+      "value" : "{elasticsearch.api_key}",
+      "variables" : {
+        "elasticsearch.api_key" : {
+          "isSecret" : true,
+          "isRequired" : true
+        }
+      }
+    }, {
+      "name" : "ES_URL",
+      "value" : "{elasticsearch.url}",
+      "isRepeated" : false,
+      "variables" : {
+        "elasticsearch.url" : {
+          "isSecret" : false,
+          "format" : "string"
+        }
+      }
+    } ],
+    "packageArguments" : [ {
+      "type" : "positional",
+      "value" : "stdio"
+    } ]
+  } ],
+  "_meta" : {
+    "io.modelcontextprotocol.registry/publisher-provided" : {
+      "category" : "search",
+      "tags" : [ "elasticsearch", "search" ],
+      "license" : "Apache License 2.0",
+      "tools" : [ {
+        "name" : "esql"
+      }, {
+        "name" : "get_mappings"
+      }, {
+        "name" : "get_shards"
+      }, {
+        "name" : "list_indices"
+      }, {
+        "name" : "search"
+      } ],
+      "source" : "https://github.com/elastic/mcp-server-elasticsearch/tree/b2912b2ba544060962c7fabf38eb36cc940e9098",
+      "icon" : "https://avatars.githubusercontent.com/u/6764390?s=200&v=4",
+      "prompts" : 0,
+      "title" : "Elasticsearch",
+      "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/elasticsearch.md",
+      "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/elasticsearch.json",
+      "dateAdded" : "2025-05-05T20:04:34Z",
+      "upstream" : "https://github.com/elastic/mcp-server-elasticsearch",
+      "resources" : { },
+      "owner" : "elastic"
+    }
+  }
+}
