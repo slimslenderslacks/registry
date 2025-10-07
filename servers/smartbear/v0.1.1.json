@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/smartbear",
   "description" : "MCP server for AI access to SmartBear tools, including BugSnag, Reflect, API Hub, PactFlow.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/smartbear",
-    "version" : "sha256:ff7ed8a789031a181ead01ccc356fde402eab417aa806e6121ba156e2a2d01b0",
+    "version" : "sha256:2508e105f02beb3ef97e4558d450e24c1c0f9f17a6a438aa2c1d760b2cc0e183",
     "environmentVariables" : [ {
       "name" : "BUGSNAG_AUTH_TOKEN",
       "value" : "{smartbear.bugsnag_auth_token}",
@@ -101,7 +101,6 @@
       "category" : "devops",
       "tags" : [ "smartbear", "devops", "api-testing", "monitoring" ],
       "license" : "MIT License",
-      "owner" : "SmartBear",
       "tools" : [ {
         "name" : "api_hub_create_portal"
       }, {
@@ -111,8 +110,6 @@
       }, {
         "name" : "api_hub_delete_portal_product"
       }, {
-        "name" : "api_hub_get_api_definition"
-      }, {
         "name" : "api_hub_get_portal"
       }, {
         "name" : "api_hub_get_portal_product"
@@ -121,45 +118,9 @@
       }, {
         "name" : "api_hub_list_portals"
       }, {
-        "name" : "api_hub_search_apis_and_domains"
-      }, {
         "name" : "api_hub_update_portal"
       }, {
         "name" : "api_hub_update_portal_product"
-      }, {
-        "name" : "bugsnag_get_build"
-      }, {
-        "name" : "bugsnag_get_error"
-      }, {
-        "name" : "bugsnag_get_event_details"
-      }, {
-        "name" : "bugsnag_get_release"
-      }, {
-        "name" : "bugsnag_list_builds"
-      }, {
-        "name" : "bugsnag_list_builds_in_release"
-      }, {
-        "name" : "bugsnag_list_project_errors"
-      }, {
-        "name" : "bugsnag_list_project_event_filters"
-      }, {
-        "name" : "bugsnag_list_projects"
-      }, {
-        "name" : "bugsnag_list_releases"
-      }, {
-        "name" : "bugsnag_update_error"
-      }, {
-        "name" : "contract-testing_can_i_deploy"
-      }, {
-        "name" : "contract-testing_generate_pact_tests"
-      }, {
-        "name" : "contract-testing_get_provider_states"
-      }, {
-        "name" : "contract-testing_matrix"
-      }, {
-        "name" : "contract-testing_pactflow_ai_status"
-      }, {
-        "name" : "contract-testing_review_pact_tests"
       }, {
         "name" : "reflect_cancel_suite_execution"
       }, {
@@ -185,7 +146,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/smartbear.json",
       "dateAdded" : "2025-08-05T16:31:03Z",
       "upstream" : "https://github.com/SmartBear/smartbear-mcp",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "SmartBear"
     }
   }
 }

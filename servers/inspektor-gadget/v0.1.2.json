@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/inspektor-gadget",
   "description" : "AI interface to troubleshoot and observe Kubernetes/Container workloads.",
-  "version" : "v0.1.3",
+  "version" : "v0.1.2",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/inspektor-gadget",
-    "version" : "sha256:156aa720e8400360ca15764d67aa671699ebf79cc39acf923039582de7f4ff60",
+    "version" : "sha256:0d103deedf6253fed51b49aa99aea0b5869430d892529ad8522882aee3ac9f78",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -45,7 +45,6 @@
       "category" : "monitoring",
       "tags" : [ "inspektor-gadget", "kubernetes", "monitoring", "ebpf" ],
       "license" : "Apache License 2.0",
-      "owner" : "inspektor-gadget",
       "tools" : [ {
         "name" : "gadget_advise_networkpolicy"
       }, {
@@ -128,7 +127,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/inspektor-gadget.json",
       "dateAdded" : "2025-07-29T14:05:27Z",
       "upstream" : "https://github.com/inspektor-gadget/ig-mcp-server",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "inspektor-gadget"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/grafana",
   "description" : "MCP server for Grafana.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/grafana",
-    "version" : "sha256:2967cef8d8a436fd41a322b3898ff012ec78b587a68cf56ab04ec13eee94f572",
+    "version" : "sha256:117fb61af572dd16825abaf28888c7641112c010a17e8d159ceb345be5fe67ed",
     "environmentVariables" : [ {
       "name" : "GRAFANA_API_KEY",
       "value" : "{grafana.api_key}",
@@ -40,11 +40,8 @@
       "category" : "monitoring",
       "tags" : [ "grafana", "monitoring" ],
       "license" : "Apache License 2.0",
-      "owner" : "grafana",
       "tools" : [ {
         "name" : "add_activity_to_incident"
-      }, {
-        "name" : "create_folder"
       }, {
         "name" : "create_incident"
       }, {
@@ -132,8 +129,6 @@
       }, {
         "name" : "search_dashboards"
       }, {
-        "name" : "search_folders"
-      }, {
         "name" : "update_dashboard"
       } ],
       "source" : "https://github.com/grafana/mcp-grafana/tree/main",
@@ -144,7 +139,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/grafana.json",
       "dateAdded" : "2025-05-05T20:04:34Z",
       "upstream" : "https://github.com/grafana/mcp-grafana",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "grafana"
     }
   }
 }

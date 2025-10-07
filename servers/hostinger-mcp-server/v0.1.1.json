@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/hostinger-mcp-server",
   "description" : "Interact with Hostinger services over the Hostinger API.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/api-mcp-server",
-    "version" : "sha256:70d50b4f15c0ba254eebe2d63d1032cc335876b561815f1ac554ec890d4fb944",
+    "version" : "sha256:85bb632733ce0cf9651510cc50ee004d07a774d51a3fc7b8d0a83acd16e3714f",
     "environmentVariables" : [ {
       "name" : "APITOKEN",
       "value" : "{hostinger-mcp-server.api_token}",
@@ -25,7 +25,6 @@
       "category" : "devops",
       "tags" : [ "devops" ],
       "license" : "MIT License",
-      "owner" : "hostinger",
       "tools" : [ {
         "name" : "DNS_deleteDNSRecordsV1"
       }, {
@@ -231,7 +230,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/hostinger-mcp-server.json",
       "dateAdded" : "2025-08-05T16:31:03Z",
       "upstream" : "https://github.com/hostinger/api-mcp-server",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "hostinger"
     }
   }
 }

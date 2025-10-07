@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/mapbox-devkit",
   "description" : "Direct access to Mapbox developer APIs for AI assistants. Enables style management, token management, GeoJSON preview, and other developer tools for building Mapbox applications.",
-  "version" : "v0.1.3",
+  "version" : "v0.1.2",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/mapbox-devkit",
-    "version" : "sha256:c883a42c275295008983f56a54d72cdd667c53fe0b50d56b605210256313f9b5",
+    "version" : "sha256:037c80ef2f476318be0c6ac4619e198228f991aad3bf5731cebadb26881445d2",
     "environmentVariables" : [ {
       "name" : "MAPBOX_ACCESS_TOKEN",
       "value" : "{mapbox-devkit.access_token}",
@@ -25,7 +25,6 @@
       "category" : "devops",
       "tags" : [ "mapbox", "development", "devtools", "api", "styles" ],
       "license" : "MIT License",
-      "owner" : "mapbox",
       "tools" : [ {
         "name" : "bounding_box_tool"
       }, {
@@ -67,7 +66,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/mapbox-devkit.json",
       "dateAdded" : "2025-09-02T20:44:02Z",
       "upstream" : "https://github.com/mapbox/mcp-devkit-server",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "mapbox"
     }
   }
 }

@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/aks",
   "description" : "Azure Kubernetes Service (AKS) official MCP server.",
-  "version" : "v0.1.3",
+  "version" : "v0.1.2",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/aks",
-    "version" : "sha256:9670301e0b27c9a423213b743ab08ad8b6d0445bc463672de48044fda2ceb549",
+    "version" : "sha256:4214615a53c8d122bd2a11c82b7fc796c20bd662bb489ccd85df02d809341ed7",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-u",
@@ -93,7 +93,6 @@
       "category" : "devops",
       "tags" : [ "devops", "azure", "kubernetes", "aks" ],
       "license" : "MIT License",
-      "owner" : "Azure",
       "tools" : [ {
         "name" : "az_advisor_recommendation"
       }, {
@@ -133,7 +132,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/aks.json",
       "dateAdded" : "2025-08-20T06:26:55Z",
       "upstream" : "https://github.com/Azure/aks-mcp",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "Azure"
     }
   }
 }

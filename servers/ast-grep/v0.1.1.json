@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/ast-grep",
   "description" : "ast-grep is a fast and polyglot tool for code structural search, lint, rewriting at large scale.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/ast-grep",
-    "version" : "sha256:5fc3f2e9dcf2c019e92662f608b8d89e12134ed6d91e6f5461de6efd506a1e72",
+    "version" : "sha256:bdb6bdb4fb4732cece8ce45e90e352cb89eab9e5d30acf9c6317827b9383fc12",
     "runtimeArguments" : [ {
       "type" : "named",
       "name" : "-v",
@@ -27,9 +27,10 @@
       "category" : "code",
       "tags" : [ "code", "refactoring", "grep" ],
       "license" : "Apache License 2.0",
-      "owner" : "dgageot",
       "tools" : [ {
         "name" : "ast-grep"
+      }, {
+        "name" : "ast-grep-help"
       } ],
       "source" : "https://github.com/dgageot/mcp-ast-grep/tree/main",
       "icon" : "https://avatars.githubusercontent.com/u/114017360?s=200&v=4",
@@ -39,7 +40,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/ast-grep.json",
       "dateAdded" : "2025-09-04T06:24:28Z",
       "upstream" : "https://github.com/dgageot/mcp-ast-grep",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "dgageot"
     }
   }
 }

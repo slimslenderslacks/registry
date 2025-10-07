@@ -1,17 +1,16 @@
 {
   "name" : "com.docker.mcp/notion-remote",
   "description" : "Manage projects, create documentation, and organize information in collaborative workspaces.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "remotes" : [ {
     "type" : "streamable-http",
-    "url" : "https://mcp.notion.com/mcp"
+    "url" : "https://mcp.notion.so/mcp"
   } ],
   "_meta" : {
     "io.modelcontextprotocol.registry/publisher-provided" : {
       "category" : "productivity",
       "tags" : [ "productivity", "documentation", "collaboration", "remote" ],
       "license" : "Apache License 2.0",
-      "owner" : "docker",
       "tools" : [ ],
       "source" : "",
       "icon" : "https://www.google.com/s2/favicons?domain=notion.so&sz=64",
@@ -26,7 +25,8 @@
       "title" : "Notion",
       "readme" : "http://desktop.docker.com/mcp/catalog/v3/readme/notion-remote.md",
       "dateAdded" : "2025-09-08T19:03:35Z",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "docker"
     }
   }
 }

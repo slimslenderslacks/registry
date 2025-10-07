@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/elevenlabs",
   "description" : "Official ElevenLabs Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech and audio processing APIs.",
-  "version" : "v0.1.2",
+  "version" : "v0.1.1",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/elevenlabs",
-    "version" : "sha256:7274c307000ca9da8858cce469fb731c219a661192dda3c64fb656259bcf8aa5",
+    "version" : "sha256:7bea19b12e1bf05a2afc2f77edcd8d39684284095719e6ab27410aeab3107956",
     "environmentVariables" : [ {
       "name" : "ELEVENLABS_API_KEY",
       "value" : "{elevenlabs.api_key}",
@@ -37,7 +37,6 @@
       "category" : "ai",
       "tags" : [ "elevenlabs", "elevenlabs-api" ],
       "license" : "MIT License",
-      "owner" : "elevenlabs",
       "tools" : [ {
         "name" : "add_knowledge_base_to_agent"
       }, {
@@ -95,7 +94,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/elevenlabs.json",
       "dateAdded" : "2025-05-05T20:08:35Z",
       "upstream" : "https://github.com/elevenlabs/elevenlabs-mcp",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "elevenlabs"
     }
   }
 }
