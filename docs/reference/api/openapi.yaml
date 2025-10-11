@@ -270,7 +270,6 @@ components:
       required:
         - registryType
         - identifier
-        - version
         - transport
       properties:
         registryType:

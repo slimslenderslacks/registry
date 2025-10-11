@@ -288,7 +288,6 @@
       "required": [
         "registryType",
         "identifier",
-        "version",
         "transport"
       ],
       "type": "object"
