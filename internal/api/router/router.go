@@ -139,6 +139,18 @@ func NewHumaAPI(cfg *config.Config, registry service.RegistryService, mux *http.
 	// Create a new API using humago adapter for standard library
 	api := humago.New(mux, humaConfig)
 
+	// Add OpenAPI tag metadata with descriptions
+	api.OpenAPI().Tags = []*huma.Tag{
+		{
+			Name:        "servers",
+			Description: "Operations for discovering and retrieving MCP servers",
+		},
+		{
+			Name:        "publish",
+			Description: "Operations for publishing MCP servers to the registry",
+		},
+	}
+
 	// Add metrics middleware with options
 	api.UseMiddleware(MetricTelemetryMiddleware(metrics,
 		WithSkipPaths("/health", "/metrics", "/ping", "/docs"),
