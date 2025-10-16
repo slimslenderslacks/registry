@@ -1,14 +1,14 @@
 {
   "name" : "com.docker.mcp/sonarqube",
   "description" : "Interact with SonarQube Cloud, Server and Community build over the web API. Analyze code to identify quality and security issues.",
-  "version" : "v0.1.4",
+  "version" : "v0.1.3",
   "packages" : [ {
     "registryType" : "oci",
     "transport" : {
       "type" : "stdio"
     },
     "identifier" : "mcp/sonarqube",
-    "version" : "sha256:efa996504a77cee7c68cf9023266b21d56ab3d3c93a4e67be64bdb169e751000",
+    "version" : "sha256:32fcaa6a1c738f1aed857854ae8913c01293963ea5fd5b22add94de0e0021158",
     "environmentVariables" : [ {
       "name" : "SONARQUBE_TOKEN",
       "value" : "{sonarqube.token}",
@@ -47,7 +47,6 @@
       "category" : "productivity",
       "tags" : [ "sonarqube" ],
       "license" : "Other",
-      "owner" : "SonarSource",
       "tools" : [ {
         "name" : "analyze_code_snippet"
       }, {
@@ -83,8 +82,6 @@
       }, {
         "name" : "ping_system"
       }, {
-        "name" : "search_dependency_risks"
-      }, {
         "name" : "search_metrics"
       }, {
         "name" : "search_my_sonarqube_projects"
@@ -101,7 +98,8 @@
       "toolsUrl" : "http://desktop.docker.com/mcp/catalog/v3/tools/sonarqube.json",
       "dateAdded" : "2025-07-01T12:14:18Z",
       "upstream" : "https://github.com/SonarSource/sonarqube-mcp-server",
-      "resources" : { }
+      "resources" : { },
+      "owner" : "SonarSource"
     }
   }
 }
