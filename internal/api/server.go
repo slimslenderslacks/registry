@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/danielgtaylor/huma/v2"
-	"github.com/gobwas/glob"
+	"github.com/rs/cors"
 
 	v0 "github.com/modelcontextprotocol/registry/internal/api/handlers/v0"
 	"github.com/modelcontextprotocol/registry/internal/api/router"
@@ -16,32 +16,6 @@ import (
 	"github.com/modelcontextprotocol/registry/internal/service"
 	"github.com/modelcontextprotocol/registry/internal/telemetry"
 )
-
-// CORSMiddleware adds CORS headers to allow cross-origin requests
-func CORSMiddleware(cfg *config.Config, next http.Handler) http.Handler {
-	var g glob.Glob
-	if cfg.AllowedOriginsGlob != "" {
-		g = glob.MustCompile(cfg.AllowedOriginsGlob)
-	}
-	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		// Set CORS headers
-		origin := r.Header.Get("Origin")
-		if cfg.AllowedOriginsGlob != "" && g.Match(origin) {
-			w.Header().Set("Access-Control-Allow-Origin", origin)
-			w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS")
-			w.Header().Set("Access-Control-Allow-Headers", "Content-Type, X-Requested-With")
-			w.Header().Set("Access-Control-Max-Age", "86400") // 24 hours
-		}
-
-		// Handle preflight requests
-		if r.Method == "OPTIONS" {
-			w.WriteHeader(http.StatusOK)
-			return
-		}
-
-		next.ServeHTTP(w, r)
-	})
-}
 
 // TrailingSlashMiddleware redirects requests with trailing slashes to their canonical form
 func TrailingSlashMiddleware(next http.Handler) http.Handler {
@@ -76,8 +50,25 @@ func NewServer(cfg *config.Config, registryService service.RegistryService, metr
 
 	api := router.NewHumaAPI(cfg, registryService, mux, metrics, versionInfo)
 
-	// Wrap the mux with middleware
-	handler := TrailingSlashMiddleware(CORSMiddleware(cfg, mux))
+	// Configure CORS with permissive settings for public API
+	corsHandler := cors.New(cors.Options{
+		AllowedOrigins: []string{"*"},
+		AllowedMethods: []string{
+			http.MethodGet,
+			http.MethodPost,
+			http.MethodPut,
+			http.MethodDelete,
+			http.MethodOptions,
+		},
+		AllowedHeaders:   []string{"*"},
+		ExposedHeaders:   []string{"Content-Type", "Content-Length"},
+		AllowCredentials: false, // Must be false when AllowedOrigins is "*"
+		MaxAge:           86400, // 24 hours
+	})
+
+	// Wrap the mux with middleware stack
+	// Order: TrailingSlash -> CORS -> Mux
+	handler := TrailingSlashMiddleware(corsHandler.Handler(mux))
 
 	server := &Server{
 		config:   cfg,
